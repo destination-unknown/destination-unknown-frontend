@@ -6,11 +6,22 @@ import { StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import { Helmet } from 'react-helmet'
 
+const OuterContainer = styled.div`
+  background: linear-gradient(
+    to bottom,
+    #47c0c7 0%,
+    #47c0c7 50%,
+    #31bbc2 50%,
+    #31bbc2 100%
+  );
+`
+
 const Container = styled.div`
   display: grid;
-  grid-template-columns: 160px 1fr 35% 160px;
+  grid-template-columns: 150px 1fr 40% 150px;
   grid-template-rows: 50% 50%;
   font-family: 'Open Sans', sans-serif;
+  max-width: 960px;
   margin: 0 auto;
   padding-top: 0;
 `
@@ -156,69 +167,70 @@ const IndexPage = () => (
     render={data => (
       <Layout>
         {/* <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} /> */}
-        <Container>
-          <Helmet>
-            <meta name="robots" content="noindex" />
-          </Helmet>
-          <div
-            style={{
-              gridArea: `2 / 1 / auto / span 4`,
-              background: `linear-gradient(to bottom,  #47c0c7 0%,#47c0c7 5%,#31bbc2 5%,#31bbc2 100%)`,
-            }}
-          />
-          <div
-            style={{
-              justifySelf: `end`,
-              alignSelf: `end`,
-            }}
-          >
-            <Img fixed={data.kronkel.childImageSharp.fixed} />
-          </div>
-          <div
-            style={{
-              gridArea: `1 / 2 / span 2 / auto `,
-              alignSelf: `center`,
-            }}
-          >
-            <Img fixed={data.travelGearImage.childImageSharp.fixed} />
-          </div>
-          <div>
-            <Title>
-              KIES <br />
-              &amp; REIS
-            </Title>
-            <SubTitle>
-              Wij helpen je een bestemming kiezen. Vul de vragen in en start met
-              inpakken.
-            </SubTitle>
-            <Survey>
-              Ik ga het liefste op vakantie naar de{' '}
-              <select>
-                <option value="zon">zon</option>
-                <option value="kou">koud</option>
-              </select>{' '}
-              in een land{' '}
-              <select>
-                <option value="ver weg">ver weg</option>
-                <option value="dichtbij">dichtbij</option>
-              </select>
-              . Mijn vakantie moet altijd{' '}
-              <select>
-                <option value="avontuurlijk">avontuurlijk</option>
-              </select>{' '}
-              en{' '}
-              <select>
-                <option value="cultureel">cultureel</option>
-              </select>{' '}
-              zijn.
-              <Button>Toon bestemming</Button>
-            </Survey>
-          </div>
-          <Img
-            style={{ gridArea: `2 / 4`, alignSelf: `center` }}
-            fixed={data.kronkel.childImageSharp.fixed}
-          />
-        </Container>
+        <OuterContainer>
+          <Container>
+            <Helmet>
+              <meta name="robots" content="noindex" />
+            </Helmet>
+            <div
+              style={{
+                gridArea: `2 / 1 / auto / span 4`,
+              }}
+            />
+            <div
+              style={{
+                justifySelf: `end`,
+                alignSelf: `end`,
+              }}
+            >
+              <Img fixed={data.kronkel.childImageSharp.fixed} />
+            </div>
+            <div
+              style={{
+                gridArea: `1 / 2 / span 2 / auto `,
+                alignSelf: `center`,
+              }}
+            >
+              <Img fixed={data.travelGearImage.childImageSharp.fixed} />
+            </div>
+            <div>
+              <Title>
+                KIES <br />
+                &amp; REIS
+              </Title>
+              <SubTitle>
+                Wij helpen je een bestemming kiezen. Vul de vragen in en start
+                met inpakken.
+              </SubTitle>
+              <Survey>
+                Ik ga het liefste op vakantie naar de{' '}
+                <select>
+                  <option value="zon">zon</option>
+                  <option value="kou">koud</option>
+                </select>{' '}
+                in een land{' '}
+                <select>
+                  <option value="ver weg">ver weg</option>
+                  <option value="dichtbij">dichtbij</option>
+                </select>
+                . Mijn vakantie moet altijd{' '}
+                <select>
+                  <option value="avontuurlijk">avontuurlijk</option>
+                </select>{' '}
+                en{' '}
+                <select>
+                  <option value="cultureel">cultureel</option>
+                </select>{' '}
+                zijn.
+                <Button>Toon bestemming</Button>
+              </Survey>
+            </div>
+            <Img
+              style={{ gridArea: `2 / 4`, alignSelf: `center` }}
+              fixed={data.kronkel.childImageSharp.fixed}
+            />
+          </Container>
+        </OuterContainer>
         <LandContainer>
           <LandGridContainer>
             <div
