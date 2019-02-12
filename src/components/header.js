@@ -53,7 +53,7 @@ const Header = ({ siteTitle }) => (
             </Helmet>
             <div>
               <Link
-                to="/page-2"
+                to="/"
                 style={{
                   color: `white`,
                   textDecoration: `none`,
