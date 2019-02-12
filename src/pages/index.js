@@ -17,11 +17,11 @@ const OuterContainer = styled.div`
 `
 
 const Container = styled.div`
+  max-width: 960px;
   display: grid;
-  grid-template-columns: 150px 1fr 40% 150px;
+  grid-template-columns: 0px 1.5fr 1fr 0px;
   grid-template-rows: 50% 50%;
   font-family: 'Open Sans', sans-serif;
-  max-width: 960px;
   margin: 0 auto;
   padding-top: 0;
 `
