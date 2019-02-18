@@ -2,9 +2,10 @@ import React from 'react'
 import Layout from '../components/layout'
 // import SEO from '../components/seo'
 import styled from 'styled-components'
-import { StaticQuery, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import { Helmet } from 'react-helmet'
+import axios from 'axios'
 
 const OuterContainer = styled.div`
   background: linear-gradient(
@@ -130,41 +131,25 @@ const LandSubTitle = styled.p`
   margin: 0;
 `
 
-const IndexPage = () => (
-  <StaticQuery
-    query={graphql`
-      query {
-        landImage: file(relativePath: { eq: "wereldkaart.png" }) {
-          childImageSharp {
-            fluid {
-              ...GatsbyImageSharpFluid_noBase64
-            }
-          }
-        }
-        busImage: file(relativePath: { eq: "busje.png" }) {
-          childImageSharp {
-            fixed(width: 440, height: 200) {
-              ...GatsbyImageSharpFixed_noBase64
-            }
-          }
-        }
-        kronkel: file(relativePath: { eq: "kronkels.png" }) {
-          childImageSharp {
-            fixed(width: 134, height: 60) {
-              ...GatsbyImageSharpFixed_noBase64
-            }
-          }
-        }
-        travelGearImage: file(relativePath: { eq: "reisspullen.png" }) {
-          childImageSharp {
-            fixed(width: 380, height: 395) {
-              ...GatsbyImageSharpFixed_noBase64
-            }
-          }
-        }
-      }
-    `}
-    render={data => (
+class IndexPage extends React.Component {
+  handleClick() {
+    axios
+      .post('https://howling-ghoul-45786.herokuapp.com/generate', {
+        questions_list: [
+          'Avontuurlijk of ontspannen?',
+          'Welke periode?',
+          'Ver of dichtbij?',
+          'Budget?',
+          'Moet het warm zijn?',
+        ],
+        answers_list: ['Avontuurlijk', 'Zomer', 'Ver', 'Oneindig', 'Ja'],
+      })
+      .then(response => (window.location.href = '/brazilie'))
+      .catch(error => console.log(error))
+  }
+  render() {
+    const { data } = this.props
+    return (
       <Layout>
         {/* <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} /> */}
         <OuterContainer>
@@ -222,7 +207,9 @@ const IndexPage = () => (
                   <option value="cultureel">cultureel</option>
                 </select>{' '}
                 zijn.
-                <Button>Toon bestemming</Button>
+                <Button onClick={() => this.handleClick()}>
+                  Toon bestemming
+                </Button>
               </Survey>
             </div>
             <Img
@@ -234,7 +221,10 @@ const IndexPage = () => (
         <LandContainer>
           <LandGridContainer>
             <div
-              style={{ marginTop: `64px`, gridArea: `1 / 1 / span 2 / span 3` }}
+              style={{
+                marginTop: `64px`,
+                gridArea: `1 / 1 / span 2 / span 3`,
+              }}
             >
               <Img fluid={data.landImage.childImageSharp.fluid} />
             </div>
@@ -288,8 +278,41 @@ const IndexPage = () => (
           </TestimonialGridContainer>
         </TestimonialContainer>
       </Layout>
-    )}
-  />
-)
+    )
+  }
+}
 
 export default IndexPage
+
+export const query = graphql`
+  query {
+    landImage: file(relativePath: { eq: "wereldkaart.png" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
+    busImage: file(relativePath: { eq: "busje.png" }) {
+      childImageSharp {
+        fixed(width: 440, height: 200) {
+          ...GatsbyImageSharpFixed_noBase64
+        }
+      }
+    }
+    kronkel: file(relativePath: { eq: "kronkels.png" }) {
+      childImageSharp {
+        fixed(width: 134, height: 60) {
+          ...GatsbyImageSharpFixed_noBase64
+        }
+      }
+    }
+    travelGearImage: file(relativePath: { eq: "reisspullen.png" }) {
+      childImageSharp {
+        fixed(width: 380, height: 395) {
+          ...GatsbyImageSharpFixed_noBase64
+        }
+      }
+    }
+  }
+`
