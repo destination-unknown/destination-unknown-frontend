@@ -188,25 +188,31 @@ class IndexPage extends React.Component {
                 met inpakken.
               </SubTitle>
               <Survey>
-                Ik ga het liefste op vakantie naar de{' '}
+                Ik wil graag in de{' '}
                 <select>
-                  <option value="zon">zon</option>
-                  <option value="kou">koud</option>
+                  <option value="zomer">zomer</option>
+                  <option value="herfst">herfst</option>
+                  <option value="winter">winter</option>
+                  <option value="lente">lente</option>
                 </select>{' '}
-                in een land{' '}
+                op vakantie{' '}
                 <select>
-                  <option value="ver weg">ver weg</option>
-                  <option value="dichtbij">dichtbij</option>
+                  <option value="binnen">binnen</option>
+                  <option value="buiten">buiten</option>
                 </select>
-                . Mijn vakantie moet altijd{' '}
+                &nbsp;Europa. Ik ga het liefst{' '}
                 <select>
-                  <option value="avontuurlijk">avontuurlijk</option>
+                  <option value="luieren op het strand">
+                    luieren op het strand
+                  </option>
+                  <option value="open avontuur">op avontuur</option>
                 </select>{' '}
-                en{' '}
+                en wil{' '}
                 <select>
-                  <option value="cultureel">cultureel</option>
+                  <option value="wel">wel</option>
+                  <option value="geen">geen</option>
                 </select>{' '}
-                zijn.
+                cultuur snuiven.
                 <Button onClick={() => this.handleClick()}>
                   Toon bestemming
                 </Button>
