@@ -136,13 +136,17 @@ class IndexPage extends React.Component {
     axios
       .post('https://howling-ghoul-45786.herokuapp.com/generate', {
         questions_list: [
-          'Avontuurlijk of ontspannen?',
-          'Welke periode?',
-          'Ver of dichtbij?',
-          'Budget?',
-          'Moet het warm zijn?',
+          'periode',
+          'continent_europa',
+          'activiteit',
+          'cultureel',
         ],
-        answers_list: ['Avontuurlijk', 'Zomer', 'Ver', 'Oneindig', 'Ja'],
+        answers_list: [
+          document.querySelector('select[name=periode]').value,
+          document.querySelector('select[name=continent_europa]').value,
+          document.querySelector('select[name=activiteit]').value,
+          document.querySelector('select[name=cultureel]').value,
+        ],
       })
       .then(response => (window.location.href = '/brazilie'))
       .catch(error => console.log(error))
@@ -189,28 +193,26 @@ class IndexPage extends React.Component {
               </SubTitle>
               <Survey>
                 Ik wil graag in de{' '}
-                <select>
+                <select name="periode">
                   <option value="zomer">zomer</option>
                   <option value="herfst">herfst</option>
                   <option value="winter">winter</option>
                   <option value="lente">lente</option>
                 </select>{' '}
                 op vakantie{' '}
-                <select>
-                  <option value="binnen">binnen</option>
+                <select name="continent_europa">
+                  <option value="binnen">binnen</option>s
                   <option value="buiten">buiten</option>
                 </select>
                 &nbsp;Europa. Ik ga het liefst{' '}
-                <select>
-                  <option value="luieren op het strand">
-                    luieren op het strand
-                  </option>
-                  <option value="open avontuur">op avontuur</option>
+                <select name="activiteit">
+                  <option value="strand">luieren op het strand</option>
+                  <option value="avontuur">op avontuur</option>
                 </select>{' '}
                 en wil{' '}
-                <select>
-                  <option value="wel">wel</option>
-                  <option value="geen">geen</option>
+                <select name="cultureel">
+                  <option value="ja">wel</option>
+                  <option value="nee">geen</option>
                 </select>{' '}
                 cultuur snuiven.
                 <Button onClick={() => this.handleClick()}>
