@@ -145,20 +145,23 @@ const LandSubTitle = styled.p`
 class IndexPage extends React.Component {
   handleClick() {
     axios
-      .post(`${process.env.API_URL}/generate`, {
-        questions_list: [
-          'periode',
-          'continent_europa',
-          'activiteit',
-          'cultureel',
-        ],
-        answers_list: [
-          document.querySelector('select[name=periode]').value,
-          document.querySelector('select[name=continent_europa]').value,
-          document.querySelector('select[name=activiteit]').value,
-          document.querySelector('select[name=cultureel]').value,
-        ],
-      })
+      .post(
+        `https://7n2xdnl26d.execute-api.us-east-1.amazonaws.com/dev/generate`,
+        {
+          questions_list: [
+            'periode',
+            'continent_europa',
+            'activiteit',
+            'cultureel',
+          ],
+          answers_list: [
+            document.querySelector('select[name=periode]').value,
+            document.querySelector('select[name=continent_europa]').value,
+            document.querySelector('select[name=activiteit]').value,
+            document.querySelector('select[name=cultureel]').value,
+          ],
+        }
+      )
       .then(response => {
         window.location.href = slugify(response.data.country)
       })
