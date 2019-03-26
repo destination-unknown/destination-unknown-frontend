@@ -7,6 +7,17 @@ import Img from 'gatsby-image'
 import { Helmet } from 'react-helmet'
 import axios from 'axios'
 
+function slugify(text) {
+  return text
+    .toString()
+    .toLowerCase()
+    .replace(/\s+/g, '-') // Replace spaces with -
+    .replace(/[^\w-]+/g, '') // Remove all non-word chars
+    .replace(/--+/g, '-') // Replace multiple - with single -
+    .replace(/^-+/, '') // Trim - from start of text
+    .replace(/-+$/, '') // Trim - from end of text
+}
+
 const OuterContainer = styled.div`
   background: linear-gradient(
     to bottom,
@@ -134,7 +145,7 @@ const LandSubTitle = styled.p`
 class IndexPage extends React.Component {
   handleClick() {
     axios
-      .post('https://howling-ghoul-45786.herokuapp.com/generate', {
+      .post(`${process.env.API_URL}/generate`, {
         questions_list: [
           'periode',
           'continent_europa',
@@ -148,7 +159,9 @@ class IndexPage extends React.Component {
           document.querySelector('select[name=cultureel]').value,
         ],
       })
-      .then(response => (window.location.href = '/brazilie'))
+      .then(response => {
+        window.location.href = slugify(response.data.country)
+      })
       .catch(error => console.log(error))
   }
   render() {
