@@ -21,10 +21,10 @@ doc.useServiceAccountAuth(creds, function(err) {
           title: "${row.country}"
           introtext: "${row.introtext}"
           introimage: "${row.introimages}"
-          surface: ${row.surface}
-          inhabitants: ${row.inhabitants}
-          rate: ${row.rate}
-          valuta: ${row.valuta}
+          surface: "${row.surface}"
+          inhabitants: "${row.inhabitants}"
+          rate: "${row.rate}"
+          valuta: "${row.valuta}"
           ---`,
           function(err) {
             if (err) throw err
