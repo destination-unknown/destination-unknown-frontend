@@ -17,11 +17,19 @@ const NavigationButton = styled.button`
   color: white;
   font-family: 'Open Sans', sans-serif;
   font-size: 0.8rem;
+
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
 `
 
 const Container = styled.div`
   display: grid;
   grid-template-columns: 50% 50%;
+
+  @media only screen and (max-width: 600px) {
+    grid-template-columns: 100%;
+  }
 `
 
 const Header = ({ siteTitle }) => (
