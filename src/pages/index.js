@@ -53,6 +53,11 @@ const LandGridContainer = styled.div`
   margin: 0 auto;
   max-width: 960px;
   padding: 64px;
+  @media only screen and (max-width: 600px) {
+    grid-template-columns: 100%;
+    grid-template-rows: 28% 1fr;
+    padding: 16px;
+  }
 `
 
 const TestimonialContainer = styled.div`
@@ -101,6 +106,9 @@ const Survey = styled.div`
   background-color: #63cdd2;
   border: 1px solid #61d9df;
   padding: 32px;
+  @media only screen and (max-width: 600px) {
+    padding: 16px;
+  }
   line-height: 2.5;
 `
 
@@ -142,6 +150,10 @@ const LandCount = styled.p`
   font-size: 10rem;
   font-weight: 900;
   margin: 0;
+  padding-top: 16px;
+  @media only screen and (max-width: 600px) {
+    font-size: 6.5rem;
+  }
 `
 
 const LandSubTitle = styled.p`
@@ -150,6 +162,9 @@ const LandSubTitle = styled.p`
   font-size: 3.5rem;
   font-weight: 900;
   margin: 0;
+  @media only screen and (max-width: 600px) {
+    font-size: 2.5rem;
+  }
 `
 
 const SquigglyLineLeftContainer = styled.div`
@@ -173,6 +188,31 @@ const TravelGearImageContainer = styled.div`
   align-self: center;
   @media only screen and (max-width: 600px) {
     display: none;
+  }
+`
+
+const LandImageContainer = styled.div`
+  margin-top: 64px;
+  grid-area: 1 / 1 / span 2 / span 3;
+  @media only screen and (max-width: 600px) {
+    margin-top: 16px;
+    grid-area: 1 / 1;
+  }
+`
+
+const LandCountContainer = styled.div`
+  grid-area: 1 / 2 / auto / span 3;
+  z-index: 2;
+  @media only screen and (max-width: 600px) {
+    grid-area: 1 / 1;
+  }
+`
+
+const LandTextContainer = styled.div`
+  grid-area: 2 / 3 / auto / span 3;
+  z-index: 2;
+  @media only screen and (max-width: 600px) {
+    grid-area: 2 / 1;
   }
 `
 
@@ -262,18 +302,13 @@ class IndexPage extends React.Component {
         </OuterContainer>
         <LandContainer>
           <LandGridContainer>
-            <div
-              style={{
-                marginTop: `64px`,
-                gridArea: `1 / 1 / span 2 / span 3`,
-              }}
-            >
+            <LandImageContainer>
               <Img fluid={data.landImage.childImageSharp.fluid} />
-            </div>
-            <div style={{ gridArea: `1 / 2 / auto / span 3`, zIndex: 2 }}>
-              <LandCount style={{ left: `-100px` }}>195</LandCount>
-            </div>
-            <div style={{ gridArea: `2 / 3 / auto / span 3`, zIndex: 2 }}>
+            </LandImageContainer>
+            <LandCountContainer>
+              <LandCount>195</LandCount>
+            </LandCountContainer>
+            <LandTextContainer>
               <LandSubTitle>landen zijn er in de wereld</LandSubTitle>
               <SubTitle>
                 Zoveel verschillende landen. Zoveel landen om uit te kiezen.
@@ -281,7 +316,7 @@ class IndexPage extends React.Component {
                 graag om dat ene vakantieland te kiezen. Het enige wat jij hoeft
                 te doen is de vragenlijst in te vullen. Wij doen de rest.
               </SubTitle>
-            </div>
+            </LandTextContainer>
           </LandGridContainer>
         </LandContainer>
         <TestimonialContainer>
