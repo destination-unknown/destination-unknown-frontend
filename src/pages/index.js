@@ -72,11 +72,17 @@ const TestimonialGridContainer = styled.div`
   max-width: 1280px;
   padding: 0px 1.0875rem 1.45rem;
   padding-top: 64px;
+  @media only screen and (max-width: 600px) {
+    grid-template-columns: 100%;
+  }
 `
 
 const TestimonialSubTitleContainer = styled.div`
   display: grid;
   grid-template-columns: 55% 45%;
+  @media only screen and (max-width: 600px) {
+    display: block;
+  }
 `
 
 const Title = styled.h1`
@@ -133,6 +139,10 @@ const TestimonialBlock = styled.div`
   padding-right: 64px;
   margin-top: 16px;
   width: 65%;
+  @media only screen and (max-width: 600px) {
+    width: 92%;
+    padding: 16px;
+  }
 `
 
 const TestimonialTitle = styled.h2`
@@ -142,6 +152,9 @@ const TestimonialTitle = styled.h2`
   font-weight: bold;
   margin: 0;
   color: white;
+  @media only screen and (max-width: 600px) {
+    font-size: 2rem;
+  }
 `
 
 const LandCount = styled.p`
@@ -170,6 +183,14 @@ const LandSubTitle = styled.p`
 const SquigglyLineLeftContainer = styled.div`
   justify-self: end;
   align-self: end;
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
+`
+
+const SquigglyLineLeftTestimonialContainer = styled.div`
+  justify-self: end;
+  align-self: center;
   @media only screen and (max-width: 600px) {
     display: none;
   }
@@ -321,10 +342,9 @@ class IndexPage extends React.Component {
         </LandContainer>
         <TestimonialContainer>
           <TestimonialGridContainer>
-            <Img
-              style={{ justifySelf: `end`, alignSelf: `center` }}
-              fixed={data.kronkel.childImageSharp.fixed}
-            />
+            <SquigglyLineLeftTestimonialContainer>
+              <Img fixed={data.kronkel.childImageSharp.fixed} />
+            </SquigglyLineLeftTestimonialContainer>
             <div>
               <LandSubTitle>Vele reizigers zijn je al voor gegaan</LandSubTitle>
               <TestimonialBlock>
