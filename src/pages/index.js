@@ -36,6 +36,10 @@ const Container = styled.div`
   font-family: 'Open Sans', sans-serif;
   margin: 0 auto;
   padding-top: 0;
+  @media only screen and (max-width: 600px) {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
 `
 
 const LandContainer = styled.div`
@@ -77,12 +81,18 @@ const Title = styled.h1`
   font-weight: bold;
   margin: 0;
   color: white;
+  @media only screen and (max-width: 600px) {
+    padding-left: 16px;
+  }
 `
 
 const SubTitle = styled.p`
   color: white;
   margin-top: 8px;
   line-height: 1.5;
+  @media only screen and (max-width: 600px) {
+    padding-left: 16px;
+  }
 `
 
 const Survey = styled.div`
@@ -142,6 +152,30 @@ const LandSubTitle = styled.p`
   margin: 0;
 `
 
+const SquigglyLineLeftContainer = styled.div`
+  justify-self: end;
+  align-self: end;
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
+`
+
+const SquigglyLineRightContainer = styled.div`
+  grid-area: 2 / 4;
+  align-self: center;
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
+`
+
+const TravelGearImageContainer = styled.div`
+  grid-area: 1 / 2 / span 2 / auto;
+  align-self: center;
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
+`
+
 class IndexPage extends React.Component {
   handleClick() {
     axios
@@ -177,27 +211,12 @@ class IndexPage extends React.Component {
             <Helmet>
               <meta name="robots" content="noindex" />
             </Helmet>
-            <div
-              style={{
-                gridArea: `2 / 1 / auto / span 4`,
-              }}
-            />
-            <div
-              style={{
-                justifySelf: `end`,
-                alignSelf: `end`,
-              }}
-            >
+            <SquigglyLineLeftContainer>
               <Img fixed={data.kronkel.childImageSharp.fixed} />
-            </div>
-            <div
-              style={{
-                gridArea: `1 / 2 / span 2 / auto `,
-                alignSelf: `center`,
-              }}
-            >
+            </SquigglyLineLeftContainer>
+            <TravelGearImageContainer>
               <Img fixed={data.travelGearImage.childImageSharp.fixed} />
-            </div>
+            </TravelGearImageContainer>
             <div>
               <Title>
                 KIES <br />
@@ -236,10 +255,9 @@ class IndexPage extends React.Component {
                 </Button>
               </Survey>
             </div>
-            <Img
-              style={{ gridArea: `2 / 4`, alignSelf: `center` }}
-              fixed={data.kronkel.childImageSharp.fixed}
-            />
+            <SquigglyLineRightContainer>
+              <Img fixed={data.kronkel.childImageSharp.fixed} />
+            </SquigglyLineRightContainer>
           </Container>
         </OuterContainer>
         <LandContainer>
