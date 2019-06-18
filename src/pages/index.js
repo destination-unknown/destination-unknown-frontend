@@ -31,11 +31,11 @@ const OuterContainer = styled.div`
 const Container = styled.div`
   max-width: 960px;
   display: grid;
-  grid-template-columns: 0px 1.5fr 1fr 0px;
-  grid-template-rows: 50% 50%;
+  grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6% 10%;
   font-family: 'Open Sans', sans-serif;
   margin: 0 auto;
   padding-top: 0;
+  padding-bottom: 5%;
   @media only screen and (max-width: 600px) {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -67,9 +67,9 @@ const TestimonialContainer = styled.div`
 
 const TestimonialGridContainer = styled.div`
   display: grid;
-  grid-template-columns: 160px 1fr;
+  grid-template-columns: 1fr;
   margin: 0 auto;
-  max-width: 1280px;
+  max-width: 960px;
   padding: 0px 1.0875rem 1.45rem;
   padding-top: 64px;
   @media only screen and (max-width: 600px) {
@@ -79,7 +79,7 @@ const TestimonialGridContainer = styled.div`
 
 const TestimonialSubTitleContainer = styled.div`
   display: grid;
-  grid-template-columns: 55% 45%;
+  grid-template-columns: 70% 30%;
   @media only screen and (max-width: 600px) {
     display: block;
   }
@@ -91,6 +91,7 @@ const Title = styled.h1`
   font-size: 5rem;
   font-weight: bold;
   margin: 0;
+  margin-bottom: 16px;
   color: white;
   @media only screen and (max-width: 600px) {
     padding-left: 16px;
@@ -138,7 +139,7 @@ const TestimonialBlock = styled.div`
   padding-left: 64px;
   padding-right: 64px;
   margin-top: 16px;
-  width: 65%;
+  width: 85%;
   @media only screen and (max-width: 600px) {
     width: 92%;
     padding: 16px;
@@ -180,32 +181,15 @@ const LandSubTitle = styled.p`
   }
 `
 
-const SquigglyLineLeftContainer = styled.div`
-  justify-self: end;
-  align-self: end;
-  @media only screen and (max-width: 600px) {
-    display: none;
-  }
-`
-
-const SquigglyLineLeftTestimonialContainer = styled.div`
-  justify-self: end;
-  align-self: center;
-  @media only screen and (max-width: 600px) {
-    display: none;
-  }
-`
-
-const SquigglyLineRightContainer = styled.div`
-  grid-area: 2 / 4;
-  align-self: center;
-  @media only screen and (max-width: 600px) {
-    display: none;
-  }
+const SurveyContainer = styled.div`
+  grid-column: 1 / span 3;
+  grid-row: 1;
+  z-index: 1;
 `
 
 const TravelGearImageContainer = styled.div`
-  grid-area: 1 / 2 / span 2 / auto;
+  grid-column: 3 / span 5;
+  grid-row: 1;
   align-self: center;
   @media only screen and (max-width: 600px) {
     display: none;
@@ -272,21 +256,14 @@ class IndexPage extends React.Component {
             <Helmet>
               <meta name="robots" content="noindex" />
             </Helmet>
-            <SquigglyLineLeftContainer>
-              <Img fixed={data.kronkel.childImageSharp.fixed} />
-            </SquigglyLineLeftContainer>
             <TravelGearImageContainer>
-              <Img fixed={data.travelGearImage.childImageSharp.fixed} />
+              <Img fluid={data.artboard.childImageSharp.fluid} />
             </TravelGearImageContainer>
-            <div>
+            <SurveyContainer>
               <Title>
                 KIES <br />
                 &amp; REIS
               </Title>
-              <SubTitle>
-                Wij helpen je een bestemming kiezen. Vul de vragen in en start
-                met inpakken.
-              </SubTitle>
               <Survey>
                 Ik wil graag in de{' '}
                 <select name="periode">
@@ -300,7 +277,9 @@ class IndexPage extends React.Component {
                   <option value="binnen">binnen</option>s
                   <option value="buiten">buiten</option>
                 </select>
-                &nbsp;Europa. Ik ga het liefst{' '}
+                &nbsp;Europa.
+                <br />
+                Ik ga het liefst{' '}
                 <select name="activiteit">
                   <option value="strand">luieren op het strand</option>
                   <option value="avontuur">op avontuur</option>
@@ -315,10 +294,7 @@ class IndexPage extends React.Component {
                   Toon bestemming
                 </Button>
               </Survey>
-            </div>
-            <SquigglyLineRightContainer>
-              <Img fixed={data.kronkel.childImageSharp.fixed} />
-            </SquigglyLineRightContainer>
+            </SurveyContainer>
           </Container>
         </OuterContainer>
         <LandContainer>
@@ -342,9 +318,6 @@ class IndexPage extends React.Component {
         </LandContainer>
         <TestimonialContainer>
           <TestimonialGridContainer>
-            <SquigglyLineLeftTestimonialContainer>
-              <Img fixed={data.kronkel.childImageSharp.fixed} />
-            </SquigglyLineLeftTestimonialContainer>
             <div>
               <LandSubTitle>Vele reizigers zijn je al voor gegaan</LandSubTitle>
               <TestimonialBlock>
@@ -383,6 +356,13 @@ export default IndexPage
 
 export const query = graphql`
   query {
+    artboard: file(relativePath: { eq: "artboard.png" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid_noBase64
+        }
+      }
+    }
     landImage: file(relativePath: { eq: "wereldkaart.png" }) {
       childImageSharp {
         fluid {
@@ -400,13 +380,6 @@ export const query = graphql`
     kronkel: file(relativePath: { eq: "kronkels.png" }) {
       childImageSharp {
         fixed(width: 134, height: 60) {
-          ...GatsbyImageSharpFixed_noBase64
-        }
-      }
-    }
-    travelGearImage: file(relativePath: { eq: "reisspullen.png" }) {
-      childImageSharp {
-        fixed(width: 380, height: 395) {
           ...GatsbyImageSharpFixed_noBase64
         }
       }

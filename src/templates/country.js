@@ -29,19 +29,6 @@ const FactsContainer = styled.div`
   justify-items: center;
 `
 
-const LandContainer = styled.div`
-  background: #63e0e6;
-  font-family: 'Open Sans', sans-serif;
-`
-
-const LandGridContainer = styled.div`
-  display: grid;
-  grid-template-columns: 42% 10% 3% 45%;
-  margin: 0 auto;
-  max-width: 960px;
-  padding: 64px;
-`
-
 const Title = styled.h1`
   font-family: 'Lato', sans-serif;
   line-height: 1;
@@ -68,28 +55,30 @@ const FactSubText = styled.p`
   margin: 0;
 `
 
-const SubTitle = styled.p`
+const BodyText = styled.p`
   color: white;
   font-weight: 300;
   margin-top: 8px;
   font-size: 1.2rem;
   line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
 `
 
-const LandCount = styled.p`
-  color: white;
-  font-family: 'Lato', sans-serif;
-  font-size: 10rem;
-  font-weight: 900;
-  margin: 0;
-`
-
-const LandSubTitle = styled.p`
+const SubTitle = styled.p`
   color: #21888d;
   font-family: 'Lato', sans-serif;
   font-size: 3.5rem;
   font-weight: 900;
   margin: 0;
+  @media only screen and (max-width: 600px) {
+    font-size: 2.5rem;
+  }
+`
+
+const WhatYouNeedToKnowContainer = styled.div`
+  padding: 24px;
+  max-width: 960px;
+  margin: 0 auto;
 `
 
 export default ({ data }) => {
@@ -115,7 +104,7 @@ export default ({ data }) => {
           />
         </div>
         <div>
-          <SubTitle>{post.frontmatter.introtext}</SubTitle>
+          <BodyText>{post.frontmatter.introtext}</BodyText>
         </div>
       </Container>
       <FactsContainer>
@@ -147,25 +136,10 @@ export default ({ data }) => {
           <FactSubText>{post.frontmatter.rate} euro</FactSubText>
         </div>
       </FactsContainer>{' '}
-      <LandContainer>
-        <LandGridContainer>
-          <div
-            style={{ marginTop: `64px`, gridArea: `1 / 1 / span 2 / span 3` }}
-          />
-          <div style={{ gridArea: `1 / 2 / auto / span 3`, zIndex: 2 }}>
-            <LandCount style={{ left: `-100px` }}>195</LandCount>
-          </div>
-          <div style={{ gridArea: `2 / 3 / auto / span 3`, zIndex: 2 }}>
-            <LandSubTitle>landen zijn er in de wereld</LandSubTitle>
-            <SubTitle>
-              Zoveel verschillende landen. Zoveel landen om uit te kiezen. Geen
-              idee waar je naartoe wilt? Wees niet bang. Wij helpen je graag om
-              dat ene vakantieland te kiezen. Het enige wat jij hoeft te doen is
-              de vragenlijst in te vullen. Wij doen de rest.
-            </SubTitle>
-          </div>
-        </LandGridContainer>
-      </LandContainer>
+      <WhatYouNeedToKnowContainer>
+        <SubTitle>Wat je moet weten</SubTitle>
+        <BodyText>{post.frontmatter.need_to_know_text}</BodyText>
+      </WhatYouNeedToKnowContainer>
     </Layout>
   )
 }
@@ -182,6 +156,7 @@ export const query = graphql`
         inhabitants
         rate
         valuta
+        need_to_know_text
       }
     }
   }

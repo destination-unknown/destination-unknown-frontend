@@ -6,4 +6,5 @@ surface: "2.800.000"
 inhabitants: "208.000.000"
 rate: "0,236"
 valuta: "real"
+need_to_know_text: "Als Nederlander met een Nederlands paspoort heb je geen visum nodig voor je reis naar Brazilië. Bij aankomst krijg je meestal een stempel voor 30 dagen, blijf je langer dan kun je dit aangeven en krijg je een stempel voor 90 dagen. Als je Brazilië inkomt dan kan er gevraagd worden om een vaccinatiebewijs van gele koorts, draag deze dus altijd bij je (het gele boekje). Ook moet je in het bezit zijn van een paspoort dat minimaal nog 6 maanden geldig is bij aankomst in het land."
 ---
