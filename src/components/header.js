@@ -7,22 +7,6 @@ import styled from 'styled-components'
 import { Helmet } from 'react-helmet'
 import favicon from '../images/favicon.ico'
 
-const NavigationButton = styled.button`
-  background-color: #47c0c7;
-  border: 1px solid white;
-  border-radius: 16px;
-  padding: 8px 24px;
-  margin-left: 8px;
-  margin-right: 8px;
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 0.8rem;
-
-  @media only screen and (max-width: 600px) {
-    display: none;
-  }
-`
-
 const Container = styled.div`
   display: grid;
   grid-template-columns: 50% 50%;
@@ -69,11 +53,6 @@ const Header = ({ siteTitle }) => (
               >
                 <Img fixed={data.placeholderImage.childImageSharp.fixed} />
               </Link>
-            </div>
-            <div>
-              <NavigationButton>Hoe het werkt</NavigationButton>
-              <NavigationButton>Bestemmingen</NavigationButton>
-              <NavigationButton>Over ons</NavigationButton>
             </div>
           </Container>
         </div>
