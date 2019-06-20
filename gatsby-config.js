@@ -5,6 +5,15 @@ module.exports = {
     author: `@joeykaan`,
   },
   plugins: [
+    {
+      resolve: 'gatsby-plugin-sentry',
+      options: {
+        dsn: 'https://43afc7dae134434d9af626acb373ecb7@sentry.io/1486965',
+        environment: process.env.NODE_ENV,
+        enabled: (() =>
+          ['production', 'stage'].indexOf(process.env.NODE_ENV) !== -1)(),
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
