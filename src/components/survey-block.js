@@ -18,26 +18,33 @@ const Container = styled.div`
   max-width: 960px;
   display: grid;
   grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6% 12%;
+  grid-template-rows: max-content 1fr;
   font-family: 'Open Sans', sans-serif;
   margin: 0 auto;
   padding-top: 0;
   padding-bottom: 5%;
   @media only screen and (max-width: 600px) {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: max-content 1fr 1fr;
   }
 `
 
 const Title = styled.h1`
   font-family: 'Lato', sans-serif;
+  grid-column: 1 / span 3;
+  grid-row: 1;
   line-height: 1;
   font-size: 100px;
   font-weight: bold;
   margin: 0;
   margin-bottom: 16px;
+  margin-right: 16px;
   color: white;
   @media only screen and (max-width: 600px) {
     padding-left: 16px;
+    font-size: 83px;
+    grid-row: 1;
+    grid-column: 1;
   }
 `
 
@@ -70,16 +77,20 @@ const Button = styled.button`
 
 const SurveyContainer = styled.div`
   grid-column: 1 / span 3;
-  grid-row: 1;
+  grid-row: 2;
   z-index: 1;
+  @media only screen and (max-width: 600px) {
+    grid-row: 3;
+    grid-column: 1;
+  }
 `
 
 const TravelGearImageContainer = styled.div`
   grid-column: 3 / span 5;
-  grid-row: 1;
-  align-self: end;
+  grid-row: 1 / span 2;
   @media only screen and (max-width: 600px) {
-    /* display: none; */
+    grid-row: 2;
+    grid-column: 1;
   }
 `
 
@@ -105,11 +116,11 @@ const SurveyBlock = ({ handleClick }) => (
           <TravelGearImageContainer>
             <Img fluid={data.artboard.childImageSharp.fluid} />
           </TravelGearImageContainer>
+          <Title>
+            KIES <br />
+            &amp; REIS
+          </Title>
           <SurveyContainer>
-            <Title>
-              KIES <br />
-              &amp; REIS
-            </Title>
             <Survey>
               Ik wil graag in de{' '}
               <select name="periode">

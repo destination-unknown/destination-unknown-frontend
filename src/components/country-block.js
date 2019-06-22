@@ -73,9 +73,6 @@ const SubTitle = styled.p`
   color: white;
   margin-top: 8px;
   line-height: 1.5;
-  @media only screen and (max-width: 600px) {
-    padding-left: 16px;
-  }
 `
 
 const CountryBlock = ({ handleClick }) => (

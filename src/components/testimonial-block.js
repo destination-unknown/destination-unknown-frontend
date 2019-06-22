@@ -18,9 +18,6 @@ const SubTitle = styled.p`
   color: white;
   margin-top: 8px;
   line-height: 1.5;
-  @media only screen and (max-width: 600px) {
-    padding-left: 16px;
-  }
 `
 
 const TestimonialContainer = styled.div`
@@ -76,14 +73,25 @@ const TestimonialTitle = styled.h2`
   }
 `
 
+const BusImage = styled.div`
+  display: block;
+  width: 440px;
+  height: 200px;
+  align-self: end;
+  @media only screen and (max-width: 600px) {
+    width: initial;
+    height: initial;
+  }
+`
+
 const TestimonialBlock = ({ handleClick }) => (
   <StaticQuery
     query={graphql`
       query {
-        busImage: file(relativePath: { eq: "busje.png" }) {
+        mobileBusImage: file(relativePath: { eq: "busje.png" }) {
           childImageSharp {
-            fixed(width: 440, height: 200) {
-              ...GatsbyImageSharpFixed_noBase64
+            fluid {
+              ...GatsbyImageSharpFluid_noBase64
             }
           }
         }
@@ -112,10 +120,9 @@ const TestimonialBlock = ({ handleClick }) => (
                   <br />
                   AVONTURIER
                 </SubTitle>
-                <Img
-                  style={{ alignSelf: `end` }}
-                  fixed={data.busImage.childImageSharp.fixed}
-                />
+                <BusImage>
+                  <Img fluid={data.mobileBusImage.childImageSharp.fluid} />
+                </BusImage>
               </TestimonialSubTitleContainer>
             </TestimonialContentContainer>
           </div>
