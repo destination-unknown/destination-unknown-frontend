@@ -25,6 +25,7 @@
     "google-spreadsheet": "^2.0.3",
     "markdown-it": "^8.4.2",
     "normalize.css": "^8.0.1",
+    "polished": "^3.4.1",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",

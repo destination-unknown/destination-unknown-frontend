@@ -17,7 +17,13 @@ function slugify(text) {
 }
 
 class IndexPage extends React.Component {
-  handleClick() {
+  constructor(props) {
+    super(props)
+    this.state = { isLoading: false }
+  }
+  handleClick = () => {
+    this.setState({ isLoading: true })
+
     axios
       .post(
         `https://7n2xdnl26d.execute-api.us-east-1.amazonaws.com/dev/generate`,
@@ -44,7 +50,10 @@ class IndexPage extends React.Component {
   render() {
     return (
       <Layout>
-        <SurveyBlock handleClick={this.handleClick} />
+        <SurveyBlock
+          isLoading={this.state.isLoading}
+          handleClick={this.handleClick}
+        />
         <CountryBlock />
         <TestimonialContentContainer />
       </Layout>

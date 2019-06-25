@@ -2,7 +2,9 @@ import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import styled from 'styled-components'
+import { keyframes } from 'styled-components'
 import { Helmet } from 'react-helmet'
+import { lighten, darken } from 'polished'
 
 const OuterContainer = styled.div`
   background: linear-gradient(
@@ -63,6 +65,23 @@ const Survey = styled.div`
   line-height: 2.5;
 `
 
+const loading = keyframes`
+  0% {
+    left: 0;
+    width: 0;
+  }
+
+  50% {
+    left: 0;
+    width: 100%;
+  }
+
+  100% {
+    left: 100%;
+    width: 0;
+  }
+`
+
 const Button = styled.button`
   width: 100%;
   font-weight: 400;
@@ -73,6 +92,26 @@ const Button = styled.button`
   color: white;
   padding: 16px;
   margin-top: 16px;
+  position: relative;
+
+  &.is-loading:after {
+    animation: ${loading} 1s infinite;
+    background-color: ${darken(0.1, '#f3a629')};
+    content: '';
+    display: block;
+    height: 3px;
+    left: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 1rem;
+  }
+
+  &.is-loading {
+    background-color: ${lighten(0.1, '#f3a629')};
+    border-bottom: 1px solid ${lighten(0.1, '#b0781b')};
+    outline: 0;
+  }
 `
 
 const SurveyContainer = styled.div`
@@ -94,7 +133,7 @@ const TravelGearImageContainer = styled.div`
   }
 `
 
-const SurveyBlock = ({ handleClick }) => (
+const SurveyBlock = ({ handleClick, isLoading }) => (
   <StaticQuery
     query={graphql`
       query {
@@ -147,7 +186,12 @@ const SurveyBlock = ({ handleClick }) => (
                 <option value="nee">geen</option>
               </select>{' '}
               cultuur snuiven.
-              <Button onClick={() => handleClick()}>Toon bestemming</Button>
+              <Button
+                className={isLoading ? 'is-loading' : ''}
+                onClick={() => handleClick()}
+              >
+                Toon bestemming
+              </Button>
             </Survey>
           </SurveyContainer>
         </Container>
