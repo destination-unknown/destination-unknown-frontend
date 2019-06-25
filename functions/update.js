@@ -1,4 +1,4 @@
-const Git = require('nodegit')
+const simpleGit = require('simple-git')()
 
 exports.handler = async (event, context) => {
   return {
