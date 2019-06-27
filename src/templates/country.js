@@ -47,11 +47,7 @@ const FactText = styled.p`
   color: white;
 `
 
-const FactSubText = styled.p`
-  color: #21888d;
-  font-family: 'Lato', sans-serif;
-  font-size: 2.5rem;
-  font-weight: 900;
+const FactSubText = styled.p` color: #21888d; font-family: 'Lato', sans-serif; font-size: 2.5rem; font-weight: 900;
   margin: 0;
 `
 
@@ -156,7 +152,6 @@ export const query = graphql`
         inhabitants
         rate
         valuta
-        need_to_know_text
       }
     }
   }
