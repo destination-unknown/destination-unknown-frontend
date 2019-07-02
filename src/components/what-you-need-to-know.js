@@ -10,6 +10,16 @@ const BodyText = styled.p`
   font-family: 'Open Sans', sans-serif;
 `
 
+const OffCentreBodyText = styled.p`
+  color: white;
+  font-weight: 300;
+  margin-top: 8px;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 76px;
+`
+
 const WhatYouNeedToKnowContainer = styled.div`
   padding-top: 48px;
   max-width: 960px;
@@ -20,7 +30,7 @@ const DidYouKnowContainer = styled.div`
   width: 48%;
   padding: 50px 60px;
   float: ${props => (props.floatLeft ? 'left' : 'right')};
-  margin-right: ${props => (props.floatLeft ? '16px' : '0')};
+  margin: 14px 16px;
   box-shadow: 0 2px 0 0 #b17903;
   background-color: #f5a704;
 `
@@ -31,6 +41,7 @@ const SubTitle = styled.p`
   font-size: 3.5rem;
   font-weight: 900;
   margin: 0;
+  margin-left: 76px;
   @media only screen and (max-width: 600px) {
     font-size: 2.5rem;
   }
@@ -67,7 +78,7 @@ const WhatYouNeedToKnow = ({ title, text, floatLeft, factText }) => {
     }
 
     componentsToCreate.push(
-      <BodyText key={paragraphText}>{paragraphText}</BodyText>
+      <OffCentreBodyText key={paragraphText}>{paragraphText}</OffCentreBodyText>
     )
 
     return componentsToCreate
