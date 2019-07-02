@@ -118,12 +118,12 @@ export default ({ data }) => {
     rateText = <FactSubText>euro</FactSubText>
   } else {
     lastSlotIcon = <Money />
-    valutaText = <FactText>1 euro</FactText>
-    rateText = (
-      <FactSubText>
+    valutaText = (
+      <FactText>
         {post.frontmatter.rate} {post.frontmatter.valuta}
-      </FactSubText>
+      </FactText>
     )
+    rateText = <FactSubText>1 euro</FactSubText>
   }
 
   return (
