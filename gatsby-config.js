@@ -37,7 +37,7 @@ module.exports = {
       resolve: `gatsby-plugin-react-svg`,
       options: {
         rule: {
-          include: /wereldbol-icon|valuta-icon|bevolking-icon/,
+          include: /wereldbol-icon|valuta-icon|bevolking-icon|burger/,
         },
       },
     },

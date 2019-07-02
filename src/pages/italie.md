@@ -9,4 +9,5 @@ surface: "301.000"
 inhabitants: "60.600.000"
 rate: "1"
 valuta: "euro"
+bigmac_index: "€ 3,40"
 ---

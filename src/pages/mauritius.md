@@ -4,6 +4,7 @@ introtext: "Mauritius, het land dat bekend staat van de dodo, is het paradijs op
 introimage: "https://lh3.googleusercontent.com/sP4AzGeynl_zvV8co458UByQV7w1naSJchLDUM4IysBGxDzou85Td_HcQr7O92bvEMm8CJ9t_D8Oio1oRxojO1HgqpMycOO-zzwbgdVlmslmZdtd1YdBjT__DP-hAoiQ_gPTsh-bfw=w2400"
 surface: "2.040"
 inhabitants: "1.265.000"
-rate: "0,025"
+rate: "40,58"
 valuta: "roepie"
+bigmac_index: ""
 ---

@@ -13,7 +13,6 @@ doc.useServiceAccountAuth(creds, function(err) {
   // Get all of the rows from the spreadsheet.
   doc.getInfo(function(err, info) {
     info.worksheets[3].getRows(function(err, rows) {
-      console.log()
       for (let row of rows) {
         fs.writeFile(
           `src/pages/${slugify(row.country)}.md`,
@@ -25,6 +24,7 @@ doc.useServiceAccountAuth(creds, function(err) {
           inhabitants: "${row.inhabitants}"
           rate: "${row.rate}"
           valuta: "${row.valuta}"
+          bigmac_index: "${row.bigmacindex}"
           ---`,
           function(err) {
             if (err) throw err

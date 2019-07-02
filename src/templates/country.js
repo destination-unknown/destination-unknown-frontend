@@ -6,6 +6,7 @@ import { Helmet } from 'react-helmet'
 import Globe from '../images/wereldbol-icon.svg'
 import People from '../images/bevolking-icon.svg'
 import Money from '../images/valuta-icon.svg'
+import Burger from '../images/burger.svg'
 import { graphql } from 'gatsby'
 import WhatYouNeedToKnow from '../components/what-you-need-to-know'
 
@@ -41,6 +42,8 @@ const Title = styled.h1`
 `
 
 const ImageContainer = styled.div`
+  grid-column: 1;
+  grid-row: 1 / span 3;
   & > img {
     object-fit: cover;
     width: 100%;
@@ -105,6 +108,24 @@ const ImageGallerySecondRow = styled.div`
 export default ({ data }) => {
   const post = data.markdownRemark
 
+  let lastSlotIcon
+  let valutaText
+  let rateText
+
+  if (post.frontmatter.valuta === 'euro') {
+    lastSlotIcon = <Burger />
+    valutaText = <FactText>{post.frontmatter.bigmac_index}</FactText>
+    rateText = <FactSubText>euro</FactSubText>
+  } else {
+    lastSlotIcon = <Money />
+    valutaText = <FactText>1 euro</FactText>
+    rateText = (
+      <FactSubText>
+        {post.frontmatter.rate} {post.frontmatter.valuta}
+      </FactSubText>
+    )
+  }
+
   return (
     <Layout>
       <Container>
@@ -129,27 +150,21 @@ export default ({ data }) => {
         <div>
           <People />
         </div>
-        <div>
-          <Money />
-        </div>
+        <div>{lastSlotIcon}</div>
         <div>
           <FactText>{post.frontmatter.surface}</FactText>
         </div>
         <div>
           <FactText>{post.frontmatter.inhabitants}</FactText>
         </div>
-        <div>
-          <FactText>1 {post.frontmatter.valuta}</FactText>
-        </div>
+        <div>{valutaText}</div>
         <div>
           <FactSubText>km2</FactSubText>
         </div>
         <div>
           <FactSubText>inwoners</FactSubText>
         </div>
-        <div>
-          <FactSubText>{post.frontmatter.rate} euro</FactSubText>
-        </div>
+        <div>{rateText}</div>
       </FactsContainer>{' '}
       <WhatYouNeedToKnow
         title={'Wat je moet weten'}
@@ -191,6 +206,7 @@ export const query = graphql`
         need_to_know_more_text
         fact_one_text
         fact_two_text
+        bigmac_index
       }
     }
   }
