@@ -7,16 +7,18 @@ import Globe from '../images/wereldbol-icon.svg'
 import People from '../images/bevolking-icon.svg'
 import Money from '../images/valuta-icon.svg'
 import { graphql } from 'gatsby'
+import WhatYouNeedToKnow from '../components/what-you-need-to-know'
 
 const Container = styled.div`
   max-width: 960px;
   background-color: #47c0c7;
   display: grid;
-  grid-template-columns: 0.9fr 1.1fr;
-  grid-gap: 0 5%;
+  grid-template-columns: 1fr 50%;
+  grid-gap: 0 16px;
   grid-template-rows: fit-content 50%;
   font-family: 'Open Sans', sans-serif;
   margin: 0 auto;
+  margin-bottom: 32px;
   padding-top: 0;
 `
 
@@ -32,10 +34,18 @@ const FactsContainer = styled.div`
 const Title = styled.h1`
   font-family: 'Lato', sans-serif;
   line-height: 1;
-  font-size: 6rem;
+  font-size: 4vw;
   font-weight: bold;
   margin: 0;
   color: white;
+`
+
+const ImageContainer = styled.div`
+  & > img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+  }
 `
 
 const FactText = styled.p`
@@ -47,7 +57,11 @@ const FactText = styled.p`
   color: white;
 `
 
-const FactSubText = styled.p` color: #21888d; font-family: 'Lato', sans-serif; font-size: 2.5rem; font-weight: 900;
+const FactSubText = styled.p`
+  color: #21888d;
+  font-family: 'Lato', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 900;
   margin: 0;
 `
 
@@ -60,25 +74,37 @@ const BodyText = styled.p`
   font-family: 'Open Sans', sans-serif;
 `
 
-const SubTitle = styled.p`
-  color: #21888d;
-  font-family: 'Lato', sans-serif;
-  font-size: 3.5rem;
-  font-weight: 900;
-  margin: 0;
-  @media only screen and (max-width: 600px) {
-    font-size: 2.5rem;
+const ImageGalleryFirstRow = styled.div`
+  margin: 0 auto;
+  grid-gap: 0 16px;
+  max-width: 960px;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  margin-bottom: 16px;
+  & > img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
   }
 `
 
-const WhatYouNeedToKnowContainer = styled.div`
-  padding: 24px;
-  max-width: 960px;
+const ImageGallerySecondRow = styled.div`
   margin: 0 auto;
+  grid-gap: 0 16px;
+  max-width: 960px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin-bottom: 16px;
+  & > img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+  }
 `
 
 export default ({ data }) => {
   const post = data.markdownRemark
+
   return (
     <Layout>
       <Container>
@@ -89,16 +115,9 @@ export default ({ data }) => {
         <div>
           <Title>{post.frontmatter.title}</Title>
         </div>
-        <div>
-          <img
-            style={{
-              maxWidth: `100%`,
-              maxHeight: `100%`,
-            }}
-            src={post.frontmatter.introimage}
-            alt={post.frontmatter.title}
-          />
-        </div>
+        <ImageContainer>
+          <img src={post.frontmatter.introimage} alt={post.frontmatter.title} />
+        </ImageContainer>
         <div>
           <BodyText>{post.frontmatter.introtext}</BodyText>
         </div>
@@ -132,10 +151,26 @@ export default ({ data }) => {
           <FactSubText>{post.frontmatter.rate} euro</FactSubText>
         </div>
       </FactsContainer>{' '}
-      <WhatYouNeedToKnowContainer>
-        <SubTitle>Wat je moet weten</SubTitle>
-        <BodyText>{post.frontmatter.need_to_know_text}</BodyText>
-      </WhatYouNeedToKnowContainer>
+      <WhatYouNeedToKnow
+        title={'Wat je moet weten'}
+        floatLeft={false}
+        factText={post.frontmatter.fact_one_text}
+        text={post.frontmatter.need_to_know_text}
+      />
+      <ImageGalleryFirstRow>
+        <img src="https://via.placeholder.com/621x414" alt="placeholder" />
+        <img src="https://via.placeholder.com/489x414" alt="placeholder" />
+      </ImageGalleryFirstRow>
+      <ImageGallerySecondRow>
+        <img src="https://via.placeholder.com/489x414" alt="placeholder" />
+        <img src="https://via.placeholder.com/621x414" alt="placeholder" />
+      </ImageGallerySecondRow>
+      <WhatYouNeedToKnow
+        title={'Wat je verder moet weten'}
+        floatLeft={true}
+        factText={post.frontmatter.fact_two_text}
+        text={post.frontmatter.need_to_know_more_text}
+      />
     </Layout>
   )
 }
@@ -152,6 +187,10 @@ export const query = graphql`
         inhabitants
         rate
         valuta
+        need_to_know_text
+        need_to_know_more_text
+        fact_one_text
+        fact_two_text
       }
     }
   }

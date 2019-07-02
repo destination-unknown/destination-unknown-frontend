@@ -5,5 +5,5 @@ introimage: "https://lh3.googleusercontent.com/m4txybTy6WoQUiM6fGZDgzssTLNTSnf3k
 surface: "13.900"
 inhabitants: "395.000"
 rate: "0,8843"
-valuta: "BAH Dollar"
+valuta: "BAH dollar"
 ---

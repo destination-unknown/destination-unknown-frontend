@@ -5,5 +5,5 @@ introimage: "https://lh3.googleusercontent.com/7KTVVF1-Gix82qHFRjgOBA7pVcEkQfgM0
 surface: "346"
 inhabitants: "107.000"
 rate: "1,137"
-valuta: "US Dollar"
+valuta: "US dollar"
 ---
