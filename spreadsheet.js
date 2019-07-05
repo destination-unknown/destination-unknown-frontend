@@ -17,7 +17,7 @@ doc.useServiceAccountAuth(creds, function(err) {
         fs.writeFile(
           `src/pages/${slugify(row.country)}.md`,
           stripIndents`---
-          title: "${row.country}"
+          title: "${row.title}"
           introtext: "${row.introtext}"
           introimage: "${row.introimages}"
           surface: "${row.surface}"

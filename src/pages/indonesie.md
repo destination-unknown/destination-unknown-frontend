@@ -4,7 +4,7 @@ introtext: "Indonesië, het land met schitterende stranden, meer dan 17.000 eila
 introimage: "https://lh3.googleusercontent.com/t2BD5jtX8xcneVPIghf-raWVrYM_utXKrLaIYt-gol21qLxWovFHM_9QQRpDG0lcJ3LgHP9951NHToMN5z6OpnBrC0HBHMOt1vRQK74oXMVaxCHPV1Sd5b8aAoxZLhBIG6RWjEdhvA=w2400"
 surface: "1.905.000"
 inhabitants: "264.000.000"
-rate: "15886,23"
+rate: "15898,83"
 valuta: "roepia"
 bigmac_index: ""
 ---
