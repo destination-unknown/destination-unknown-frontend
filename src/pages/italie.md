@@ -4,10 +4,10 @@ introtext: "Italië is een land waar je voor vrijwel iedere soort vakantie terec
 
 Viva la dolce vita!
 "
-introimage: "https://lh3.googleusercontent.com/l-TwRYaNaGDtIFHYEiGq1G8JiiND8C6eAdEqiBWG1aZGJQdqsNnB9E-Odkj5yXHQLX-Kc1vt7gOloSvvvhwpKFtJDgaTYp4KlQXYuwBcfGNc4vZ5i-8oUe2zr5dMkaJDAmkrWPRHtw=w2400"
+introimage: "https://lh3.googleusercontent.com/l-TwRYaNaGDtIFHYEiGq1G8JiiND8C6eAdEqiBWG1aZGJQdqsNnB9E-Odkj5yXHQLX-Kc1vt7gOloSvvvhwpKFtJDgaTYp4KlQXYuwBcfGNc4vZ5i-8oUe2zr5dMkaJDAmkrWPRHtw=w800"
 surface: "301.000"
 inhabitants: "60.600.000"
 rate: "1"
 valuta: "euro"
-bigmac_index: "€ 3,42"
+bigmac_index: "€ 3,43"
 ---
