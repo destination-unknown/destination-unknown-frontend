@@ -9,6 +9,8 @@ import Money from '../images/valuta-icon.svg'
 import Burger from '../images/burger.svg'
 import { graphql } from 'gatsby'
 import WhatYouNeedToKnow from '../components/what-you-need-to-know'
+import Lightbox from 'react-image-lightbox'
+import 'react-image-lightbox/style.css'
 
 const Container = styled.div`
   max-width: 960px;
@@ -105,89 +107,109 @@ const ImageGallerySecondRow = styled.div`
   }
 `
 
-export default ({ data }) => {
-  const post = data.markdownRemark
-
-  let lastSlotIcon
-  let valutaText
-  let rateText
-
-  if (post.frontmatter.valuta === 'euro') {
-    lastSlotIcon = <Burger />
-    valutaText = <FactText>{post.frontmatter.bigmac_index}</FactText>
-    rateText = <FactSubText>euro</FactSubText>
-  } else {
-    lastSlotIcon = <Money />
-    valutaText = (
-      <FactText>
-        {post.frontmatter.rate} {post.frontmatter.valuta}
-      </FactText>
-    )
-    rateText = <FactSubText>1 euro</FactSubText>
+export default class Country extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = { isLightBoxOpen: false }
   }
 
-  return (
-    <Layout>
-      <Container>
-        <Helmet>
-          <meta name="robots" content="noindex" />
-        </Helmet>
-        <div />
-        <div>
-          <Title>{post.frontmatter.title}</Title>
-        </div>
-        <ImageContainer>
-          <img src={post.frontmatter.introimage} alt={post.frontmatter.title} />
-        </ImageContainer>
-        <div>
-          <BodyText>{post.frontmatter.introtext}</BodyText>
-        </div>
-      </Container>
-      <FactsContainer>
-        <div>
-          <Globe />
-        </div>
-        <div>
-          <People />
-        </div>
-        <div>{lastSlotIcon}</div>
-        <div>
-          <FactText>{post.frontmatter.surface}</FactText>
-        </div>
-        <div>
-          <FactText>{post.frontmatter.inhabitants}</FactText>
-        </div>
-        <div>{valutaText}</div>
-        <div>
-          <FactSubText>km2</FactSubText>
-        </div>
-        <div>
-          <FactSubText>inwoners</FactSubText>
-        </div>
-        <div>{rateText}</div>
-      </FactsContainer>{' '}
-      <WhatYouNeedToKnow
-        title={'Wat je moet weten'}
-        floatLeft={false}
-        factText={post.frontmatter.fact_one_text}
-        text={post.frontmatter.need_to_know_text}
-      />
-      <ImageGalleryFirstRow>
-        <img src="https://via.placeholder.com/621x414" alt="placeholder" />
-        <img src="https://via.placeholder.com/489x414" alt="placeholder" />
-      </ImageGalleryFirstRow>
-      <ImageGallerySecondRow>
-        <img src="https://via.placeholder.com/489x414" alt="placeholder" />
-        <img src="https://via.placeholder.com/621x414" alt="placeholder" />
-      </ImageGallerySecondRow>
-      <WhatYouNeedToKnow
-        title={'Wat je verder moet weten'}
-        floatLeft={true}
-        factText={post.frontmatter.fact_two_text}
-        text={post.frontmatter.need_to_know_more_text}
-      />
-    </Layout>
-  )
+  render() {
+    const { data } = this.props
+
+    const post = data.markdownRemark
+
+    let lastSlotIcon
+    let valutaText
+    let rateText
+
+    if (post.frontmatter.valuta === 'euro') {
+      lastSlotIcon = <Burger />
+      valutaText = <FactText>{post.frontmatter.bigmac_index}</FactText>
+      rateText = <FactSubText>euro</FactSubText>
+    } else {
+      lastSlotIcon = <Money />
+      valutaText = (
+        <FactText>
+          {post.frontmatter.rate} {post.frontmatter.valuta}
+        </FactText>
+      )
+      rateText = <FactSubText>1 euro</FactSubText>
+    }
+
+    return (
+      <Layout>
+        <Container>
+          <Helmet>
+            <meta name="robots" content="noindex" />
+          </Helmet>
+          <div />
+          <div>
+            <Title>{post.frontmatter.title}</Title>
+          </div>
+          <ImageContainer
+            onClick={() => this.setState({ isLightBoxOpen: true })}
+          >
+            <img
+              src={post.frontmatter.introimage}
+              alt={post.frontmatter.title}
+            />
+          </ImageContainer>
+          {this.state.isLightBoxOpen && (
+            <Lightbox
+              mainSrc={post.frontmatter.introimage}
+              onCloseRequest={() => this.setState({ isLightBoxOpen: false })}
+            />
+          )}
+          <div>
+            <BodyText>{post.frontmatter.introtext}</BodyText>
+          </div>
+        </Container>
+        <FactsContainer>
+          <div>
+            <Globe />
+          </div>
+          <div>
+            <People />
+          </div>
+          <div>{lastSlotIcon}</div>
+          <div>
+            <FactText>{post.frontmatter.surface}</FactText>
+          </div>
+          <div>
+            <FactText>{post.frontmatter.inhabitants}</FactText>
+          </div>
+          <div>{valutaText}</div>
+          <div>
+            <FactSubText>km2</FactSubText>
+          </div>
+          <div>
+            <FactSubText>inwoners</FactSubText>
+          </div>
+          <div>{rateText}</div>
+        </FactsContainer>{' '}
+        <WhatYouNeedToKnow
+          title={'Wat je moet weten'}
+          floatLeft={false}
+          factText={post.frontmatter.fact_one_text}
+          text={post.frontmatter.need_to_know_text}
+        />
+        <ImageGalleryFirstRow>
+          <img src="https://via.placeholder.com/621x414" alt="placeholder" />
+          <img src="https://via.placeholder.com/489x414" alt="placeholder" />
+        </ImageGalleryFirstRow>
+        <ImageGallerySecondRow>
+          <img src="https://via.placeholder.com/489x414" alt="placeholder" />
+          <img src="https://via.placeholder.com/621x414" alt="placeholder" />
+        </ImageGallerySecondRow>
+        <WhatYouNeedToKnow
+          title={'Wat je verder moet weten'}
+          floatLeft={true}
+          factText={post.frontmatter.fact_two_text}
+          text={post.frontmatter.need_to_know_more_text}
+        />
+      </Layout>
+    )
+  }
 }
 
 export const query = graphql`
