@@ -147,7 +147,14 @@ export default class Country extends React.Component {
             <Title>{post.frontmatter.title}</Title>
           </div>
           <ImageContainer
-            onClick={() => this.setState({ isLightBoxOpen: true })}
+            onClick={() => {
+              typeof window !== 'undefined' &&
+                typeof window.gtag !== 'undefined' &&
+                window.gtag('event', 'zoom_in', {
+                  event_category: 'Intro image',
+                })
+              this.setState({ isLightBoxOpen: true })
+            }}
           >
             <img
               src={post.frontmatter.introimage}
