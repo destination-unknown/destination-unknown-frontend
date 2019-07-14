@@ -117,6 +117,7 @@ export default class Country extends React.Component {
     const { data } = this.props
 
     const post = data.markdownRemark
+    const images = post.frontmatter.images.split('|')
 
     let lastSlotIcon
     let valutaText
@@ -201,12 +202,12 @@ export default class Country extends React.Component {
           text={post.frontmatter.need_to_know_text}
         />
         <ImageGalleryFirstRow>
-          <img src="https://via.placeholder.com/621x414" alt="placeholder" />
-          <img src="https://via.placeholder.com/489x414" alt="placeholder" />
+          <img src={images[0]} alt="First gallery" />
+          <img src={images[1]} alt="Second gallery" />
         </ImageGalleryFirstRow>
         <ImageGallerySecondRow>
-          <img src="https://via.placeholder.com/489x414" alt="placeholder" />
-          <img src="https://via.placeholder.com/621x414" alt="placeholder" />
+          <img src={images[2]} alt="Third gallery" />
+          <img src={images[3]} alt="Fourth gallery" />
         </ImageGallerySecondRow>
         <WhatYouNeedToKnow
           title={'Wat je verder moet weten'}
@@ -236,6 +237,7 @@ export const query = graphql`
         fact_one_text
         fact_two_text
         bigmac_index
+        images
       }
     }
   }
