@@ -4,6 +4,8 @@ import axios from 'axios'
 import SurveyBlock from '../components/survey-block'
 import CountryBlock from '../components/country-block'
 import TestimonialContentContainer from '../components/testimonial-block'
+// import DropDown from '../components/DropDown'
+import Select, { components } from 'react-select'
 
 function slugify(text) {
   return text
@@ -19,7 +21,10 @@ function slugify(text) {
 class IndexPage extends React.Component {
   constructor(props) {
     super(props)
-    this.state = { isLoading: false }
+    this.state = {
+      isLoading: false,
+      selectedOption: { value: '0', label: 'Audi' },
+    }
   }
   handleClick = () => {
     this.setState({ isLoading: true })
@@ -47,9 +52,91 @@ class IndexPage extends React.Component {
       })
       .catch(error => console.log(error))
   }
+  handleChange = selectedOption => {
+    this.setState({ selectedOption: selectedOption })
+  }
   render() {
+    const customStyles = {
+      option: (provided, state) => ({
+        ...provided,
+        '&:active': {
+          backgroundColor: 'transparent',
+        },
+        backgroundColor: state.isSelected ? '#47c0c7' : 'transparent',
+      }),
+      control: (provided, state) => {
+        return {
+          ...provided,
+          // This line disable the blue border
+          '&::after': {
+            content: '""',
+            position: 'absolute',
+            display: 'block',
+            marginLeft: '8px',
+            width: '96%',
+            paddingTop: '32px',
+            borderBottom: '1px solid white',
+          },
+          position: 'relative',
+          border: 'none',
+          boxShadow: 'none',
+          background: 'transparent',
+          color: 'white',
+          width: 200,
+        }
+      },
+      menu: (provided, state) => ({
+        ...provided,
+        width: 200,
+        marginLeft: '8px',
+        fontFamily: 'Lato',
+      }),
+      dropdownIndicator: (provided, state) => ({
+        ...provided,
+        color: 'white',
+      }),
+      singleValue: (provided, state) => ({
+        ...provided,
+        color: 'white',
+        fontFamily: 'Lato',
+      }),
+      indicatorSeparator: (provided, state) => ({
+        ...provided,
+        backgroundColor: 'transparent',
+      }),
+    }
+
+    const { selectedOption } = this.state
+
+    const DropdownIndicator = props => {
+      return (
+        <components.DropdownIndicator {...props}>
+          <div
+            style={{
+              width: 0,
+              height: 0,
+              borderLeft: '20px solid transparent',
+              borderRight: '20px solid tranparent',
+              borderTop: '20px solid #f00',
+            }}
+          />
+        </components.DropdownIndicator>
+      )
+    }
+
     return (
       <Layout>
+        <Select
+          styles={customStyles}
+          value={selectedOption}
+          options={[
+            { value: '0', label: 'Audi' },
+            { value: '1', label: 'BMW' },
+          ]}
+          onChange={this.handleChange}
+          isSearchable={false}
+          // components={{ DropdownIndicator }}
+        />
         <SurveyBlock
           isLoading={this.state.isLoading}
           handleClick={this.handleClick}
