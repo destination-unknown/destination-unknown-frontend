@@ -117,7 +117,35 @@ export default class Country extends React.Component {
     const { data } = this.props
 
     const post = data.markdownRemark
-    const images = post.frontmatter.images.split('|')
+    let images = [
+      'https://via.placeholder.com/621x414',
+      'https://via.placeholder.com/489x414',
+      'https://via.placeholder.com/621x414',
+      'https://via.placeholder.com/489x414',
+    ]
+
+    if (
+      post.frontmatter.hasOwnProperty('images') &&
+      Array.isArray(post.frontmatter.images)
+    ) {
+      const tempImages = post.frontmatter.images.split('|')
+
+      if (tempImages.indexOf(0) > -1) {
+        images[0] = tempImages[0]
+      }
+
+      if (tempImages.indexOf(1) > -1) {
+        images[1] = tempImages[1]
+      }
+
+      if (tempImages.indexOf(2) > -1) {
+        images[2] = tempImages[2]
+      }
+
+      if (tempImages.indexOf(3) > -1) {
+        images[3] = tempImages[3]
+      }
+    }
 
     let lastSlotIcon
     let valutaText
