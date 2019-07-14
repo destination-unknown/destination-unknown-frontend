@@ -7,5 +7,5 @@ inhabitants: "10.800.000"
 rate: "1"
 valuta: "euro"
 bigmac_index: "€ 4,12"
-images: ""
+images: "https://lh3.googleusercontent.com/jzJhmXXhQNdtSdTKu2isCrmQNSErtTmQF3wCZ_cRxt7NgDarQPTrMdpQp8Tswyns40ZRZTSGb0aUGhFKXtPsnSodwbVvdvf9EAkExqXiOgA3srLimKvBzAJpmbuMU70elq1E8z708w=w800|https://lh3.googleusercontent.com/y1rSPnNf1NxlsPJ06h9Ry-0PesyxA_ok2NAJisyoF-WCohSscl_8VdA-FsbIwPUTQOy2ZFoG9M0oBFgNuiU27RO3bU0kj1oRvKA7pX9E-kbi-MJ7ze56yxWWBuuwrBlKvg4bXQgcHA=w800|https://lh3.googleusercontent.com/11Lgefom9XabQEq_rOhrlYCFx_TrcnwlKiwtsSV4rWxOh86YFzjeCFKVwk-a9xyIVZuTt7rg9cGprRhy0KNCEmGmMNfAKVhk2w_cagpo9X3333NREFNYSSvlJGfBlMr_r6A1F1OByw=w800https://lh3.googleusercontent.com/l4ApzUXwONe6YWrrqF2e0DxJvQSwlFtwudYYFAoK4BrmUTuCvmTgTnvsF-bJjoMMAoeYWIDNYPLQLmUr64IWMf2TL1hcChHgjniKHnfv_sXdax3se59xC0KaBKd_UcEJIpsZXyaf_Q=w800"
 ---
