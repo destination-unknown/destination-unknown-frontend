@@ -7,4 +7,5 @@ inhabitants: "69.000.000"
 rate: "34,87"
 valuta: "baht"
 bigmac_index: ""
+images: ""
 ---

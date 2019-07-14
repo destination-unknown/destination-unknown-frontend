@@ -35,6 +35,7 @@ doc.useServiceAccountAuth(creds, function(err) {
           rate: "${row.rate}"
           valuta: "${row.valuta}"
           bigmac_index: "${row.bigmacindex}"
+          images: "${row.images}"
           ---`,
           function(err) {
             if (err) throw err

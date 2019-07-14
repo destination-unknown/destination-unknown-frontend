@@ -4,7 +4,7 @@ introtext: "Brazilië is het grootste land van Zuid-Amerika en is het 5e grootst
 introimage: "https://lh3.googleusercontent.com/BzACfUcqZdiAXaoLmi1NOiaR9vixJX0TZe1i8j3iWA9eoguvdQeLDPtBAJzY6OKCdjzkQNTeWCzkUWYaJ3EgV5Im74Y5hzrsg5ZzXmsOELfyt8qmyp_aZkBTyE9Q_kkgZfNhISZXnA=w800"
 surface: "2.800.000"
 inhabitants: "208.000.000"
-rate: "4,22"
+rate: "4,21"
 valuta: "real"
 need_to_know_text: "Als Nederlander met een Nederlands paspoort heb je geen visum nodig voor je reis naar Brazilië. Bij aankomst krijg je meestal een stempel voor 30 dagen, blijf je langer dan kun je dit aangeven en krijg je een stempel voor 90 dagen. Als je Brazilië inkomt dan kan er gevraagd worden om een vaccinatiebewijs van gele koorts, draag deze dus altijd bij je (het gele boekje). Ook moet je in het bezit zijn van een paspoort dat minimaal nog 6 maanden geldig is bij aankomst in het land.
 
@@ -28,4 +28,5 @@ Als munteenheid gebruikt men de Braziliaanse Reaal. In veel gevallen kun je ook 
 fact_one_text: "…Rio de Janeiro ooit de hoofdstad van Portugal was? Dit was dan ook meteen de enige Europese hoofdstad buiten Europa."
 fact_two_text: "… Brazilië het eerste land in Zuid-Amerika was waar de Olympische Spelen plaatsvonden?"
 bigmac_index: ""
+images: "https://lh3.googleusercontent.com/TZV_4V83r0BARPeuICk5-Ht4WIf4ge73X6UgB8koN4hdlq2mXkPyWYfzLRkVQYNM_HZIMFUgHtUDiNkt_R8UC2ZJzra7wtuGvItDcjUbPpv8D6YNiromOGP3nLTxWdNokDtgfLXH=w2400"
 ---

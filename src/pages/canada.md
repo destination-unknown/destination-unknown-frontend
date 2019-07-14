@@ -7,4 +7,5 @@ inhabitants: "37.060.000"
 rate: "1,47"
 valuta: "dollar"
 bigmac_index: ""
+images: ""
 ---

@@ -7,4 +7,5 @@ inhabitants: "3.800.000"
 rate: "1,96"
 valuta: "mark"
 bigmac_index: ""
+images: ""
 ---
