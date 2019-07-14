@@ -7,5 +7,5 @@ inhabitants: "264.000.000"
 rate: "15785,9"
 valuta: "roepia"
 bigmac_index: ""
-images: ""
+images: "https://lh3.googleusercontent.com/HVP3PFhJP2WyRBQopi8rDRVPLne52F5wUJaGJuxZ0-O3cnhr5Sfshs030XVzHoS-vADgaFKrkCigXEOlFF6uEbxTyko7vWJdyyu55RJPYFOfGfUSj4Q5rKP28JM3s1_V_MOl3WQXhw=w2400"
 ---
