@@ -4,7 +4,7 @@ introtext: "Namaste! Nepal, het geboorteland van Boeddha, is een van de mooiste 
 introimage: "https://lh3.googleusercontent.com/Rp3rl0Dt4lgfEWhDnjLU_Ocd6gXvg0e0rnAnmYPca2rsVXb-3E6_fHVV6IYPySADLzsNzDCRKEd4vCvq-XxPuTFEmBAvXu1-FWG4S2QGENq_FUpBeXI3srULpwdLe_BIFfsWzvealw=w800"
 surface: "147.000"
 inhabitants: "29.300.000"
-rate: "122,94"
+rate: "123,63"
 valuta: "rupee"
 bigmac_index: ""
 ---
