@@ -126,6 +126,7 @@ export default class Country extends React.Component {
 
     if (
       post.frontmatter.hasOwnProperty('images') &&
+      post.frontmatter.images !== null &&
       post.frontmatter.images !== '' &&
       post.frontmatter.images.includes('|')
     ) {
