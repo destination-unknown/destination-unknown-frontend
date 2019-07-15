@@ -126,23 +126,24 @@ export default class Country extends React.Component {
 
     if (
       post.frontmatter.hasOwnProperty('images') &&
-      Array.isArray(post.frontmatter.images)
+      post.frontmatter.images !== '' &&
+      post.frontmatter.images.includes('|')
     ) {
       const tempImages = post.frontmatter.images.split('|')
 
-      if (tempImages.indexOf(0) > -1) {
+      if (typeof tempImages[0] !== 'undefined') {
         images[0] = tempImages[0]
       }
 
-      if (tempImages.indexOf(1) > -1) {
+      if (typeof tempImages[1] !== 'undefined') {
         images[1] = tempImages[1]
       }
 
-      if (tempImages.indexOf(2) > -1) {
+      if (typeof tempImages[2] !== 'undefined') {
         images[2] = tempImages[2]
       }
 
-      if (tempImages.indexOf(3) > -1) {
+      if (typeof tempImages[3] !== 'undefined') {
         images[3] = tempImages[3]
       }
     }
