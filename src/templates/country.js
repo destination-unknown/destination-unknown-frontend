@@ -16,13 +16,17 @@ const Container = styled.div`
   max-width: 960px;
   background-color: #47c0c7;
   display: grid;
-  grid-template-columns: 1fr 50%;
+  grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6% 12%;
   grid-gap: 0 16px;
-  grid-template-rows: fit-content 50%;
+  grid-template-rows: max-content 50%;
   font-family: 'Open Sans', sans-serif;
   margin: 0 auto;
   margin-bottom: 32px;
   padding-top: 0;
+  @media only screen and (max-width: 600px) {
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+  }
 `
 
 const FactsContainer = styled.div`
@@ -32,24 +36,69 @@ const FactsContainer = styled.div`
   grid-template-rows: fit-content 1fr 1fr;
   background-color: #31bbc2;
   justify-items: center;
+  margin-bottom: 32px;
+
+  @media only screen and (max-width: 600px) {
+    padding: 16px;
+  }
+`
+
+const TitleContainer = styled.div`
+  grid-column: 5 / span 3;
+  grid-row: 1;
+
+  @media only screen and (max-width: 600px) {
+    grid-column: 1;
+  }
 `
 
 const Title = styled.h1`
+  text-align: right;
+  text-transform: uppercase;
   font-family: 'Lato', sans-serif;
   line-height: 1;
   font-size: 4vw;
   font-weight: bold;
   margin: 0;
   color: white;
+  @media only screen and (max-width: 600px) {
+    font-size: 50px;
+    text-align: initial;
+    margin-left: 16px;
+    margin-bottom: 10px;
+  }
 `
 
 const ImageContainer = styled.div`
-  grid-column: 1;
+  grid-column: 1 / span 4;
   grid-row: 1 / span 3;
+
+  @media only screen and (max-width: 600px) {
+    max-height: 200px;
+  }
   & > img {
     object-fit: cover;
     width: 100%;
     max-height: 100%;
+    @media only screen and (max-width: 600px) {
+      max-height: 200px;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    grid-column: 1;
+    grid-row: 2;
+  }
+`
+
+const IconContainer = styled.div`
+  width: 68px;
+  height: 68px;
+
+  @media only screen and (max-width: 600px) {
+    width: 28px;
+    height: 28px;
+    margin-bottom: 4px;
   }
 `
 
@@ -60,6 +109,10 @@ const FactText = styled.p`
   font-weight: bold;
   margin: 0;
   color: white;
+
+  @media only screen and (max-width: 600px) {
+    font-size: 15px;
+  }
 `
 
 const FactSubText = styled.p`
@@ -68,6 +121,28 @@ const FactSubText = styled.p`
   font-size: 2.5rem;
   font-weight: 900;
   margin: 0;
+
+  @media only screen and (max-width: 600px) {
+    font-size: 15px;
+  }
+`
+
+const BodyTextContainer = styled.div`
+  z-index: 1;
+  background-color: #5ecdd3;
+  grid-column: 4 / span 4;
+  grid-row: 2 / span 2;
+  border-radius: 3px;
+  padding: 32px;
+  margin-top: 32px;
+
+  @media only screen and (max-width: 600px) {
+    grid-column: 1;
+    grid-row: 3;
+    background-color: transparent;
+    margin-top: 0;
+    padding: 16px;
+  }
 `
 
 const BodyText = styled.p`
@@ -79,31 +154,72 @@ const BodyText = styled.p`
   font-family: 'Open Sans', sans-serif;
 `
 
-const ImageGalleryFirstRow = styled.div`
-  margin: 0 auto;
-  grid-gap: 0 16px;
+const ImageGalleryContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
   max-width: 960px;
-  display: grid;
-  grid-template-columns: 60% 40%;
-  margin-bottom: 16px;
-  & > img {
-    object-fit: cover;
-    width: 100%;
-    max-height: 100%;
-  }
-`
+  margin: 0 auto;
+  -webkit-overflow-scrolling: touch;
 
-const ImageGallerySecondRow = styled.div`
-  margin: 0 auto;
-  grid-gap: 0 16px;
-  max-width: 960px;
-  display: grid;
-  grid-template-columns: 40% 60%;
-  margin-bottom: 16px;
+  img:nth-child(1) {
+    width: 58.3%;
+    margin-right: 16px;
+    margin-bottom: 16px;
+  }
+
+  img:nth-child(2) {
+    width: 40%;
+    margin-bottom: 16px;
+  }
+
+  img:nth-child(3) {
+    width: 40%;
+  }
+
+  img:nth-child(4) {
+    width: 58.3%;
+    margin-left: 16px;
+  }
+
   & > img {
+    display: block;
     object-fit: cover;
     width: 100%;
-    max-height: 100%;
+    max-height: 400px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+
+    & > img {
+      flex: 0 0 auto;
+      margin: 0;
+      height: 170px;
+    }
+
+    img:nth-child(1) {
+      width: 80%;
+      margin-left: 16px;
+      margin-right: 8px;
+    }
+
+    img:nth-child(2) {
+      width: 80%;
+      margin-right: 8px;
+    }
+
+    img:nth-child(3) {
+      width: 80%;
+      margin-right: 8px;
+    }
+
+    img:nth-child(4) {
+      width: 80%;
+      margin: 0;
+      margin-right: 8px;
+      padding-right: 16px;
+    }
   }
 `
 
@@ -154,11 +270,11 @@ export default class Country extends React.Component {
     let rateText
 
     if (post.frontmatter.valuta === 'euro') {
-      lastSlotIcon = <Burger />
+      lastSlotIcon = <Burger width="100%" height="100%" />
       valutaText = <FactText>{post.frontmatter.bigmac_index}</FactText>
       rateText = <FactSubText>euro</FactSubText>
     } else {
-      lastSlotIcon = <Money />
+      lastSlotIcon = <Money width="100%" height="100%" />
       valutaText = (
         <FactText>
           {post.frontmatter.rate} {post.frontmatter.valuta}
@@ -174,9 +290,9 @@ export default class Country extends React.Component {
             <meta name="robots" content="noindex" />
           </Helmet>
           <div />
-          <div>
+          <TitleContainer>
             <Title>{post.frontmatter.title}</Title>
-          </div>
+          </TitleContainer>
           <ImageContainer
             onClick={() => {
               typeof window !== 'undefined' &&
@@ -198,18 +314,18 @@ export default class Country extends React.Component {
               onCloseRequest={() => this.setState({ isLightBoxOpen: false })}
             />
           )}
-          <div>
+          <BodyTextContainer>
             <BodyText>{post.frontmatter.introtext}</BodyText>
-          </div>
+          </BodyTextContainer>
         </Container>
         <FactsContainer>
-          <div>
-            <Globe />
-          </div>
-          <div>
-            <People />
-          </div>
-          <div>{lastSlotIcon}</div>
+          <IconContainer>
+            <Globe width="100%" height="100%" />
+          </IconContainer>
+          <IconContainer>
+            <People width="100%" height="100%" />
+          </IconContainer>
+          <IconContainer>{lastSlotIcon}</IconContainer>
           <div>
             <FactText>{post.frontmatter.surface}</FactText>
           </div>
@@ -231,14 +347,20 @@ export default class Country extends React.Component {
           factText={post.frontmatter.fact_one_text}
           text={post.frontmatter.need_to_know_text}
         />
-        <ImageGalleryFirstRow>
+        <ImageGalleryContainer>
+          <img src={images[0]} alt="First gallery" />
+          <img src={images[1]} alt="Second gallery" />
+          <img src={images[2]} alt="Third gallery" />
+          <img src={images[3]} alt="Fourth gallery" />
+        </ImageGalleryContainer>
+        {/* <ImageGalleryFirstRow>
           <img src={images[0]} alt="First gallery" />
           <img src={images[1]} alt="Second gallery" />
         </ImageGalleryFirstRow>
         <ImageGallerySecondRow>
           <img src={images[2]} alt="Third gallery" />
           <img src={images[3]} alt="Fourth gallery" />
-        </ImageGallerySecondRow>
+        </ImageGallerySecondRow> */}
         <WhatYouNeedToKnow
           title={'Wat je verder moet weten'}
           floatLeft={true}
