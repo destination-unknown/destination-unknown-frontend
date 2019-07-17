@@ -30,6 +30,21 @@ const NavigationButton = styled.button`
   }
 `
 
+const NavigationContainer = styled.div`
+  margin: 0 auto;
+  max-width: 960px;
+`
+
+const OuterNavigationContainer = styled.div`
+  background-color: #47c0c7;
+  z-index: 10;
+  padding: 1.45rem 1.0875rem;
+  position: ${props => (props.isIndex ? 'initial' : 'fixed')};
+  top: 0;
+  left: 0;
+  right: 0;
+`
+
 const Header = ({ isIndex }) => (
   <StaticQuery
     query={graphql`
@@ -44,14 +59,8 @@ const Header = ({ isIndex }) => (
       }
     `}
     render={data => (
-      <div>
-        <div
-          style={{
-            margin: `0 auto`,
-            maxWidth: 960,
-            padding: `1.45rem 1.0875rem`,
-          }}
-        >
+      <OuterNavigationContainer isIndex={isIndex}>
+        <NavigationContainer>
           <Container>
             <Helmet>
               <link rel="shortcut icon" type="image/x-icon" href={favicon} />
@@ -82,8 +91,8 @@ const Header = ({ isIndex }) => (
               </NavigationButton>
             )}
           </Container>
-        </div>
-      </div>
+        </NavigationContainer>
+      </OuterNavigationContainer>
     )}
   />
 )
