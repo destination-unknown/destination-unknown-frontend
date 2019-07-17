@@ -9,11 +9,7 @@ import favicon from '../images/favicon.ico'
 
 const Container = styled.div`
   display: grid;
-  grid-template-columns: 95% 26%;
-
-  @media only screen and (max-width: 600px) {
-    grid-template-columns: 50% 50%;
-  }
+  grid-template-columns: 87% 26%;
 `
 
 const NavigationButton = styled.button`

@@ -16,7 +16,7 @@ const Container = styled.div`
   max-width: 960px;
   background-color: #47c0c7;
   display: grid;
-  grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6% 12%;
+  grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6% 3%;
   grid-gap: 0 16px;
   grid-template-rows: max-content 50%;
   font-family: 'Open Sans', sans-serif;
