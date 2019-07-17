@@ -78,17 +78,15 @@ const Header = ({ isIndex }) => (
               </Link>
             </div>
             {!isIndex && (
-              <NavigationButton>
-                <Link
-                  to="/"
-                  style={{
-                    color: `white`,
-                    textDecoration: `none`,
-                  }}
-                >
-                  Kies nieuwe bestemming
-                </Link>
-              </NavigationButton>
+              <Link
+                to="/"
+                style={{
+                  color: `white`,
+                  textDecoration: `none`,
+                }}
+              >
+                <NavigationButton>Kies nieuwe bestemming</NavigationButton>
+              </Link>
             )}
           </Container>
         </NavigationContainer>
