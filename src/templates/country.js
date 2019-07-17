@@ -226,7 +226,7 @@ const ImageGalleryContainer = styled.div`
 export default class Country extends React.Component {
   constructor(props) {
     super(props)
-    this.state = { isLightBoxOpen: false }
+    this.state = { isLightBoxOpen: false, lightBoxImage: null }
   }
 
   render() {
@@ -300,7 +300,10 @@ export default class Country extends React.Component {
                 window.gtag('event', 'zoom_in', {
                   event_category: 'Intro image',
                 })
-              this.setState({ isLightBoxOpen: true })
+              this.setState({
+                isLightBoxOpen: true,
+                lightBoxImage: post.frontmatter.introimage,
+              })
             }}
           >
             <img
@@ -310,7 +313,7 @@ export default class Country extends React.Component {
           </ImageContainer>
           {this.state.isLightBoxOpen && (
             <Lightbox
-              mainSrc={post.frontmatter.introimage}
+              mainSrc={this.state.lightBoxImage}
               onCloseRequest={() => this.setState({ isLightBoxOpen: false })}
             />
           )}
@@ -348,19 +351,71 @@ export default class Country extends React.Component {
           text={post.frontmatter.need_to_know_text}
         />
         <ImageGalleryContainer>
-          <img src={images[0]} alt="First gallery" />
-          <img src={images[1]} alt="Second gallery" />
-          <img src={images[2]} alt="Third gallery" />
-          <img src={images[3]} alt="Fourth gallery" />
+          <img
+            src={images[0]}
+            alt="First gallery"
+            onClick={() => {
+              typeof window !== 'undefined' &&
+                typeof window.gtag !== 'undefined' &&
+                window.gtag('event', 'zoom_in', {
+                  event_category: 'Image gallery',
+                  event_label: '1',
+                })
+              this.setState({
+                isLightBoxOpen: true,
+                lightBoxImage: images[0],
+              })
+            }}
+          />
+          <img
+            src={images[1]}
+            alt="Second gallery"
+            onClick={() => {
+              typeof window !== 'undefined' &&
+                typeof window.gtag !== 'undefined' &&
+                window.gtag('event', 'Image gallery', {
+                  event_category: 'Intro image',
+                  event_label: '2',
+                })
+              this.setState({
+                isLightBoxOpen: true,
+                lightBoxImage: images[1],
+              })
+            }}
+          />
+          <img
+            src={images[2]}
+            alt="Third gallery"
+            onClick={() => {
+              typeof window !== 'undefined' &&
+                typeof window.gtag !== 'undefined' &&
+                window.gtag('event', 'zoom_in', {
+                  event_category: 'Image gallery',
+                  event_label: '3',
+                })
+              this.setState({
+                isLightBoxOpen: true,
+                lightBoxImage: images[2],
+              })
+            }}
+          />
+          <img
+            src={images[3]}
+            alt="Fourth gallery"
+            onClick={() => {
+              typeof window !== 'undefined' &&
+                typeof window.gtag !== 'undefined' &&
+                window.gtag('event', 'zoom_in', {
+                  event_category: 'Image gallery',
+                  event_label: '4',
+                })
+              this.setState({
+                isLightBoxOpen: true,
+                lightBoxImage: images[3],
+              })
+            }}
+          />
         </ImageGalleryContainer>
-        {/* <ImageGalleryFirstRow>
-          <img src={images[0]} alt="First gallery" />
-          <img src={images[1]} alt="Second gallery" />
-        </ImageGalleryFirstRow>
-        <ImageGallerySecondRow>
-          <img src={images[2]} alt="Third gallery" />
-          <img src={images[3]} alt="Fourth gallery" />
-        </ImageGallerySecondRow> */}
         <WhatYouNeedToKnow
           title={'Wat je verder moet weten'}
           floatLeft={true}
