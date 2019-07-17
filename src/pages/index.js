@@ -49,7 +49,7 @@ class IndexPage extends React.Component {
   }
   render() {
     return (
-      <Layout>
+      <Layout isIndex={true}>
         <SurveyBlock
           isLoading={this.state.isLoading}
           handleClick={this.handleClick}

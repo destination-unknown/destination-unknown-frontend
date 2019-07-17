@@ -9,14 +9,28 @@ import favicon from '../images/favicon.ico'
 
 const Container = styled.div`
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 95% 26%;
 
   @media only screen and (max-width: 600px) {
-    grid-template-columns: 100%;
+    grid-template-columns: 50% 50%;
   }
 `
 
-const Header = ({ siteTitle }) => (
+const NavigationButton = styled.button`
+  border: 1px solid white;
+  border-radius: 22px;
+  padding: 12px 32px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  background-color: transparent;
+  font-weight: bold;
+  color: white;
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
+`
+
+const Header = ({ isIndex }) => (
   <StaticQuery
     query={graphql`
       query {
@@ -54,6 +68,19 @@ const Header = ({ siteTitle }) => (
                 <Img fixed={data.placeholderImage.childImageSharp.fixed} />
               </Link>
             </div>
+            {!isIndex && (
+              <NavigationButton>
+                <Link
+                  to="/"
+                  style={{
+                    color: `white`,
+                    textDecoration: `none`,
+                  }}
+                >
+                  Kies nieuwe bestemming
+                </Link>
+              </NavigationButton>
+            )}
           </Container>
         </div>
       </div>

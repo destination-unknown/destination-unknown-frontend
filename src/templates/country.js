@@ -284,7 +284,7 @@ export default class Country extends React.Component {
     }
 
     return (
-      <Layout>
+      <Layout isIndex={false}>
         <Container>
           <Helmet>
             <meta name="robots" content="noindex" />
