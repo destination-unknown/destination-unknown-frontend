@@ -60,6 +60,10 @@ const Header = ({ isIndex }) => (
           <Container>
             <Helmet>
               <link rel="shortcut icon" type="image/x-icon" href={favicon} />
+              <meta
+                name="2fdeccbcacfeee9"
+                content="f0069a37446db760e09735e27c0e157c"
+              />
               <title>Destination Unknown</title>
             </Helmet>
             <div>
