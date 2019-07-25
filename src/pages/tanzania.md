@@ -1,0 +1,11 @@
+---
+title: "Tanzania"
+introtext: "Ontdek al het natuurschoon in Tanzania! Spot de Big Five tijdens een safari in één van de vele indrukwekkende wildparken. Reis af naar het schilderachtige en uitgestreke natuurreservaat Ngorongoro met een enorme vulkanische krater. Sta versteld van de hoogste berg van Afrika, en de hoogste vrijstaande berg ter wereld, de Kilimanjaro. Als je wat meer wilt relaxen, kun je ook afreizen naar Zanzibar. Zanzibar is een eiland met prachtige witte stranden en helder blauw water, perfect voor een strandvakantie. Tanzania heeft alles!"
+introimage: "https://lh3.googleusercontent.com/23mlr75w-8FyLAPp25xItM9FvjGjRHVOuQUH89QxFRa6ykUqOyRt5WjYFikOYErOafEx1QEm_-WD87pGDdGW-FeMkwGREWlWtY080c44JXnXVFcQVFyWyQWyool9fqGVrkUeWsZWYg=w800"
+surface: "945.000"
+inhabitants: "60.660.000"
+rate: "2555,7"
+valuta: "shilling"
+bigmac_index: ""
+images: "https://lh3.googleusercontent.com/RPlNYDCQHZ0XRnZW8sJhH4e_eWrkhfXLKphOR8J_6FlAYpsqyfSoEeqHpwqjMmWh1EJ1nETtr2FEiIrUTpSnolSpKcC2KXYanEY_oIhkX2_jcNgInH0CyEnAvTJdnaha87_uPNtV8w=w800|https://lh3.googleusercontent.com/gtLAWCGdqPblVOcWcs38hhuu1OeahZ1ApjINUvmyyNSCffr_6-f7QWtkJ_Uhq1Lt0AQ6ysaanluwPNbuu8wZYKL6UB-unSm_gXmuhkxSP9lz9n9XisucmWR4DnTw7CaWGtsiGMew9A=w800|https://lh3.googleusercontent.com/CflAgszEKYDyGKr0IAl_Y8ylqWPSTtQ6D9PD9S__GTLL_WpnQsVSaS6jFmgqa51PsK57VTeE5oZiyeSHBih-XJVkVXA7sbiKWgmA72nCqXYYk3Qy0XMrtJp587985RihkBeyKhOGsQ=w800|https://lh3.googleusercontent.com/nwS1G-b_uXfHU79Dla-smF3DnRAHw9aAEF9iKmmHqzcvsZKKy0c7hNGpZGOdnGBsErHyqw9eaSDSqXB5ZBtjUTNb465TA6j7XksGupVMITBXhHaIQmCc-5ydl3mPw3t9sC-P78rzNg=w800"
+---
