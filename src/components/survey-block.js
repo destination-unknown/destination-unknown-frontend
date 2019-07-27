@@ -5,6 +5,7 @@ import styled from 'styled-components'
 import { keyframes } from 'styled-components'
 import { Helmet } from 'react-helmet'
 import { lighten, darken } from 'polished'
+import Select from '../components/select'
 
 const OuterContainer = styled.div`
   background: linear-gradient(
@@ -162,12 +163,15 @@ const SurveyBlock = ({ handleClick, isLoading }) => (
           <SurveyContainer>
             <Survey>
               Ik wil graag in de{' '}
-              <select name="periode">
-                <option value="zomer">zomer</option>
-                <option value="herfst">herfst</option>
-                <option value="winter">winter</option>
-                <option value="lente">lente</option>
-              </select>{' '}
+              <Select
+                value={{ value: 'zomer', label: 'zomer' }}
+                options={[
+                  { value: 'zomer', label: 'zomer' },
+                  { value: 'herfst', label: 'herfst' },
+                  { value: 'winter', label: 'winter' },
+                  { value: 'lente', label: 'lente' },
+                ]}
+              />{' '}
               op vakantie{' '}
               <select name="continent_europa">
                 <option value="binnen">binnen</option>s

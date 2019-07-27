@@ -19,7 +19,9 @@ function slugify(text) {
 class IndexPage extends React.Component {
   constructor(props) {
     super(props)
-    this.state = { isLoading: false }
+    this.state = {
+      isLoading: false
+    }
   }
   handleClick = () => {
     this.setState({ isLoading: true })
@@ -46,6 +48,9 @@ class IndexPage extends React.Component {
         window.location.href = slugify(response.data.country)
       })
       .catch(error => console.log(error))
+  }
+  handleChange = selectedOption => {
+    this.setState({ selectedOption: selectedOption })
   }
   render() {
     return (
