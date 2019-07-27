@@ -20,10 +20,10 @@ class IndexPage extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      isLoading: false
+      isLoading: false,
     }
   }
-  handleClick = () => {
+  handleClick = (firstAnswer, secondAnswer, thirdAnswer, fourthAnswer) => {
     this.setState({ isLoading: true })
 
     axios
@@ -36,12 +36,7 @@ class IndexPage extends React.Component {
             'activiteit',
             'cultureel',
           ],
-          answers_list: [
-            document.querySelector('select[name=periode]').value,
-            document.querySelector('select[name=continent_europa]').value,
-            document.querySelector('select[name=activiteit]').value,
-            document.querySelector('select[name=cultureel]').value,
-          ],
+          answers_list: [firstAnswer, secondAnswer, thirdAnswer, fourthAnswer],
         }
       )
       .then(response => {

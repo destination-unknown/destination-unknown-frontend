@@ -1,5 +1,5 @@
-import React from 'react'
-import { StaticQuery, graphql } from 'gatsby'
+import React, { useState } from 'react'
+import { useStaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import styled from 'styled-components'
 import { keyframes } from 'styled-components'
@@ -134,9 +134,9 @@ const TravelGearImageContainer = styled.div`
   }
 `
 
-const SurveyBlock = ({ handleClick, isLoading }) => (
-  <StaticQuery
-    query={graphql`
+export default ({ handleClick, isLoading }) => {
+  const data = useStaticQuery(
+    graphql`
       query {
         artboard: file(relativePath: { eq: "artboard.png" }) {
           childImageSharp {
@@ -146,62 +146,122 @@ const SurveyBlock = ({ handleClick, isLoading }) => (
           }
         }
       }
-    `}
-    render={data => (
-      <OuterContainer>
-        <Container>
-          <Helmet>
-            <meta name="robots" content="noindex" />
-          </Helmet>
-          <TravelGearImageContainer>
-            <Img fluid={data.artboard.childImageSharp.fluid} />
-          </TravelGearImageContainer>
-          <Title>
-            KIES <br />
-            &amp; REIS
-          </Title>
-          <SurveyContainer>
-            <Survey>
-              Ik wil graag in de{' '}
-              <Select
-                value={{ value: 'zomer', label: 'zomer' }}
-                options={[
-                  { value: 'zomer', label: 'zomer' },
-                  { value: 'herfst', label: 'herfst' },
-                  { value: 'winter', label: 'winter' },
-                  { value: 'lente', label: 'lente' },
-                ]}
-              />{' '}
-              op vakantie{' '}
-              <select name="continent_europa">
-                <option value="binnen">binnen</option>s
-                <option value="buiten">buiten</option>
-              </select>
-              &nbsp;Europa.
-              <br />
-              Ik ga het liefst{' '}
-              <select name="activiteit">
-                <option value="strand">luieren op het strand</option>
-                <option value="avontuur">op avontuur</option>
-              </select>{' '}
-              en wil{' '}
-              <select name="cultureel">
-                <option value="ja">wel</option>
-                <option value="nee">geen</option>
-              </select>{' '}
-              cultuur snuiven.
-              <Button
-                className={isLoading ? 'is-loading' : ''}
-                onClick={() => handleClick()}
-              >
-                Toon bestemming
-              </Button>
-            </Survey>
-          </SurveyContainer>
-        </Container>
-      </OuterContainer>
-    )}
-  />
-)
+    `
+  )
 
-export default SurveyBlock
+  const [firstDropdown, setFirstDropdown] = useState({
+    options: [
+      { value: 'zomer', label: 'zomer' },
+      { value: 'herfst', label: 'herfst' },
+      { value: 'winter', label: 'winter' },
+      { value: 'lente', label: 'lente' },
+    ],
+    selectedValue: { value: 'zomer', label: 'zomer' },
+  })
+
+  const [secondDropdown, setSecondDropdown] = useState({
+    options: [
+      { value: 'binnen', label: 'binnen' },
+      { value: 'buiten', label: 'buiten' },
+    ],
+    selectedValue: { value: 'binnen', label: 'binnen' },
+  })
+
+  const [thirdDropdown, setThirdDropdown] = useState({
+    options: [
+      { value: 'strand', label: 'luieren op het strand' },
+      { value: 'avontuur', label: 'op avontuur' },
+    ],
+    selectedValue: { value: 'strand', label: 'luieren op het strand' },
+  })
+
+  const [fourthDropdown, setFourthDropdown] = useState({
+    options: [{ value: 'ja', label: 'wel' }, { value: 'nee', label: 'geen' }],
+    selectedValue: { value: 'ja', label: 'wel' },
+  })
+
+  return (
+    <OuterContainer>
+      <Container>
+        <Helmet>
+          <meta name="robots" content="noindex" />
+        </Helmet>
+        <TravelGearImageContainer>
+          <Img fluid={data.artboard.childImageSharp.fluid} />
+        </TravelGearImageContainer>
+        <Title>
+          KIES <br />
+          &amp; REIS
+        </Title>
+        <SurveyContainer>
+          <Survey>
+            Ik wil graag in de{' '}
+            <Select
+              value={firstDropdown.selectedValue}
+              options={firstDropdown.options}
+              width={100}
+              onChange={selectedOption => {
+                setFirstDropdown({
+                  options: firstDropdown.options,
+                  selectedValue: selectedOption,
+                })
+              }}
+            />{' '}
+            op vakantie{' '}
+            <Select
+              value={secondDropdown.selectedValue}
+              options={secondDropdown.options}
+              width={105}
+              onChange={selectedOption => {
+                setSecondDropdown({
+                  options: secondDropdown.options,
+                  selectedValue: selectedOption,
+                })
+              }}
+            />
+            &nbsp;Europa.
+            <br />
+            Ik ga het liefst{' '}
+            <Select
+              value={thirdDropdown.selectedValue}
+              options={thirdDropdown.options}
+              width={250}
+              onChange={selectedOption => {
+                setThirdDropdown({
+                  options: thirdDropdown.options,
+                  selectedValue: selectedOption,
+                })
+              }}
+            />{' '}
+            en wil{' '}
+            <Select
+              value={fourthDropdown.selectedValue}
+              options={fourthDropdown.options}
+              width={85}
+              onChange={selectedOption => {
+                setFourthDropdown({
+                  options: fourthDropdown.options,
+                  selectedValue: selectedOption,
+                })
+              }}
+            />{' '}
+            cultuur snuiven.
+            <Button
+              className={isLoading ? 'is-loading' : ''}
+              onClick={() =>
+                handleClick(
+                  firstDropdown.selectedValue.value,
+                  secondDropdown.selectedValue.value,
+                  thirdDropdown.selectedValue.value,
+                  fourthDropdown.selectedValue.value
+                )
+              }
+            >
+              Toon bestemming
+            </Button>
+          </Survey>
+        </SurveyContainer>
+      </Container>
+    </OuterContainer>
+  )
+}

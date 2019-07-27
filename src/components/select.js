@@ -2,9 +2,14 @@ import React from 'react'
 import ReactSelect, { components } from 'react-select'
 import Arrow from '../images/arrow.svg'
 
-const Select = ({ onChange, value, options }) => {
-  console.log("Got here")
+const Select = ({ onChange, value, options, width }) => {
   const customStyles = {
+    container: (provided, state) => {
+      return {
+        ...provided,
+        display: 'inline-block',
+      }
+    },
     control: (provided, state) => {
       return {
         ...provided,
@@ -22,12 +27,12 @@ const Select = ({ onChange, value, options }) => {
         boxShadow: 'none',
         background: 'transparent',
         color: 'white',
-        width: 200,
+        width: width,
       }
     },
     menu: (provided, state) => ({
       ...provided,
-      width: 200,
+      width: width,
       marginLeft: '8px',
       fontFamily: 'Lato',
     }),
