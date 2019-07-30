@@ -1,11 +1,11 @@
 ---
 title: "Mexico"
 introtext: "Mexico is één van de fijnste vakantie bestemmingen ter wereld! Het land ligt in Centraal Amerika en heeft een rijke en vergaande historie. Denk bijvoorbeeld aan de Maya's en Azteken die hier geleefd hebben. Tegenwoordig staat Mexico bekend om haar tempels, lekkere eten en de mooie stranden. Vooral Yucatan is een aanrader met de uiterst relaxte sfeer en brede witte stranden met de azuurblauwe Golf van Mexico. Verder is het Mexicaanse landschap heel divers, met woestijnen, vulkanen, watervallen en regenwouden. Het moge duidelijk zijn dat Mexico de ideale reisbestemming is voor zowel een avontuurlijke rondreis als een ontspannen strandvakantie!"
-introimage: "https://lh3.googleusercontent.com/Sg5HVjEVlPXWrOlpO-2Jr_qPedk0wBNwAHP_O5pX-ebOjcrDuFmOoxshR-WtscsdNO0OVl68ERQ4jp2j55fC-Y0K5U60bcwcFeySBie5TfGYVtjNKKPNzAao1Wa72PjVuUqBXVqH1w=w800"
+introimage: "https://lh3.googleusercontent.com/P4mh7k3dxn5sqH3UBC4hOWQw2hvkZTeOWWpWVu5OqTP0k3Vxe5BAKB-a46p_IbSXMfXylR5wyQD1gOwPIZweApt0LG9XYJLMbN8ywm1w1pjPevy6oi1zmmfwQrlROQxppFj01OgeJw=w800"
 surface: "1.960.000"
 inhabitants: "129.200.000"
-rate: "21,16"
+rate: "21,24"
 valuta: "peso"
 bigmac_index: ""
-images: ""
+images: "https://lh3.googleusercontent.com/mT1J3tGRZT75mVsrCP2IXs8Y9gnyVCJrd-zPmTLhurXiY4WhX0cB7Jr5pq34idG0CFgDikbTo7gxvSrz6zuRH71i1oKUYsOW6c2nkc-gqYhAbJr1arJGLsrNb-IxzDs8Nz6KKgokjw=w800|https://lh3.googleusercontent.com/Sg5HVjEVlPXWrOlpO-2Jr_qPedk0wBNwAHP_O5pX-ebOjcrDuFmOoxshR-WtscsdNO0OVl68ERQ4jp2j55fC-Y0K5U60bcwcFeySBie5TfGYVtjNKKPNzAao1Wa72PjVuUqBXVqH1w=w800|https://lh3.googleusercontent.com/ZTrAJoQcB_6ZRQe-Gd_DtHULd8_2pVXhUvJJ4rD-VspsHfvucDnZ3zEwDvTFZpIFg_LiJ9VapA4nSzbCbBSdKzUucnVkwFvgAyJqUzO48AIz3_nfvhLLPYnPkhtJNgNsoceGxKOSsQ=w800|https://lh3.googleusercontent.com/-90EuEKB-cYO7usPdtXaqwy3QwDb0wSyegWaszWtFyB9zIM356Xg7vm89D6eoXvEwZeoBqYc6nfgd1REgHnFxlkPy7QLB4OsjWGKq01_Fov3Tu5431ea1_SBJOgegh6Qzxx5kwf93A=w800"
 ---

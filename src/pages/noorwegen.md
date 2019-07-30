@@ -4,7 +4,7 @@ introtext: "Laat je verrassen door de vele gezichten van Noorwegen! Het Scandina
 introimage: "https://lh3.googleusercontent.com/6iiev18SKf_1dD-vNY2cfhE6D0jPnq36alhWCAc_DI7fqrL13r26Imigs2Z7tdMfPa56BGaEK2fZ79-cNlf76Lz8YCDhla4L_K-pT5ZzhzDPFzBSxSRIVHd_smrXm6mCgCt_jMN60A=w800"
 surface: "385.000"
 inhabitants: "5.300.000"
-rate: "9,7"
+rate: "9,71"
 valuta: "kroon"
 bigmac_index: ""
 images: "https://lh3.googleusercontent.com/ACDV9jx9-dN0MDdK-uNnmcdNWWUFhtbh7dkGTA7Ay-9j47BLh3l2Bx4bSqaJ0TdhrUvVy4sPIHFVig0V7eMgw8J8nYFMQq1GFTb5cIy97hTd3wWLWiSDnId3G8PgBxFBYTaadFM-uw=w800|https://lh3.googleusercontent.com/hgAZlPozUUtwb_XRSXquMRjRN0_cLyO-68EOSRL4ctLpmSUk73v5fb8LGTYWS6Nw9cVZqZtGMIR7JL8v3C-4uQh1huSFuiosJ8_T4pqQVKS3vIia3nsCK-6tOluB8yJ5d40gKlZXsQ=w800|https://lh3.googleusercontent.com/IcMX5GCjmfe6kylsQkxXP2Tv20QPI_WWTthB-8yAu24NNH3BcWdlYyL-Vx_wbluU2lmg76DuUFtBLKWvCCyCdFz48f2YTkyZ3aTk2X9o5zAWtKi8fKkUwuFbAN2Svc2sozdFhAZjZg=w800|https://lh3.googleusercontent.com/2VZJBm_oVcny2mZuVRvnpoSfCfFkHf_sLw4AstLz61kyYcdqHMdIaJm93AwWlWhSGhhz0wVKtytzz3KP6_LLvM_9vN_KitfCLGgv3mZcPt8Vl_g2kiduwRn5Vo-1rcNXTDUyG7NzDw=w800"

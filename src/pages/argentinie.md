@@ -1,11 +1,11 @@
 ---
 title: "Argentinië"
 introtext: "Argentinië is het grootste Spaanstalige land ter wereld en ligt in Zuid Amerika. Het land staat bekend om de tango, wat zijn oorsprong hier vindt. Omdat Argentinië zo groot is zijn er ook veel verschillen in klimaat en landschap. Zo heb je het adembenemende Andes gebergte in het westen, maar ook een lange kustlijn in het oosten. De woestijnen, gigantische ijsvelden en de dorre steppen in Patagonië zorgen voor een onwaarschijnlijke veelzijdigheid. En wat te denken van de westerse metropool Buenos Aires, waar op elke hoek van de straat de tango gedanst wordt. Kortom, voor de avontuurlijke backpacker is dit the place to be!"
-introimage: "https://lh3.googleusercontent.com/0y5UVCUApHMWDiZjy-WjKomMq_tlJA6Fi1-3zem-mw1xJuzpmIt6ERL9--fxVjEDcyKWQ8G3pPbgeqt8v04FpXINwJ2Ly5JvmWK2mJTwMMeAY7PUB8z3HjuDFUZur-bpEfzldXVSfg=w800"
+introimage: "https://lh3.googleusercontent.com/IQvQP4Q4Zvv5_YhpX1aLa-s8zjba8HaErnBpy_Fd6NELhwt-TB5JhIC_51UV70SnTKogcv37RJyluV3RZ5XYqCToCXJCJ_TXd9N8AEIGWzSvt-cF60MS-izqQH1DctX80iJwJgJoJQ=w800"
 surface: "2.780.000"
 inhabitants: "40.100.000"
-rate: "48,09"
+rate: "48,71"
 valuta: "peso"
 bigmac_index: ""
-images: ""
+images: "https://lh3.googleusercontent.com/TSYBH11jvMTteQoYaE3mlII6cmGMHkiz9cOQTxX6MOOiPE2R6RUr-VbCxg4JPrNMp_ufVgPzKYGghlaiUu3-bGSElZGqOs413jB7igLpPvAO8pRgpSk1jjmmb0mD25_bOTcA2027Dw=w800|https://lh3.googleusercontent.com/0y5UVCUApHMWDiZjy-WjKomMq_tlJA6Fi1-3zem-mw1xJuzpmIt6ERL9--fxVjEDcyKWQ8G3pPbgeqt8v04FpXINwJ2Ly5JvmWK2mJTwMMeAY7PUB8z3HjuDFUZur-bpEfzldXVSfg=w800|https://lh3.googleusercontent.com/0-ZRWbBmnHT7Mae12QlW_XIYclBVi0ym4Ffr03niIwIElnUTWD5GEawa0Nt3j7A2CyJ0MwTBcB_SW0VuR84dm_kHXQWluCmfbKSsSrEPLkLqbkomvAi8Ehe6twfL5uOQaFSD92bmYA=w800|https://lh3.googleusercontent.com/OrrHgoDo7CPKdAju1N7l_eAbcxXAF7WpHoGgxG8ZrHi9V47jtc_PF53fyIlxcQleqZx6ju_vHxp-LIYLf65j3j5XW2Tt676D0gbTytx9yWa_AM4Dt8W_ziO88aK60MoeJChRTMHN_A=w800"
 ---

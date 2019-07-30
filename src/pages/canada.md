@@ -1,11 +1,11 @@
 ---
 title: "Canada"
 introtext: "Canada is het één na grootste land ter wereld (na Rusland) en heeft ruim 35 miljoen inwoners. Aangezien Nederland ongeveer net zo groot is als Vancouver Island kun je wel indenken hoe rustig het is in Canada. Bruisende steden als Vancouver, Montreal en Toronto zijn echte trekpleisters. Ga op zoek naar de witte Spirit Bear in de buurt van Vancouver of reis naar Newfoundland, waar de meeste walvissen ter wereld zwemmen! Wandelaars kunnen hun plezier op in de enorme ruige Nationale Parken, zoals Banff en Jasper. De vriendelijke bevolking heet je van harte welkom in het populaire vakantieland: Canada!"
-introimage: "https://lh3.googleusercontent.com/2zUk2Q8cyldK37jfgW0eY3uzptBfEnzte_gXTSjK0FuMagsxKHON_45Pfe6-fky_EgDljJnDhCIHRuv3BZm2OzuSzKLesKrguLP8wW4gS4nPfOq3OZBTtBGt1DAMSk7Vys3T_Sr_QQ=w800"
+introimage: "https://lh3.googleusercontent.com/FLUb7e7ZQWyMludzpKgASJeo4VUJFRbk4pXmPj3wbWgz4WvI66NWJTYRrAhDBcnhNBStHxkKoi8L285Gu5J3t1dhRRwjpvwWlrGlsUOUwBuoenASF64ZjGgXn80m5IXBXplKIbfvjQ=w800"
 surface: "9.980.000"
 inhabitants: "37.060.000"
 rate: "1,47"
 valuta: "dollar"
 bigmac_index: ""
-images: ""
+images: "https://lh3.googleusercontent.com/ndJQKcWWioSg5HsOiZsPPbqS7voiX6GQGHdQt0qQnLyVWfJKAdIrYcM7vqRTgVHIR0a0Yi-rASDBgmNk0qhEjyf_4Krj0MFcH6F7wL_Tf6ghaMgRc7ZvTH_c8SPi-uYV-hD-nIXRlA=w800|https://lh3.googleusercontent.com/U_3hh3D_fvoEFuFREcsGjXvr1ZVLUcySFtCFLtRhBSFThBBJSI-STDptcX4p5Ukg8EE-ylbPSTzxshoRjIWfA4Kv6-A6-dLUkzHWXxEpRFa7a4R0n9Q9gRbYtJ44cPTobvEfY4_Dsg=w800|https://lh3.googleusercontent.com/GKXBMLHNBViURyrb5fyuX7h4Irg1zaVEfTTi9RmaxC2-TXfQR_RguIuRII6zAKvPOOEEqGeD4ELlDwUuQx7vvEMuW_M2ws_go36YwPD9Af7s7srEsTiqMlOszpGidiP-KX8PBJODNQ=w800|https://lh3.googleusercontent.com/C1lxse0oDOIpyz9NNlH-pOJ6_rrHHamTLI8x8M8KPd6geW-j4cDse9p6BffksT852cPvBMB4Bbqk6ePQt543aotp_tAJITFqoswtywl2JOkGqgOydfELa0aAUrf-dkuRePtN4-XvDQ=w800"
 ---
