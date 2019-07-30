@@ -4,7 +4,7 @@ introtext: "Thailand wordt ook wel het ‘Land van de Glimlach’ genoemd ligt i
 introimage: "https://lh3.googleusercontent.com/rtz3qSPjxtmphbgvagyMDcXSiKw-GlbYxeE2SjPVczZoArccn3a6lKhYU94g6Z7kIHfJwyPjefP0vsp8BLB2il0SnNwXGj4dftzzJl2ouFVWgvnt3CD42sqtRsArue-xYqLVhQNCWA=w800"
 surface: "513.000"
 inhabitants: "69.000.000"
-rate: "34,36"
+rate: "34,33"
 valuta: "baht"
 need_to_know_text: " Het land heeft een gevarieerd landschap met beboste bergen, rivieren, regenwouden maar ook stukken droogte. De drie eilanden Koh Samui, Koh Phangan en Koh Tao zijn te vinden in de Golf van Thailand en zijn zeer populair onder toeristen en backpackers."
 need_to_know_more_text: ""

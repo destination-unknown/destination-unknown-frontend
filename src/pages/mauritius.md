@@ -4,7 +4,7 @@ introtext: "Mauritius, het land dat bekend staat van de dodo, is het paradijs op
 introimage: "https://lh3.googleusercontent.com/XGaBSq7NTUXGhIDhd54trz2vtws1CjOF3tVPTszZs93zMf9bajW0FbldFutBqC_X1EIVB70fF2nMec9uYOsTNZban6MFVoHBniKtQb5BMhMNk3EDaXkX3bUxnaPHhk2ONmXlEmXvyA=w800"
 surface: "2.040"
 inhabitants: "1.265.000"
-rate: "40,09"
+rate: "40,38"
 valuta: "roepie"
 need_to_know_text: "Ook is de prachtige natuur het perfecte decor om mooie hikes te maken. Wat denk je van het beklimmen van de enige nog slapende vulkaan van het eiland, de Trou aux Cerfs? Maak een wandeling door het Black River Gorges National Park, maak een tocht met de mountainbike over het hele eiland, of zipline door de prachtige Vallee des Couleurs (gekleurde valleien)! Kortom, Mauritius is de ideale vakantie bestemming voor zowel een relaxte als een actieve vakantie!"
 need_to_know_more_text: ""
