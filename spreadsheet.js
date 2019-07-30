@@ -34,6 +34,10 @@ doc.useServiceAccountAuth(creds, function(err) {
           inhabitants: "${row.inhabitants}"
           rate: "${row.rate}"
           valuta: "${row.valuta}"
+          need_to_know_text: "${row.needtoknowtext}"
+          need_to_know_more_text: "${row.needtoknowmoretext}"
+          fact_one_text: "${row.factonetext}"
+          fact_two_text: "${row.facttwotext}"
           bigmac_index: "${row.bigmacindex}"
           images: "${row.images}"
           ---`,

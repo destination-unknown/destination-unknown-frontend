@@ -4,8 +4,12 @@ introtext: "Ontdek al het natuurschoon in Tanzania! Spot de Big Five tijdens een
 introimage: "https://lh3.googleusercontent.com/23mlr75w-8FyLAPp25xItM9FvjGjRHVOuQUH89QxFRa6ykUqOyRt5WjYFikOYErOafEx1QEm_-WD87pGDdGW-FeMkwGREWlWtY080c44JXnXVFcQVFyWyQWyool9fqGVrkUeWsZWYg=w800"
 surface: "945.000"
 inhabitants: "60.660.000"
-rate: "2560,27"
+rate: "2563,75"
 valuta: "shilling"
+need_to_know_text: ""
+need_to_know_more_text: ""
+fact_one_text: ""
+fact_two_text: ""
 bigmac_index: ""
 images: "https://lh3.googleusercontent.com/RPlNYDCQHZ0XRnZW8sJhH4e_eWrkhfXLKphOR8J_6FlAYpsqyfSoEeqHpwqjMmWh1EJ1nETtr2FEiIrUTpSnolSpKcC2KXYanEY_oIhkX2_jcNgInH0CyEnAvTJdnaha87_uPNtV8w=w800|https://lh3.googleusercontent.com/gtLAWCGdqPblVOcWcs38hhuu1OeahZ1ApjINUvmyyNSCffr_6-f7QWtkJ_Uhq1Lt0AQ6ysaanluwPNbuu8wZYKL6UB-unSm_gXmuhkxSP9lz9n9XisucmWR4DnTw7CaWGtsiGMew9A=w800|https://lh3.googleusercontent.com/CflAgszEKYDyGKr0IAl_Y8ylqWPSTtQ6D9PD9S__GTLL_WpnQsVSaS6jFmgqa51PsK57VTeE5oZiyeSHBih-XJVkVXA7sbiKWgmA72nCqXYYk3Qy0XMrtJp587985RihkBeyKhOGsQ=w800|https://lh3.googleusercontent.com/nwS1G-b_uXfHU79Dla-smF3DnRAHw9aAEF9iKmmHqzcvsZKKy0c7hNGpZGOdnGBsErHyqw9eaSDSqXB5ZBtjUTNb465TA6j7XksGupVMITBXhHaIQmCc-5ydl3mPw3t9sC-P78rzNg=w800"
 ---

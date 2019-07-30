@@ -4,8 +4,12 @@ introtext: "De Amerikaanse Maagdeneilanden is een overzees gebied van de Verenig
 introimage: "https://lh3.googleusercontent.com/7KTVVF1-Gix82qHFRjgOBA7pVcEkQfgM0XmYp7vD5VULOMTfH_kfky8a7HsQKmHmfzXF4X79uuXnea7tEIFCftoSMC7jz0cErF3_rZil2hDOFK13RdprQCmm7TRDO8AmJMf70-H-4w=w800"
 surface: "346"
 inhabitants: "107.000"
-rate: "1,11"
+rate: "1,12"
 valuta: "dollar"
+need_to_know_text: ""
+need_to_know_more_text: ""
+fact_one_text: ""
+fact_two_text: ""
 bigmac_index: ""
 images: ""
 ---

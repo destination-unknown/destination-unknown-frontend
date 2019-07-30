@@ -4,8 +4,12 @@ introtext: "IJsland is een uniek land in vele opzichten. Het land ligt net onder
 introimage: "https://lh3.googleusercontent.com/Q-PYaYGLAaFI7oUEI5nHvjooEGDOf1Bts0DeYJoslqCHFhmFOZaipbssRLMyyM9jgNwSCRxvQECPRA2P3vc3OOnqFIwF_l1yPqV3_b6N1h0uPDhSQ69MLvm5Ow9dZWwn1JhpvqOykg=w800"
 surface: "103.000"
 inhabitants: "340.000"
-rate: "135,47"
+rate: "135,33"
 valuta: "kroon"
+need_to_know_text: ""
+need_to_know_more_text: ""
+fact_one_text: ""
+fact_two_text: ""
 bigmac_index: ""
 images: ""
 ---
