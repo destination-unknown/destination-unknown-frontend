@@ -80,7 +80,7 @@ const Title = styled.h1`
 `
 
 const WhatYouNeedToKnow = ({ title, text, floatLeft, factText }) => {
-  if (text === "") {
+  if (text === null && text === "") {
     return ''
   }
   const formattedNeedToKnowText = text.split(`\n\n`).map(paragraph => {
