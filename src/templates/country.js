@@ -11,6 +11,9 @@ import { graphql } from 'gatsby'
 import WhatYouNeedToKnow from '../components/what-you-need-to-know'
 import Lightbox from 'react-image-lightbox'
 import 'react-image-lightbox/style.css'
+import { lighten, darken } from 'polished'
+import { keyframes } from 'styled-components'
+import Airplane from '../images/airplane.svg'
 
 const Container = styled.div`
   max-width: 960px;
@@ -227,6 +230,55 @@ const ImageGalleryContainer = styled.div`
   }
 `
 
+const loading = keyframes`
+  0% {
+    left: 0;
+    width: 0;
+  }
+
+  50% {
+    left: 0;
+    width: 100%;
+  }
+
+  100% {
+    left: 100%;
+    width: 0;
+  }
+`
+
+const Button = styled.button`
+  width: 100%;
+  font-weight: 400;
+  background-color: #f3a629;
+  border: none;
+  border-radius: 2px;
+  border-bottom: 1px solid #b0781b;
+  color: white;
+  padding: 16px;
+  margin-top: 16px;
+  position: relative;
+
+  &.is-loading:after {
+    animation: ${loading} 1s infinite;
+    background-color: ${darken(0.1, '#f3a629')};
+    content: '';
+    display: block;
+    height: 3px;
+    left: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 1rem;
+  }
+
+  &.is-loading {
+    background-color: ${lighten(0.1, '#f3a629')};
+    border-bottom: 1px solid ${lighten(0.1, '#b0781b')};
+    outline: 0;
+  }
+`
+
 export default class Country extends React.Component {
   constructor(props) {
     super(props)
@@ -292,6 +344,7 @@ export default class Country extends React.Component {
         <Container>
           <Helmet>
             <meta name="robots" content="noindex" />
+            <script src="//widgets.skyscanner.net/widget-server/js/loader.js" />
           </Helmet>
           <div />
           <TitleContainer>
@@ -323,6 +376,17 @@ export default class Country extends React.Component {
           )}
           <BodyTextContainer>
             <BodyText>{post.frontmatter.introtext}</BodyText>
+            <Button>
+              Zoek vluchten voor {post.frontmatter.title}
+              <Airplane style={{
+                height: "36",
+                width: "36",
+                position: "absolute",
+                top: "10px",
+                fill: "white",
+                right: "10px"
+              }} />
+            </Button>
           </BodyTextContainer>
         </Container>
         <FactsContainer>
