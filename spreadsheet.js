@@ -40,6 +40,8 @@ doc.useServiceAccountAuth(creds, function(err) {
           fact_two_text: "${row.facttwotext}"
           bigmac_index: "${row.bigmacindex}"
           images: "${row.images}"
+          flight_button_title: "${row.flightbuttontitle}"
+          flight_button_url: "${row.flightbuttonurl}"
           ---`,
           function(err) {
             if (err) throw err

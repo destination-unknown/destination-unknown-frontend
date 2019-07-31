@@ -12,4 +12,6 @@ fact_one_text: ""
 fact_two_text: ""
 bigmac_index: ""
 images: ""
+flight_button_title: ""
+flight_button_url: ""
 ---

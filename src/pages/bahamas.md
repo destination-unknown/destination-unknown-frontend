@@ -12,4 +12,6 @@ fact_one_text: ""
 fact_two_text: ""
 bigmac_index: ""
 images: "https://lh3.googleusercontent.com/f18wRYwaZ9nN3wyCO5JwTDnTNQPYSalocUD4Y_-EcYBJO1utlLpLhhY7h9vHTwkxPX7YA-StbBPlcAoFg7nXkN2cx2jtGIo_gS060dCw4x46i1y6SQaqwCOIcTc2KrUVERBAvO6Keg=w800|https://lh3.googleusercontent.com/2ttd4n96WFTSaxeWYAhi13Nl1CPQpffzLbmYEC-D16GmOu8dy-QAiuE3VadL2fLIH9RNqC_vY07T_terTryplGXBc8guqbhp97WwxvB-z7gJ18jowt2moInu7heHV3I_pX8UFb18MQ=w800|https://lh3.googleusercontent.com/DMQqmah12oar7NU4FRp0ehCZCt2xN6sbEdaVC4G8_je-ELwz3qLUKpPwAdmvaGHPJFUxglHbWgEr6JBHSEUzDiLpTGMFP4HGbLgRrCEwqbBFaOHxF3-EoKAuBlsGx7iYjZ5y2sD4zw=w800|https://lh3.googleusercontent.com/s2d10VLiG0sFtL9DstGmFLP4goHpmQnC3P1du8Z51Agf0tC52NzmQt_EvJdpHht1N5jXuuJ8_0p70ncN12p5vHwpIuYadyqzNUODHkVhnqvhxjsOxuDI4nnNoGczfalFbnrX8wBq2A=w800"
+flight_button_title: "Zoek vluchten naar de Bahama's"
+flight_button_url: "https://www.skyscanner.nl/transport/flights/nl/bs/?locale=nl-NL&currency=EUR&market=NL"
 ---

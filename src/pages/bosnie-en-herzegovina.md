@@ -1,7 +1,7 @@
 ---
 title: "Bosnië en Herzegovina"
 introtext: "Ga op avontuur in Zuidoost-Europa! Bosnië en Herzegovina is een land wat bijna volledig omringd is door andere landen, behalve bij de kustplaats Neum die aan de helderblauwe Adriatische zee ligt. Het land zit vol pittoreske stadjes, kleurrijke gebouwen en fraaie natuurparken. Het mooie is dat de massatoerisme het land nog niet gevonden heeft. Ga op pad in Sarajevo, waar de Oosterse en Westerse wereld elkaar ontmoeten, bezoek het fotogenieke stadje Mostar en maak een rondreis door het land en al haar natuurlijk schoon! In de nationale parken van Bosnië en Herzegovina zul je echt volledig tot  rust komen!"
-introimage: "https://lh3.googleusercontent.com/uRNn6VzGkp7XaWotfzk9kS9mSpt_tFt9SLR1PNTItHAWKZoQNoaPnvEE_Ydv4RTUS4n4yeoVsLtencEIslChTM0wKKRJKCq1G4lpVdl8dFbwBSPbKX2x7_3ucdQATLkLPHiijK5FUg=w800"
+introimage: "https://lh3.googleusercontent.com/Qd_s57PYmlAtK4W8_JfPTadx2bGpmrbAEcOl6uHM4oCldTWCZFdV3KE1cDOq1k8I5zJfB3E3yDSk9BYNdaSUNQuF3ZBng6JK_Ey7Fd8ALL5PEVXeOkB9R_UGQWwwd7LxGUXKy0WMAw=w800"
 surface: "51.000"
 inhabitants: "3.800.000"
 rate: "1,95"
@@ -11,5 +11,7 @@ need_to_know_more_text: ""
 fact_one_text: ""
 fact_two_text: ""
 bigmac_index: ""
-images: ""
+images: "https://lh3.googleusercontent.com/MLYBIzrOSe0W0UXJjOoWfMavwueggnQUJ4hAb6jkwnVc07q2Fl_3Mnz0iwebTeVjCnrjklALezxXqw8nRwsWEW6yJnDUxXoXDFR-nmcqMo7ZuE1Svqz16U8-bP1b-sS7gFGJ5-Wv4Q=w800|https://lh3.googleusercontent.com/Lw1140rpY2R_Hyhye616Jz_KPhWYm4GZUhSXo4kxeBTaOVWo7PId8lrnjImQOVoEpmsdQ27NBfSZBjeMkExTcTer4MqeaybRh2Yl9JmQ6B37A6IiNqHqWnAaxlFQKTBf3ZSLdVNczw=w800|https://lh3.googleusercontent.com/Hv9nHRgrQ1sjrV59ftAwOeP1mToJ_jalfjw15BQjiJtEqpLzsKylPRYxWFpJLgmbMFFvxtyYZQImE_2PGmf3QuBn5xDSH7EAjF2WchBMyVT7JUgB1HUTD9BhfsHX9K2bUnF3N-DFsA=w800|https://lh3.googleusercontent.com/mgL6q50J7fidpn9t_iCrXp7T6mPcrYAYon70Cbj91hdTs2GG3GzE6p_vqUEFqbykbgZk5LRsxSIs9hV_yaXFEhUcgi__2ajsHiUf2JoPPvz8bXWvw0h6VakKRv0f1wGQvF6rlMKJTg=w800"
+flight_button_title: "Zoek vluchten naar Bosnië en Herzegovina"
+flight_button_url: "https://www.skyscanner.nl/transport/flights/nl/ba/?locale=nl-NL&currency=EUR&market=NL"
 ---

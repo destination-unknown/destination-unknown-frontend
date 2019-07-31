@@ -12,4 +12,6 @@ fact_one_text: ""
 fact_two_text: ""
 bigmac_index: ""
 images: ""
+flight_button_title: "Zoek vluchten naar de Amerikaanse Maagdeneilanden"
+flight_button_url: "https://www.skyscanner.nl/transport/flights/nl/vi/?locale=nl-NL&currency=EUR&market=NL"
 ---

@@ -247,15 +247,19 @@ const loading = keyframes`
   }
 `
 
-const Button = styled.button`
-  width: 100%;
+const Button = styled.a`
+  width: calc(100% - 16px);
+  height: 56px;
+  line-height: 56px;
+  padding-left: 16px;
+  text-decoration: none;
+  display: inline-block;
   font-weight: 400;
   background-color: #f3a629;
   border: none;
   border-radius: 2px;
   border-bottom: 1px solid #b0781b;
   color: white;
-  padding: 16px;
   margin-top: 16px;
   position: relative;
 
@@ -376,16 +380,18 @@ export default class Country extends React.Component {
           )}
           <BodyTextContainer>
             <BodyText>{post.frontmatter.introtext}</BodyText>
-            <Button>
-              Zoek vluchten voor {post.frontmatter.title}
-              <Airplane style={{
-                height: "36",
-                width: "36",
-                position: "absolute",
-                top: "10px",
-                fill: "white",
-                right: "10px"
-              }} />
+            <Button href={post.frontmatter.flight_button_url} target="_blank">
+              {post.frontmatter.flight_button_title}
+              <Airplane
+                style={{
+                  height: '36',
+                  width: '36',
+                  position: 'absolute',
+                  top: '12px',
+                  fill: 'white',
+                  right: '10px',
+                }}
+              />
             </Button>
           </BodyTextContainer>
         </Container>
@@ -515,6 +521,8 @@ export const query = graphql`
         fact_two_text
         bigmac_index
         images
+        flight_button_title
+        flight_button_url
       }
     }
   }

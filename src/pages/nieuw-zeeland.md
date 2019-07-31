@@ -1,7 +1,7 @@
 ---
 title: "Nieuw-Zeeland"
 introtext: "Tropische stranden, besneeuwde bergtoppen, pittoreske meren, oogstrelende fjorden en eeuwenoude regenwouden. Welkom in Nieuw-Zeeland! Nieuw-Zeeland is een land met een rijke natuur, swingende steden en een overvloed aan mogelijkheden voor sportliefhebbers. Al jaren lang is de ‘Godzone’ een populaire reisbestemming. Niet voor niets staat het land bijna jaarlijks in de top 10 van mooiste landen ter wereld. Nieuw-Zeeland is een paradijs voor adrenaline-junks, die hier kunnen bungeejumpen, kajakken op zee, skydiven en raften. Of ga op avontuur met je camper, overnacht op verlaten plekken en geniet van de meest spectaculaire sterrenhemel! Nieuw-Zeeland is een unieke plek op aarde en je zult er geen spijt van krijgen!"
-introimage: "https://lh3.googleusercontent.com/FBud-e9u7ORJ3H2R3beI37HCHUucAWOwErQ1Gnk0EwGoeFCVe1GqH1AYJdFQ3J-oIxTmkz7PqOItrkiOcuhqHYkMJB94bzwzZSHvpr2TZLqEilBajPxZKeJbHV3gctA0fN3ioW5JSw=w800"
+introimage: "https://lh3.googleusercontent.com/l1kKKUUlrI-yNY5CG0tzWmUk0QVS8mPEAC9eL5VAX5Fe60JGmtxsZak1spapbXhZV7O6hJyrz07U-LYMd_pO1tOU4OMJJ2sKm-RfwzSrZNYRYxmn8rWDjHO1pb2_FaZs_t3gtCmpAg=w800"
 surface: "275.000"
 inhabitants: "4.500.000"
 rate: "1,69"
@@ -11,5 +11,7 @@ need_to_know_more_text: ""
 fact_one_text: ""
 fact_two_text: ""
 bigmac_index: ""
-images: ""
+images: "https://lh3.googleusercontent.com/26si6c2HYCBLyHBIdic9UbtrQC9Vezmh8iWtzfpSooExczMIdCYaJ5cNI2iURMVkztOTF1X5PjkEfZPnA6ka0B3Czfs5BPXCG9SPE1ICDvjYU2yxOprsd8kEMp0-aa80guDh5NU0sw=w800https://lh3.googleusercontent.com/FBud-e9u7ORJ3H2R3beI37HCHUucAWOwErQ1Gnk0EwGoeFCVe1GqH1AYJdFQ3J-oIxTmkz7PqOItrkiOcuhqHYkMJB94bzwzZSHvpr2TZLqEilBajPxZKeJbHV3gctA0fN3ioW5JSw=w800|https://lh3.googleusercontent.com/sbXgXB2xlLy9vS8TfHyQV9DNDS1u0W1nLw8NafdZg6V90W8VkRBZWdPPfbPJvG1sSG0qgCKMRDZW2ne2fKGMYMxc92II5As26RGegUFIRdAbSmotP3QZUu3olJvuaCDo1dcJwbJktw=w800|https://lh3.googleusercontent.com/jKXPI7gjUt1WMcM7BKLL0Tk7AlJwfK2P8Pd8Eo9IN5uH6eHUPucwOxlmxWDJrrFPRLMmsdtoSw9uBmOi9-eWHpfk8BzieEEEfd0lObSpl8UluaOZhRbGPhDF29Dgq0QSi9LS5tQptA=w800"
+flight_button_title: "Zoek vluchten naar Nieuw-Zeeland"
+flight_button_url: "https://www.skyscanner.nl/transport/flights/nl/nz/?locale=nl-NL&currency=EUR&market=NL"
 ---
