@@ -3,7 +3,6 @@ import { useStaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import styled from 'styled-components'
 import { keyframes } from 'styled-components'
-import { Helmet } from 'react-helmet'
 import { lighten, darken } from 'polished'
 import Select from '../components/select'
 
@@ -183,9 +182,6 @@ export default ({ handleClick, isLoading }) => {
   return (
     <OuterContainer>
       <Container>
-        <Helmet>
-          <meta name="robots" content="noindex" />
-        </Helmet>
         <TravelGearImageContainer>
           <Img fluid={data.artboard.childImageSharp.fluid} />
         </TravelGearImageContainer>

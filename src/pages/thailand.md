@@ -4,7 +4,7 @@ introtext: "Thailand wordt ook wel het ‘Land van de Glimlach’ genoemd ligt i
 introimage: "https://lh3.googleusercontent.com/5rJB3oFf6mQU12QuSTJ_jz5E6PT_Uw-suyi1xAgb5ZhT1nokkSs5fkKSkCnydpWXzI0CDnvxndI_Q0vaJlbWlVHx2wyPHxMe0KM03ePWx2Y-c6gsJP6mH6byFJTZKJiw7X0jKySshQ=w800"
 surface: "513.000"
 inhabitants: "69.000.000"
-rate: "34,17"
+rate: "34,1"
 valuta: "baht"
 need_to_know_text: ""
 need_to_know_more_text: ""

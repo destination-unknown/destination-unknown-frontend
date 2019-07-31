@@ -2,7 +2,6 @@ import React from 'react'
 import Layout from '../components/layout'
 // import SEO from '../components/seo'
 import styled from 'styled-components'
-import { Helmet } from 'react-helmet'
 import Globe from '../images/wereldbol-icon.svg'
 import People from '../images/bevolking-icon.svg'
 import Money from '../images/valuta-icon.svg'
@@ -346,10 +345,6 @@ export default class Country extends React.Component {
     return (
       <Layout isIndex={false}>
         <Container>
-          <Helmet>
-            <meta name="robots" content="noindex" />
-            <script src="//widgets.skyscanner.net/widget-server/js/loader.js" />
-          </Helmet>
           <div />
           <TitleContainer>
             <Title>{post.frontmatter.title}</Title>
