@@ -36,11 +36,15 @@ const FactsContainer = styled.div`
   grid-template-rows: fit-content 1fr 1fr;
   background-color: #31bbc2;
   justify-items: center;
-  margin-bottom: 32px;
 
   @media only screen and (max-width: 600px) {
     padding: 16px;
   }
+`
+
+const WhatYouNeedToKnowContainer = styled.div`
+  background: #63e0e6;
+  padding-top: 32px;
 `
 
 const TitleContainer = styled.div`
@@ -344,84 +348,86 @@ export default class Country extends React.Component {
           </div>
           <div>{rateText}</div>
         </FactsContainer>{' '}
-        <WhatYouNeedToKnow
-          title={'Wat je moet weten'}
-          floatLeft={false}
-          factText={post.frontmatter.fact_one_text}
-          text={post.frontmatter.need_to_know_text}
-        />
-        <ImageGalleryContainer>
-          <img
-            src={images[0]}
-            alt="First gallery"
-            onClick={() => {
-              typeof window !== 'undefined' &&
-                typeof window.gtag !== 'undefined' &&
-                window.gtag('event', 'zoom_in', {
-                  event_category: 'Image gallery',
-                  event_label: '1',
-                })
-              this.setState({
-                isLightBoxOpen: true,
-                lightBoxImage: images[0],
-              })
-            }}
+        <WhatYouNeedToKnowContainer>
+          <WhatYouNeedToKnow
+            title={'Wat je moet weten'}
+            floatLeft={false}
+            factText={post.frontmatter.fact_one_text}
+            text={post.frontmatter.need_to_know_text}
           />
-          <img
-            src={images[1]}
-            alt="Second gallery"
-            onClick={() => {
-              typeof window !== 'undefined' &&
-                typeof window.gtag !== 'undefined' &&
-                window.gtag('event', 'Image gallery', {
-                  event_category: 'Intro image',
-                  event_label: '2',
+          <ImageGalleryContainer>
+            <img
+              src={images[0]}
+              alt="First gallery"
+              onClick={() => {
+                typeof window !== 'undefined' &&
+                  typeof window.gtag !== 'undefined' &&
+                  window.gtag('event', 'zoom_in', {
+                    event_category: 'Image gallery',
+                    event_label: '1',
+                  })
+                this.setState({
+                  isLightBoxOpen: true,
+                  lightBoxImage: images[0],
                 })
-              this.setState({
-                isLightBoxOpen: true,
-                lightBoxImage: images[1],
-              })
-            }}
-          />
-          <img
-            src={images[2]}
-            alt="Third gallery"
-            onClick={() => {
-              typeof window !== 'undefined' &&
-                typeof window.gtag !== 'undefined' &&
-                window.gtag('event', 'zoom_in', {
-                  event_category: 'Image gallery',
-                  event_label: '3',
+              }}
+            />
+            <img
+              src={images[1]}
+              alt="Second gallery"
+              onClick={() => {
+                typeof window !== 'undefined' &&
+                  typeof window.gtag !== 'undefined' &&
+                  window.gtag('event', 'Image gallery', {
+                    event_category: 'Intro image',
+                    event_label: '2',
+                  })
+                this.setState({
+                  isLightBoxOpen: true,
+                  lightBoxImage: images[1],
                 })
-              this.setState({
-                isLightBoxOpen: true,
-                lightBoxImage: images[2],
-              })
-            }}
-          />
-          <img
-            src={images[3]}
-            alt="Fourth gallery"
-            onClick={() => {
-              typeof window !== 'undefined' &&
-                typeof window.gtag !== 'undefined' &&
-                window.gtag('event', 'zoom_in', {
-                  event_category: 'Image gallery',
-                  event_label: '4',
+              }}
+            />
+            <img
+              src={images[2]}
+              alt="Third gallery"
+              onClick={() => {
+                typeof window !== 'undefined' &&
+                  typeof window.gtag !== 'undefined' &&
+                  window.gtag('event', 'zoom_in', {
+                    event_category: 'Image gallery',
+                    event_label: '3',
+                  })
+                this.setState({
+                  isLightBoxOpen: true,
+                  lightBoxImage: images[2],
                 })
-              this.setState({
-                isLightBoxOpen: true,
-                lightBoxImage: images[3],
-              })
-            }}
+              }}
+            />
+            <img
+              src={images[3]}
+              alt="Fourth gallery"
+              onClick={() => {
+                typeof window !== 'undefined' &&
+                  typeof window.gtag !== 'undefined' &&
+                  window.gtag('event', 'zoom_in', {
+                    event_category: 'Image gallery',
+                    event_label: '4',
+                  })
+                this.setState({
+                  isLightBoxOpen: true,
+                  lightBoxImage: images[3],
+                })
+              }}
+            />
+          </ImageGalleryContainer>
+          <WhatYouNeedToKnow
+            title={'Wat je verder moet weten'}
+            floatLeft={true}
+            factText={post.frontmatter.fact_two_text}
+            text={post.frontmatter.need_to_know_more_text}
           />
-        </ImageGalleryContainer>
-        <WhatYouNeedToKnow
-          title={'Wat je verder moet weten'}
-          floatLeft={true}
-          factText={post.frontmatter.fact_two_text}
-          text={post.frontmatter.need_to_know_more_text}
-        />
+        </WhatYouNeedToKnowContainer>
       </Layout>
     )
   }
