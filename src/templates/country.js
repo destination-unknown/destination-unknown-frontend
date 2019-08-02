@@ -18,12 +18,12 @@ const Container = styled.div`
   max-width: 960px;
   background-color: #47c0c7;
   display: grid;
-  grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6% 3%;
-  grid-gap: 0 16px;
+  grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
   grid-template-rows: max-content 50%;
   font-family: 'Open Sans', sans-serif;
   margin: 0 auto;
   margin-bottom: 32px;
+  padding: 16px;
   padding-top: 0;
   @media only screen and (max-width: 600px) {
     grid-template-columns: 100%;
