@@ -30,16 +30,13 @@ const TestimonialGridContainer = styled.div`
   grid-template-columns: 1fr;
   margin: 0 auto;
   max-width: 960px;
-  padding: 0px 1.0875rem 1.45rem;
-  padding-top: 64px;
+  padding: 64px 16px;
   @media only screen and (max-width: 600px) {
     grid-template-columns: 100%;
   }
 `
 
 const TestimonialSubTitleContainer = styled.div`
-  display: grid;
-  grid-template-columns: 70% 30%;
   @media only screen and (max-width: 600px) {
     display: block;
   }
@@ -54,7 +51,6 @@ const TestimonialContentContainer = styled.div`
   padding-left: 64px;
   padding-right: 64px;
   margin-top: 16px;
-  width: 85%;
   @media only screen and (max-width: 600px) {
     width: 92%;
     padding: 16px;
@@ -77,7 +73,7 @@ const BusImage = styled.div`
   display: block;
   width: 440px;
   height: 200px;
-  align-self: end;
+  position: relative;
   @media only screen and (max-width: 600px) {
     width: initial;
     height: initial;

@@ -19,13 +19,13 @@ const OuterContainer = styled.div`
 const Container = styled.div`
   max-width: 960px;
   display: grid;
-  grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6% 12%;
+  grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
   grid-template-rows: max-content 1fr;
   font-family: 'Open Sans', sans-serif;
   margin: 0 auto;
-  padding-top: 0;
-  padding-bottom: 5%;
+  padding: 64px 16px;
   @media only screen and (max-width: 600px) {
+    padding: 0;
     grid-template-columns: 1fr;
     grid-template-rows: max-content 1fr 1fr;
   }
@@ -36,7 +36,7 @@ const Title = styled.h1`
   grid-column: 1 / span 3;
   grid-row: 1;
   line-height: 1;
-  font-size: 100px;
+  font-size: 8vw;
   font-weight: bold;
   margin: 0;
   margin-bottom: 16px;
@@ -58,6 +58,9 @@ const Survey = styled.div`
   padding: 32px;
   font-size: 21px;
   font-family: 'Lato', sans-serif;
+  @media only screen and (max-width: 768px) {
+    font-size: 18px;
+  }
   @media only screen and (max-width: 600px) {
     padding: 16px;
     font-size: 13px;
@@ -118,6 +121,9 @@ const SurveyContainer = styled.div`
   grid-column: 1 / span 3;
   grid-row: 2;
   z-index: 1;
+  @media only screen and (max-width: 768px) {
+    grid-column: 1 / span 4;
+  }
   @media only screen and (max-width: 600px) {
     grid-row: 3;
     grid-column: 1;
