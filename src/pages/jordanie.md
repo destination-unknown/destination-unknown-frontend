@@ -1,0 +1,17 @@
+---
+title: "Jordanië"
+introtext: "Jordanië is het hart van het Midden-Oosten en zit vol met cultureel erfgoed. De verborgen stad Petra behoort zelfs tot de 7 wereldwonderen! Deze iconische 2000 jaar oude stad is uitgehakt in rode rotswanden en ziet er ongelooflijk indrukwekkend uit. Trek door de prachtige Wadi Rum woestijn waar je kan klimmen op hoge rotsformaties en ga hier zeker overnachten in de bedoeïnententen. Je zult versteld staan van de prachtige sterren aan de heldere hemel. Na alle activiteiten kun je je reis relaxed afsluiten in de Dode Zee, het laagst gelegen meer ter wereld. Jordanië is een erg bijzonder land en zou op ieders bucketlist moeten staan!"
+introimage: "https://lh3.googleusercontent.com/AkEs32cUllmUwcpY3zGjsnySZm1oXIePFg1iawk_azrWacas28tWtzAH9JcY_rKkErxUR5DQLDeHaEk2Usbe-0R2cW1VTNBkAffSe0Yq1k0gGGdNSSs704BNLFCcsWQUvc8DCRiW2w=w800"
+surface: "89.000"
+inhabitants: "9.800.000"
+rate: "0,79"
+valuta: "dinar"
+need_to_know_text: ""
+need_to_know_more_text: ""
+fact_one_text: ""
+fact_two_text: ""
+bigmac_index: ""
+images: "https://lh3.googleusercontent.com/BySyztPr38tbmMaaUagKEP4JQdKw4JGNqGN__0_VXq9s6iFDQc0iit3QgM7yhsHg-3eCpTBFWr9EHpgfriOROTKLMcvFXzV3mvCAcxS58uPZKtJNVbMGyVIytU66b7b7F6e31Z3cfA=w800|https://lh3.googleusercontent.com/EuVbl6X99acOIvajzppaJNlSyPuCdLcF6wU_j4YQ2CZlbNA88PbYqZZkI8bxeG2xs26yuS1-DNe79kDC0J0o7gWZe5VWQZzhdsZKFLJ1rwn8OwGWgP2A2KLOFHrecb_vbe_DSuxfjQ=w800|https://lh3.googleusercontent.com/kwcsvOWwwoYkp6hZttbuCBb0wQENmFmEDaW-rVHrEbJwskxiTv7dMFLoBHCHdniwkZBa1XHPBfvX3LSNMaCKglkiV2knDs-KZdCCkUpCQhsJ_Ac7Fp1XRcb9oUEMN6x2bgyyXfe8Eg=w800|https://lh3.googleusercontent.com/X6NaMarQHIRmX1KQCE9qOGvvfrRjP3bmE8XxE33y-_PTCcEpdIzRCCgagrdeDNi6MrGYYUQJQNaqgzbRrXHhjeHoraUNVPMChu9JRicRGNBFkukcXYBNn5kMz_EBCtaIIeCOkPioSQ=w800"
+flight_button_title: "Zoek vluchten naar Jordanië"
+flight_button_url: "https://www.skyscanner.nl/transport/flights/nl/jo/?locale=nl-NL&currency=EUR&market=NL"
+---

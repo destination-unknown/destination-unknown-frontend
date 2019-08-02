@@ -1,0 +1,17 @@
+---
+title: "Kroatië"
+introtext: "Kroatië is een prachtig land in het oosten van Europa aan de Adriatische zee. Het is een erg veelzijdig land, met veel nationale parken, bossen en rotsachtige hoogvlakten. In de binnenlanden vind je langgerekte meren en mooie watervallen. Ook zijn er veel kastelen en musea te bezoeken in de mooie steden en nostalgische dorpjes. Hier zijn ook veel gezellige pleintjes en terrasjes waar je lekker kunt genieten. Er zijn veel onontdekte plekken in Kroatië waar je heerlijk tot rust kunt komen. In de zomer is het hier ook goed vertoeven aan de mooie strandjes aan het blauwe water van de Adriatische zee. Maak een mooie rondreis door dit indrukwekkende land!"
+introimage: "https://lh3.googleusercontent.com/L2LPgVm87bjdMllAECPnsXa061596Nx9FDf8dV8eTDB5VcB0hA1jj4R7_4GruwRxiBak1n5j_GzarJGfJbMjRPt-gJ7pJdXHZ3bIjK1Of0uUH_L47C_PgSaRiBsGrelfzLlVu256ig=w800"
+surface: "57.000"
+inhabitants: "4.150.000"
+rate: "7,38"
+valuta: "kuna"
+need_to_know_text: ""
+need_to_know_more_text: ""
+fact_one_text: ""
+fact_two_text: ""
+bigmac_index: ""
+images: "https://lh3.googleusercontent.com/S_mSOG-ipcEmwAnh5X3jb-IbLH0G3B4v7XLAF8LMeniY6xnHUa7XUmENCcN_iGYNkT8bhRZj037_7VUKKz6H1p4EwT1JaDLXiTWYS5fMMXZBvcGh2vPpXOKcBnPQfBwRoeNiXtYHBg=w800|https://lh3.googleusercontent.com/XJRk935Q9rEnsZGHc-DSuW1PTdKfX310S61KKIE-cFTx9IQ-mw7YmKlxq2hI6xotbjsajLZFqnvc7HBvdyCwdOE_G9nA-3ZVKMIErb5f_jIheLJIqWoG3BMLEcUbMyWGlN_mOw9dXQ=w800|https://lh3.googleusercontent.com/mlpR2QpOWOkj21ZrmX1JmHLfxRT4z0tBSasrYaxiGfpzeQWhTx3OtVmIDoQnS81t0_4oNu7Q0Kit5ybPT2jX--za4Ey1zV-uPO2prOpAJ3qehH0t9od6bYDuip6QsS65uwBqwBl2Bg=w800|https://lh3.googleusercontent.com/Z9kbwIeqO_4EIbU2MgC707XYg9HPtWb4stHJcnjAch1Ly8RAVn7eTMi0zE7WqL212hO7oMzFXbGGG-Wh7dQg7bVeO9vHLO9-dyb6q3Req-Au70Gckhu7kwzIJ6Qg1MLuMgZ4FGWBLQ=w800"
+flight_button_title: "Zoek vluchten naar Kroatië"
+flight_button_url: "https://www.skyscanner.nl/transport/flights/nl/hr/?locale=nl-NL&currency=EUR&market=NL"
+---
