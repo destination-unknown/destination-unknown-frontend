@@ -6,7 +6,7 @@ import '../../node_modules/normalize.css/normalize.css'
 import styled from 'styled-components'
 
 const ChildrenContainer = styled.div`
-  margin-top: ${props => (props.isIndex ? 0 : '95px')};
+  margin-top: ${props => (props.isIndex ? 0 : '105px')};
 `
 
 const Layout = ({ children, isIndex }) => (
