@@ -1,0 +1,17 @@
+---
+title: "Zuid-Afrika"
+introtext: "Zuid-Afrika is één van de populairste vakantielanden ter wereld en dat is niet verrassend. Zuid-Afrika zit vol met wildreservaten waar niet alleen de Big Five, maar ook honderden andere dieren te spotten zijn! Het land heeft de mooiste natuur dus je moet zeker de Panoramaroute rijden met haar ontelbare indrukwekkende uitzichten. Verblijf ook in het bruisende Kaapstad, waar je heerlijk kunt genieten aan de mooie strandjes. Het water hier is ideaal om te surfen. Beklim de Tafelberg en kijk uit over Kaapstad en de oceaan. Vergeet ook niet om de wereldberoemde Zuid-Afrikaanse wijnen te proeven in Stellenbosch! Er is nog zoveel meer te doen in dit prachtige land met haar indrukwekkende geschiedenis. Een reis naar Zuid-Afrika zal je altijd bij blijven!"
+introimage: "https://lh3.googleusercontent.com/QLsRyHQjI6F_7pMRhFLrn5W_JNGD-L_D5yYDQOFdUSZJUKi-KXbjlWf2DGAnZKDdbRdkeQa0b5MfWBTGm3686M3sQyfwv9wTEK1zO_PX2QZ_o7KxkAr_oHStXQr_kbYr64-nqGqG7g=w800"
+surface: "1.220.000"
+inhabitants: "57.000.000"
+rate: "16,72"
+valuta: "rand"
+need_to_know_text: ""
+need_to_know_more_text: ""
+fact_one_text: ""
+fact_two_text: ""
+bigmac_index: ""
+images: "https://lh3.googleusercontent.com/Kf7sUEFkusS6mFdPvPgvCkkY-5VOkfIqN5xSc-74LfvIIIrIujXRcCD9z5Wq74O_cLfCdHBQjFJMQKFWW4p1j1kmooLsn2wbcx5o-MHVK9-URo363UXdWsANdNHQOPosuSu4TCR77A=w800|https://lh3.googleusercontent.com/9FViKKz2o7w-oCXULC7JG103d1Kq3f7CUzshFkkjKrxgO-WPHs8uuSmIygM0EPcg40SNRk0rZYMCB4ubUbyGJPJqrYuy9guWasD-PnoTccHjtEJ5CdJKFwHPnqtj2fYluGUXRBRSUQ=w800|https://lh3.googleusercontent.com/iszvSevnsHF8iOi9BlpqYnzmJznICPX0c3v2eBoyqmoOEyf_1AlxqqZSyvRks0atMi9-neEAkUQAw_NWG1Q0MeiUwqqE062No03YYjqOBvzbMh2Yj-rQdtUEaSAJzQC2aH2fZi72nA=w800|https://lh3.googleusercontent.com/V1ftAoXMXYuCFIfSnA6kMqaDvAH0mL2hTwaS0noHP7eaffvBnE2BKYfc2An-J7EDUl6qFHkGM72rCbenlu428Vfli3hlWn5GYZuJkGWltfaQC8KOyXJUKk11EP06DSOQIhjaYrWKzA=w800"
+flight_button_title: "Zoek vluchten naar Zuid-Afrika"
+flight_button_url: "https://www.skyscanner.nl/transport/flights/nl/za/?locale=nl-NL&currency=EUR&market=NL"
+---

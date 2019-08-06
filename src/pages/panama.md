@@ -1,0 +1,17 @@
+---
+title: "Panama"
+introtext: "Panama is een land in Midden-Amerika met witte stranden, tropische jungles en prachtige natuurgebieden. Panama biedt voor ieder wat wils. Zo kun je tijdens een stedentrip in Panama City kennis maken met de vele contrasten van deze kosmopolitische hoofstad. Ook kun je prachtige surfdorpjes opzoeken, zoals bijvoorbeeld Playa Venao. Hier kunnen zowel beginnende als gevorderde surfers zich de hele dag vermaken op de golven. Wil je liever het avontuur opzoeken in de jungle? Dan is Boquete in het binnenland de perfecte plek. In Panama kun je ook heerlijk genieten van de rust, bijvoorbeeld met een verse kokosnoot op de San Blas eilanden. Met speciale zeiltours kijk je je ogen uit, genietend aan de witte zandstranden met helderblauw zeewater. Panama is een klein land dat je niet teleur zal stellen!"
+introimage: "https://lh3.googleusercontent.com/h08ZJSWzURNb1p4wdaPARK7ySYq_ox60Av1ZiReVSaG4u7IY-6Kvl7LnKoASa6Z3On5X1t1rIizEdKJhZpeCTDRRevOVSWif6_DBbjGdEyKE5cHHzgxIR4TNqYvkv02NwWDyC4Z9FQ=w800"
+surface: "75.500"
+inhabitants: "4.100.000"
+rate: "1,12"
+valuta: "balboa"
+need_to_know_text: ""
+need_to_know_more_text: ""
+fact_one_text: ""
+fact_two_text: ""
+bigmac_index: ""
+images: "https://lh3.googleusercontent.com/BInTsFyhNYYoEevW5iUIA67mDERImPqxIY_8QfZEpzyZ2BgcSGjI1ll4oOiUXX63zvMSDzepKUuFkA-mzV6B-EItP8R2uHG0XnxUTWd5s5K7Dm7vcOTMEMNjZcqAPF-ai273CZCVOg=w800|https://lh3.googleusercontent.com/8cqjMS86jI30-ql4-ZXGGOEo7MXL0bkjdog5GS4jI3h7vdhEqE2PEhxJ8zfmW1Ui4fkJGgP4zlRkv_a5UGhlfdfOWIj9W6MngmYkcHn6ilw-U74gMIRSX6LsJYjHh6SIJ7PopukpXw=w800|https://lh3.googleusercontent.com/4BaOn6Ibl8Wer_goc6TQFuRHpg4oa7wQ28YACTgxnQNm_Xei2_7I0rwGmD4kn-1DXFxbBVKBuo_N7BXVKeoqvyevjjZiMuw9OmZbE2DyAoqFPQoGBka8lDx8VbAV-C5D4x-DJWdKLw=w800|https://lh3.googleusercontent.com/W96GS5xTdg21y9_hXsqj8GhG9WIoXxRp2uNXX7SvN5NvKHua-Dd4BFiQTADI0q7Xr8dk94XrFw5QLuhsFDN8rqeF73dajauRBVUUuKp0DWJaoXVUYUO0sKE3EjGK35uMqxf0ZDBrYw=w800"
+flight_button_title: "Zoek vluchten naar Panama"
+flight_button_url: "https://www.skyscanner.nl/transport/flights/nl/pa/?locale=nl-NL&currency=EUR&market=NL"
+---

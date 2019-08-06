@@ -1,0 +1,17 @@
+---
+title: "Filipijnen"
+introtext: "Filipijnen, het land van 7641 eilanden, met als twee grootste Luzon en Mindanao. Maar dit zijn niet de eilanden waarvoor je naar de Filipijnen gaat, het is namelijk hét land voor eilandhoppen. Bekijk verschillende eilanden en je bent elke keer weer verrast. Je kunt op veel eilanden ontzettend goed duiken en snorkelen, want de Filipijnen heeft een van de mooiste onderwateren van de wereld. Je vindt er geen mooie steden of bouwwerken, maar je vindt er wel de rust en veelzijdige natuur. Hoogtepunten in onze ogen zijn de eilanden: Palawan, Cebu & Bohol. Het mooie van alles is dat het een erg goedkoop land is om te verblijven en dus is De Filipijnen een echte aanrader!"
+introimage: "https://lh3.googleusercontent.com/VWjzhk_Yp7gjoF0fwHsWKeO7K-sixpTwG1E8TzpKlzIxTCEXfh355SokT0PKa2QBHrYTS6j1ZkUuHlXZVobXGXsvUmRNpjv3dFVflwbEYwEKF1vI_C0wXQJnTmdbcV96Al3DPe1xiA=w1200"
+surface: "300.000"
+inhabitants: "105.000.000"
+rate: "58,3"
+valuta: "peso"
+need_to_know_text: ""
+need_to_know_more_text: ""
+fact_one_text: ""
+fact_two_text: ""
+bigmac_index: ""
+images: "https://lh3.googleusercontent.com/DicyeY8sggAtpzjZQMxk7nFryqqw84d0f-tUB_LJVtaU47-37Z9YvsN6Ig-WOCZGtxm-6z-xbUHKVDa4U_GGIrgGqKrIQoaEwP0P0IHkLZvk3cFVnR4WxKq6MCIvEELG23aGOq7upA=w800|https://lh3.googleusercontent.com/heNGCqcWSspghPX6-d_3mdf_0Tqn3u5UqudG5PpH80jqqMdir-NXYtRYuowVDj8N4CesbGsn33LdpIAGzU_OJFoRsbceKBKRru3UmYJyDytnKAZfxV3LDw4vkUJ2K4v3H1Eb2JOqdQ=w800|https://lh3.googleusercontent.com/66zSZwvtQxf_W-8AVi14GJ5HeDdbY98x5B0Q-k04lcD7BOZeMRMTtaa_2tLnAplMuUttYHcTlyCZIBNR_qfOv0CnhVym-dNHUyO6lBTRfiR8cbzo_ZKaVlbol71AwQVcKHlC4NALNw=w800|https://lh3.googleusercontent.com/F4BTm1LrkszSWeXFrvauIfbpX0-2muQe1Y582NzUhh-Ge7SpB85LbdOvsHlCohCYsLF3PQW-imyKQWRGXp3C8km_Ix1Cw1NCC7m_IqBhMa1INuIO6Ru_m0sDlIWcsLA9A9PyFhTmOg=w800"
+flight_button_title: "Zoek vluchten naar de Filipijnen"
+flight_button_url: "https://www.skyscanner.nl/transport/flights/nl/ph/?locale=nl-NL&currency=EUR&market=NL"
+---
