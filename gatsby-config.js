@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    siteUrl: 'https://destination-unknown.nl',
     title: `Destination Unknown`,
     description: `Find your perfect holiday destination by answering a few simple questions.`,
     author: `@joeykaan`,
@@ -32,6 +33,7 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-transformer-remark`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-sitemap`,
     'gatsby-plugin-styled-components',
     {
       resolve: `gatsby-plugin-react-svg`,
