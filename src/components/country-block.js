@@ -75,41 +75,45 @@ const SubTitle = styled.p`
   line-height: 1.5;
 `
 
-const CountryBlock = ({ handleClick }) => (
-  <StaticQuery
-    query={graphql`
-      query {
-        landImage: file(relativePath: { eq: "wereldkaart.png" }) {
-          childImageSharp {
-            fluid {
-              ...GatsbyImageSharpFluid_noBase64
+export const PureCountryBlock = ({ data }) => (
+  <LandContainer>
+    <LandGridContainer>
+      <LandImageContainer>
+        <Img fluid={data.landImage.childImageSharp.fluid} />
+      </LandImageContainer>
+      <LandCountContainer>
+        <LandCount>195</LandCount>
+      </LandCountContainer>
+      <LandTextContainer>
+        <LandSubTitle>landen zijn er in de wereld</LandSubTitle>
+        <SubTitle>
+          Zoveel verschillende landen. Zoveel landen om uit te kiezen. Geen idee
+          waar je naartoe wilt? Wees niet bang. Wij helpen je graag om een
+          vakantieland te kiezen. Het enige wat jij hoeft te doen is de
+          vragenlijst in te vullen. Wij doen de rest.
+        </SubTitle>
+      </LandTextContainer>
+    </LandGridContainer>
+  </LandContainer>
+)
+
+const CountryBlock = () => {
+  return (
+    <StaticQuery
+      query={graphql`
+        query {
+          landImage: file(relativePath: { eq: "wereldkaart.png" }) {
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid_noBase64
+              }
             }
           }
         }
-      }
-    `}
-    render={data => (
-      <LandContainer>
-        <LandGridContainer>
-          <LandImageContainer>
-            <Img fluid={data.landImage.childImageSharp.fluid} />
-          </LandImageContainer>
-          <LandCountContainer>
-            <LandCount>195</LandCount>
-          </LandCountContainer>
-          <LandTextContainer>
-            <LandSubTitle>landen zijn er in de wereld</LandSubTitle>
-            <SubTitle>
-              Zoveel verschillende landen. Zoveel landen om uit te kiezen. Geen
-              idee waar je naartoe wilt? Wees niet bang. Wij helpen je graag om
-              dat ene vakantieland te kiezen. Het enige wat jij hoeft te doen is
-              de vragenlijst in te vullen. Wij doen de rest.
-            </SubTitle>
-          </LandTextContainer>
-        </LandGridContainer>
-      </LandContainer>
-    )}
-  />
-)
+      `}
+      render={data => <PureCountryBlock data={data} />}
+    />
+  )
+}
 
 export default CountryBlock
