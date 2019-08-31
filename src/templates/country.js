@@ -15,16 +15,16 @@ import { keyframes } from 'styled-components'
 import Airplane from '../images/airplane.svg'
 
 const Container = styled.div`
-  max-width: 960px;
   background-color: #47c0c7;
   display: grid;
-  grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
+  grid-template-columns:
+    [full-start] minmax(1em, 1fr)
+    repeat(12, [main-start] minmax(0, 80px) [main-end]) minmax(1em, 1fr) [full-end];
   grid-template-rows: max-content 50%;
   font-family: 'Open Sans', sans-serif;
   margin: 0 auto;
   margin-bottom: 32px;
-  padding: 16px;
-  padding-top: 0;
+  padding-top: 16px;
   @media only screen and (max-width: 600px) {
     grid-template-columns: 100%;
     padding: 0;
@@ -51,7 +51,8 @@ const WhatYouNeedToKnowContainer = styled.div`
 `
 
 const TitleContainer = styled.div`
-  grid-column: 5 / span 3;
+  grid-column-start: main-start 8;
+  grid-column-end: main-end 12;
   grid-row: 1;
 
   @media only screen and (max-width: 600px) {
@@ -72,13 +73,15 @@ const Title = styled.h1`
     font-size: 50px;
     text-align: initial;
     margin-left: 16px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
   }
 `
 
 const ImageContainer = styled.div`
-  grid-column: 1 / span 4;
-  grid-row: 1 / span 3;
+  margin-top: -20px;
+  grid-column-start: full-start;
+  grid-column-end: main-end 6;
+  grid-row: 2;
 
   @media only screen and (max-width: 600px) {
     max-height: 200px;
@@ -137,7 +140,8 @@ const FactSubText = styled.p`
 const BodyTextContainer = styled.div`
   z-index: 1;
   background-color: #5ecdd3;
-  grid-column: 4 / span 4;
+  grid-column-start: main-start 6;
+  grid-column-end: main-end 12;
   grid-row: 2 / span 2;
   border-radius: 3px;
   padding: 32px;
@@ -380,8 +384,8 @@ export default class Country extends React.Component {
               {post.frontmatter.flight_button_title}
               <Airplane
                 style={{
-                  height: '36',
-                  width: '36',
+                  height: '36px',
+                  width: '36px',
                   position: 'absolute',
                   top: '12px',
                   fill: 'white',

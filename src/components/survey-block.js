@@ -17,13 +17,15 @@ const OuterContainer = styled.div`
 `
 
 const Container = styled.div`
-  max-width: 960px;
   display: grid;
-  grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
+  grid-template-columns:
+    [full-start] minmax(1em, 1fr)
+    repeat(12, [main-start] minmax(0, 80px) [main-end]) minmax(1em, 1fr) [full-end];
   grid-template-rows: max-content 1fr;
   font-family: 'Open Sans', sans-serif;
   margin: 0 auto;
-  padding: 64px 16px;
+  padding-top: 16px;
+  padding-bottom: 48px;
   @media only screen and (max-width: 600px) {
     padding: 0;
     grid-template-columns: 1fr;
@@ -33,10 +35,12 @@ const Container = styled.div`
 
 const Title = styled.h1`
   font-family: 'Lato', sans-serif;
-  grid-column: 1 / span 3;
+  grid-column-start: main-start 1;
+  grid-column-end: main-end 5;
+  z-index: 1;
   grid-row: 1;
   line-height: 1;
-  font-size: 8vw;
+  font-size: 7vw;
   font-weight: bold;
   margin: 0;
   margin-bottom: 16px;
@@ -46,6 +50,29 @@ const Title = styled.h1`
     padding-left: 16px;
     font-size: 83px;
     grid-row: 1;
+    grid-column: 1;
+  }
+`
+
+const SurveyContainer = styled.div`
+  grid-column-start: main-start 1;
+  grid-column-end: main-end 7;
+  grid-row: 2;
+  z-index: 1;
+  @media only screen and (max-width: 600px) {
+    grid-row: 3;
+    grid-column: 1;
+  }
+`
+
+const TravelGearImageContainer = styled.div`
+  margin-top: 80px;
+  grid-column-start: main-start 6;
+  grid-column-end: full-end;
+  grid-row: 1 / span 2;
+  @media only screen and (max-width: 600px) {
+    margin-top: 0;
+    grid-row: 2;
     grid-column: 1;
   }
 `
@@ -114,28 +141,6 @@ const Button = styled.button`
     background-color: ${lighten(0.1, '#f3a629')};
     border-bottom: 1px solid ${lighten(0.1, '#b0781b')};
     outline: 0;
-  }
-`
-
-const SurveyContainer = styled.div`
-  grid-column: 1 / span 3;
-  grid-row: 2;
-  z-index: 1;
-  @media only screen and (max-width: 768px) {
-    grid-column: 1 / span 4;
-  }
-  @media only screen and (max-width: 600px) {
-    grid-row: 3;
-    grid-column: 1;
-  }
-`
-
-const TravelGearImageContainer = styled.div`
-  grid-column: 3 / span 5;
-  grid-row: 1 / span 2;
-  @media only screen and (max-width: 600px) {
-    grid-row: 2;
-    grid-column: 1;
   }
 `
 
