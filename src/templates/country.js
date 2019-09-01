@@ -87,10 +87,12 @@ const ImageContainer = styled.div`
     max-height: 200px;
   }
   & > img {
+    min-height: 400px;
     object-fit: cover;
     width: 100%;
     max-height: 100%;
     @media only screen and (max-width: 600px) {
+      min-height: initial;
       max-height: 200px;
     }
   }
