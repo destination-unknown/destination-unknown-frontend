@@ -12,6 +12,6 @@ fact_one_text: ""
 fact_two_text: ""
 bigmac_index: ""
 images: "https://lh3.googleusercontent.com/MLYBIzrOSe0W0UXJjOoWfMavwueggnQUJ4hAb6jkwnVc07q2Fl_3Mnz0iwebTeVjCnrjklALezxXqw8nRwsWEW6yJnDUxXoXDFR-nmcqMo7ZuE1Svqz16U8-bP1b-sS7gFGJ5-Wv4Q=w800|https://lh3.googleusercontent.com/Lw1140rpY2R_Hyhye616Jz_KPhWYm4GZUhSXo4kxeBTaOVWo7PId8lrnjImQOVoEpmsdQ27NBfSZBjeMkExTcTer4MqeaybRh2Yl9JmQ6B37A6IiNqHqWnAaxlFQKTBf3ZSLdVNczw=w800|https://lh3.googleusercontent.com/Hv9nHRgrQ1sjrV59ftAwOeP1mToJ_jalfjw15BQjiJtEqpLzsKylPRYxWFpJLgmbMFFvxtyYZQImE_2PGmf3QuBn5xDSH7EAjF2WchBMyVT7JUgB1HUTD9BhfsHX9K2bUnF3N-DFsA=w800|https://lh3.googleusercontent.com/mgL6q50J7fidpn9t_iCrXp7T6mPcrYAYon70Cbj91hdTs2GG3GzE6p_vqUEFqbykbgZk5LRsxSIs9hV_yaXFEhUcgi__2ajsHiUf2JoPPvz8bXWvw0h6VakKRv0f1wGQvF6rlMKJTg=w800"
-flight_button_title: "Zoek vluchten naar Bosnië en Herzegovina"
-flight_button_url: "https://www.skyscanner.nl/transport/flights/nl/ba/?locale=nl-NL&currency=EUR&market=NL"
+flight_button_title: "Check vluchtprijzen Bosnië en Herzegovina"
+flight_button_url: "https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fflights%2Fnl%2Fba%2F%3Flocale%3Dnl-NL%26currency%3DEUR%26market%3DNL"
 ---
