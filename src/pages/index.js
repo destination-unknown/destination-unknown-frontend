@@ -26,6 +26,37 @@ class IndexPage extends React.Component {
   handleClick = (firstAnswer, secondAnswer, thirdAnswer, fourthAnswer) => {
     this.setState({ isLoading: true })
 
+    typeof window !== 'undefined' &&
+      typeof window.gtag !== 'undefined' &&
+      window.gtag('event', 'periode', {
+        event_category: 'Questionnaire',
+        event_label: firstAnswer
+      })
+
+
+    typeof window !== 'undefined' &&
+    typeof window.gtag !== 'undefined' &&
+    window.gtag('event', 'continent_europa', {
+      event_category: 'Questionnaire',
+      event_label: secondAnswer
+    })
+
+
+    typeof window !== 'undefined' &&
+      typeof window.gtag !== 'undefined' &&
+      window.gtag('event', 'activiteit', {
+        event_category: 'Questionnaire',
+        event_label: thirdAnswer
+      })
+
+
+    typeof window !== 'undefined' &&
+    typeof window.gtag !== 'undefined' &&
+    window.gtag('event', 'cultureel', {
+      event_category: 'Questionnaire',
+      event_label: fourthAnswer
+    })
+
     axios
       .post(
         `https://7n2xdnl26d.execute-api.us-east-1.amazonaws.com/dev/generate`,
