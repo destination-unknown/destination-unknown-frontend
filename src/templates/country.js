@@ -382,7 +382,14 @@ export default class Country extends React.Component {
           )}
           <BodyTextContainer>
             <BodyText>{post.frontmatter.introtext}</BodyText>
-            <Button href={post.frontmatter.flight_button_url} target="_blank">
+            <Button href={post.frontmatter.flight_button_url} onClick={() => {
+              typeof window !== 'undefined' &&
+              typeof window.gtag !== 'undefined' &&
+              window.gtag('event', 'click', {
+                event_category: 'Check flights button',
+                event_label: post.frontmatter.title
+              })
+            }} target="_blank">
               {post.frontmatter.flight_button_title}
               <Airplane
                 style={{
