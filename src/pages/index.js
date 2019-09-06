@@ -4,6 +4,8 @@ import axios from 'axios'
 import SurveyBlock from '../components/survey-block'
 import CountryBlock from '../components/country-block'
 import TestimonialContentContainer from '../components/testimonial-block'
+import Helmet from 'react-helmet'
+import Safe from 'react-safe'
 
 function slugify(text) {
   return text
@@ -30,32 +32,29 @@ class IndexPage extends React.Component {
       typeof window.gtag !== 'undefined' &&
       window.gtag('event', 'periode', {
         event_category: 'Questionnaire',
-        event_label: firstAnswer
+        event_label: firstAnswer,
       })
 
-
     typeof window !== 'undefined' &&
-    typeof window.gtag !== 'undefined' &&
-    window.gtag('event', 'continent_europa', {
-      event_category: 'Questionnaire',
-      event_label: secondAnswer
-    })
-
+      typeof window.gtag !== 'undefined' &&
+      window.gtag('event', 'continent_europa', {
+        event_category: 'Questionnaire',
+        event_label: secondAnswer,
+      })
 
     typeof window !== 'undefined' &&
       typeof window.gtag !== 'undefined' &&
       window.gtag('event', 'activiteit', {
         event_category: 'Questionnaire',
-        event_label: thirdAnswer
+        event_label: thirdAnswer,
       })
 
-
     typeof window !== 'undefined' &&
-    typeof window.gtag !== 'undefined' &&
-    window.gtag('event', 'cultureel', {
-      event_category: 'Questionnaire',
-      event_label: fourthAnswer
-    })
+      typeof window.gtag !== 'undefined' &&
+      window.gtag('event', 'cultureel', {
+        event_category: 'Questionnaire',
+        event_label: fourthAnswer,
+      })
 
     axios
       .post(
@@ -81,12 +80,25 @@ class IndexPage extends React.Component {
   render() {
     return (
       <Layout isIndex={true}>
+        <Helmet>
+          <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" />
+        </Helmet>
         <SurveyBlock
           isLoading={this.state.isLoading}
           handleClick={this.handleClick}
         />
         <CountryBlock />
         <TestimonialContentContainer />
+        <Safe.script>
+          {`if (window.netlifyIdentity) {
+              window.netlifyIdentity.on("init", user => {
+                if (!user) {
+                  window.netlifyIdentity.on("login", () => {
+                    document.location.href = "/admin/";
+                  });
+                }
+              });`}
+        </Safe.script>
       </Layout>
     )
   }
