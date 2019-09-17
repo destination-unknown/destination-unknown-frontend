@@ -7,15 +7,35 @@
 const { createFilePath } = require(`gatsby-source-filesystem`)
 const path = require(`path`)
 
-exports.onCreateNode = ({ node, getNode, actions }) => {
+exports.onCreateNode = ({ node, getNode, actions, graphql }) => {
   const { createNodeField } = actions
   if (node.internal.type === `MarkdownRemark`) {
-    const slug = createFilePath({ node, getNode, basePath: `pages` })
-    createNodeField({
-      node,
-      name: `slug`,
-      value: slug,
-    })
+    const parentNode = getNode(node.parent)
+    if (parentNode.sourceInstanceName === 'countries') {
+      const slug = createFilePath({ node, getNode, basePath: `pages` })
+      createNodeField({
+        node,
+        name: `slug`,
+        value: slug,
+      })
+      createNodeField({
+        node,
+        name: `type`,
+        value: 'country',
+      })
+    } else if (parentNode.sourceInstanceName === 'blogs') {
+      const slug = createFilePath({ node, getNode })
+      createNodeField({
+        node,
+        name: `slug`,
+        value: `/blog${slug}`,
+      })
+      createNodeField({
+        node,
+        name: `type`,
+        value: `blog`,
+      })
+    }
   }
 }
 
@@ -30,6 +50,7 @@ exports.createPages = ({ graphql, actions }) => {
           node {
             fields {
               slug
+              type
             }
           }
         }
@@ -37,15 +58,27 @@ exports.createPages = ({ graphql, actions }) => {
     }
   `).then(result => {
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-      createPage({
-        path: node.fields.slug,
-        component: path.resolve(`./src/templates/country.js`),
-        context: {
-          // Data passed to context is available
-          // in page queries as GraphQL variables.
-          slug: node.fields.slug,
-        },
-      })
+      if (node.fields.type === 'country') {
+        createPage({
+          path: node.fields.slug,
+          component: path.resolve(`./src/templates/country.js`),
+          context: {
+            // Data passed to context is available
+            // in page queries as GraphQL variables.
+            slug: node.fields.slug,
+          },
+        })
+      } else if (node.fields.type === 'blog') {
+        createPage({
+          path: node.fields.slug,
+          component: path.resolve(`./src/templates/blog.js`),
+          context: {
+            // Data passed to context is available
+            // in page queries as GraphQL variables.
+            slug: node.fields.slug,
+          },
+        })
+      }
     })
   })
 }
