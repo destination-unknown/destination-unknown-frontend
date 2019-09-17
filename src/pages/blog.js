@@ -6,11 +6,11 @@ import BlogEntry from '../components/blog-entry'
 
 const BlogsContainer = styled.div`
   margin: 0 auto;
-  max-width: 700px;
+  max-width: 960px;
+  padding: 0 16px;
 `
 
 const BlogOverviewPage = ({ data }) => {
-  console.log(data)
   return (
     <Layout isIndex={true}>
       <BlogsContainer>

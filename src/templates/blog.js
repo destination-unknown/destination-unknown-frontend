@@ -7,6 +7,7 @@ import 'react-image-lightbox/style.css'
 
 const MaxWidthContainer = styled.div`
   max-width: 960px;
+  padding: 0 16px;
   margin: 0 auto;
 `
 
@@ -27,7 +28,6 @@ const Title = styled.h1`
   line-height: 1;
   font-size: 4vw;
   font-weight: bold;
-  margin: 0;
   color: white;
 `
 
@@ -52,8 +52,12 @@ const BodyTextContainer = styled.div`
   grid-column-end: main-end 12;
   grid-row: 2 / span 2;
   border-radius: 3px;
-  padding: 32px;
   margin-top: 32px;
+  padding-top: 16px;
+
+  a {
+    color: #21888d;
+  }
 
   img {
     object-fit: cover;
@@ -66,7 +70,6 @@ const BodyTextContainer = styled.div`
     grid-row: 3;
     background-color: transparent;
     margin-top: 0;
-    padding: 16px;
   }
 `
 

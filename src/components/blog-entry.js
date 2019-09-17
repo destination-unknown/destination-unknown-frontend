@@ -1,5 +1,4 @@
 import React from 'react'
-import Img from 'gatsby-image'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
 
@@ -7,7 +6,7 @@ const BlogContainer = styled.div`
   margin-top: 16px;
   display: grid;
   background-color: #5ecdd3;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 50% 50%;
   font-family: 'Open Sans', sans-serif;
   padding: 16px;
   color: white;
@@ -36,7 +35,7 @@ const BlogEntry = ({ title, thumbnail, shortDescription, slug }) => (
   >
     <BlogContainer>
       <ImageContainer>
-        <img src={thumbnail} />
+        <img src={thumbnail} alt={title} />
       </ImageContainer>
       <div>
         <Title>{title}</Title>
@@ -45,7 +44,6 @@ const BlogEntry = ({ title, thumbnail, shortDescription, slug }) => (
           to={slug}
           style={{
             color: `#21888d`,
-            textDecoration: `none`,
           }}
         >
           Read more
