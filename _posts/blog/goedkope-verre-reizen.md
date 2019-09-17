@@ -10,7 +10,7 @@ short_description: >-
 date: 2019-09-17T19:54:02.651Z
 thumbnail: /images/uploads/francesca-tirico-dxefc5pa5ne-unsplash.jpg
 ---
-**Sri Lanka**
+## **Sri Lanka**
 
 ![Trein Sri Lanka](/images/uploads/egle-sidaraviciute-tsyniyzikiq-unsplash.jpg "Trein in Sri Lanka")
 
@@ -22,7 +22,7 @@ Er is een vrij toegankelijke backpack route door het land, dat het makkelijk maa
 
 Voor minder dan 7 euro per nacht slaap je in de beste hostels van Sri Lanka. Ook heeft de regering aangekondigd dat het de kosten van vluchten naar en uit het land zal verlagen, waardoor het des te toegankelijker wordt voor budgetreizigers!
 
-**Nicaragua**
+## **Nicaragua**
 
 ![Backpacken Nicaragua](/images/uploads/ferdinand-feng-hdmlapxfm5u-unsplash.jpg "Granada in Nicaragua")
 
@@ -34,7 +34,7 @@ Je kunt een kamer scoren voor minder dan 10 euro per nacht en voor minder dan ee
 
 In vergelijking met andere landen in Midden-Amerika, zoals buurland [Costa Rica](https://www.destination-unknown.nl/costa-rica), is Nicaragua zeker een van de goedkoopste landen om te verblijven in heel Midden-Amerika. Een overnachting in Costa Rica kost je al snel het dubbele dan wat een overnachting in Nicaragua kost!
 
-**Cambodja**
+## **Cambodja**
 
 ![Tempel Cambodja](/images/uploads/gyorgy-bakos-over7bwxxxg-unsplash.jpg "Angkor Wat in Cambodja")
 
@@ -42,7 +42,7 @@ Inmiddels al zeker een populaire stop onder backpackers! Daardoor is [Cambodja](
 
 Voor een fractie van de prijs van buurland [Thailand](https://www.destination-unknown.nl/thailand) en met veel prachtige stranden, stomende oerwouden en het fantastische Angkor Wat, is Cambodja een veilige keuze voor een  budgetreiziger omdat het veilig, gemakkelijk en leuk is.
 
-**Bolivia**
+## **Bolivia**
 
 ![Zoutvlakte Bolivia](/images/uploads/samuel-scrimshaw-kp_87texcwi-unsplash.jpg "Zoutvlakte in Bolivia")
 
@@ -52,7 +52,7 @@ In tegenstelling tot zijn buren, Peru, Chili en [Brazilië](https://www.destinat
 
 Als je naar de lokale markten en restaurants gaat, is het makkelijk om te genieten van heerlijk eten zonder dat het een rib uit je lijf kost. Voor minder dan 3 euro heb je prima eten! Voor een goedkope plek om te bezoeken in Zuid-Amerika, staat Bolivia zeker hoog op de lijst.
 
-**Filipijnen**
+## **Filipijnen**
 
 ![Zonsondergang Filipijnen](/images/uploads/cris-tagupa-lt7zmkth3o8-unsplash.jpg "Zonsondergang in de Filipijnen")
 
@@ -60,7 +60,7 @@ Een van de meest paradijselijke landen in Zuidoost-Azië en een van de goedkoops
 
 Trek voor een avontuur de jungle in maar ga niet naar Manilla. Dit is een erg dure stad en moet worden vermeden door reizigers met een beperkt budget. Het best voor je portemonnee zou zijn als je meteen naar Sagada of Palawan gaat en langzaam reist!
 
-**Nepal**
+## **Nepal**
 
 ![Anna Purna](/images/uploads/sebastian-pena-lambarri-wj9elwgxa6c-unsplash.jpg "Anna Purna tocht in Nepal")
 
