@@ -17,6 +17,7 @@ const BlogOverviewPage = ({ data }) => {
         {data.allMarkdownRemark.edges.map(edge => {
           return (
             <BlogEntry
+              key={edge.node.fields.slug}
               title={edge.node.frontmatter.title}
               thumbnail={edge.node.frontmatter.thumbnail}
               shortDescription={edge.node.frontmatter.short_description}

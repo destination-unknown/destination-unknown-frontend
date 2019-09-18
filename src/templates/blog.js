@@ -46,11 +46,7 @@ const ImageContainer = styled.div`
 `
 
 const BodyTextContainer = styled.div`
-  z-index: 1;
   background-color: #5ecdd3;
-  grid-column-start: main-start 6;
-  grid-column-end: main-end 12;
-  grid-row: 2 / span 2;
   border-radius: 3px;
   margin-top: 32px;
   padding-top: 16px;
@@ -66,14 +62,11 @@ const BodyTextContainer = styled.div`
   }
 
   @media only screen and (max-width: 600px) {
-    grid-column: 1;
-    grid-row: 3;
-    background-color: transparent;
     margin-top: 0;
   }
 `
 
-const BodyText = styled.p`
+const BodyText = styled.div`
   color: white;
   font-weight: 300;
   margin-top: 8px;
@@ -91,9 +84,6 @@ export default class Country extends React.Component {
   render() {
     const { data } = this.props
     const post = data.markdownRemark
-
-    console.log(post)
-
     return (
       <Layout isIndex={false}>
         <MaxWidthContainer>

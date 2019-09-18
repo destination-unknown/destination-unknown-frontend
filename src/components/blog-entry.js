@@ -26,6 +26,11 @@ const Title = styled.h2`
   font-family: 'Lato', sans-serif;
 `
 
+const StyledLink = styled.p`
+  color: #21888d;
+  text-decoration: underline;
+`
+
 const BlogEntry = ({ title, thumbnail, shortDescription, slug }) => (
   <Link
     to={slug}
@@ -40,14 +45,7 @@ const BlogEntry = ({ title, thumbnail, shortDescription, slug }) => (
       <div>
         <Title>{title}</Title>
         <p>{shortDescription}...</p>
-        <Link
-          to={slug}
-          style={{
-            color: `#21888d`,
-          }}
-        >
-          Read more
-        </Link>
+        <StyledLink>Read more</StyledLink>
       </div>
     </BlogContainer>
   </Link>
