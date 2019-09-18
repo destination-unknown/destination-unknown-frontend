@@ -6,19 +6,26 @@ const BlogContainer = styled.div`
   margin-top: 16px;
   display: grid;
   background-color: #5ecdd3;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
   font-family: 'Open Sans', sans-serif;
-  padding: 16px;
   color: white;
+  padding: 16px;
+  @media only screen and (max-width: 600px) {
+    grid-template-columns: 100%;
+  }
 `
 
 const ImageContainer = styled.div`
-  margin-right: 24px;
   & > img {
     object-fit: cover;
     width: 100%;
     max-height: 250px;
   }
+
+  /* @media only screen and (max-width: 600px) {
+    grid-template-columns: 100%;
+  } */
 `
 
 const Title = styled.h2`

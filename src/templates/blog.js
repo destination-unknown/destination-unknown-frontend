@@ -26,7 +26,6 @@ const Container = styled.div`
 const Title = styled.h1`
   font-family: 'Lato', sans-serif;
   line-height: 1;
-  font-size: 4vw;
   font-weight: bold;
   color: white;
 `
