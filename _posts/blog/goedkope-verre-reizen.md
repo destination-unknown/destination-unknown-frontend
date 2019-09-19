@@ -10,6 +10,8 @@ short_description: >-
 date: 2019-09-17T19:54:02.651Z
 thumbnail: /images/uploads/francesca-tirico-dxefc5pa5ne-unsplash.jpg
 ---
+Het zou zonde zijn om naar de goedkoopste vliegtickets te kijken terwijl je al je zakgeld uitgeeft aan de eerste ronde cocktails. Het meest vervelende op een vakantie is het sluipende besef dat je straks rood staat op de bank als je thuiskomt. Om je te helpen hebben we overzicht gemaakt van de goedkoopste landen ter wereld!
+
 ## **Sri Lanka**
 
 ![Trein Sri Lanka](/images/uploads/egle-sidaraviciute-tsyniyzikiq-unsplash.jpg "Trein in Sri Lanka")
