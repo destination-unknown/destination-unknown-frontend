@@ -102,7 +102,7 @@ export default class Country extends React.Component {
               }}
             >
               <img
-                src={post.frontmatter.thumbnail}
+                src={post.frontmatter.thumbnail + '?nf_resize=fit&h=400'}
                 alt={post.frontmatter.title}
               />
             </ImageContainer>
