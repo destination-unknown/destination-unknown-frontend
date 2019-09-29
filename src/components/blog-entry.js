@@ -43,7 +43,7 @@ const BlogEntry = ({ title, thumbnail, shortDescription, slug }) => (
   >
     <BlogContainer>
       <ImageContainer>
-        <img src={thumbnail + '?nf_resize&h=500'} alt={title} />
+        <img src={thumbnail + '?nf_resize=fit&h=500'} alt={title} />
       </ImageContainer>
       <div>
         <Title>{title}</Title>
