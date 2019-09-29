@@ -14,7 +14,7 @@ Het zou zonde zijn om naar de goedkoopste vliegtickets te kijken terwijl je al j
 
 ## **Sri Lanka**
 
-![Trein Sri Lanka](/images/uploads/egle-sidaraviciute-tsyniyzikiq-unsplash.jpg?nf_resize=fit&h=400 "Trein in Sri Lanka")
+![Trein Sri Lanka](/images/uploads/egle-sidaraviciute-tsyniyzikiq-unsplash.jpg?nf_resize=fit&h=800 "Trein in Sri Lanka")
 
 Op de een of andere manier is Sri Lanka voor veel budget-backpackers van de radar verdwenen. Hoewel de omringende landen in Zuidoost-Azië flink gegroeid zijn in populariteit blijft Sri Lanka toch een beetje achter.
 
@@ -26,7 +26,7 @@ Voor minder dan 7 euro per nacht slaap je in de beste hostels van Sri Lanka. Ook
 
 ## **Nicaragua**
 
-![Backpacken Nicaragua](/images/uploads/ferdinand-feng-hdmlapxfm5u-unsplash.jpg?nf_resize=fit&h=400 "Granada in Nicaragua")
+![Backpacken Nicaragua](/images/uploads/ferdinand-feng-hdmlapxfm5u-unsplash.jpg?nf_resize=fit&h=800 "Granada in Nicaragua")
 
 Voor de ervaren backpackers onder ons behoeft Nicaragua geen introductie. Nicaragua is een fijne en goedkope plek om te reizen in Midden-Amerika en is daardoor ook een uitstekende plek voor mensen die met een beperkt budget op vakantie willen gaan.
 
@@ -38,7 +38,7 @@ In vergelijking met andere landen in Midden-Amerika, zoals buurland [Costa Rica]
 
 ## **Cambodja**
 
-![Tempel Cambodja](/images/uploads/gyorgy-bakos-over7bwxxxg-unsplash.jpg?nf_resize=fit&h=400 "Angkor Wat in Cambodja")
+![Tempel Cambodja](/images/uploads/gyorgy-bakos-over7bwxxxg-unsplash.jpg?nf_resize=fit&h=800 "Angkor Wat in Cambodja")
 
 Inmiddels al zeker een populaire stop onder backpackers! Daardoor is [Cambodja](https://www.destination-unknown.nl/cambodja) niet meer zo goedkoop als vroeger, maar je kunt nog steeds biertjes kopen voor 25 cent en voor een paar euro overnacht je al in budget hostels.
 
@@ -46,7 +46,7 @@ Voor een fractie van de prijs van buurland [Thailand](https://www.destination-un
 
 ## **Bolivia**
 
-![Zoutvlakte Bolivia](/images/uploads/samuel-scrimshaw-kp_87texcwi-unsplash.jpg?nf_resize=fit&h=400 "Zoutvlakte in Bolivia")
+![Zoutvlakte Bolivia](/images/uploads/samuel-scrimshaw-kp_87texcwi-unsplash.jpg?nf_resize=fit&h=800 "Zoutvlakte in Bolivia")
 
 Met de beroemde zoutvlakten, verbluffende architectuur en de spotgoedkope feesten is Bolivia een indrukwekkende budgetbestemming. 
 
@@ -56,7 +56,7 @@ Als je naar de lokale markten en restaurants gaat, is het makkelijk om te geniet
 
 ## **Filipijnen**
 
-![Zonsondergang Filipijnen](/images/uploads/cris-tagupa-lt7zmkth3o8-unsplash.jpg?nf_resize=fit&h=400 "Zonsondergang in de Filipijnen")
+![Zonsondergang Filipijnen](/images/uploads/cris-tagupa-lt7zmkth3o8-unsplash.jpg?nf_resize=fit&h=800 "Zonsondergang in de Filipijnen")
 
 Een van de meest paradijselijke landen in Zuidoost-Azië en een van de goedkoopste eilandgroepen om te bezoeken in Azië is de [Filipijnen](https://www.destination-unknown.nl/filipijnen). Het is een plek met prachtige stranden, iconische palmbomen en vriendelijke bewoners.
 
@@ -64,7 +64,7 @@ Trek voor een avontuur de jungle in maar ga niet naar Manilla. Dit is een erg du
 
 ## **Nepal**
 
-![Anna Purna](/images/uploads/sebastian-pena-lambarri-wj9elwgxa6c-unsplash.jpg?nf_resize=fit&h=400 "Anna Purna tocht in Nepal")
+![Anna Purna](/images/uploads/sebastian-pena-lambarri-wj9elwgxa6c-unsplash.jpg?nf_resize=fit&h=800 "Anna Purna tocht in Nepal")
 
 [Nepal](https://www.destination-unknown.nl/nepal) staat met het Himalaya gebergte bekend als het dak van de wereld en is een van de goedkoopste landen om te bezoeken. Zodra je de toeristische gebieden van de Thamel in Kathmandu verlaat, daalt de prijs stevig.
 
