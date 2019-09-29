@@ -49,6 +49,7 @@ const BodyTextContainer = styled.div`
   border-radius: 3px;
   margin-top: 32px;
   padding-top: 16px;
+  padding-bottom: 8px;
 
   a {
     color: #21888d;
