@@ -22,10 +22,6 @@ const ImageContainer = styled.div`
     width: 100%;
     max-height: 250px;
   }
-
-  /* @media only screen and (max-width: 600px) {
-    grid-template-columns: 100%;
-  } */
 `
 
 const Title = styled.h2`
@@ -47,7 +43,7 @@ const BlogEntry = ({ title, thumbnail, shortDescription, slug }) => (
   >
     <BlogContainer>
       <ImageContainer>
-        <img src={thumbnail} alt={title} />
+        <img src={thumbnail + '?nf_resize&h=500'} alt={title} />
       </ImageContainer>
       <div>
         <Title>{title}</Title>
