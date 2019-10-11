@@ -1,11 +1,17 @@
 ---
 layout: blog
 title: Griekse eilanden top 10
-short_description: Test
+short_description: >-
+  Griekenland is zó veelzijdig dat er voor ieder wat wils is. Er zijn erg veel
+  eilanden en elk eiland heeft haar eigen unieke stukje natuur en cultuur. Omdat
+  het moeilijk kan zijn om het ideale eiland te vinden om te bezoeken, hebben
+  wij hier een lijstje gemaakt met wat ons betreft de top 10 mooiste eilanden!
 date: 2019-10-10T11:08:55.002Z
 thumbnail: /images/uploads/hello-lightbulb-yb6wfhbkx40-unsplash.jpg
 ---
-Santorini
+Griekenland is zó veelzijdig dat er voor ieder wat wils is. Er zijn erg veel eilanden en elk eiland heeft haar eigen unieke stukje natuur en cultuur. Omdat het moeilijk kan zijn om het ideale eiland te vinden om te bezoeken, hebben wij hier een lijstje gemaakt met wat ons betreft de top 10 mooiste eilanden!
+
+## Santorini
 
 ![Witte huisjes Santorini](/images/uploads/tamara-budai-mvjvehvudgq-unsplash.jpg "Witte huisjes Santorini")
 
@@ -13,7 +19,7 @@ Wanneer je maar één Grieks eiland in je leven gaat bezoeken, dan moet het Sant
 
 ![Witte huizen op caldera Santorini](/images/uploads/andreas-nextvoyagepl-svkw6ozi49a-unsplash.jpg "Witte huizen op caldera Santorini")
 
-Kreta
+## Kreta
 
 ![Zee Kreta](/images/uploads/stefan-kunze-riwb08kc57i-unsplash.jpg "Zee Kreta")
 
@@ -21,7 +27,7 @@ Kreta is het grootste Griekse eiland en heeft een compleet eigen cultuur. Omdat 
 
 ![Zonsondergang strand Matala, Kreta](/images/uploads/milada-vigerova-x8vc99panz8-unsplash.jpg "Zonsondergang strand Matala, Kreta")
 
-Rodos
+## Rodos
 
 ![Anthony Quinn Bay, Rodos](/images/uploads/img_2664.jpg "Anthony Quinn Bay, Rodos")
 
@@ -29,7 +35,7 @@ Rodos (of Rhodos) is een van de meest oostelijke eilanden van Griekenland op sle
 
 ![Middeleeuwse ridderstraat, Rodos](/images/uploads/img_2509.jpg "Middeleeuwse ridderstraat, Rodos")
 
-Zakynthos
+## Zakynthos
 
 ![Shipwreck beach, Zakynthos](/images/uploads/katya-shkiper-bfdc-dvtft8-unsplash.jpg "Shipwreck beach, Zakynthos")
 
@@ -37,7 +43,7 @@ Het eiland Zakynthos ligt in de Ionische zee ten westen van het Griekse vastelan
 
 ![Klif in zee, Zakynthos](/images/uploads/max-van-den-oetelaar-f3rdbnqqbqu-unsplash.jpg "Klif in zee, Zakynthos")
 
-Paros
+## Paros
 
 ![Traditioneel straatje, Paros](/images/uploads/daria-nepriakhina-q9pi8r4irjq-unsplash.jpg "Traditioneel straatje, Paros")
 
@@ -45,7 +51,7 @@ Paros is één van de meest typische Griekse eilanden en een handige uitvalsbasi
 
 ![Huisje aan zee, Paros](/images/uploads/daria-nepriakhina-qem8cap_nbk-unsplash.jpg "Huisje aan zee, Paros")
 
-Corfu
+## Corfu
 
 ![Baai op Corfu](/images/uploads/chris-karidis-qxw1yemhq_4-unsplash.jpg "Baai op Corfu")
 
@@ -53,7 +59,7 @@ Corfu is een noordelijk Ionisch eiland met een mix van vele invloeden, variëren
 
 ![Bootje op Corfu](/images/uploads/major-wave-av9us5g2wbm-unsplash.jpg "Bootje op Corfu")
 
-Mykonos
+## Mykonos
 
 ![Dorpje op Mykonos](/images/uploads/alex-korolkoff-nqielheoocu-unsplash.jpg "Dorpje op Mykonos")
 
@@ -61,7 +67,7 @@ Mykonos kun je zien als het Ibiza van Griekenland. Het is een schitterend eiland
 
 ![Kerk op Mykonos](/images/uploads/ricardo-gomez-angel-m_leyoqfg24-unsplash.jpg "Kerk op Mykonos")
 
-Kefalonia
+## Kefalonia
 
 ![Myrtos strand, Kefalonia](/images/uploads/george-prentzas-i3spilejwws-unsplash.jpg "Myrtos strand, Kefalonia")
 
@@ -69,11 +75,11 @@ Eén van de best bewaarde geheimen van Griekenland is het eiland. Het mooie eila
 
 ![Uitzicht Kefalonia](/images/uploads/daniel-van-der-kolk-bws3ofnwb7q-unsplash.jpg "Uitzicht Kefalonia")
 
-Hydra
+## Hydra
 
 Hydra is een van de mooiste Griekse eilanden met een unieke architectuur die door de tijd heen uitstekend bewaard is gebleven. Grote huizen doemen op aan de heuvels aan weerszijden van de pittoreske haven en er is een totaalverbod op auto's en motorfietsen op het eiland. In plaats daarvan nemen ezels alle vervoerslasten van de lokale bevolking en bezoekers op zich en lopen ze door de smalle straatjes. Om naar een van de zandstranden van het eiland te gaan, moet je een zeetaxi huren, maar de meeste mensen gaan naar de diepblauwe wateren vlak bij de haven om te zwemmen. Met maar 2000 inwoners is Hydra een rustig, maar traditioneel eiland waar je de echte Griekse cultuur nog kunt snuiven. Zeker een aanrader!
 
-Skiathos
+## Skiathos
 
 ![Dorp op Skiathos](/images/uploads/razvan-dumitrasconiu-g_4t6u5zrey-unsplash.jpg "Dorp op Skiathos")
 
