@@ -5,11 +5,11 @@ short_description: >-
   Griekenland is zó veelzijdig dat er voor ieder wat wils is. Er zijn erg veel
   eilanden en elk eiland heeft haar eigen unieke stukje natuur en cultuur. Omdat
   het moeilijk kan zijn om het ideale eiland te vinden om te bezoeken, hebben
-  wij hier een lijstje gemaakt met wat ons betreft de top 10 mooiste eilanden!
+  wij hier een lijstje gemaakt met wat ons betreft de top 10 Griekse eilanden
 date: 2019-10-10T11:08:55.002Z
 thumbnail: /images/uploads/hello-lightbulb-yb6wfhbkx40-unsplash.jpg
 ---
-Griekenland is zó veelzijdig dat er voor ieder wat wils is. Er zijn erg veel eilanden en elk eiland heeft haar eigen unieke stukje natuur en cultuur. Omdat het moeilijk kan zijn om het ideale eiland te vinden om te bezoeken, hebben wij hier een lijstje gemaakt met wat ons betreft de top 10 mooiste eilanden!
+Griekenland is zó veelzijdig dat er voor ieder wat wils is. Er zijn erg veel eilanden en elk eiland heeft haar eigen unieke stukje natuur en cultuur. Omdat het moeilijk kan zijn om het ideale eiland te vinden om te bezoeken, hebben wij hier een lijstje gemaakt met wat ons betreft de top 10 Griekse eilanden!
 
 ## Santorini
 
