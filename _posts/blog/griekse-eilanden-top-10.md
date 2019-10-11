@@ -19,6 +19,8 @@ Wanneer je maar één Grieks eiland in je leven gaat bezoeken, dan moet het Sant
 
 ![Witte huizen op caldera Santorini](/images/uploads/andreas-nextvoyagepl-svkw6ozi49a-unsplash.jpg "Witte huizen op caldera Santorini")
 
+_Het grootste aanbod reizen naar Santorini vind je bij_ [_Tjingo_](https://ds1.nl/c/?si=2554&li=148518&wi=335922&ws=&dl=griekenland%2Fsantorini)_. Of maak **vrijblijvend** een afspraak bij_ [_VakantieXperts_](https://ds1.nl/c/?si=2078&li=122974&wi=335922&ws=&dl=griekenland%2Fsantorini) _om jouw ultieme reis te plannen! Ben je alleen op zoek naar de allergoedkoopste vluchten naar Santorini? Check_ [_Skyscanner_](https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fvluchten%2Fnl%2Fjtr)_!_
+
 ## Kreta
 
 ![Zee Kreta](/images/uploads/stefan-kunze-riwb08kc57i-unsplash.jpg "Zee Kreta")
@@ -26,6 +28,8 @@ Wanneer je maar één Grieks eiland in je leven gaat bezoeken, dan moet het Sant
 Kreta is het grootste Griekse eiland en heeft een compleet eigen cultuur. Omdat het zo groot is heeft het eiland letterlijk alles waar je naar op zoek bent. Drukke toeristische resorts, prachtige zandstranden aan de zuidkust, onaangetaste bergdorpjes, prachtige oude stadjes zoals Chania en Rethymnon, maar ook het welbekende Chersonissos voor al het feestgedruis. Het eiland is te groot om tijdens één vakantie helemaal te bezoeken, dus focus je of op de oostkust rond Agios Nikolaos en het lepra eiland Spinalonga, of focus je op het westen waar je Chania, Rethymnon en de mooiste stranden kunt vinden. 
 
 ![Zonsondergang strand Matala, Kreta](/images/uploads/milada-vigerova-x8vc99panz8-unsplash.jpg "Zonsondergang strand Matala, Kreta")
+
+_Het grootste aanbod reizen naar Kreta vind je bij_ [_Stip_](https://ds1.nl/c/?si=1102&li=70734&wi=335922&ws=&dl=griekenland%2Fkreta)_,_ [_Corendon_](https://ds1.nl/c/?si=729&li=44046&wi=335922&ws=&dl=griekenland%2Fkreta) _en_ [_Tjingo_](https://ds1.nl/c/?si=2554&li=148518&wi=335922&ws=&dl=griekenland%2Fkreta)_. Of maak **vrijblijvend** een afspraak bij_ [_VakantieXperts_](https://ds1.nl/c/?si=2078&li=122974&wi=335922&ws=&dl=griekenland%2Fkreta) _om jouw ultieme reis te plannen! Ben je alleen op zoek naar de allergoedkoopste vluchten naar Kreta? Check_ [_Skyscanner_](https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fvluchten%2Fnl%2Fher)_!_
 
 ## Rodos
 
@@ -35,6 +39,8 @@ Rodos (of Rhodos) is een van de meest oostelijke eilanden van Griekenland op sle
 
 ![Middeleeuwse ridderstraat, Rodos](/images/uploads/img_2509.jpg "Middeleeuwse ridderstraat, Rodos")
 
+_Het grootste aanbod reizen naar Rodos vind je bij_ [_Stip_](https://ds1.nl/c/?si=1102&li=70734&wi=335922&ws=&dl=griekenland%2Frhodos)_,_ [_Corendon_](https://ds1.nl/c/?si=729&li=44046&wi=335922&ws=&dl=griekenland%2Frhodos) _en_ [_Tjingo_](https://ds1.nl/c/?si=2554&li=148518&wi=335922&ws=&dl=griekenland%2Frhodos)_. Of maak **vrijblijvend** een afspraak bij_ [_VakantieXperts_](https://ds1.nl/c/?si=2078&li=122974&wi=335922&ws=&dl=griekenland%2Frhodos) _om jouw ultieme reis te plannen! Ben je alleen op zoek naar de allergoedkoopste vluchten naar Rodos? Check_ [_Skyscanner_](https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fvluchten%2Fnl%2Frhod%2F)_!_
+
 ## Zakynthos
 
 ![Shipwreck beach, Zakynthos](/images/uploads/katya-shkiper-bfdc-dvtft8-unsplash.jpg "Shipwreck beach, Zakynthos")
@@ -42,6 +48,8 @@ Rodos (of Rhodos) is een van de meest oostelijke eilanden van Griekenland op sle
 Het eiland Zakynthos ligt in de Ionische zee ten westen van het Griekse vasteland. Iedereen die hier is, moet natuurlijk naar Navagio beach (ook wel Shipswreck beach). Niet om op het strand te liggen, maar om te genieten van het mooie uitzicht over de steile kliffen, het witte strand met het aangespoelde scheepswrak en het kraakheldere water. Wist je dat dit een van de meest gefotografeerde plekken van Griekenland is? Zakynthos is een erg groen eiland en staat bekend om het warme klimaat met in de zomer een lekker verkoelende wind. De Italianen noemden Zakynthos dan ook niet voor niets 'Fiore di Levante', oftewel de bloem van het Oosten. Vandaag de dag bezoeken mensen het eiland vooral voor de eindeloze stranden om heerlijk tot rust te komen.
 
 ![Klif in zee, Zakynthos](/images/uploads/max-van-den-oetelaar-f3rdbnqqbqu-unsplash.jpg "Klif in zee, Zakynthos")
+
+_Het grootste aanbod reizen naar Zakynthos vind je bij_ [_Stip_](https://ds1.nl/c/?si=1102&li=70734&wi=335922&ws=&dl=griekenland%2Fzakynthos)_,_ [_Corendon_](https://ds1.nl/c/?si=729&li=44046&wi=335922&ws=&dl=griekenland%2Fzakynthos) _en_ [_Tjingo_](https://ds1.nl/c/?si=2554&li=148518&wi=335922&ws=&dl=griekenland%2Fzakynthos)_. Of maak **vrijblijvend** een afspraak bij_ [_VakantieXperts_](https://ds1.nl/c/?si=2078&li=122974&wi=335922&ws=&dl=griekenland%2Fzakynthos) _om jouw ultieme reis te plannen! Ben je alleen op zoek naar de allergoedkoopste vluchten naar Zakynthos? Check_ [_Skyscanner_](https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fvluchten%2Fnl%2Fzth%2F)_!_
 
 ## Paros
 
@@ -51,6 +59,8 @@ Paros is één van de meest typische Griekse eilanden en een handige uitvalsbasi
 
 ![Huisje aan zee, Paros](/images/uploads/daria-nepriakhina-qem8cap_nbk-unsplash.jpg "Huisje aan zee, Paros")
 
+_Het grootste aanbod reizen naar Paros vind je bij_ [_Tjingo_](https://ds1.nl/c/?si=2554&li=148518&wi=335922&ws=&dl=griekenland%2Fparos)_. Of maak **vrijblijvend** een afspraak bij_ [_VakantieXperts_](https://ds1.nl/c/?si=2078&li=122974&wi=335922&ws=&dl=) _om jouw ultieme reis te plannen! Ben je alleen op zoek naar de allergoedkoopste vluchten naar Paros? Check_ [_Skyscanner_](https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fvluchten%2Fnl%2Fparo%2F)_!_
+
 ## Corfu
 
 ![Baai op Corfu](/images/uploads/chris-karidis-qxw1yemhq_4-unsplash.jpg "Baai op Corfu")
@@ -58,6 +68,8 @@ Paros is één van de meest typische Griekse eilanden en een handige uitvalsbasi
 Corfu is een noordelijk Ionisch eiland met een mix van vele invloeden, variërend van de Venetianen tot de Fransen, Italianen en Britten. De oude stad met de twee forten is een UNESCO-werelderfgoed en het is een van de mooiste eilanden wat betreft de natuur. Het eiland is groen en is een erg fijne plek om te wandelen. Er zijn gezellige plaatsjes waar je kunt genieten van de heerlijke Griekse keuken en er zijn mooie stranden waar je van het lekkere klimaat kunt genieten. Een must see is de prachtige baai Palaiokastritsa, met de begroeide rotsen, witte stranden en je raadt het al: het heldere lichtblauwe water.
 
 ![Bootje op Corfu](/images/uploads/major-wave-av9us5g2wbm-unsplash.jpg "Bootje op Corfu")
+
+_Het grootste aanbod reizen naar Corfu vind je bij_ [_Stip_](https://ds1.nl/c/?si=1102&li=70734&wi=335922&ws=&dl=griekenland%2Fcorfu)_,_ [_Corendon_](https://ds1.nl/c/?si=729&li=44046&wi=335922&ws=&dl=griekenland%2Fcorfu) _en_ [_Tjingo_](https://ds1.nl/c/?si=2554&li=148518&wi=335922&ws=&dl=griekenland%2Fcorfu)_. Of maak **vrijblijvend** een afspraak bij_ [_VakantieXperts_](https://ds1.nl/c/?si=2078&li=122974&wi=335922&ws=&dl=griekenland%2Fcorfu) _om jouw ultieme reis te plannen! Ben je alleen op zoek naar de allergoedkoopste vluchten naar Corfu? Check_ [_Skyscanner_](https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fvluchten%2Fnl%2Fcorf%2F)!
 
 ## Mykonos
 
@@ -67,6 +79,8 @@ Mykonos kun je zien als het Ibiza van Griekenland. Het is een schitterend eiland
 
 ![Kerk op Mykonos](/images/uploads/ricardo-gomez-angel-m_leyoqfg24-unsplash.jpg "Kerk op Mykonos")
 
+_Het grootste aanbod reizen naar Mykonos vind je bij_ [_Tjingo_](https://ds1.nl/c/?si=2554&li=148518&wi=335922&ws=&dl=griekenland%2Fmykonos)_. Of maak **vrijblijvend** een afspraak bij_ [_VakantieXperts_](https://ds1.nl/c/?si=2078&li=122974&wi=335922&ws=&dl=) _om jouw ultieme reis te plannen! Ben je alleen op zoek naar de allergoedkoopste vluchten naar Mykonos? Check_ [_Skyscanner_](https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fvluchten%2Fnl%2Fmiko)!
+
 ## Kefalonia
 
 ![Myrtos strand, Kefalonia](/images/uploads/george-prentzas-i3spilejwws-unsplash.jpg "Myrtos strand, Kefalonia")
@@ -74,6 +88,8 @@ Mykonos kun je zien als het Ibiza van Griekenland. Het is een schitterend eiland
 Eén van de best bewaarde geheimen van Griekenland is het eiland. Het mooie eiland ligt in de Ionische zee ten westen van het Griekse vasteland. Het grote publiek heeft Kefalonia nog niet echt ontdekt, terwijl het eiland wel een eigen vliegveld heeft en dus vrij makkelijk te bereiken is! Kefalonia is een erg groen eiland met veel bosachtige gebieden. Daarnaast zijn er erg veel kleurrijke dorpjes zoals het prachtige Assos en pittoreske Fiskardo. Ook heb je op Kefalonia heerlijke stranden met de felblauwe wateren van de Ionische zee. Als jij al een echte Griekenland kenner bent, probeer dan Kefalonia om je te laten verrassen.
 
 ![Uitzicht Kefalonia](/images/uploads/daniel-van-der-kolk-bws3ofnwb7q-unsplash.jpg "Uitzicht Kefalonia")
+
+_Het grootste aanbod reizen naar Kefalonia vind je bij_ [_Corendon_](https://ds1.nl/c/?si=729&li=44046&wi=335922&ws=&dl=griekenland%2Fkefalonia) _en_ [_Tjingo_](https://ds1.nl/c/?si=2554&li=148518&wi=335922&ws=&dl=griekenland%2Fkefalonia)_. Of maak **vrijblijvend** een afspraak bij_ [_VakantieXperts_](https://ds1.nl/c/?si=2078&li=122974&wi=335922&ws=&dl=) _om jouw ultieme reis te plannen! Ben je alleen op zoek naar de allergoedkoopste vluchten naar Kefalonia? Check_ [_Skyscanner_](https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fvluchten%2Fnl%2Fargo%2F)!
 
 ## Hydra
 
@@ -86,3 +102,5 @@ Hydra is een van de mooiste Griekse eilanden met een unieke architectuur die doo
 Skiathos is een eiland behorend tot de Noordelijke Sporaden en in tegenstelling tot de Cycladen, worden deze eilanden overspoeld met pijnbomen die de zee bereiken. Deze pijnbomen omringen de vele zandstranden op het eiland, zoals Koukounaries. Hora, de hoofdstad van het eiland, is een idyllisch dorp met witte huizen met rode daken gebouwd op een heuvel langs de haven. Een ideale bestemming voor gezinnen en mensen die niets hebben met de ruwe en rotsachtige natuur van de eilanden in het zuiden van de Egeïsche zee, zoals Kreta en Rodos. Snelle bootverbindingen tot de andere eilanden van de Sporaden zoals het schilderachtige Skopelos, authentieke Skyros en Alonissos, maakt eilandhoppen in de Sporaden ook heel toegankelijk!
 
 ![Dorp, Skiathos](/images/uploads/skiathos-greece-5tq6bxlln68-unsplash.jpg "Dorp, Skiathos")
+
+_Het grootste aanbod reizen naar Skiathos vind je bij_ [_Tjingo_](https://ds1.nl/c/?si=2554&li=148518&wi=335922&ws=&dl=griekenland%2Fskiathos)_. Of maak **vrijblijvend** een afspraak bij_ [_VakantieXperts_](https://ds1.nl/c/?si=2078&li=122974&wi=335922&ws=&dl=) _om jouw ultieme reis te plannen! Ben je alleen op zoek naar de allergoedkoopste vluchten naar Skiathos? Check_ [_Skyscanner_](https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fvluchten%2Fnl%2Fskia%2F)!
