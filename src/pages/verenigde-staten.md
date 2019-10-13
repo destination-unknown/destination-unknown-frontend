@@ -1,0 +1,17 @@
+---
+title: "Verenigde Staten"
+introtext: "De Verenigde Staten is het op twee na grootste land ter wereld, zowel in oppervlakte als in aantal inwoners. Omdat het zo groot is kun je hier veel verschilende soorten reizen maken. Maak een trip naar de Big Apple, oftewel New York. Reis langs de oostkust naar Miami en geniet van de mooie stranden. Huur een camper en reis dwars door de Midwest of Texas naar de westkust, waar je de mooie nationale parken kan vinden. Bezoek de Grand Canyon, waag een gokje in Sin City (Las Vegas) en eindig in de wereldsteden Los Angeles en San Fransisco in Californië. Kortom, genoeg te beleven in dit prachtige land vol drukke steden en ongerepte natuur!"
+introimage: "https://lh3.googleusercontent.com/Xwb-qIphtrIW2tfVhtB6QPJ8mlsGPSORh2AUSKfwtv8l47Vd4zigxByelwpkHMGjFAxgUMo77084VRuH27sWfCltQgjWPI78fFHY8tcpKHk1Ej8Yx4U5VXCd_D6_U4rX_ZMWkw3iew=w800"
+surface: "9.834.000"
+inhabitants: "325.000.000"
+rate: "1,1"
+valuta: "dollar"
+need_to_know_text: ""
+need_to_know_more_text: ""
+fact_one_text: ""
+fact_two_text: ""
+bigmac_index: ""
+images: "https://lh3.googleusercontent.com/Ma5stdQvrEGmEsyMZCD176l4ZJX0rxJnGrm0adWhYcJP2BOWuNVn9yhkCw6lsad9ZQIp6rrpxjI6gMJXYY74zJOM_ajiANmNjZ20IS2aRPyo5-ApKTydj6UfX6mRRnpncancmwbqDA=w800|https://lh3.googleusercontent.com/o8gvbOjvuupcPfbrSFiaDFwnghAUoXm5TpDz3AIaHHSmf13w6sKsPfrDIvSj7Irr8KhLh9zBC2UdkY0W6avRqDZDloisLqvdjcO8J5OvLzRH9LvAKIah7nJeqYzw5E7tja_mXQI7MA=w800|https://lh3.googleusercontent.com/YakEbjIALnQ6_VHnxHpzhuMQxeuQwCp1ZNgmSG2vUxRqzB_ett2LVHzNYucnTK9WaKHyUjmyL3xh_ZJUnC5IVhnqy--DlMa6TduDYQQCR7QvV7UXfp0xlbJuJbElU-TgnzQeru6TgA=w800|https://lh3.googleusercontent.com/qb6wdMwb_d_-GXtlbwEzR6vYVg6yAZvVy6AC-4qUaNNa4OOfcewFWp1F3XSkl9KMDZejerxY51-K-acWe5Rw1pgSvYniLdtpoKsn2g9_MGmg-Vrb46axwKYdM10b5tgum_O_eTGITw=w800"
+flight_button_title: "Check vluchtprijzen Verenigde Staten"
+flight_button_url: "https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fflights%2Fnl%2Fus%2F%3Flocale%3Dnl-NL%26currency%3DEUR%26market%3DNL"
+---

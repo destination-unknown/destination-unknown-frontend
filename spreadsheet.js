@@ -20,9 +20,14 @@ var doc = new GoogleSpreadsheet('1pZ3QgN3YfrfavRvf9281AQEmZ7RRxOPI5-3DJJyzNXw')
 
 // Authenticate with the Google Spreadsheets API.
 doc.useServiceAccountAuth(creds, function(err) {
+  if (err) throw err
   // Get all of the rows from the spreadsheet.
   doc.getInfo(function(err, info) {
+    if (err) throw err
+
     info.worksheets[3].getRows(function(err, rows) {
+      if (err) throw err
+
       for (let row of rows) {
         fs.writeFile(
           `src/pages/${slugify(row.country)}.md`,
