@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: 'https://destination-unknown.nl',
+    siteUrl: 'https://www.destination-unknown.nl',
     title: `Destination Unknown`,
     description: `Find your perfect holiday destination by answering a few simple questions.`,
     author: `@joeykaan`,
