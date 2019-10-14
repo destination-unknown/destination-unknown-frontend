@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import { graphql } from 'gatsby'
 import Lightbox from 'react-image-lightbox'
 import 'react-image-lightbox/style.css'
+import cheerio from 'cheerio'
 
 const MaxWidthContainer = styled.div`
   max-width: 960px;
@@ -82,30 +83,28 @@ export default class Country extends React.Component {
   }
 
   _addTagsToOutgoingLinks(html, baseUrl) {
-    const parser = new Parser()
-    const el = parser.parseFromString(html)
-    const links = el.getElementsByTagName('a')
+    const $ = cheerio.load(html)
 
-    for (let link of links) {
-      link.attributes.target = '_blank'
-      if (!link.getAttribute('href').startsWith(baseUrl)) {
-        link.attributes.rel = 'nofollow'
-      }
-    }
+    $('a').attr('target', '_blank')
 
-    return el
+    $('a')
+      .filter(function(i, el) {
+        return !$(this)
+          .attr('href')
+          .startsWith(baseUrl)
+      })
+      .attr('rel', 'nofollow')
+
+    return $.html()
   }
 
   render() {
     const { data } = this.props
     const post = data.markdownRemark
-
-    const html = post.html
-
-    // const html = this._addTagsToOutgoingLinks(
-    //   post.html,
-    //   data.site.siteMetadata.siteUrl
-    // )
+    const html = this._addTagsToOutgoingLinks(
+      post.html,
+      data.site.siteMetadata.siteUrl
+    )
 
     return (
       <Layout isIndex={false}>
