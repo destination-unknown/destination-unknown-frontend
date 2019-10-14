@@ -81,9 +81,32 @@ export default class Country extends React.Component {
     this.state = { isLightBoxOpen: false, lightBoxImage: null }
   }
 
+  _addTagsToOutgoingLinks(html, baseUrl) {
+    const parser = new Parser()
+    const el = parser.parseFromString(html)
+    const links = el.getElementsByTagName('a')
+
+    for (let link of links) {
+      link.attributes.target = '_blank'
+      if (!link.getAttribute('href').startsWith(baseUrl)) {
+        link.attributes.rel = 'nofollow'
+      }
+    }
+
+    return el
+  }
+
   render() {
     const { data } = this.props
     const post = data.markdownRemark
+
+    const html = post.html
+
+    // const html = this._addTagsToOutgoingLinks(
+    //   post.html,
+    //   data.site.siteMetadata.siteUrl
+    // )
+
     return (
       <Layout isIndex={false}>
         <MaxWidthContainer>
@@ -117,7 +140,7 @@ export default class Country extends React.Component {
         </MaxWidthContainer>
         <BodyTextContainer>
           <MaxWidthContainer>
-            <BodyText dangerouslySetInnerHTML={{ __html: post.html }} />
+            <BodyText dangerouslySetInnerHTML={{ __html: html }} />
           </MaxWidthContainer>
         </BodyTextContainer>
       </Layout>
@@ -127,6 +150,11 @@ export default class Country extends React.Component {
 
 export const query = graphql`
   query($slug: String!) {
+    site {
+      siteMetadata {
+        siteUrl
+      }
+    }
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
