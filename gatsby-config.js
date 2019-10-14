@@ -40,7 +40,12 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-transformer-remark`,
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        exclude: ['/oeps*'],
+      },
+    },
     'gatsby-plugin-styled-components',
     {
       resolve: `gatsby-plugin-react-svg`,
