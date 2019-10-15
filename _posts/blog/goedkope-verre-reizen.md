@@ -34,7 +34,7 @@ Nicaragua is een magisch land van vulkanische bergtoppen, toffe feesten, junglet
 
 Je kunt een kamer scoren voor minder dan 10 euro per nacht en voor minder dan een euro eet je het lekkerste streetfood. Alcohol is goedkoop en de stranden zijn gratis! Als je een budget backpacker bent, is Nicaragua een verstandige keuze.
 
-In vergelijking met andere landen in Midden-Amerika, zoals buurland [Costa Rica](https://www.destination-unknown.nl/costa-rica), is Nicaragua zeker een van de goedkoopste landen om te verblijven in heel Midden-Amerika. Een overnachting in Costa Rica kost je al snel het dubbele dan wat een overnachting in Nicaragua kost!
+In vergelijking met andere landen in Midden-Amerika, zoals buurland [Costa Rica](https://www.destination-unknown.nl/costa-rica), is Nicaragua zeker een van de goedkoopste landen om te verblijven in heel Midden-Amerika. Een overnachting in Costa Rica kost je al snel het dubbele van wat een overnachting in Nicaragua kost!
 
 ## **Cambodja**
 
