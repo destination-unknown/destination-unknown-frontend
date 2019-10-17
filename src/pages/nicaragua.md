@@ -1,0 +1,17 @@
+---
+title: "Nicaragua"
+introtext: "Nicaragua is een magisch land van vulkanische bergtoppen, toffe feesten, jungletochten en Maya-locaties. Het is veilig, alles in het land is makkelijk te bereizen en heeft voor elk wat wils.  Nicaragua is niet alleen een mooie maar ook een goedkope plek om te reizen in Midden-Amerika en is daardoor ook een uitstekende plek voor mensen die met een beperkt budget op vakantie willen gaan. Als je lekker wilt chillen op een tropisch eiland is Little Corn Island een aanrader, dit is echt een parel in de Caribische zee. Naast luieren op het strand kun je in Nicaragua prima hiken door de prachtige jungle en moet je zeker één van de vele vulkanen beklimmen!"
+introimage: "https://lh3.googleusercontent.com/woRYWWxGVJdCn139ID_bJ7tklxufHkm04ty0n7DkH7KMGV0QHoaf5jBqQZuXI7szxnP-PFdjuziOFsWYCXX-ouxdpzKSPCFhsZ1KaM_IBPbmfrxVlCj6v6ofAWoriE3s6a2s1dSIlw=w800"
+surface: "130.000"
+inhabitants: "6.200.000"
+rate: "37,56"
+valuta: "córdoba"
+need_to_know_text: ""
+need_to_know_more_text: ""
+fact_one_text: ""
+fact_two_text: ""
+bigmac_index: ""
+images: "https://lh3.googleusercontent.com/Jj5XN0uQm881z3_jB6sT4SpjoHYjJNSoqlK31nk5hOZy37c9jUl0k5d4s_2fPDXXtOtQD0RyKVP5j_mM4v8615wqr4qpwDNJsUbf1C6ANH-D8CaZ8NR4krNJXPueceWlMXtH6FTiHg=w800|https://lh3.googleusercontent.com/zEKfvuHID2I3fFJOsFPlslHv5dQWL8pHQM2aEOea8uFhK_xfnBuHAwtDJlwh1QJlzcq04vCbf1-at89Jz2YdRPRiZP0Xb9ZflY0hNth0wk37fhbI1BnzoneWOEk6wPtsTmBxn7_AvA=w800|https://lh3.googleusercontent.com/WpKfh18-vQD03uK_Bthw4fg5N03iEr8xx97h0a-Ly2-2K-Qw0WO4P2ENwMDvX2ZRkUyFTnUMSwdgYPLCR-P313dfmvKhMyEnveG66YfXQQp6hB3v8N5-DORPDLR-TK6wyiqTnMiu0A=w800|https://lh3.googleusercontent.com/CS3Q8UWEow7kM_0GhKvwHOxpzwpMUg8vf1vqKZsZR7J48XsMS9HRMCsbbWthLGfcpUw1nbruByAW9fdjCiheeYaiGRzcGtS78kjHXEnRgvi-7B5Y859yhYVYcDSYUpR4yFbMsvEcRw=w800"
+flight_button_title: "Check vluchtprijzen Nicaragua"
+flight_button_url: "https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fflights%2Fnl%2Fni%2F%3Flocale%3Dnl-NL%26currency%3DEUR%26market%3DNL"
+---

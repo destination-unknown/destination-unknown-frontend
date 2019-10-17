@@ -1,0 +1,17 @@
+---
+title: "Marokko"
+introtext: "Marokko is een prachtig land in het uiterste noordwesten van Afrika. Bezoek de koningssteden Fèz, Meknès, Marrakesh en Rabat met de prachtige paleizen en de herkenbare soeks, waar het vooral in Marrakesh erg chaotisch en druk kan zijn. Maak daarna een mooie reis door de bergen richting de woestijn. Reis langs de ruige Dadès kloven en maak een stop bij het prachtige stadje Aït-Ben-Haddou, wat als filmdecor dient voor vele films en series, waaronder Game of Thrones. Maak in de Sahara een kamelentocht en overnacht in een tentenkamp midden in de woestijn. In Marokko kijk je daadwerkelijk je ogen uit!"
+introimage: "https://lh3.googleusercontent.com/GAwRud8WVdtMaW7ep2Y4Lg73es1BgzEqmR7lQDegCGcXXlzjMeHMqxxjNfTxM9rCmq33uaW21k0yKOvozYRuaZ0u937F1_RQMCnwC56S0Zfy2fXCvfuniRLNYeQNgHnPVcU8Dz5cTw=w800"
+surface: "447.000"
+inhabitants: "35.800.000"
+rate: "10,69"
+valuta: ""
+need_to_know_text: ""
+need_to_know_more_text: ""
+fact_one_text: ""
+fact_two_text: ""
+bigmac_index: ""
+images: "https://lh3.googleusercontent.com/AgzMd1R-7aVMzPiRKOLcHvNdPsgrm50L-nPUXXj8Iw8tnxp8gpqEdiLy6j7DWLADICqe0HA0G02HRont-Saj5nAQGkE_IuHV9KOCTQXtPwRPm3I24YziLATmCxQvYbWAnDmRhsEn5Q=w800|https://lh3.googleusercontent.com/yMrs-tRQda16WqNgNOxh5isGHqrnyRXUuX4LjRVS_OF6fmBJarKLdaXpFOE1jeuBDG5ADwJALRp1WkYe9Oyy1cr1EXadjWTOJgvrlgWdRdJl_zd81aA25NE8Jn1ZLPXTRqEf6ZLBCQ=w800|https://lh3.googleusercontent.com/V0sEs2fnU_vDvkUmil7zhU6U-kHQMQfeKvB33EayzG-sGsYmB4tJVEKFC77oiIXipPif-R0zkiW7Bo8IxGmubmU5h3b9r9I1-DMAoieq0cYNSm80qdSVrZo0TrTarPsFYVigBm6FEw=w800|https://lh3.googleusercontent.com/PA0L3-4qIggrNEs5vO2Tckv4Jd2DgSmH5mYkujeKHOyAmlOoM9SSi7Vpi_ezksGrMEgaKq0Od1gYZ9CxcPRZhsaNXIDo4tTd9Y8g7fgXwdiqHPY30j-1cG0DZIJGC5NamBcpyO0Z7Q=w800"
+flight_button_title: "Check vluchtprijzen Marokko"
+flight_button_url: "https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fflights%2Fnl%2Fma%2F%3Flocale%3Dnl-NL%26currency%3DEUR%26market%3DNL"
+---

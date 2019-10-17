@@ -1,0 +1,17 @@
+---
+title: "Finland"
+introtext: "Finland, ook wel het land van de 1000 meren genoemd, is een enorm bosrijk en dunbevolkt land. Dit maakt Finland een absolute topbestemming voor een avontuurlijke vakantie. De zomers zijn lang met enorm veel daglicht en aangename temperaturen en de winters zijn donker en soms extreem koud. Geniet in de hoofdstad Helsinki van luxe winkels, chique restaurants en het beste van de 'Nordic Cuisine'. Ga het binnenland in en hike in een van de vele bossen waar beren, elanden en rendieren de dienst uitmaken en je je midden in de wildernis waant. Reis verder door naar Fins lapland in het Noorden. Hier kun je in de winter skiën, sleeën met huskies en sneeuwscooter tochten maken en in de zomer hiken en raften. Kortom, een echte aanrader voor rust, avontuur en natuur!"
+introimage: "https://lh3.googleusercontent.com/kSwV78Dlt3WaezL7sAVIV-qR0EKyZbCkirkYEfAQ2JELu1mXf9JrtimujIdzBBtivsFxJPx6d_YjshoLCnakcXTotxWglhuTWvDi4O4h-lQa8YVilMZxUIZvXUvIN--R-bEhq53d_g=w800"
+surface: "338.000"
+inhabitants: "5.500.000"
+rate: ""
+valuta: "euro"
+need_to_know_text: ""
+need_to_know_more_text: ""
+fact_one_text: ""
+fact_two_text: ""
+bigmac_index: "€ 4,48"
+images: "https://lh3.googleusercontent.com/Nryy8P0AJ945aGATdO97odl5Ja_VDbXT8k-xIJC5p0Qq968aG4Z3QM8d_ysMb4Oaw3Zop_WhAxJeFbvEnbz6BU2YLkEb6iK8GbHptPH0AGNjAqFeFlvUDGCB-nwNX9J5OBSot5sf6A=w800|https://lh3.googleusercontent.com/zOT4_NBmN8s7v5Aw-Sd9d8fiHhb7WK-d6UD42F4WfJ7OPlgp0Q1tP_ItuygVv0U0yAIF3g_Sv1w2t07zM_EL1hwDFPGAb3hgi38XQxcM-5_hyav6YacQiley6h2Ckp7RWswtSdh8RA=w800|https://lh3.googleusercontent.com/q3QmIvRXyd7NI7vxs4ooaFtE_Kl4E0k-0Bx_PEJwB9L5-LKWObW-PU0BDGFVogjV9Sr01zuL4KrqM48n9cmYcI66-THV9E1xO-BZcMa-kIKIhYfR99M8M-yYbaF4wgMqA4em3dEw6g=w800|https://lh3.googleusercontent.com/J0PU7AIo1SmfvTi1CfoX6MSCWl4_6TkzEAfGMQ6mzukH1ydj5ze5xvCQHZZDd17cv62HU4Nyq4PBVMzK-_oA42Wv9q-s8AyJXrXHCKfNSA4epPBSJNnzemcq92z5SJ9MzHYasZcbNg=w800"
+flight_button_title: "Check vluchtprijzen Finland"
+flight_button_url: "https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fflights%2Fnl%2Ffi%2F%3Flocale%3Dnl-NL%26currency%3DEUR%26market%3DNL"
+---

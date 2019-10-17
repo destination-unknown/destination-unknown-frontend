@@ -4,7 +4,7 @@ introtext: "Jordanië is het hart van het Midden-Oosten en zit vol met cultureel
 introimage: "https://lh3.googleusercontent.com/AkEs32cUllmUwcpY3zGjsnySZm1oXIePFg1iawk_azrWacas28tWtzAH9JcY_rKkErxUR5DQLDeHaEk2Usbe-0R2cW1VTNBkAffSe0Yq1k0gGGdNSSs704BNLFCcsWQUvc8DCRiW2w=w800"
 surface: "89.000"
 inhabitants: "9.800.000"
-rate: "0,78"
+rate: "0,79"
 valuta: "dinar"
 need_to_know_text: ""
 need_to_know_more_text: ""
