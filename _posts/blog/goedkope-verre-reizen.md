@@ -28,7 +28,7 @@ Voor minder dan 7 euro per nacht slaap je in de beste hostels van Sri Lanka. Ook
 
 ![Backpacken Nicaragua](/images/uploads/ferdinand-feng-hdmlapxfm5u-unsplash.jpg?nf_resize=fit&h=800 "Granada in Nicaragua")
 
-Voor de ervaren backpackers onder ons behoeft Nicaragua geen introductie. Nicaragua is een fijne en goedkope plek om te reizen in Midden-Amerika en is daardoor ook een uitstekende plek voor mensen die met een beperkt budget op vakantie willen gaan.
+Voor de ervaren backpackers onder ons behoeft [Nicaragua](https://www.destination-unknown.nl/nicaragua) geen introductie. Nicaragua is een fijne en goedkope plek om te reizen in Midden-Amerika en is daardoor ook een uitstekende plek voor mensen die met een beperkt budget op vakantie willen gaan.
 
 Nicaragua is een magisch land van vulkanische bergtoppen, toffe feesten, jungletochten en Maya-locaties. Het is veilig, alles in het land is makkelijk te bereizen en heeft voor elk wat wils.
 
