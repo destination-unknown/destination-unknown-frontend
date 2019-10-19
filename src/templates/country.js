@@ -14,6 +14,7 @@ import { lighten, darken } from 'polished'
 import { keyframes } from 'styled-components'
 import Airplane from '../images/airplane.svg'
 import OopsPage from '../components/oops-page'
+import { Helmet } from 'react-helmet'
 
 const Container = styled.div`
   background-color: #47c0c7;
@@ -307,11 +308,16 @@ export default class Country extends React.Component {
       post.frontmatter.surface === ''
     ) {
       return (
-        <OopsPage
-          title={post.frontmatter.title}
-          introimage={post.frontmatter.introimage}
-          introtext={post.frontmatter.introtext}
-        />
+        <div>
+          <Helmet>
+            <meta name="robots" content="noindex" />
+          </Helmet>
+          <OopsPage
+            title={post.frontmatter.title}
+            introimage={post.frontmatter.introimage}
+            introtext={post.frontmatter.introtext}
+          />
+        </div>
       )
     }
 
