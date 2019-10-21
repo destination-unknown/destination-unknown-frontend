@@ -9,9 +9,18 @@ const ChildrenContainer = styled.div`
   margin-top: ${props => (props.isIndex ? 0 : '105px')};
 `
 
-const Layout = ({ children, isIndex }) => (
+const Layout = ({
+  children,
+  isIndex,
+  isBlog = false,
+  shouldShowNextDestination = false,
+}) => (
   <>
-    <Header isIndex={isIndex} />
+    <Header
+      isIndex={isIndex}
+      isBlog={isBlog}
+      shouldShowNextDestination={shouldShowNextDestination}
+    />
     <ChildrenContainer isIndex={isIndex}>{children}</ChildrenContainer>
   </>
 )

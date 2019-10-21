@@ -12,7 +12,7 @@ const BlogsContainer = styled.div`
 
 const BlogOverviewPage = ({ data }) => {
   return (
-    <Layout isIndex={true}>
+    <Layout isIndex={true} isBlog={true} shouldShowNextDestination={true}>
       <BlogsContainer>
         {data.allMarkdownRemark.edges.map(edge => {
           return (

@@ -9,7 +9,7 @@ import favicon from '../images/favicon.ico'
 
 const Container = styled.div`
   display: grid;
-  grid-template-columns: 74% 26%;
+  grid-template-columns: 1fr max-content;
 `
 
 const NavigationButton = styled.button`
@@ -31,6 +31,12 @@ const NavigationContainer = styled.div`
   max-width: 960px;
 `
 
+const NavigationButtonContainer = styled.div`
+  a {
+    margin-left: 16px;
+  }
+`
+
 const OuterNavigationContainer = styled.div`
   background-color: #47c0c7;
   z-index: 10;
@@ -41,7 +47,7 @@ const OuterNavigationContainer = styled.div`
   right: 0;
 `
 
-const Header = ({ isIndex }) => (
+const Header = ({ isIndex, isBlog, shouldShowNextDestination }) => (
   <StaticQuery
     query={graphql`
       query {
@@ -77,17 +83,46 @@ const Header = ({ isIndex }) => (
                 <Img fixed={data.placeholderImage.childImageSharp.fixed} />
               </Link>
             </div>
-            {!isIndex && (
-              <Link
-                to="/"
-                style={{
-                  color: `white`,
-                  textDecoration: `none`,
-                }}
-              >
-                <NavigationButton>Kies nieuwe bestemming</NavigationButton>
-              </Link>
-            )}
+            <NavigationButtonContainer>
+              {!isBlog && (
+                <Link
+                  to="/blog"
+                  style={{
+                    display: `inline-block`,
+                    color: `white`,
+                    textDecoration: `none`,
+                  }}
+                >
+                  <NavigationButton>Blog</NavigationButton>
+                </Link>
+              )}
+              {shouldShowNextDestination && (
+                <Link
+                  to="/"
+                  style={{
+                    display: `inline-block`,
+                    color: `white`,
+                    textDecoration: `none`,
+                  }}
+                >
+                  <NavigationButton>
+                    Ontdek je volgende bestemming
+                  </NavigationButton>
+                </Link>
+              )}
+              {!isIndex && (
+                <Link
+                  to="/"
+                  style={{
+                    display: `inline-block`,
+                    color: `white`,
+                    textDecoration: `none`,
+                  }}
+                >
+                  <NavigationButton>Kies nieuwe bestemming</NavigationButton>
+                </Link>
+              )}
+            </NavigationButtonContainer>
           </Container>
         </NavigationContainer>
       </OuterNavigationContainer>

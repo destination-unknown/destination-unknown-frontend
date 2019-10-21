@@ -107,7 +107,7 @@ export default class Country extends React.Component {
     )
 
     return (
-      <Layout isIndex={false}>
+      <Layout isIndex={true} shouldShowNextDestination={true}>
         <MaxWidthContainer>
           <Container>
             <Title>{post.frontmatter.title}</Title>
