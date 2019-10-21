@@ -20,7 +20,7 @@ const Container = styled.div`
   display: grid;
   grid-template-columns:
     [full-start] minmax(1em, 1fr)
-    repeat(12, [main-start] minmax(0, 80px) [main-end]) minmax(1em, 1fr) [full-end];
+    repeat(15, [main-start] minmax(0, 80px) [main-end]) minmax(1em, 1fr) [full-end];
   grid-template-rows: max-content 1fr;
   font-family: 'Open Sans', sans-serif;
   margin: 0 auto;
@@ -68,7 +68,7 @@ const SurveyContainer = styled.div`
 const TravelGearImageContainer = styled.div`
   margin-top: 80px;
   grid-column-start: main-start 6;
-  grid-column-end: full-end;
+  grid-column-end: main-end 15;
   grid-row: 1 / span 2;
   @media only screen and (max-width: 600px) {
     margin-top: 0;

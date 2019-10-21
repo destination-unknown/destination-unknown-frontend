@@ -12,7 +12,7 @@ const LandGridContainer = styled.div`
   display: grid;
   grid-template-columns: 42% 10% 3% 45%;
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 1200px;
   padding: 64px 16px;
   @media only screen and (max-width: 600px) {
     grid-template-columns: 100%;

@@ -26,7 +26,7 @@ const OffCentreBodyText = styled.p`
 
 const WhatYouNeedToKnowContainer = styled.div`
   padding-top: 16px;
-  max-width: 960px;
+  max-width: 1200px;
   margin: 0 auto;
 
   @media only screen and (max-width: 600px) {

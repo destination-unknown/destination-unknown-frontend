@@ -21,7 +21,7 @@ const Container = styled.div`
   display: grid;
   grid-template-columns:
     [full-start] minmax(1em, 1fr)
-    repeat(12, [main-start] minmax(0, 80px) [main-end]) minmax(1em, 1fr) [full-end];
+    repeat(15, [main-start] minmax(0, 80px) [main-end]) minmax(1em, 1fr) [full-end];
   grid-template-rows: max-content 50%;
   font-family: 'Open Sans', sans-serif;
   margin: 0 auto;
@@ -54,7 +54,7 @@ const WhatYouNeedToKnowContainer = styled.div`
 
 const TitleContainer = styled.div`
   grid-column-start: main-start 8;
-  grid-column-end: main-end 12;
+  grid-column-end: main-end 15;
   grid-row: 1;
 
   @media only screen and (max-width: 600px) {
@@ -81,8 +81,8 @@ const Title = styled.h1`
 
 const ImageContainer = styled.div`
   margin-top: -20px;
-  grid-column-start: full-start;
-  grid-column-end: main-end 6;
+  grid-column-start: main-start;
+  grid-column-end: main-end 9;
   grid-row: 2;
 
   @media only screen and (max-width: 600px) {
@@ -144,8 +144,8 @@ const FactSubText = styled.p`
 const BodyTextContainer = styled.div`
   z-index: 1;
   background-color: #5ecdd3;
-  grid-column-start: main-start 6;
-  grid-column-end: main-end 12;
+  grid-column-start: main-start 9;
+  grid-column-end: main-end 15;
   grid-row: 2 / span 2;
   border-radius: 3px;
   padding: 32px;
@@ -172,7 +172,7 @@ const BodyText = styled.p`
 const ImageGalleryContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
-  max-width: 960px;
+  max-width: 1200px;
   margin: 0 auto;
   -webkit-overflow-scrolling: touch;
 

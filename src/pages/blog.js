@@ -6,7 +6,7 @@ import BlogEntry from '../components/blog-entry'
 
 const BlogsContainer = styled.div`
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 1200px;
   padding: 0 16px;
 `
 
