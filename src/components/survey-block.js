@@ -40,7 +40,7 @@ const Title = styled.h1`
   z-index: 1;
   grid-row: 1;
   line-height: 1;
-  font-size: 7vw;
+  font-size: 6vw;
   font-weight: bold;
   margin: 0;
   margin-bottom: 16px;
@@ -197,8 +197,8 @@ export default ({ handleClick, isLoading }) => {
           <Img fluid={data.artboard.childImageSharp.fluid} />
         </TravelGearImageContainer>
         <Title>
-          KIES <br />
-          &amp; REIS
+          WAAR <br />
+          OP REIS
         </Title>
         <SurveyContainer>
           <Survey>

@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     siteUrl: 'https://www.destination-unknown.nl',
     title: `Destination Unknown`,
-    description: `Find your perfect holiday destination by answering a few simple questions.`,
+    description: `Weet je niet waar je reis naar toe moet gaan? Er zijn zoveel landen om uit te kiezen. Beantwoord een paar vragen en wij helpen je om dat ene vakantieland te vinden.`,
     author: `@joeykaan`,
   },
   plugins: [

@@ -6,6 +6,7 @@ import CountryBlock from '../components/country-block'
 import TestimonialContentContainer from '../components/testimonial-block'
 import Helmet from 'react-helmet'
 import Safe from 'react-safe'
+import SEO from '../components/seo'
 
 function slugify(text) {
   return text
@@ -83,6 +84,13 @@ class IndexPage extends React.Component {
         <Helmet>
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" />
         </Helmet>
+        <SEO
+          description={null}
+          lang={'nl-NL'}
+          meta={[]}
+          keywords={[]}
+          title={'Waarheen op reis?'}
+        />
         <SurveyBlock
           isLoading={this.state.isLoading}
           handleClick={this.handleClick}
