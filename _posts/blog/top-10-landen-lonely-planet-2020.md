@@ -54,3 +54,5 @@ Marokko is een prachtig land in het uiterste noordwesten van Afrika. Bezoek de k
 ## 10. Uruguay
 
 Dit Zuid-Amerikaanse land is nog niet heel populair qua toerisme, terwijl het in Uruguay juist heel goed vertoeven is. Lonely Planet haalt aan dat er een lange kustlijn is, een opkomende wijnindustrie, levendige warmwaterbronnen en “eindeloos glooiende landschappen die de grandeur van Zuid-Amerika haast tastbaar maken”. Naast al dit natuurschoon is Uruguay ook nog eens een van de meest veilige en tolerante landen van het continent. Alle redenen om Uruguay in 2020 te bezoeken!
+
+bron: https://www.lonelyplanet.com/best-in-travel/countries
