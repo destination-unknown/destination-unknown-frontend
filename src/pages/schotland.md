@@ -1,0 +1,17 @@
+---
+title: "Schotland"
+introtext: "Schotland is de ideale plek voor mensen die houden van schitterende ruige natuur. De populairste plek in Schotland zijn natuurlijk de Schotse hooglanden. Vergeet ook niet de traditionele Schotse gebruiken en de prachtige oude stadjes en dorpjes. Begin je reis in de eeuwenoude hoofdstad Edinburgh en bezoek het beroemde Edinburgh Castle. Een absolute must is een ritje op de Jacobite trein, één van de mooiste treinreizen ter wereld en beroemd geworden door het fungeren als de Hogwarts express in de Harry Potter films. Voor iedereen die niet bang is voor een beetje regen en van roadtrippen door prachtige natuur houdt is Schotland de ideale reisbestemming! "
+introimage: "https://lh3.googleusercontent.com/3-8uvSVtZ-Aib_AnV0dSvMJRF9TYw1t-weAt13sPf9vQ-ZZQi163X9rLT3t5L0BteZKjAs6fLIWPh8tFX0uAqOj5uicQv-wHpmGS-4AjpiUrUuSTJ6CfY74k8F4EHMoOpcv80EV46A=w800"
+surface: "80.000"
+inhabitants: "5.400.000"
+rate: "0,86"
+valuta: "pond"
+need_to_know_text: ""
+need_to_know_more_text: ""
+fact_one_text: ""
+fact_two_text: ""
+bigmac_index: ""
+images: "https://lh3.googleusercontent.com/cSiZQMr3UAoKRMYU8ViJzgut7UST10Tssq1Jfx7BwYjz0_lWxl2Bcl9sHHtuve2a44le1qw6CcdxoEnIkveVv2dPOiR1luOeva3s2kHbIGTJUUPgVLo0TEaXodHG5HRbU_TwE576OQ=w800|https://lh3.googleusercontent.com/V0scvJ7Fwwhmu1tUS2YhaFj9RxFbCdejEi2hdIGQjqInFjWX0s9xQey0lJfPceMRA8dd66olW6rDWZZH8Ly69tqB-70pA3TJ2jgKpQ5HDFYPRnoLWk-s0VkU7xxfgDs3OqBld4QETg=w800|https://lh3.googleusercontent.com/jUN5QqJLYd6nw3b0nE9EgvtLpobLOi03vTgja3Gjw6McrJuh1Dtfq06hfiHxfOlULM-FZwPHmjnO_98Z3kFOLkEArZMOPpqm7lykwGUEN-beV_8wTdDGi2DMGFMKp0lq-62zD88rqw=w800|https://lh3.googleusercontent.com/FSvBn1EJFAtnAgE5am-9MfLintLt9wqBylCoUtvC9pvUG7lN_ScFXuKbROiQFr8JO1oPUZEmKS63OamBTss_bXJHgNWr-_iWb8gGRgvbTAUqBOPdBUtoBkuSMFzLd94_zlCU1HI--Q=w800"
+flight_button_title: "Check vluchtprijzen Schotland"
+flight_button_url: "https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fflights%2Fnl%2Fedin%2F%3Flocale%3Dnl-NL%26currency%3DEUR%26market%3DNL"
+---
