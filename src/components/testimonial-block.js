@@ -18,6 +18,7 @@ const SubTitle = styled.p`
   color: white;
   margin-top: 8px;
   line-height: 1.5;
+  font-size: 1.2rem;
 `
 
 const TestimonialContainer = styled.div`

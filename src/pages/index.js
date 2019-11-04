@@ -4,6 +4,10 @@ import axios from 'axios'
 import SurveyBlock from '../components/survey-block'
 import CountryBlock from '../components/country-block'
 import TestimonialContentContainer from '../components/testimonial-block'
+import TravelBlock from '../components/travel-block'
+import EiffelTowerBlock from '../components/eiffel-tower-block'
+import AirplaneBlock from '../components/airplane-block'
+import DestinationUnknownBlock from '../components/destination-unknown-block'
 import Helmet from 'react-helmet'
 import Safe from 'react-safe'
 import SEO from '../components/seo'
@@ -89,13 +93,17 @@ class IndexPage extends React.Component {
           lang={'nl-NL'}
           meta={[]}
           keywords={[]}
-          title={'Waarheen op reis?'}
+          title={'Waar op vakantie? Doe de test!'}
         />
         <SurveyBlock
           isLoading={this.state.isLoading}
           handleClick={this.handleClick}
         />
         <CountryBlock />
+        <TravelBlock />
+        <EiffelTowerBlock />
+        <AirplaneBlock />
+        <DestinationUnknownBlock />
         <TestimonialContentContainer />
         <Safe.script>
           {`if (window.netlifyIdentity) {
