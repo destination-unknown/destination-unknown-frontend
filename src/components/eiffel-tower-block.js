@@ -10,7 +10,7 @@ const Container = styled.div`
 
 const GridContainer = styled.div`
   display: grid;
-  grid-template-columns: 42% 18% 40%;
+  grid-template-columns: 42% 30% 28%;
   grid-template-rows: min-content 1fr;
   margin: 0 auto;
   max-width: 1200px;
@@ -93,6 +93,10 @@ export const PureTravelBlock = ({ data }) => (
           Wist je dat bijna 80% van alle buitenlandse reizen die gemaakt worden
           door Nederlanders naar slechts 10 landen gaan? Er is nog zoveel meer
           te ontdekken dan de ‘populaire’ vakantiebestemmingen!
+          <br />
+          <br />
+          Wil jij ontdekken welke reisbestemming bij jou past? Laat ons je
+          helpen om dat ene unieke vakantieland te vinden!
         </Content>
       </ContentContainer>
     </GridContainer>

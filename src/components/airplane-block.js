@@ -46,7 +46,7 @@ const SubTitle = styled.p`
 `
 
 const ImageContainer = styled.div`
-  margin-top: 64px;
+  margin: 64px;
   grid-area: 1 / 3 / span 2 / auto;
   @media only screen and (max-width: 600px) {
     display: none;
