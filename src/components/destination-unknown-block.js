@@ -75,6 +75,7 @@ const Content = styled.p`
   color: white;
   margin-top: 8px;
   line-height: 1.5;
+  color: #18888e;
 `
 
 export const PureTravelBlock = ({ data }) => (

@@ -82,7 +82,7 @@ export const PureTravelBlock = ({ data }) => (
   <Container>
     <GridContainer>
       <ImageContainer>
-        <Travel fill={'#FFD628'} />
+        <Travel fill={'#18888e'} />
       </ImageContainer>
       <TitleContainer>
         <Title>Dutchies</Title>
