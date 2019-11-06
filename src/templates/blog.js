@@ -59,7 +59,7 @@ const BodyTextContainer = styled.div`
   img {
     object-fit: cover;
     width: 100%;
-    max-height: 350px;
+    /* max-height: 350px; */
   }
 
   @media only screen and (max-width: 600px) {
