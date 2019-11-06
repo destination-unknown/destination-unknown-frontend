@@ -4,12 +4,15 @@ import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import styled from 'styled-components'
-import { Helmet } from 'react-helmet'
-import favicon from '../images/favicon.ico'
+import { slide as Menu } from 'react-burger-menu'
 
 const Container = styled.div`
   display: grid;
   grid-template-columns: 1fr max-content;
+  @media only screen and (max-width: 600px) {
+    margin: 0 auto;
+    width: 154px;
+  }
 `
 
 const NavigationButton = styled.button`
@@ -29,6 +32,7 @@ const NavigationButton = styled.button`
 const NavigationContainer = styled.div`
   margin: 0 auto;
   max-width: 1200px;
+  padding: 1.45rem 1.0875rem;
 `
 
 const NavigationButtonContainer = styled.div`
@@ -40,11 +44,95 @@ const NavigationButtonContainer = styled.div`
 const OuterNavigationContainer = styled.div`
   background-color: #47c0c7;
   z-index: 10;
-  padding: 1.45rem 1.0875rem;
   position: ${props => (props.isIndex ? 'initial' : 'fixed')};
   top: 0;
   left: 0;
   right: 0;
+`
+
+const StyledMenu = styled.div`
+  display: none;
+  @media only screen and (max-width: 600px) {
+    display: block;
+    /* Position and sizing of burger button */
+    .bm-burger-button {
+      float: left;
+      position: relative;
+      display: block;
+      width: 36px;
+      height: 30px;
+      top: 30px;
+      left: 24px;
+    }
+
+    /* Color/shape of burger icon bars */
+    .bm-burger-bars {
+      background: white;
+      border-radius: 3px;
+    }
+
+    /* Color/shape of burger icon bars on hover*/
+    .bm-burger-bars-hover {
+      /* background: #a90000; */
+    }
+
+    /* Position and sizing of clickable cross button */
+    .bm-cross-button {
+      height: 24px;
+      width: 24px;
+    }
+
+    /* Color/shape of close button cross */
+    .bm-cross {
+      background: white;
+    }
+
+    /*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+    .bm-menu-wrap {
+      position: fixed;
+      height: 100%;
+    }
+
+    /* General sidebar styles */
+    .bm-menu {
+      background: #34c0c7;
+      overflow: hidden;
+      font-size: 1.15em;
+    }
+
+    /* Morph shape necessary with bubble or elastic */
+    .bm-morph-shape {
+      fill: #373a47;
+    }
+
+    /* Wrapper for item list */
+    .bm-item-list {
+      border-top: 2px solid white;
+      background: #34c0c7;
+      margin-top: 2.5em;
+      padding-top: 1em;
+      padding-left: 1.2em;
+    }
+
+    /* Individual item */
+    .bm-item {
+      padding-top: 8px;
+      font-family: 'Open Sans', sans-serif;
+      color: white;
+      display: inline-block;
+      text-decoration: none;
+      padding-bottom: 8px;
+      margin-right: 1.2em;
+    }
+
+    /* Styling of overlay */
+    .bm-overlay {
+      background: rgba(0, 0, 0, 0.3);
+    }
+  }
 `
 
 const Header = ({ isIndex, isBlog, shouldShowNextDestination }) => (
@@ -62,16 +150,27 @@ const Header = ({ isIndex, isBlog, shouldShowNextDestination }) => (
     `}
     render={data => (
       <OuterNavigationContainer isIndex={isIndex}>
+        <StyledMenu>
+          <Menu disableAutoFocus>
+            {!isBlog && (
+              <a id="blog" className="menu-item" href="/blog">
+                Blog
+              </a>
+            )}
+            {shouldShowNextDestination && (
+              <a id="next-destination" className="menu-item" href="/">
+                Ontdek je volgende bestemming
+              </a>
+            )}
+            {!isIndex && (
+              <a id="choose-new-destination" className="menu-item" href="/">
+                Kies nieuwe bestemming
+              </a>
+            )}
+          </Menu>
+        </StyledMenu>
         <NavigationContainer>
           <Container>
-            <Helmet>
-              <link rel="shortcut icon" type="image/x-icon" href={favicon} />
-              <meta
-                name="2fdeccbcacfeee9"
-                content="f0069a37446db760e09735e27c0e157c"
-              />
-              <title>Destination Unknown</title>
-            </Helmet>
             <div>
               <Link
                 to="/"
