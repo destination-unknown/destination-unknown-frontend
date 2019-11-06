@@ -94,6 +94,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
     .bm-menu-wrap {
       position: fixed;
       height: 100%;
+      max-width: 300px;
     }
 
     /* General sidebar styles */
@@ -110,7 +111,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
     /* Wrapper for item list */
     .bm-item-list {
-      border-top: 2px solid white;
       background: #34c0c7;
       margin-top: 2.5em;
       padding-top: 1em;
@@ -121,11 +121,16 @@ Note: Beware of modifying this element as it can break the animations - you shou
     .bm-item {
       padding-top: 8px;
       font-family: 'Open Sans', sans-serif;
+      border-bottom: 1px solid white;
       color: white;
       display: inline-block;
       text-decoration: none;
-      padding-bottom: 8px;
+      padding-bottom: 14px;
       margin-right: 1.2em;
+
+      &:last-of-type {
+        border-bottom: none;
+      }
     }
 
     /* Styling of overlay */
