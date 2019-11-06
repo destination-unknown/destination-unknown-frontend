@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import { Link } from 'gatsby'
 
 const BlogContainer = styled.div`
+  position: relative;
   margin-top: 16px;
   display: grid;
   background-color: #5ecdd3;
@@ -34,7 +35,15 @@ const StyledLink = styled.p`
   text-decoration: underline;
 `
 
-const BlogEntry = ({ title, thumbnail, shortDescription, slug }) => (
+const PostDate = styled.p`
+  font-size: 0.8em;
+  position: absolute;
+  padding-right: 8px;
+  right: 0;
+  bottom: 0;
+`
+
+const BlogEntry = ({ title, thumbnail, shortDescription, slug, date }) => (
   <Link
     to={slug}
     style={{
@@ -49,6 +58,13 @@ const BlogEntry = ({ title, thumbnail, shortDescription, slug }) => (
         <Title>{title}</Title>
         <p>{shortDescription}...</p>
         <StyledLink>Read more</StyledLink>
+        <PostDate>
+          {new Date(date).getFullYear() +
+            '-' +
+            (new Date(date).getMonth() + 1) +
+            '-' +
+            new Date(date).getDate()}
+        </PostDate>
       </div>
     </BlogContainer>
   </Link>

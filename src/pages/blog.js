@@ -28,6 +28,7 @@ const BlogOverviewPage = ({ data }) => {
                 thumbnail={edge.node.frontmatter.thumbnail}
                 shortDescription={edge.node.frontmatter.short_description}
                 slug={edge.node.fields.slug}
+                date={edge.node.frontmatter.date}
               />
             )
           })}
