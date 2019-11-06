@@ -14,17 +14,23 @@ const BlogOverviewPage = ({ data }) => {
   return (
     <Layout isIndex={true} isBlog={true} shouldShowNextDestination={true}>
       <BlogsContainer>
-        {data.allMarkdownRemark.edges.map(edge => {
-          return (
-            <BlogEntry
-              key={edge.node.fields.slug}
-              title={edge.node.frontmatter.title}
-              thumbnail={edge.node.frontmatter.thumbnail}
-              shortDescription={edge.node.frontmatter.short_description}
-              slug={edge.node.fields.slug}
-            />
+        {data.allMarkdownRemark.edges
+          .sort(
+            (a, b) =>
+              new Date(b.node.frontmatter.date) -
+              new Date(a.node.frontmatter.date)
           )
-        })}
+          .map(edge => {
+            return (
+              <BlogEntry
+                key={edge.node.fields.slug}
+                title={edge.node.frontmatter.title}
+                thumbnail={edge.node.frontmatter.thumbnail}
+                shortDescription={edge.node.frontmatter.short_description}
+                slug={edge.node.fields.slug}
+              />
+            )
+          })}
       </BlogsContainer>
     </Layout>
   )
@@ -41,6 +47,7 @@ export const query = graphql`
             title
             thumbnail
             short_description
+            date
           }
           fields {
             slug
