@@ -35,8 +35,8 @@ const ImageContainer = styled.div`
   margin: 0 auto;
   & > img {
     margin-top: 24px;
-    object-fit: cover;
     width: 100%;
+    object-fit: cover;
     max-height: 400px;
     @media only screen and (max-width: 600px) {
       min-height: initial;
@@ -57,9 +57,15 @@ const BodyTextContainer = styled.div`
   }
 
   img {
-    object-fit: cover;
-    width: 100%;
-    /* max-height: 350px; */
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    @media only screen and (max-width: 600px) {
+      margin-top: 0;
+      width: calc(100% + 32px);
+      margin-left: -16px;
+    }
   }
 
   @media only screen and (max-width: 600px) {
