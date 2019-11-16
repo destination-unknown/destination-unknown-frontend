@@ -14,4 +14,5 @@ bigmac_index: ""
 images: "https://lh3.googleusercontent.com/S_mSOG-ipcEmwAnh5X3jb-IbLH0G3B4v7XLAF8LMeniY6xnHUa7XUmENCcN_iGYNkT8bhRZj037_7VUKKz6H1p4EwT1JaDLXiTWYS5fMMXZBvcGh2vPpXOKcBnPQfBwRoeNiXtYHBg=w800|https://lh3.googleusercontent.com/XJRk935Q9rEnsZGHc-DSuW1PTdKfX310S61KKIE-cFTx9IQ-mw7YmKlxq2hI6xotbjsajLZFqnvc7HBvdyCwdOE_G9nA-3ZVKMIErb5f_jIheLJIqWoG3BMLEcUbMyWGlN_mOw9dXQ=w800|https://lh3.googleusercontent.com/mlpR2QpOWOkj21ZrmX1JmHLfxRT4z0tBSasrYaxiGfpzeQWhTx3OtVmIDoQnS81t0_4oNu7Q0Kit5ybPT2jX--za4Ey1zV-uPO2prOpAJ3qehH0t9od6bYDuip6QsS65uwBqwBl2Bg=w800|https://lh3.googleusercontent.com/Z9kbwIeqO_4EIbU2MgC707XYg9HPtWb4stHJcnjAch1Ly8RAVn7eTMi0zE7WqL212hO7oMzFXbGGG-Wh7dQg7bVeO9vHLO9-dyb6q3Req-Au70Gckhu7kwzIJ6Qg1MLuMgZ4FGWBLQ=w800"
 flight_button_title: "Check vluchtprijzen Kroatië"
 flight_button_url: "https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fflights%2Fnl%2Fhr%2F%3Flocale%3Dnl-NL%26currency%3DEUR%26market%3DNL"
+inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Ff%2Flonely-planet-croatia%2F30551861%2F&name=Lonely%20Planet%20Croatia%2C%20Lonely%20Planet"
 ---

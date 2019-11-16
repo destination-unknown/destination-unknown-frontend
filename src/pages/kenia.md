@@ -1,10 +1,10 @@
 ---
 title: "Kenia"
-introtext: "Kenia, het land in Afrika wat het hele continent samenvat. Het heeft immense regenwouden, grote bergen, uitgestrekte savanne’s, mooie riftvalleien en zó veel verschillende diersoorten. Het is een prachtig land om op vakantie te gaan, je kan er op avontuur, maar ook relaxen op de hagel witte stranden met koraalriffen die alle kleuren van de regenboog hebben. Populaire bestemmingen binnen Kenia zijn: Hell's Gate National Park voor safari’s, Kakamega Forest Reserve voor regenwoud tochten waar je apen kan spotten en Diani beach staat bekend om de prachtige stranden. En mooi meegenomen: Kenia is nog niet ontdekt door de grote massa. Kenia is ongerept en zal je versteld doen staan door haar schoonheid."
+introtext: "Kenia, het land in Afrika wat het hele continent samenvat. Het heeft immense regenwouden, grote bergen, uitgestrekte savanne’s, mooie riftvalleien en zó veel verschillende diersoorten. Het is een prachtig land om op vakantie te gaan, je kan er op avontuur, maar ook relaxen op de hagelwitte stranden met koraalriffen die alle kleuren van de regenboog hebben. Populaire bestemmingen binnen Kenia zijn: Hell's Gate National Park voor safari’s, Kakamega Forest Reserve voor regenwoud tochten waar je apen kan spotten en Diani beach staat bekend om de prachtige stranden. En mooi meegenomen: Kenia is nog niet ontdekt door de grote massa. Kenia is ongerept en zal je versteld doen staan door haar schoonheid."
 introimage: "https://lh3.googleusercontent.com/afbYnPXHQf8kj2fYg_UcQ_6mcn3my8leC_yI6U0hAC_hcTXq8mBH5pY4B3ygRBQLT3uQegz9By0X8v0fHtCW2szPjQ43FIHXWZVWrxC4xZAo_dcoKDHbFpMiP-6c-C8vQxdL8ME7ew=w800"
 surface: "580.000"
 inhabitants: "50.100.000"
-rate: "112,26"
+rate: "112,67"
 valuta: "shilling"
 need_to_know_text: ""
 need_to_know_more_text: ""
@@ -14,4 +14,5 @@ bigmac_index: ""
 images: "https://lh3.googleusercontent.com/vMzw_UDA27CsKVJaX8Sh-cF83jQudC2eMhl7-hyKerImQXf3Ew6UbnHFf_JqoJLWplNDqglewspQamK5ujT0FYe6j-bZ5BxsBj5DcWrrU7tbhKxBxj3HnG90-CRw48UnaVwQuMjFcQ=w800|https://lh3.googleusercontent.com/k8o6fv9lLMmaS8qF1jUi-zhLkdSfgwoFhGH7kYT1oMhk2ujpxC8ZaoJmz-tW-rN6wSAreAWSxxvqk5bjj21nnQQzK4hMiJTxLvlgFB-ETNglc0IH5MBCMR5ZrGAIeO2jqhj9FiL53A=w800|https://lh3.googleusercontent.com/Gq3v7CMpu0s2yV4kCfN3QDgiZJjmAAtjMD6AmaG8Mr1QSkXG3OpLAU4C7bSuaqEa9QAixaWJtTVlJgjyjztcEhlO7aMUBjWHaIzacYmk2CPlM5SSJJaAkQg4O1erjUncQe8_QMEUjw=w800|https://lh3.googleusercontent.com/RdBAnoagRiB72UkdJKujaWcqwVglNkNjYdsXeY9CGvuQNWC4hXKwIcuY94Lbm_H82XpdBz2vwda_m__3CGPX3gnbB3nPiDQ9UUJGszlAaTjmAeslhJbbya6Hmb8bv7wuaXz9sX97RA=w800"
 flight_button_title: "Check vluchtprijzen Kenia"
 flight_button_url: "https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fflights%2Fnl%2Fke%2F%3Flocale%3Dnl-NL%26currency%3DEUR%26market%3DNL"
+inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Ff%2Flonely-planet-kenya%2F9200000043086312%2F&name=Kenya%2010%20LP%2C%20Lonely%20Planet"
 ---

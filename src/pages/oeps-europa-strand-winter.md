@@ -14,4 +14,5 @@ bigmac_index: ""
 images: ""
 flight_button_title: ""
 flight_button_url: ""
+inspiration_url: ""
 ---

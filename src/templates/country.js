@@ -6,6 +6,7 @@ import Globe from '../images/wereldbol-icon.svg'
 import People from '../images/bevolking-icon.svg'
 import Money from '../images/valuta-icon.svg'
 import Burger from '../images/burger.svg'
+import Inspiration from '../images/inspiration.svg'
 import { graphql } from 'gatsby'
 import WhatYouNeedToKnow from '../components/what-you-need-to-know'
 import Lightbox from 'react-image-lightbox'
@@ -82,7 +83,7 @@ const Title = styled.h1`
 const ImageContainer = styled.div`
   margin-top: -20px;
   grid-column-start: main-start;
-  grid-column-end: main-end 9;
+  grid-column-end: main-end 8;
   grid-row: 2;
 
   @media only screen and (max-width: 600px) {
@@ -144,7 +145,7 @@ const FactSubText = styled.p`
 const BodyTextContainer = styled.div`
   z-index: 1;
   background-color: #5ecdd3;
-  grid-column-start: main-start 9;
+  grid-column-start: main-start 8;
   grid-column-end: main-end 15;
   grid-row: 2 / span 2;
   border-radius: 3px;
@@ -291,6 +292,40 @@ const Button = styled.a`
   }
 `
 
+const InspirationContainer = styled.div`
+  margin-top: 80px;
+  margin-right: 16px;
+  grid-column-start: main-start;
+  grid-column-end: main-end 7;
+  grid-row: 3;
+  text-align: center;
+`
+
+const CaptionTitle = styled.p`
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  line-height: 1;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 24px;
+  color: white;
+`
+
+const CaptionText = styled.p`
+  color: white;
+  font-weight: bold;
+  font-family: 'Open Sans';
+  margin: 0;
+`
+
+const CaptionSubText = styled.a`
+  color: #18888e;
+  font-weight: bold;
+  font-family: 'Open Sans';
+  margin: 0;
+`
+
 export default class Country extends React.Component {
   constructor(props) {
     super(props)
@@ -396,6 +431,16 @@ export default class Country extends React.Component {
               alt={post.frontmatter.title}
             />
           </ImageContainer>
+          <InspirationContainer>
+            <Inspiration height="64" fill="white" />
+            <CaptionTitle>Inspiratie</CaptionTitle>
+            <CaptionText>
+              Op zoek naar de leukste dingen om te doen in Griekenland?
+            </CaptionText>
+            <CaptionSubText href={post.frontmatter.inspiration_url}>
+              Ontdek de Lonely Planet boeken naar Griekenland.
+            </CaptionSubText>
+          </InspirationContainer>
           {this.state.isLightBoxOpen && (
             <Lightbox
               mainSrc={this.state.lightBoxImage}
@@ -559,6 +604,7 @@ export const query = graphql`
         images
         flight_button_title
         flight_button_url
+        inspiration_url
       }
     }
   }

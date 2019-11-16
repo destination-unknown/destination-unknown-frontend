@@ -4,7 +4,7 @@ introtext: "Brazilië is het grootste land van Zuid-Amerika en is het 5e grootst
 introimage: "https://lh3.googleusercontent.com/9Nbr1QDpBGsFEmKxq5t8XNz9y-Skogi4az0klFS1vAdg-0LWwawphx7HKmpisb7oaBjjY5v7l7Bgwr6Lo6U8i0mKvAlobP96A9q6tV83rJoLYvCx4Uuh_l7QiVOX24YjxEKjqZUufw=w800"
 surface: "2.800.000"
 inhabitants: "208.000.000"
-rate: "4,59"
+rate: "4,64"
 valuta: "real"
 need_to_know_text: "Als Nederlander met een Nederlands paspoort heb je geen visum nodig voor je reis naar Brazilië. Bij aankomst krijg je meestal een stempel voor 30 dagen, blijf je langer dan kun je dit aangeven en krijg je een stempel voor 90 dagen. Als je Brazilië inkomt dan kan er gevraagd worden om een vaccinatiebewijs van gele koorts, draag deze dus altijd bij je (het gele boekje). Ook moet je in het bezit zijn van een paspoort dat minimaal nog 6 maanden geldig is bij aankomst in het land.
 \n\n
@@ -22,4 +22,5 @@ bigmac_index: ""
 images: "https://lh3.googleusercontent.com/aJap-mp1jUPKZ7TbGmIWxebbf_bxu8szM9JJ55sNCURWZ5gw0Ztqzpzz9qzOpldqpWPZPJ56XUVrJY_qVF6Rra-52EUn5JVfTlyVq7ZFLlhUF4R2MtyT4rVRvhQP6YZxdFa1_fXeCw=w800|https://lh3.googleusercontent.com/vPRLeRSgAiJmeKVbUCyr83RiQMDq5Xz59wbhTeKDym_vFXY9B260DAQfCLES8nAvwROL2WTuIsK4y2m53nH3WWZuzDQW2Y3i1UZRG9WrMvD4a-UzJCcRoBPEXwuhHzBNxQaH7gzu4Q=w800|https://lh3.googleusercontent.com/9L4SQWYpTb78XYlWpJJQRioB9QLKoWU2Y3Ils3akF2OiMFuKNoxy8IQCeCMLE9ojJvBL3mOL381qLn0RodjGyO5qATR3Pdo1NuSRRF5rqv1FxyhvUdrbtf_DeY_3D_1OpRM5yPQt7Q=w800|https://lh3.googleusercontent.com/GJURoWrCf9A3u0Lt_DOiNM7woeeOm0hnDmeJ6Ii8YcfPxWng3-Cmu3Rt5RuIQljSN3M1oeDiHwY7bJKySdIDMeVYkuhm9Ty56nPZgQ6c6p-nDPlBlqEIQBlVs-dvvqQd_fYFrORPxg=w800"
 flight_button_title: "Check vluchtprijzen Brazilië"
 flight_button_url: "https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fflights%2Fnl%2Fbr%2F%3Flocale%3Dnl-NL%26currency%3DEUR%26market%3DNL"
+inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Ff%2Flonely-planet-brazil%2F38556656%2F&name=Lonely%20Planet%20Brazil%2C%20Lonely%20Planet"
 ---

@@ -14,4 +14,5 @@ bigmac_index: ""
 images: "https://lh3.googleusercontent.com/BySyztPr38tbmMaaUagKEP4JQdKw4JGNqGN__0_VXq9s6iFDQc0iit3QgM7yhsHg-3eCpTBFWr9EHpgfriOROTKLMcvFXzV3mvCAcxS58uPZKtJNVbMGyVIytU66b7b7F6e31Z3cfA=w800|https://lh3.googleusercontent.com/EuVbl6X99acOIvajzppaJNlSyPuCdLcF6wU_j4YQ2CZlbNA88PbYqZZkI8bxeG2xs26yuS1-DNe79kDC0J0o7gWZe5VWQZzhdsZKFLJ1rwn8OwGWgP2A2KLOFHrecb_vbe_DSuxfjQ=w800|https://lh3.googleusercontent.com/kwcsvOWwwoYkp6hZttbuCBb0wQENmFmEDaW-rVHrEbJwskxiTv7dMFLoBHCHdniwkZBa1XHPBfvX3LSNMaCKglkiV2knDs-KZdCCkUpCQhsJ_Ac7Fp1XRcb9oUEMN6x2bgyyXfe8Eg=w800|https://lh3.googleusercontent.com/X6NaMarQHIRmX1KQCE9qOGvvfrRjP3bmE8XxE33y-_PTCcEpdIzRCCgagrdeDNi6MrGYYUQJQNaqgzbRrXHhjeHoraUNVPMChu9JRicRGNBFkukcXYBNn5kMz_EBCtaIIeCOkPioSQ=w800"
 flight_button_title: "Check vluchtprijzen Jordanië"
 flight_button_url: "https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fflights%2Fnl%2Fjo%2F%3Flocale%3Dnl-NL%26currency%3DEUR%26market%3DNL"
+inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Ff%2Flonely-planet-jordan%2F30551866%2F&name=Jordan%2010%20LP%2C%20Lonely%20Planet"
 ---

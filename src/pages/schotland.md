@@ -14,4 +14,5 @@ bigmac_index: ""
 images: "https://lh3.googleusercontent.com/cSiZQMr3UAoKRMYU8ViJzgut7UST10Tssq1Jfx7BwYjz0_lWxl2Bcl9sHHtuve2a44le1qw6CcdxoEnIkveVv2dPOiR1luOeva3s2kHbIGTJUUPgVLo0TEaXodHG5HRbU_TwE576OQ=w800|https://lh3.googleusercontent.com/V0scvJ7Fwwhmu1tUS2YhaFj9RxFbCdejEi2hdIGQjqInFjWX0s9xQey0lJfPceMRA8dd66olW6rDWZZH8Ly69tqB-70pA3TJ2jgKpQ5HDFYPRnoLWk-s0VkU7xxfgDs3OqBld4QETg=w800|https://lh3.googleusercontent.com/jUN5QqJLYd6nw3b0nE9EgvtLpobLOi03vTgja3Gjw6McrJuh1Dtfq06hfiHxfOlULM-FZwPHmjnO_98Z3kFOLkEArZMOPpqm7lykwGUEN-beV_8wTdDGi2DMGFMKp0lq-62zD88rqw=w800|https://lh3.googleusercontent.com/FSvBn1EJFAtnAgE5am-9MfLintLt9wqBylCoUtvC9pvUG7lN_ScFXuKbROiQFr8JO1oPUZEmKS63OamBTss_bXJHgNWr-_iWb8gGRgvbTAUqBOPdBUtoBkuSMFzLd94_zlCU1HI--Q=w800"
 flight_button_title: "Check vluchtprijzen Schotland"
 flight_button_url: "https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fflights%2Fnl%2Fedin%2F%3Flocale%3Dnl-NL%26currency%3DEUR%26market%3DNL"
+inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Ff%2Flonely-planet-scotland%2F39297914%2F&name=Lonely%20Planet%20Scotland%2C%20Lonely%20Planet"
 ---

@@ -14,4 +14,5 @@ bigmac_index: ""
 images: "https://lh3.googleusercontent.com/ndJQKcWWioSg5HsOiZsPPbqS7voiX6GQGHdQt0qQnLyVWfJKAdIrYcM7vqRTgVHIR0a0Yi-rASDBgmNk0qhEjyf_4Krj0MFcH6F7wL_Tf6ghaMgRc7ZvTH_c8SPi-uYV-hD-nIXRlA=w800|https://lh3.googleusercontent.com/U_3hh3D_fvoEFuFREcsGjXvr1ZVLUcySFtCFLtRhBSFThBBJSI-STDptcX4p5Ukg8EE-ylbPSTzxshoRjIWfA4Kv6-A6-dLUkzHWXxEpRFa7a4R0n9Q9gRbYtJ44cPTobvEfY4_Dsg=w800|https://lh3.googleusercontent.com/GKXBMLHNBViURyrb5fyuX7h4Irg1zaVEfTTi9RmaxC2-TXfQR_RguIuRII6zAKvPOOEEqGeD4ELlDwUuQx7vvEMuW_M2ws_go36YwPD9Af7s7srEsTiqMlOszpGidiP-KX8PBJODNQ=w800|https://lh3.googleusercontent.com/C1lxse0oDOIpyz9NNlH-pOJ6_rrHHamTLI8x8M8KPd6geW-j4cDse9p6BffksT852cPvBMB4Bbqk6ePQt543aotp_tAJITFqoswtywl2JOkGqgOydfELa0aAUrf-dkuRePtN4-XvDQ=w800"
 flight_button_title: "Check vluchtprijzen Canada"
 flight_button_url: "https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fflights%2Fnl%2Fca%2F%3Flocale%3Dnl-NL%26currency%3DEUR%26market%3DNL"
+inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Ff%2Flonely-planet-canada%2F39591121%2F&name=Lonely%20Planet%20Canada%2C%20Lonely%20Planet"
 ---
