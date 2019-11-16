@@ -48,7 +48,7 @@ const Title = styled.h1`
   color: white;
   @media only screen and (max-width: 600px) {
     padding-left: 16px;
-    font-size: 83px;
+    font-size: 65px;
     grid-row: 1;
     grid-column: 1;
   }
