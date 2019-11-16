@@ -293,7 +293,8 @@ const Button = styled.a`
 `
 
 const InspirationContainer = styled.div`
-  margin-top: 96px;
+  position: relative;
+  top: 115px;
   margin-right: 16px;
   grid-column-start: main-start;
   grid-column-end: main-end 7;
@@ -301,11 +302,12 @@ const InspirationContainer = styled.div`
   text-align: center;
 
   @media only screen and (max-width: 900px) {
-    margin-top: 80px;
+    top: 100px;
   }
 
   @media only screen and (max-width: 600px) {
-    margin-top: 0px;
+    position: static;
+    top: 0;
     grid-column: 1;
     grid-row: auto;
   }
