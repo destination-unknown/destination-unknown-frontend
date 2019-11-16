@@ -36,7 +36,7 @@ const Container = styled.div`
 const Title = styled.h1`
   font-family: 'Lato', sans-serif;
   grid-column-start: main-start 1;
-  grid-column-end: main-end 5;
+  grid-column-end: main-end 6;
   z-index: 1;
   grid-row: 1;
   line-height: 1;
@@ -67,7 +67,7 @@ const SurveyContainer = styled.div`
 
 const TravelGearImageContainer = styled.div`
   margin-top: 80px;
-  grid-column-start: main-start 6;
+  grid-column-start: main-start 7;
   grid-column-end: main-end 15;
   grid-row: 1 / span 2;
   @media only screen and (max-width: 600px) {
@@ -197,8 +197,9 @@ export default ({ handleClick, isLoading }) => {
           <Img fluid={data.artboard.childImageSharp.fluid} />
         </TravelGearImageContainer>
         <Title>
-          WAAR <br />
-          OP REIS
+          WAAR OP
+          <br />
+          VAKANTIE
         </Title>
         <SurveyContainer>
           <Survey>
