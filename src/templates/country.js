@@ -31,7 +31,7 @@ const Container = styled.div`
   @media only screen and (max-width: 600px) {
     grid-template-columns: 100%;
     padding: 0;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: auto auto auto auto;
   }
 `
 
@@ -293,15 +293,26 @@ const Button = styled.a`
 `
 
 const InspirationContainer = styled.div`
-  margin-top: 80px;
+  margin-top: 96px;
   margin-right: 16px;
   grid-column-start: main-start;
   grid-column-end: main-end 7;
   grid-row: 3;
   text-align: center;
+
+  @media only screen and (max-width: 900px) {
+    margin-top: 80px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    margin-top: 0px;
+    grid-column: 1;
+    grid-row: auto;
+  }
 `
 
 const CaptionTitle = styled.p`
+  display: none;
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;
   line-height: 1;
@@ -310,6 +321,10 @@ const CaptionTitle = styled.p`
   margin: 0;
   margin-bottom: 24px;
   color: white;
+
+  @media only screen and (max-width: 900px) {
+    display: block;
+  }
 `
 
 const CaptionText = styled.p`
@@ -435,10 +450,14 @@ export default class Country extends React.Component {
             <Inspiration height="64" fill="white" />
             <CaptionTitle>Inspiratie</CaptionTitle>
             <CaptionText>
-              Op zoek naar de leukste dingen om te doen in Griekenland?
+              Op zoek naar de leukste dingen om te doen in{' '}
+              {post.frontmatter.title}?
             </CaptionText>
-            <CaptionSubText href={post.frontmatter.inspiration_url}>
-              Ontdek de Lonely Planet boeken naar Griekenland.
+            <CaptionSubText
+              href={post.frontmatter.inspiration_url}
+              target="_blank"
+            >
+              Ontdek de Lonely Planet boeken over {post.frontmatter.title}.
             </CaptionSubText>
           </InspirationContainer>
           {this.state.isLightBoxOpen && (
