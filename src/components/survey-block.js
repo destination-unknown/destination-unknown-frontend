@@ -40,12 +40,24 @@ const Title = styled.h1`
   z-index: 1;
   grid-row: 1;
   line-height: 1;
-  font-size: 6vw;
+  font-size: 4.5rem;
   font-weight: bold;
   margin: 0;
   margin-bottom: 16px;
   margin-right: 16px;
   color: white;
+  @media only screen and (max-width: 1000px) {
+    font-size: 3.5rem;
+  }
+
+  @media only screen and (max-width: 800px) {
+    font-size: 3rem;
+  }
+
+  @media only screen and (max-width: 700px) {
+    font-size: 2.5rem;
+  }
+
   @media only screen and (max-width: 600px) {
     padding-left: 16px;
     font-size: 65px;

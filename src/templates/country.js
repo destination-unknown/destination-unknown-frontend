@@ -68,10 +68,22 @@ const Title = styled.h1`
   text-transform: uppercase;
   font-family: 'Lato', sans-serif;
   line-height: 1;
-  font-size: 4vw;
+  font-size: 4rem;
   font-weight: bold;
   margin: 0;
   color: white;
+
+  @media only screen and (max-width: 1000px) {
+    font-size: 3rem;
+  }
+
+  @media only screen and (max-width: 800px) {
+    font-size: 2.5rem;
+  }
+
+  @media only screen and (max-width: 700px) {
+    font-size: 2rem;
+  }
   @media only screen and (max-width: 600px) {
     font-size: 50px;
     text-align: initial;
