@@ -469,6 +469,7 @@ export default class Country extends React.Component {
             </CaptionText>
             <CaptionSubText
               href={post.frontmatter.inspiration_url}
+              rel="nofollow"
               target="_blank"
             >
               Ontdek de Lonely Planet boeken over {post.frontmatter.title}.
