@@ -4,7 +4,7 @@ introtext: "Costa Rica - 'rijke kust' - dankt zijn naam aan de vele met palmbome
 introimage: "https://lh3.googleusercontent.com/okP0U7Rtto1Dqx1KuBt5FVsoDhmrnJk-ZPMjq-kWsm-JP_9uO29tUKaaa2Taih_VBZXw6FK3aJD384CRZp4MCv8ThrxZZT0DQzHke3LwU99Jrsw0P8u_NEQjQyOshiPJ6ZsT08gwpQ=w800"
 surface: "51.000"
 inhabitants: "4.300.000"
-rate: "642,96"
+rate: "642,78"
 valuta: "colon"
 need_to_know_text: ""
 need_to_know_more_text: ""
@@ -15,4 +15,5 @@ images: "https://lh3.googleusercontent.com/wh0HhD7WMCAkp5KYjdFSukGXOKa982XDp3o27
 flight_button_title: "Check vluchtprijzen Costa Rica"
 flight_button_url: "https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fflights%2Fnl%2Fcr%2F%3Flocale%3Dnl-NL%26currency%3DEUR%26market%3DNL"
 inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Ff%2Flonely-planet-costa-rica%2F30153199%2F&name=Lonely%20Planet%20Costa%20Rica%2C%20Lonely%20Planet"
+country_code: "cr"
 ---

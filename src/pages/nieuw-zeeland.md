@@ -4,7 +4,7 @@ introtext: "Tropische stranden, besneeuwde bergtoppen, pittoreske meren, oogstre
 introimage: "https://lh3.googleusercontent.com/l1kKKUUlrI-yNY5CG0tzWmUk0QVS8mPEAC9eL5VAX5Fe60JGmtxsZak1spapbXhZV7O6hJyrz07U-LYMd_pO1tOU4OMJJ2sKm-RfwzSrZNYRYxmn8rWDjHO1pb2_FaZs_t3gtCmpAg=w800"
 surface: "275.000"
 inhabitants: "4.500.000"
-rate: "1,72"
+rate: "1,73"
 valuta: "dollar"
 need_to_know_text: ""
 need_to_know_more_text: ""
@@ -15,4 +15,5 @@ images: "https://lh3.googleusercontent.com/26si6c2HYCBLyHBIdic9UbtrQC9Vezmh8iWtz
 flight_button_title: "Check vluchtprijzen Nieuw-Zeeland"
 flight_button_url: "https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fflights%2Fnl%2Fnz%2F%3Flocale%3Dnl-NL%26currency%3DEUR%26market%3DNL"
 inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Ff%2Flonely-planet-new-zealand%2F30276342%2F&name=Lonely%20Planet%20New%20Zealand%2C%20Lonely%20Planet"
+country_code: "nz"
 ---

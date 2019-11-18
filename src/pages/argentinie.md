@@ -4,7 +4,7 @@ introtext: "Argentinië is het grootste Spaanstalige land ter wereld en ligt in 
 introimage: "https://lh3.googleusercontent.com/IQvQP4Q4Zvv5_YhpX1aLa-s8zjba8HaErnBpy_Fd6NELhwt-TB5JhIC_51UV70SnTKogcv37RJyluV3RZ5XYqCToCXJCJ_TXd9N8AEIGWzSvt-cF60MS-izqQH1DctX80iJwJgJoJQ=w800"
 surface: "2.780.000"
 inhabitants: "40.100.000"
-rate: "65,87"
+rate: "65,82"
 valuta: "peso"
 need_to_know_text: ""
 need_to_know_more_text: ""
@@ -15,4 +15,5 @@ images: "https://lh3.googleusercontent.com/TSYBH11jvMTteQoYaE3mlII6cmGMHkiz9cOQT
 flight_button_title: "Check vluchtprijzen Argentinië"
 flight_button_url: "https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fflights%2Fnl%2Far%2F%3Flocale%3Dnl-NL%26currency%3DEUR%26market%3DNL"
 inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fp%2Flonely-planet-argentina%2F9200000096913067%2F&name=Lonely%20Planet%20Argentina%20(ebook)%2C%20Lonely%20Planet"
+country_code: "ar"
 ---

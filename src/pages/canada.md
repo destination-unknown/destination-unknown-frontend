@@ -15,4 +15,5 @@ images: "https://lh3.googleusercontent.com/ndJQKcWWioSg5HsOiZsPPbqS7voiX6GQGHdQt
 flight_button_title: "Check vluchtprijzen Canada"
 flight_button_url: "https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fflights%2Fnl%2Fca%2F%3Flocale%3Dnl-NL%26currency%3DEUR%26market%3DNL"
 inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Ff%2Flonely-planet-canada%2F39591121%2F&name=Lonely%20Planet%20Canada%2C%20Lonely%20Planet"
+country_code: "ca"
 ---

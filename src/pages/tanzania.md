@@ -4,7 +4,7 @@ introtext: "Ontdek al het natuurschoon in Tanzania! Spot de Big Five tijdens een
 introimage: "https://lh3.googleusercontent.com/23mlr75w-8FyLAPp25xItM9FvjGjRHVOuQUH89QxFRa6ykUqOyRt5WjYFikOYErOafEx1QEm_-WD87pGDdGW-FeMkwGREWlWtY080c44JXnXVFcQVFyWyQWyool9fqGVrkUeWsZWYg=w800"
 surface: "945.000"
 inhabitants: "60.660.000"
-rate: "2551,08"
+rate: "2555,29"
 valuta: "shilling"
 need_to_know_text: ""
 need_to_know_more_text: ""
@@ -15,4 +15,5 @@ images: "https://lh3.googleusercontent.com/RPlNYDCQHZ0XRnZW8sJhH4e_eWrkhfXLKphOR
 flight_button_title: "Check vluchtprijzen Tanzania"
 flight_button_url: "https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fflights%2Fnl%2Ftz%2F%3Flocale%3Dnl-NL%26currency%3DEUR%26market%3DNL"
 inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Ff%2Flonely-planet-tanzania%2F9200000000927423%2F&name=Lonely%20Planet%20Tanzania%2C%20Lonely%20Planet"
+country_code: "tz"
 ---

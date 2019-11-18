@@ -4,7 +4,7 @@ introtext: "Mexico is één van de fijnste vakantie bestemmingen ter wereld! Het
 introimage: "https://lh3.googleusercontent.com/P4mh7k3dxn5sqH3UBC4hOWQw2hvkZTeOWWpWVu5OqTP0k3Vxe5BAKB-a46p_IbSXMfXylR5wyQD1gOwPIZweApt0LG9XYJLMbN8ywm1w1pjPevy6oi1zmmfwQrlROQxppFj01OgeJw=w800"
 surface: "1.960.000"
 inhabitants: "129.200.000"
-rate: "21,2"
+rate: "21,33"
 valuta: "peso"
 need_to_know_text: ""
 need_to_know_more_text: ""
@@ -15,4 +15,5 @@ images: "https://lh3.googleusercontent.com/mT1J3tGRZT75mVsrCP2IXs8Y9gnyVCJrd-zPm
 flight_button_title: "Check vluchtprijzen Mexico"
 flight_button_url: "https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fflights%2Fnl%2Fmx%2F%3Flocale%3Dnl-NL%26currency%3DEUR%26market%3DNL"
 inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Ff%2Flonely-planet-mexico%2F9200000000939223%2F&name=Lonely%20Planet%20Mexico%2C%20Lonely%20Planet"
+country_code: "mx"
 ---

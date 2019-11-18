@@ -4,7 +4,7 @@ introtext: "Laat je verrassen door de vele gezichten van Noorwegen! Het Scandina
 introimage: "https://lh3.googleusercontent.com/6iiev18SKf_1dD-vNY2cfhE6D0jPnq36alhWCAc_DI7fqrL13r26Imigs2Z7tdMfPa56BGaEK2fZ79-cNlf76Lz8YCDhla4L_K-pT5ZzhzDPFzBSxSRIVHd_smrXm6mCgCt_jMN60A=w800"
 surface: "385.000"
 inhabitants: "5.300.000"
-rate: "10,04"
+rate: "10,09"
 valuta: "kroon"
 need_to_know_text: ""
 need_to_know_more_text: ""
@@ -15,4 +15,5 @@ images: "https://lh3.googleusercontent.com/ACDV9jx9-dN0MDdK-uNnmcdNWWUFhtbh7dkGT
 flight_button_title: "Check vluchtprijzen Noorwegen"
 flight_button_url: "https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fflights%2Fnl%2Fno%2F%3Flocale%3Dnl-NL%26currency%3DEUR%26market%3DNL"
 inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Ff%2Flonely-planet-norway%2F9200000015582805%2F&name=Lonely%20Planet%20Norway%2C%20Lonely%20Planet"
+country_code: "no"
 ---

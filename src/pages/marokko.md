@@ -4,7 +4,7 @@ introtext: "Marokko is een prachtig land in het uiterste noordwesten van Afrika.
 introimage: "https://lh3.googleusercontent.com/GAwRud8WVdtMaW7ep2Y4Lg73es1BgzEqmR7lQDegCGcXXlzjMeHMqxxjNfTxM9rCmq33uaW21k0yKOvozYRuaZ0u937F1_RQMCnwC56S0Zfy2fXCvfuniRLNYeQNgHnPVcU8Dz5cTw=w800"
 surface: "447.000"
 inhabitants: "35.800.000"
-rate: "10,67"
+rate: "10,69"
 valuta: "dirham"
 need_to_know_text: ""
 need_to_know_more_text: ""
@@ -15,4 +15,5 @@ images: "https://lh3.googleusercontent.com/AgzMd1R-7aVMzPiRKOLcHvNdPsgrm50L-nPUX
 flight_button_title: "Check vluchtprijzen Marokko"
 flight_button_url: "https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fflights%2Fnl%2Fma%2F%3Flocale%3Dnl-NL%26currency%3DEUR%26market%3DNL"
 inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Ff%2Flonely-planet-morocco%2F36351186%2F&name=Morocco%2012%20LP%2C%20Lonely%20Planet"
+country_code: "ma"
 ---

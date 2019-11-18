@@ -4,7 +4,7 @@ introtext: "Nicaragua is een magisch land van vulkanische bergtoppen, toffe fees
 introimage: "https://lh3.googleusercontent.com/woRYWWxGVJdCn139ID_bJ7tklxufHkm04ty0n7DkH7KMGV0QHoaf5jBqQZuXI7szxnP-PFdjuziOFsWYCXX-ouxdpzKSPCFhsZ1KaM_IBPbmfrxVlCj6v6ofAWoriE3s6a2s1dSIlw=w800"
 surface: "130.000"
 inhabitants: "6.200.000"
-rate: "37,52"
+rate: "37,38"
 valuta: "córdoba"
 need_to_know_text: ""
 need_to_know_more_text: ""
@@ -15,4 +15,5 @@ images: "https://lh3.googleusercontent.com/Jj5XN0uQm881z3_jB6sT4SpjoHYjJNSoqlK31
 flight_button_title: "Check vluchtprijzen Nicaragua"
 flight_button_url: "https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fflights%2Fnl%2Fni%2F%3Flocale%3Dnl-NL%26currency%3DEUR%26market%3DNL"
 inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fp%2Flonely-planet-nicaragua-dr-4%2F9200000057961745%2F&name=Lonely%20Planet%20Nicaragua%20dr%204%2C%20Lonely%20Planet"
+country_code: "ni"
 ---

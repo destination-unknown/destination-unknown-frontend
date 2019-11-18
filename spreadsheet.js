@@ -48,6 +48,7 @@ doc.useServiceAccountAuth(creds, function(err) {
           flight_button_title: "${row.flightbuttontitle}"
           flight_button_url: "${row.flightbuttonurl}"
           inspiration_url: "${row.inspirationurl}"
+          country_code: "${row.countrycode}"
           ---`,
           function(err) {
             if (err) throw err

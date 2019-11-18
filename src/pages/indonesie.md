@@ -4,7 +4,7 @@ introtext: "Indonesië, het land met schitterende stranden, meer dan 17.000 eila
 introimage: "https://lh3.googleusercontent.com/_o8lPHC7dalNyVwiXLnj5akTsqpNTh4qmivMN08D3scRnAP_qrY1kOunKA7mBLI6Dh3lKUlVD3rOyfMN_ABCUHk2KInJuA8rpxQn_mhO8plx_RKhzH4x7tSh-mkYMZ31GJ28ZSy3ng=w800"
 surface: "1.905.000"
 inhabitants: "264.000.000"
-rate: "15551,82"
+rate: "15616,93"
 valuta: "roepia"
 need_to_know_text: ""
 need_to_know_more_text: ""
@@ -15,4 +15,5 @@ images: "https://lh3.googleusercontent.com/qsFWZLIeKn_ibLJFIY7veCPStZXWGBOgwgpke
 flight_button_title: "Check vluchtprijzen Indonesië"
 flight_button_url: "https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fflights%2Fnl%2Fid%2F%3Flocale%3Dnl-NL%26currency%3DEUR%26market%3DNL"
 inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Ff%2Flonely-planet-indonesia%2F37292043%2F&name=Indonesia%2012%20LP%2C%20Lonely%20Planet"
+country_code: "id"
 ---

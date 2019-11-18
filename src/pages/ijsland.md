@@ -4,7 +4,7 @@ introtext: "IJsland is een uniek land in vele opzichten. Het land ligt net onder
 introimage: "https://lh3.googleusercontent.com/KhqhPpilX33PuWV_NWXTzlBU8Uh0gq7JF5azs7fqDX8bhgjdc5op5wvCbRTJf7Y-mUUOOhpRUbZQlLU6jSrC-alEvF75yNFzR1GcYNAOS1dZTRV9HCr7JxrDxKo7uqcNL5IP6Oq4_Q=w800"
 surface: "103.000"
 inhabitants: "340.000"
-rate: "135,89"
+rate: "136,3"
 valuta: "kroon"
 need_to_know_text: ""
 need_to_know_more_text: ""
@@ -15,4 +15,5 @@ images: "https://lh3.googleusercontent.com/FFcWQzbFxtstM7gL8KmXBohgBFVGiHCqi0QOZ
 flight_button_title: "Check vluchtprijzen IJsland"
 flight_button_url: "https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fflights%2Fnl%2Fis%2F%3Flocale%3Dnl-NL%26currency%3DEUR%26market%3DNL"
 inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Ff%2Flonely-planet-iceland%2F30551891%2F&name=Lonely%20Planet%20Iceland%2C%20Lonely%20Planet"
+country_code: "is"
 ---

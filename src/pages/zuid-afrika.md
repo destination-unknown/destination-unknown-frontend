@@ -4,7 +4,7 @@ introtext: "Zuid-Afrika is één van de populairste vakantielanden ter wereld en
 introimage: "https://lh3.googleusercontent.com/QLsRyHQjI6F_7pMRhFLrn5W_JNGD-L_D5yYDQOFdUSZJUKi-KXbjlWf2DGAnZKDdbRdkeQa0b5MfWBTGm3686M3sQyfwv9wTEK1zO_PX2QZ_o7KxkAr_oHStXQr_kbYr64-nqGqG7g=w800"
 surface: "1.220.000"
 inhabitants: "57.000.000"
-rate: "16,26"
+rate: "16,4"
 valuta: "rand"
 need_to_know_text: ""
 need_to_know_more_text: ""
@@ -15,4 +15,5 @@ images: "https://lh3.googleusercontent.com/Kf7sUEFkusS6mFdPvPgvCkkY-5VOkfIqN5xSc
 flight_button_title: "Check vluchtprijzen Zuid-Afrika"
 flight_button_url: "https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fflights%2Fnl%2Fza%2F%3Flocale%3Dnl-NL%26currency%3DEUR%26market%3DNL"
 inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Ff%2Flonely-planet-south-africa-lesotho-swaziland%2F9200000040077878%2F&name=South%20Africa-Swaziland-Lesotho%2011%20LP%2C%20Lonely%20P..."
+country_code: "za"
 ---

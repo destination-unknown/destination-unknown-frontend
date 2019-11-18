@@ -15,4 +15,5 @@ images: "https://lh3.googleusercontent.com/S_mSOG-ipcEmwAnh5X3jb-IbLH0G3B4v7XLAF
 flight_button_title: "Check vluchtprijzen Kroatië"
 flight_button_url: "https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fflights%2Fnl%2Fhr%2F%3Flocale%3Dnl-NL%26currency%3DEUR%26market%3DNL"
 inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Ff%2Flonely-planet-croatia%2F30551861%2F&name=Lonely%20Planet%20Croatia%2C%20Lonely%20Planet"
+country_code: "hr"
 ---

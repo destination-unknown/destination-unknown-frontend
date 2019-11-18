@@ -4,7 +4,7 @@ introtext: "Schotland is de ideale plek voor mensen die houden van schitterende 
 introimage: "https://lh3.googleusercontent.com/3-8uvSVtZ-Aib_AnV0dSvMJRF9TYw1t-weAt13sPf9vQ-ZZQi163X9rLT3t5L0BteZKjAs6fLIWPh8tFX0uAqOj5uicQv-wHpmGS-4AjpiUrUuSTJ6CfY74k8F4EHMoOpcv80EV46A=w800"
 surface: "80.000"
 inhabitants: "5.400.000"
-rate: "0,86"
+rate: "0,85"
 valuta: "pond"
 need_to_know_text: ""
 need_to_know_more_text: ""
@@ -15,4 +15,5 @@ images: "https://lh3.googleusercontent.com/cSiZQMr3UAoKRMYU8ViJzgut7UST10Tssq1Jf
 flight_button_title: "Check vluchtprijzen Schotland"
 flight_button_url: "https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fflights%2Fnl%2Fedin%2F%3Flocale%3Dnl-NL%26currency%3DEUR%26market%3DNL"
 inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Ff%2Flonely-planet-scotland%2F39297914%2F&name=Lonely%20Planet%20Scotland%2C%20Lonely%20Planet"
+country_code: "gb"
 ---

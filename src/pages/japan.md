@@ -4,7 +4,7 @@ introtext: "Konnichiwa! Japan, het land van geisha's, Harajuku, Sumo worstelen e
 introimage: "https://lh3.googleusercontent.com/iZYXZSS9SRl8o3nVyt0_XRjIDHUBepeayigYg0Meu4SRX9DTdSBln6ibaUk3zdD_mbHqqNnhNb03a3KBSerxMA7lpAFlosTuOmPyMh4tCjc8Ahe_AA549l-7M7RHihnILEDiUIMTwA=w800"
 surface: "378.000"
 inhabitants: "126.800.000"
-rate: "120,2"
+rate: "120,32"
 valuta: "yen"
 need_to_know_text: ""
 need_to_know_more_text: ""
@@ -15,4 +15,5 @@ images: "https://lh3.googleusercontent.com/NtgliOr1crCV_iLJm7zDPak6do2YoPH5gICIZ
 flight_button_title: "Check vluchtprijzen Japan"
 flight_button_url: "https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fflights%2Fnl%2Fjp%2F%3Flocale%3Dnl-NL%26currency%3DEUR%26market%3DNL"
 inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Ff%2Flonely-planet-japan%2F30276327%2F&name=Lonely%20Planet%20Japan%2C%20Lonely%20Planet"
+country_code: "jp"
 ---

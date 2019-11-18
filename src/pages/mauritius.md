@@ -1,10 +1,10 @@
 ---
 title: "Mauritius"
-introtext: "Mauritius, het land dat bekend staat van de dodo, is het paradijs op aarde! Het is een klein eiland in de Indische Oceaan, bijna 2.000 kilometer voor de kust van Afrika. Er heerst een tropisch klimaat, waardoor het hier het hele jaar door goed vertoeven is. Geniet op de parelwitte zandstranden met een cocktail in je hand van een prachtige zonsonderdag of ga lekker duiken in de azuurblauwe oceaan bomvol onderwaterleven. Niet voor niets is Mauritius zelfs benoemd tot meeste romantische bestemming ter wereld."
+introtext: "Mauritius, het land dat bekend staat om de dodo, is het paradijs op aarde! Het is een klein eiland in de Indische Oceaan, bijna 2.000 kilometer voor de kust van Afrika. Er heerst een tropisch klimaat, waardoor het hier het hele jaar door goed vertoeven is. Geniet op de parelwitte zandstranden met een cocktail in je hand van een prachtige zonsonderdag of ga lekker duiken in de azuurblauwe oceaan bomvol onderwaterleven. Niet voor niets is Mauritius zelfs benoemd tot meeste romantische bestemming ter wereld."
 introimage: "https://lh3.googleusercontent.com/XGaBSq7NTUXGhIDhd54trz2vtws1CjOF3tVPTszZs93zMf9bajW0FbldFutBqC_X1EIVB70fF2nMec9uYOsTNZban6MFVoHBniKtQb5BMhMNk3EDaXkX3bUxnaPHhk2ONmXlEmXvyA=w800"
 surface: "2.040"
 inhabitants: "1.265.000"
-rate: "40,44"
+rate: "40,56"
 valuta: "roepie"
 need_to_know_text: ""
 need_to_know_more_text: ""
@@ -15,4 +15,5 @@ images: "https://lh3.googleusercontent.com/VkZttZjSkNuzhkhh0p7KgxeMzJgYVeti6CDmC
 flight_button_title: "Check vluchtprijzen Mauritius"
 flight_button_url: "https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fflights%2Fnl%2Fmu%2F%3Flocale%3Dnl-NL%26currency%3DEUR%26market%3DNL"
 inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fp%2Flonely-planet-mauritius-reunion-seychelles%2F9200000069006302%2F&name=Lonely%20Planet%20Mauritius%20Reunion%20%26%20Seychelles%20(..."
+country_code: "mu"
 ---
