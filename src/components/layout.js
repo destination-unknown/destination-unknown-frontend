@@ -26,6 +26,10 @@ const Layout = ({
     <Helmet>
       <link rel="shortcut icon" type="image/x-icon" href={favicon} />
       <meta name="2fdeccbcacfeee9" content="f0069a37446db760e09735e27c0e157c" />
+      <meta
+        name="trade-tracker-meta-key"
+        content="Verificatie Daan Marechal als eigenaar voor Tradetracker"
+      />
     </Helmet>
     <ChildrenContainer isIndex={isIndex}>{children}</ChildrenContainer>
   </>
