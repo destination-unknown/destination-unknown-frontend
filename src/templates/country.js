@@ -284,6 +284,12 @@ const Button = styled.a`
   margin-top: 16px;
   position: relative;
 
+  &:hover {
+    cursor: pointer;
+    color: ${darken(0.2, 'white')};
+    background-color: ${darken(0.15, '#f3a629')};
+  }
+
   &.is-loading:after {
     animation: ${loading} 1s infinite;
     background-color: ${darken(0.1, '#f3a629')};

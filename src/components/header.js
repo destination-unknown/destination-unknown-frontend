@@ -24,6 +24,12 @@ const NavigationButton = styled.button`
   background-color: transparent;
   font-weight: bold;
   color: white;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+  }
+
   @media only screen and (max-width: 600px) {
     display: none;
   }
