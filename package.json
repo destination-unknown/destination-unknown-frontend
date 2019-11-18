@@ -26,6 +26,7 @@
     "gatsby-transformer-sharp": "^2.1.13",
     "google-spreadsheet": "^2.0.3",
     "markdown-it": "^8.4.2",
+    "moment": "^2.24.0",
     "normalize.css": "^8.0.1",
     "polished": "^3.4.1",
     "prop-types": "^15.6.2",
