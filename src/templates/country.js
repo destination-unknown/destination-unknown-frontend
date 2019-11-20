@@ -54,7 +54,7 @@ const WhatYouNeedToKnowContainer = styled.div`
 `
 
 const TitleContainer = styled.div`
-  grid-column-start: main-start 8;
+  grid-column-start: main-start 9;
   grid-column-end: main-end 15;
   grid-row: 1;
 
@@ -93,7 +93,7 @@ const Title = styled.h1`
 `
 
 const ImageContainer = styled.div`
-  margin-top: -20px;
+  margin-top: -40px;
   grid-column-start: main-start;
   grid-column-end: main-end 8;
   grid-row: 2;
@@ -312,7 +312,7 @@ const Button = styled.a`
 
 const InspirationContainer = styled.div`
   position: relative;
-  top: 115px;
+  top: 85px;
   margin-right: 16px;
   grid-column-start: main-start;
   grid-column-end: main-end 7;
