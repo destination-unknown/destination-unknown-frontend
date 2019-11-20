@@ -30,6 +30,7 @@ const Layout = ({
         name="trade-tracker-meta-key"
         content="Verificatie Daan Marechal als eigenaar voor Tradetracker"
       />
+      <meta name="verification" content="760a132b19b9d8536622b510f4a5892c" />
     </Helmet>
     <ChildrenContainer isIndex={isIndex}>{children}</ChildrenContainer>
   </>
