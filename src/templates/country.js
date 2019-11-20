@@ -51,6 +51,7 @@ const FactsContainer = styled.div`
 const WhatYouNeedToKnowContainer = styled.div`
   background: #63e0e6;
   padding-top: 32px;
+  padding-bottom: 32px;
 `
 
 const TitleContainer = styled.div`

@@ -6,6 +6,7 @@ import '../../node_modules/normalize.css/normalize.css'
 import styled from 'styled-components'
 import { Helmet } from 'react-helmet'
 import favicon from '../images/favicon.ico'
+import Footer from '../components/footer'
 
 const ChildrenContainer = styled.div`
   margin-top: ${props => (props.isIndex ? 0 : '105px')};
@@ -28,6 +29,7 @@ const Layout = ({
       <meta name="2fdeccbcacfeee9" content="f0069a37446db760e09735e27c0e157c" />
     </Helmet>
     <ChildrenContainer isIndex={isIndex}>{children}</ChildrenContainer>
+    <Footer />
   </>
 )
 

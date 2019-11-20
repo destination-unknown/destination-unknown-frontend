@@ -8,7 +8,6 @@ import TravelBlock from '../components/travel-block'
 import EiffelTowerBlock from '../components/eiffel-tower-block'
 import AirplaneBlock from '../components/airplane-block'
 import DestinationUnknownBlock from '../components/destination-unknown-block'
-import Footer from '../components/footer'
 import Helmet from 'react-helmet'
 import Safe from 'react-safe'
 import SEO from '../components/seo'
@@ -106,7 +105,6 @@ class IndexPage extends React.Component {
         <AirplaneBlock />
         <DestinationUnknownBlock />
         <TestimonialContentContainer />
-        <Footer />
         <Safe.script>
           {`if (window.netlifyIdentity) {
               window.netlifyIdentity.on("init", user => {

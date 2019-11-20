@@ -8,6 +8,7 @@ const BlogsContainer = styled.div`
   margin: 0 auto;
   max-width: 1200px;
   padding: 0 16px;
+  padding-bottom: 32px;
 `
 
 const BlogOverviewPage = ({ data }) => {
