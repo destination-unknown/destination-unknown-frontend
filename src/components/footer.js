@@ -127,7 +127,7 @@ const Footer = ({ handleClick }) => (
             <div>
               <ContinentTitle>Azië</ContinentTitle>
               <CountryTitle href="/cambodja">Cambodja</CountryTitle>
-              <CountryTitle href="/fillipijnen">Fillipijnen</CountryTitle>
+              <CountryTitle href="/filipijnen">Filipijnen</CountryTitle>
               <CountryTitle href="/indonesie">Indonesië</CountryTitle>
               <CountryTitle href="/japan">Japan</CountryTitle>
               <CountryTitle href="/jordanie">Jordanië</CountryTitle>
