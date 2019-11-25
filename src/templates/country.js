@@ -14,6 +14,9 @@ import 'react-image-lightbox/style.css'
 import { lighten, darken } from 'polished'
 import { keyframes } from 'styled-components'
 import Airplane from '../images/airplane.svg'
+import AffiliateAirplane from '../images/affiliate_airplane.svg'
+import AffiliateBed from '../images/affiliate_bed.svg'
+import AffiliateCar from '../images/affiliate_car.svg'
 import OopsPage from '../components/oops-page'
 import { Helmet } from 'react-helmet'
 
@@ -362,6 +365,50 @@ const CaptionSubText = styled.a`
   margin: 0;
 `
 
+const AffiliateContainer = styled.div`
+  max-width: 1200px;
+  margin: 80px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 40px;
+
+  @media only screen and (max-width: 1200px) {
+    padding: 0 16px;
+  }
+`
+
+const AffiliateBlock = styled.div`
+  border: 4px solid white;
+  display: inline-block;
+  padding: 0 30px;
+  text-align: center;
+
+  & > svg,
+  p,
+  a {
+    top: -50px;
+    position: relative;
+  }
+
+  & > svg {
+    padding: 0 16px;
+    background-color: #47c0c7;
+    /* top: -78px; */
+    /* position: relative; */
+  }
+`
+
+const AffiliateTitle = styled.p`
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  line-height: 1;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 50px;
+  color: white;
+`
+
 export default class Country extends React.Component {
   constructor(props) {
     super(props)
@@ -370,6 +417,14 @@ export default class Country extends React.Component {
 
   render() {
     const { data } = this.props
+    const {
+      carsLink,
+      carsPrice,
+      flightsLink,
+      flightsPrice,
+      hotelsLink,
+      hotelsPrice,
+    } = this.props.pageContext
 
     const post = data.markdownRemark
 
@@ -540,6 +595,60 @@ export default class Country extends React.Component {
           </div>
           <div>{rateText}</div>
         </FactsContainer>{' '}
+        <AffiliateContainer>
+          <AffiliateBlock>
+            <AffiliateBed width="96px" fill="white" />
+            <AffiliateTitle>Overnachten</AffiliateTitle>
+            <CaptionText>
+              Vind jouw perfecte accomodatie in {post.frontmatter.title}!
+            </CaptionText>
+            {hotelsPrice && (
+              <CaptionSubText href={hotelsLink} rel="nofollow" target="_blank">
+                Prijzen vanaf {hotelsPrice} euro per nacht.
+              </CaptionSubText>
+            )}
+            {!hotelsPrice && (
+              <CaptionSubText href={hotelsLink} rel="nofollow" target="_blank">
+                Check hier alle hotels
+              </CaptionSubText>
+            )}
+          </AffiliateBlock>
+          <AffiliateBlock>
+            <AffiliateAirplane width="96px" fill="white" />
+            <AffiliateTitle>Vliegen</AffiliateTitle>
+            <CaptionText>
+              Vind de goedkoopste vliegtickets naar {post.frontmatter.title}!
+            </CaptionText>
+            {flightsPrice && (
+              <CaptionSubText href={flightsLink} rel="nofollow" target="_blank">
+                Retour vanaf {flightsPrice} euro
+              </CaptionSubText>
+            )}
+            {!flightsPrice && (
+              <CaptionSubText href={flightsLink} rel="nofollow" target="_blank">
+                Bekijk hier alle vluchten
+              </CaptionSubText>
+            )}
+          </AffiliateBlock>
+          <AffiliateBlock>
+            <AffiliateCar width="96px" fill="white" />
+            <AffiliateTitle>Auto huren</AffiliateTitle>
+            <CaptionText>
+              Maak een mooie rondreis in {post.frontmatter.title} en huur een
+              auto!
+            </CaptionText>
+            {carsPrice && (
+              <CaptionSubText href={carsLink} rel="nofollow" target="_blank">
+                Al vanaf {carsPrice} euro per dag
+              </CaptionSubText>
+            )}
+            {!carsPrice && (
+              <CaptionSubText href={carsLink} rel="nofollow" target="_blank">
+                Check hier het aanbod!
+              </CaptionSubText>
+            )}
+          </AffiliateBlock>
+        </AffiliateContainer>
         <WhatYouNeedToKnowContainer>
           <WhatYouNeedToKnow
             title={'Wat je moet weten'}

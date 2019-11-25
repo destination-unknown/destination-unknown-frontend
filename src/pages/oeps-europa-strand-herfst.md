@@ -16,4 +16,5 @@ flight_button_title: ""
 flight_button_url: ""
 inspiration_url: ""
 country_code: ""
+hotels_url: "https://www.awin1.com/cread.php?awinmid=8371&awinaffid=661335&clickref=&p=%5B%5Bhttps%253A%252F%252Fwww.expedia.nl%252FHotel-Search%253Fadults%253D2%2526destination%253DOeps Europa Strand Herfst%2526sort%253DPRICE_LOW_TO_HIGH%5D%5D"
 ---
