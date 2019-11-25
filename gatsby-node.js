@@ -111,45 +111,36 @@ exports.createPages = async ({ graphql, actions }) => {
         )
       })
 
-      if (recentProductsPerCountry.length === 0) {
-        createPage({
-          path: node.fields.slug,
-          component: path.resolve(`./src/templates/country.js`),
-          context: {
-            // Data passed to context is available
-            // in page queries as GraphQL variables.
-            slug: node.fields.slug,
-            carsLink: 'https://ds1.nl/c/?si=1112&li=70989&wi=335922&ws=&dl=',
-            carsPrice: null,
-          },
-        })
-      } else {
-        const cheapestCar = recentProductsPerCountry.sort(function(a, b) {
-          return a['product_info']['price'] - b['product_info']['price']
-        })[0]['product_info']
+      const cheapestCar =
+        recentProductsPerCountry.length > 0
+          ? recentProductsPerCountry.sort(function(a, b) {
+              return a['product_info']['price'] - b['product_info']['price']
+            })[0]['product_info']
+          : null
 
-        const cheapestFlight = flightsPerCountry.sort(function(a, b) {
-          return a['price']['amount'] - b['price']['amount']
-        })[0]
+      const cheapestFlight = flightsPerCountry.sort(function(a, b) {
+        return a['price']['amount'] - b['price']['amount']
+      })[0]
 
-        createPage({
-          path: node.fields.slug,
-          component: path.resolve(`./src/templates/country.js`),
-          context: {
-            // Data passed to context is available
-            // in page queries as GraphQL variables.
-            slug: node.fields.slug,
-            carsLink: cheapestCar.link,
-            flightsLink: cheapestFlight
-              ? cheapestFlight['URL']
-              : node.frontmatter['flight_button_url'],
-            flightsPrice: cheapestFlight ? cheapestFlight.price.amount : null,
-            carsPrice: Math.round(cheapestCar.price / 7),
-            hotelsLink: node.frontmatter['hotels_url'],
-            hotelsPrice: null,
-          },
-        })
-      }
+      createPage({
+        path: node.fields.slug,
+        component: path.resolve(`./src/templates/country.js`),
+        context: {
+          // Data passed to context is available
+          // in page queries as GraphQL variables.
+          slug: node.fields.slug,
+          carsLink: cheapestCar
+            ? cheapestCar.link
+            : 'https://ds1.nl/c/?si=1112&li=70989&wi=335922&ws=&dl=',
+          flightsLink: cheapestFlight
+            ? cheapestFlight['URL']
+            : node.frontmatter['flight_button_url'],
+          flightsPrice: cheapestFlight ? cheapestFlight.price.amount : null,
+          carsPrice: cheapestCar ? Math.round(cheapestCar.price / 7) : null,
+          hotelsLink: node.frontmatter['hotels_url'],
+          hotelsPrice: null,
+        },
+      })
     } else if (node.fields.type === 'blog') {
       createPage({
         path: node.fields.slug,
