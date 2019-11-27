@@ -371,6 +371,29 @@ const AffiliateContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 40px;
+  padding: 0 8px;
+
+  @media only screen and (max-width: 600px) {
+    padding: 0;
+    margin: 20px auto;
+    grid-template-columns: repeat(3, 75%);
+    grid-column-gap: 16px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-right: 16px;
+
+    & > div {
+      margin-top: 40px;
+
+      &:first-child {
+        margin-left: 8px;
+      }
+
+      &:last-child {
+        margin-right: 16px;
+      }
+    }
+  }
 
   @media only screen and (max-width: 1200px) {
     padding: 0 16px;
@@ -598,7 +621,7 @@ export default class Country extends React.Component {
         <AffiliateContainer>
           <AffiliateBlock>
             <AffiliateBed width="96px" fill="white" />
-            <AffiliateTitle>Overnachten</AffiliateTitle>
+            <AffiliateTitle>Over nachten</AffiliateTitle>
             <CaptionText>
               Vind jouw perfecte accomodatie in {post.frontmatter.title}!
             </CaptionText>
