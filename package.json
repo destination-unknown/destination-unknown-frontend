@@ -10,6 +10,7 @@
     "babel-plugin-styled-components": "^1.10.0",
     "cheerio": "^1.0.0-rc.3",
     "common-tags": "^1.8.0",
+    "cypress": "^3.7.0",
     "gatsby": "^2.0.105",
     "gatsby-image": "^2.0.20",
     "gatsby-plugin-google-gtag": "^1.1.1",
