@@ -119,6 +119,7 @@ const Footer = ({ handleClick }) => (
               <CountryTitle href="/schotland">Schotland</CountryTitle>
               <ContinentTitle>Afrika</ContinentTitle>
               <CountryTitle href="/kenia">Kenia</CountryTitle>
+              <CountryTitle href="/malta">Malta</CountryTitle>
               <CountryTitle href="/marokko">Marokko</CountryTitle>
               <CountryTitle href="/mauritius">Mauritius</CountryTitle>
               <CountryTitle href="/tanzania">Tanzania</CountryTitle>
@@ -134,6 +135,7 @@ const Footer = ({ handleClick }) => (
               <CountryTitle href="/nepal">Nepal</CountryTitle>
               <CountryTitle href="/thailand">Thailand</CountryTitle>
               <ContinentTitle>Oceanië</ContinentTitle>
+              <CountryTitle href="/australie">Australië</CountryTitle>
               <CountryTitle href="/nieuw-zeeland">Nieuw-Zeeland</CountryTitle>
             </div>
           </CountryGridContainer>

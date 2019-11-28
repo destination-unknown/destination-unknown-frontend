@@ -16,5 +16,5 @@ flight_button_title: "Check vluchtprijzen Panama"
 flight_button_url: "https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fflights%2Fnl%2Fpa%2F%3Flocale%3Dnl-NL%26currency%3DEUR%26market%3DNL"
 inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fp%2Flonely-planet-panama-dr-7%2F9200000057961673%2F&name=Lonely%20Planet%20Panama%20dr%207%2C%20Lonely%20Planet"
 country_code: "pa"
-hotels_url: "https://www.awin1.com/cread.php?awinmid=8371&awinaffid=661335&clickref=&p=%5B%5Bhttps%253A%252F%252Fwww.expedia.nl%252FHotel-Search%253Fadults%253D2%2526destination%253DPanama%2526sort%253DPRICE_LOW_TO_HIGH%5D%5D"
+hotels_url: "https://www.booking.com/country/pa.nl.html?aid=1837623"
 ---

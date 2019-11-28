@@ -4,7 +4,7 @@ introtext: "Brazilië is het grootste land van Zuid-Amerika en is het 5e grootst
 introimage: "https://lh3.googleusercontent.com/9Nbr1QDpBGsFEmKxq5t8XNz9y-Skogi4az0klFS1vAdg-0LWwawphx7HKmpisb7oaBjjY5v7l7Bgwr6Lo6U8i0mKvAlobP96A9q6tV83rJoLYvCx4Uuh_l7QiVOX24YjxEKjqZUufw=w800"
 surface: "2.800.000"
 inhabitants: "208.000.000"
-rate: "4,63"
+rate: "4,68"
 valuta: "real"
 need_to_know_text: "Als Nederlander met een Nederlands paspoort heb je geen visum nodig voor je reis naar Brazilië. Bij aankomst krijg je meestal een stempel voor 30 dagen, blijf je langer dan kun je dit aangeven en krijg je een stempel voor 90 dagen. Als je Brazilië inkomt dan kan er gevraagd worden om een vaccinatiebewijs van gele koorts, draag deze dus altijd bij je (het gele boekje). Ook moet je in het bezit zijn van een paspoort dat minimaal nog 6 maanden geldig is bij aankomst in het land.
 \n\n
@@ -24,5 +24,5 @@ flight_button_title: "Check vluchtprijzen Brazilië"
 flight_button_url: "https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=transport%2Fflights%2Fnl%2Fbr%2F%3Flocale%3Dnl-NL%26currency%3DEUR%26market%3DNL"
 inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Ff%2Flonely-planet-brazil%2F38556656%2F&name=Lonely%20Planet%20Brazil%2C%20Lonely%20Planet"
 country_code: "br"
-hotels_url: "https://www.awin1.com/cread.php?awinmid=8371&awinaffid=661335&clickref=&p=%5B%5Bhttps%253A%252F%252Fwww.expedia.nl%252FHotel-Search%253Fadults%253D2%2526destination%253DBrazilie%2526sort%253DPRICE_LOW_TO_HIGH%5D%5D"
+hotels_url: "https://www.booking.com/country/br.nl.html?aid=1837623"
 ---
