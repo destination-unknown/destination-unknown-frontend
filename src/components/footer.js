@@ -113,13 +113,13 @@ const Footer = ({ handleClick }) => (
               <CountryTitle href="/ijsland">Ijsland</CountryTitle>
               <CountryTitle href="/italie">Italië</CountryTitle>
               <CountryTitle href="/kroatie">Kroatië</CountryTitle>
+              <CountryTitle href="/malta">Malta</CountryTitle>
               <CountryTitle href="/noorwegen">Noorwegen</CountryTitle>
               <CountryTitle href="/oostenrijk">Oostenrijk</CountryTitle>
               <CountryTitle href="/portugal">Portugal</CountryTitle>
               <CountryTitle href="/schotland">Schotland</CountryTitle>
               <ContinentTitle>Afrika</ContinentTitle>
               <CountryTitle href="/kenia">Kenia</CountryTitle>
-              <CountryTitle href="/malta">Malta</CountryTitle>
               <CountryTitle href="/marokko">Marokko</CountryTitle>
               <CountryTitle href="/mauritius">Mauritius</CountryTitle>
               <CountryTitle href="/tanzania">Tanzania</CountryTitle>
