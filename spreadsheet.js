@@ -1,8 +1,11 @@
 var GoogleSpreadsheet = require('google-spreadsheet')
-var creds = require('./client_secret.json')
 var fs = require('fs')
-var path = require('path')
 var stripIndents = require('common-tags/lib/stripIndents')
+
+var creds = {
+  client_email: process.env.CLIENT_EMAIL,
+  private_key: process.env.PRIVATE_KEY.replace(/\\n/g, '\n'),
+}
 
 function slugify(text) {
   return text
