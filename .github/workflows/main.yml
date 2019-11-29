@@ -7,5 +7,19 @@ jobs:
     name: Request Netlify Webhook
     runs-on: ubuntu-latest
     steps:
+      - name: Update frontend
+        run: node spreadsheet.js
+        env:
+          CLIENT_EMAIL: ${{ secrets.CLIENT_EMAIL }}
+          PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
+      - uses: stefanzweifel/git-auto-commit-action@v2.3.0
+        with:
+          commit_message: Apply automatic changes
+          branch: master
+
+          # Optional git params
+          commit_options: '--no-verify --signoff'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Curl request
         run: curl -X POST -d {} https://api.netlify.com/build_hooks/5ddc1e30c52071b66f71ac07
