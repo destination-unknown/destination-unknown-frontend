@@ -8,6 +8,7 @@ jobs:
     name: Request Netlify Webhook
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v1
       - name: Update frontend
         run: node spreadsheet.js
         env:
