@@ -20,7 +20,7 @@ jobs:
           git lfs install
       - name: Update frontend
         run: |
-          npm install
+          yarn install
           node spreadsheet.js
         env:
           CLIENT_EMAIL: ${{ secrets.CLIENT_EMAIL }}
