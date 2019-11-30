@@ -71,6 +71,19 @@ const Footer = ({ handleClick }) => (
   <StaticQuery
     query={graphql`
       query {
+        allMarkdownRemark(filter: { fields: { type: { eq: "country" } } }) {
+          edges {
+            node {
+              frontmatter {
+                title
+                continent
+              }
+              fields {
+                slug
+              }
+            }
+          }
+        }
         landImage: file(relativePath: { eq: "wereldkaart.png" }) {
           childImageSharp {
             fluid {
@@ -80,75 +93,128 @@ const Footer = ({ handleClick }) => (
         }
       }
     `}
-    render={data => (
-      <FooterContainer>
-        <FooterGridContainer>
-          <LandImageContainer>
-            <Img fluid={data.landImage.childImageSharp.fluid} />
-          </LandImageContainer>
-          <CountryGridContainer>
-            <div>
-              <ContinentTitle>Noord-Amerika</ContinentTitle>
-              <CountryTitle href="/bahamas">Bahama's</CountryTitle>
-              <CountryTitle href="/canada">Canada</CountryTitle>
-              <CountryTitle href="/costa-rica">Costa Rica</CountryTitle>
-              <CountryTitle href="/mexico">Mexico</CountryTitle>
-              <CountryTitle href="/nicaragua">Nicaragua</CountryTitle>
-              <CountryTitle href="/panama">Panama</CountryTitle>
-              <CountryTitle href="/verenigde-staten">
-                Verenigde Staten
-              </CountryTitle>
-              <ContinentTitle>Zuid-Amerika</ContinentTitle>
-              <CountryTitle href="/argentinie">Argentinië</CountryTitle>
-              <CountryTitle href="/brazilie">Brazilië</CountryTitle>
-              <CountryTitle href="/peru">Peru</CountryTitle>
-            </div>
-            <div>
-              <ContinentTitle>Europa</ContinentTitle>
-              <CountryTitle href="/bosnie-en-herzegovina">
-                Bosnie-en-Herzegovina
-              </CountryTitle>
-              <CountryTitle href="/griekenland">Griekenland</CountryTitle>
-              <CountryTitle href="/finland">Finland</CountryTitle>
-              <CountryTitle href="/ijsland">Ijsland</CountryTitle>
-              <CountryTitle href="/italie">Italië</CountryTitle>
-              <CountryTitle href="/kroatie">Kroatië</CountryTitle>
-              <CountryTitle href="/malta">Malta</CountryTitle>
-              <CountryTitle href="/noorwegen">Noorwegen</CountryTitle>
-              <CountryTitle href="/oostenrijk">Oostenrijk</CountryTitle>
-              <CountryTitle href="/portugal">Portugal</CountryTitle>
-              <CountryTitle href="/schotland">Schotland</CountryTitle>
-              <ContinentTitle>Afrika</ContinentTitle>
-              <CountryTitle href="/kenia">Kenia</CountryTitle>
-              <CountryTitle href="/marokko">Marokko</CountryTitle>
-              <CountryTitle href="/mauritius">Mauritius</CountryTitle>
-              <CountryTitle href="/tanzania">Tanzania</CountryTitle>
-              <CountryTitle href="/zuid-afrika">Zuid-Afrika</CountryTitle>
-            </div>
-            <div>
-              <ContinentTitle>Azië</ContinentTitle>
-              <CountryTitle href="/cambodja">Cambodja</CountryTitle>
-              <CountryTitle href="/filipijnen">Filipijnen</CountryTitle>
-              <CountryTitle href="/indonesie">Indonesië</CountryTitle>
-              <CountryTitle href="/japan">Japan</CountryTitle>
-              <CountryTitle href="/jordanie">Jordanië</CountryTitle>
-              <CountryTitle href="/nepal">Nepal</CountryTitle>
-              <CountryTitle href="/thailand">Thailand</CountryTitle>
-              <ContinentTitle>Oceanië</ContinentTitle>
-              <CountryTitle href="/australie">Australië</CountryTitle>
-              <CountryTitle href="/nieuw-zeeland">Nieuw-Zeeland</CountryTitle>
-            </div>
-          </CountryGridContainer>
-        </FooterGridContainer>
-        <InstagramButton
-          href="https://www.instagram.com/destinationunknownnl/"
-          rel="nofollow"
-          target="_blank"
-        >
-          <Instagram height="32px" width="32px" fill="white" />
-        </InstagramButton>
-      </FooterContainer>
-    )}
+    render={data => {
+      const northAmericaCountries = data.allMarkdownRemark.edges
+        .filter(value => {
+          return value.node.frontmatter.continent === 'Noord-Amerika'
+        })
+        .map(value => {
+          return (
+            <CountryTitle
+              key={value.node.frontmatter.title}
+              href={value.node.fields.slug}
+            >
+              {value.node.frontmatter.title}
+            </CountryTitle>
+          )
+        })
+      const southAmericaCountries = data.allMarkdownRemark.edges
+        .filter(value => {
+          return value.node.frontmatter.continent === 'Zuid-Amerika'
+        })
+        .map(value => {
+          return (
+            <CountryTitle
+              key={value.node.frontmatter.title}
+              href={value.node.fields.slug}
+            >
+              {value.node.frontmatter.title}
+            </CountryTitle>
+          )
+        })
+      const europaCountries = data.allMarkdownRemark.edges
+        .filter(value => {
+          return value.node.frontmatter.continent === 'Europa'
+        })
+        .map(value => {
+          return (
+            <CountryTitle
+              key={value.node.frontmatter.title}
+              href={value.node.fields.slug}
+            >
+              {value.node.frontmatter.title}
+            </CountryTitle>
+          )
+        })
+      const africaCountries = data.allMarkdownRemark.edges
+        .filter(value => {
+          return value.node.frontmatter.continent === 'Afrika'
+        })
+        .map(value => {
+          return (
+            <CountryTitle
+              key={value.node.frontmatter.title}
+              href={value.node.fields.slug}
+            >
+              {value.node.frontmatter.title}
+            </CountryTitle>
+          )
+        })
+      const asiaCountries = data.allMarkdownRemark.edges
+        .filter(value => {
+          return value.node.frontmatter.continent === 'Azië'
+        })
+        .map(value => {
+          return (
+            <CountryTitle
+              key={value.node.frontmatter.title}
+              href={value.node.fields.slug}
+            >
+              {value.node.frontmatter.title}
+            </CountryTitle>
+          )
+        })
+      const oceaniaCountries = data.allMarkdownRemark.edges
+        .filter(value => {
+          return value.node.frontmatter.continent === 'Oceanië'
+        })
+        .map(value => {
+          return (
+            <CountryTitle
+              key={value.node.frontmatter.title}
+              href={value.node.fields.slug}
+            >
+              {value.node.frontmatter.title}
+            </CountryTitle>
+          )
+        })
+      return (
+        <FooterContainer>
+          <FooterGridContainer>
+            <LandImageContainer>
+              <Img fluid={data.landImage.childImageSharp.fluid} />
+            </LandImageContainer>
+            <CountryGridContainer>
+              <div>
+                <ContinentTitle>Noord-Amerika</ContinentTitle>
+                {northAmericaCountries}
+                <ContinentTitle>Zuid-Amerika</ContinentTitle>
+                {southAmericaCountries}
+              </div>
+              <div>
+                <ContinentTitle>Europa</ContinentTitle>
+                {europaCountries}
+                <ContinentTitle>Afrika</ContinentTitle>
+                {africaCountries}
+              </div>
+              <div>
+                <ContinentTitle>Azië</ContinentTitle>
+                {asiaCountries}
+                <ContinentTitle>Oceanië</ContinentTitle>
+                {oceaniaCountries}
+              </div>
+            </CountryGridContainer>
+          </FooterGridContainer>
+          <InstagramButton
+            href="https://www.instagram.com/destinationunknownnl/"
+            rel="nofollow"
+            target="_blank"
+          >
+            <Instagram height="32px" width="32px" fill="white" />
+          </InstagramButton>
+        </FooterContainer>
+      )
+    }}
   />
 )
 
