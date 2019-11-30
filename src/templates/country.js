@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from '../components/layout'
-// import SEO from '../components/seo'
+import SEO from '../components/seo'
 import styled from 'styled-components'
 import Globe from '../images/wereldbol-icon.svg'
 import People from '../images/bevolking-icon.svg'
@@ -522,6 +522,13 @@ export default class Country extends React.Component {
 
     return (
       <Layout isIndex={false}>
+        <SEO
+          description={null}
+          lang={'nl-NL'}
+          meta={[]}
+          keywords={[]}
+          title={post.frontmatter.title}
+        />
         <Container>
           <div />
           <TitleContainer>

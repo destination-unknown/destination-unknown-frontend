@@ -5,6 +5,7 @@ import { graphql } from 'gatsby'
 import Lightbox from 'react-image-lightbox'
 import 'react-image-lightbox/style.css'
 import cheerio from 'cheerio'
+import SEO from '../components/seo'
 
 const MaxWidthContainer = styled.div`
   max-width: 1200px;
@@ -114,6 +115,13 @@ export default class Country extends React.Component {
 
     return (
       <Layout isIndex={true} shouldShowNextDestination={true}>
+        <SEO
+          description={null}
+          lang={'nl-NL'}
+          meta={[]}
+          keywords={[]}
+          title={post.frontmatter.title}
+        />
         <MaxWidthContainer>
           <Container>
             <Title>{post.frontmatter.title}</Title>

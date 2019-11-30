@@ -3,6 +3,7 @@ import Layout from '../components/layout'
 import { graphql } from 'gatsby'
 import styled from 'styled-components'
 import BlogEntry from '../components/blog-entry'
+import SEO from '../components/seo'
 
 const BlogsContainer = styled.div`
   margin: 0 auto;
@@ -14,6 +15,13 @@ const BlogsContainer = styled.div`
 const BlogOverviewPage = ({ data }) => {
   return (
     <Layout isIndex={true} isBlog={true} shouldShowNextDestination={true}>
+      <SEO
+        description={null}
+        lang={'nl-NL'}
+        meta={[]}
+        keywords={[]}
+        title={'Blog'}
+      />
       <BlogsContainer>
         {data.allMarkdownRemark.edges
           .sort(
