@@ -1,8 +1,7 @@
 name: Trigger daily netlify build at 6AM
 on:
-  [push]
-  # schedule:
-  #   - cron: '0 5 * * *' # every day at 6 am (UTC+1)
+  schedule:
+    - cron: '0 5 * * *' # every day at 6 am (UTC+1)
 jobs:
   build:
     name: Request Netlify Webhook
