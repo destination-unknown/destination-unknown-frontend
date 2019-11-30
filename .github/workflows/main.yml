@@ -1,8 +1,7 @@
 name: Trigger daily netlify build at 6AM
 on:
-  [push]
-  # schedule:
-  #   - cron: '0 5 * * *' # every day at 6 am (UTC+1)
+  schedule:
+    - cron: '0 5 * * *' # every day at 6 am (UTC+1)
 jobs:
   build:
     name: Request Netlify Webhook
@@ -32,51 +31,45 @@ jobs:
         env:
           CLIENT_EMAIL: ${{ secrets.CLIENT_EMAIL }}
           PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
-      - uses: jkaan/git-auto-commit-action@feature/add-support-for-lfs
-        with:
-          commit_message: Apply automatic changes
-          branch: master
+      - name: Commit the changes
+        run: |
+          set -eu
+          # Set up .netrc file with GitHub credentials
+          git_setup ( ) {
+            cat <<- EOF > $HOME/.netrc
+                  machine github.com
+                  login $GITHUB_ACTOR
+                  password $GITHUB_TOKEN
+                  machine api.github.com
+                  login $GITHUB_ACTOR
+                  password $GITHUB_TOKEN
+          EOF
+              chmod 600 $HOME/.netrc
+
+              git config --global user.email "actions@github.com"
+              git config --global user.name "GitHub Actions"
+          }
+
+          # This section only runs if there have been file changes
+          echo "Checking for uncommitted changes in the git working tree."
+          if [[ -n "$(git status -s)" ]]
+          then
+              git_setup
+
+              # Switch to branch from current Workflow run
+              git checkout master
+
+              git add -A
+
+              git commit -m "Update frontend" --author="$GITHUB_ACTOR <$GITHUB_ACTOR@users.noreply.github.com>"
+
+              git push --set-upstream origin master
+          else
+              echo "Working tree clean. Nothing to commit."
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      # - name: Commit the changes
-      #   run: |
-      #     set -eu
-      #     # Set up .netrc file with GitHub credentials
-      #     git_setup ( ) {
-      #       cat <<- EOF > $HOME/.netrc
-      #             machine github.com
-      #             login $GITHUB_ACTOR
-      #             password $GITHUB_TOKEN
-      #             machine api.github.com
-      #             login $GITHUB_ACTOR
-      #             password $GITHUB_TOKEN
-      #     EOF
-      #         chmod 600 $HOME/.netrc
-
-      #         git config --global user.email "actions@github.com"
-      #         git config --global user.name "GitHub Actions"
-      #     }
-
-      #     # This section only runs if there have been file changes
-      #     echo "Checking for uncommitted changes in the git working tree."
-      #     if [[ -n "$(git status -s)" ]]
-      #     then
-      #         git_setup
-
-      #         # Switch to branch from current Workflow run
-      #         git checkout master
-
-      #         git add -A
-
-      #         git commit -m "Update frontend" --author="$GITHUB_ACTOR <$GITHUB_ACTOR@users.noreply.github.com>"
-
-      #         git push --set-upstream origin master
-      #     else
-      #         echo "Working tree clean. Nothing to commit."
-      #     fi
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #     NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
       - name: Curl request
         run: curl -X POST -d {} $NETLIFY_BUILD_URL
         env:
