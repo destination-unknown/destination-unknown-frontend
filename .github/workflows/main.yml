@@ -11,6 +11,11 @@ jobs:
       - uses: actions/checkout@v1
       - name: Setup Node.js for use with actions
         uses: actions/setup-node@v1.1.0
+      - name: Install Git LFS
+        run: |
+          curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash
+          sudo apt-get install git-lfs
+          git lfs install
         with:
           version: 10.x
       - name: Update frontend
