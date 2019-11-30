@@ -17,4 +17,5 @@ flight_button_url: "https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=tra
 inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Ff%2Flonely-planet-south-africa-lesotho-swaziland%2F9200000040077878%2F&name=South%20Africa-Swaziland-Lesotho%2011%20LP%2C%20Lonely%20P..."
 country_code: "za"
 hotels_url: "https://www.booking.com/country/za.nl.html?aid=1837623"
+continent: "Afrika"
 ---

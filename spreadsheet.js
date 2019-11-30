@@ -53,6 +53,7 @@ doc.useServiceAccountAuth(creds, function(err) {
           inspiration_url: "${row.inspirationurl}"
           country_code: "${row.countrycode}"
           hotels_url: "${row.hotelsurl}"
+          continent: "${row.continent}"
           ---`,
           function(err) {
             if (err) throw err

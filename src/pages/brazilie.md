@@ -25,4 +25,5 @@ flight_button_url: "https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=tra
 inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Ff%2Flonely-planet-brazil%2F38556656%2F&name=Lonely%20Planet%20Brazil%2C%20Lonely%20Planet"
 country_code: "br"
 hotels_url: "https://www.booking.com/country/br.nl.html?aid=1837623"
+continent: "Zuid-Amerika"
 ---

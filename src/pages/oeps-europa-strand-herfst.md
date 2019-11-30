@@ -17,4 +17,5 @@ flight_button_url: ""
 inspiration_url: ""
 country_code: ""
 hotels_url: "https://www.booking.com/country/.nl.html?aid=1837623"
+continent: ""
 ---

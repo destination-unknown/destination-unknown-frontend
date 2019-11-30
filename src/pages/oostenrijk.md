@@ -17,4 +17,5 @@ flight_button_url: "https://lt45.net/c/?si=11986&li=1528136&wi=335922&ws=&dl=tra
 inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&url=https%3A%2F%2Fwww.bol.com%2Fnl%2Fp%2Faustria%2F9200000067181583%2F&name=Austria%2C%20Lonely%20Planet"
 country_code: "at"
 hotels_url: "https://www.booking.com/country/at.nl.html?aid=1837623"
+continent: "Europa"
 ---
