@@ -21,6 +21,7 @@ jobs:
       - name: Install Netlify & Netlify LM plugin
         run: |
           npm install -g netlify
+          echo npm list -g | head -1
           netlify plugins:install netlify-lm-plugin
           netlify lm:install
         env:
