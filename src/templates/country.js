@@ -26,15 +26,18 @@ const Container = styled.div`
   grid-template-columns:
     [full-start] minmax(1em, 1fr)
     repeat(15, [main-start] minmax(0, 80px) [main-end]) minmax(1em, 1fr) [full-end];
-  grid-template-rows: max-content 50%;
+  grid-row-gap: 16px;
+  grid-template-rows: auto auto 1fr;
   font-family: 'Open Sans', sans-serif;
   margin: 0 auto;
   margin-bottom: 32px;
   padding-top: 16px;
+  align-items: center;
   @media only screen and (max-width: 600px) {
+    grid-row-gap: 8px;
     grid-template-columns: 100%;
     padding: 0;
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: repeat(4, auto);
   }
 `
 
@@ -92,15 +95,13 @@ const Title = styled.h1`
     font-size: 50px;
     text-align: initial;
     margin-left: 16px;
-    margin-bottom: 50px;
   }
 `
 
 const ImageContainer = styled.div`
-  margin-top: -40px;
   grid-column-start: main-start;
   grid-column-end: main-end 8;
-  grid-row: 2;
+  grid-row: 1 / span 2;
 
   @media only screen and (max-width: 600px) {
     max-height: 200px;
@@ -166,7 +167,6 @@ const BodyTextContainer = styled.div`
   grid-row: 2 / span 2;
   border-radius: 3px;
   padding: 32px;
-  margin-top: 32px;
 
   @media only screen and (max-width: 600px) {
     grid-column: 1;
@@ -315,17 +315,11 @@ const Button = styled.a`
 `
 
 const InspirationContainer = styled.div`
-  position: relative;
-  top: 85px;
   margin-right: 16px;
   grid-column-start: main-start;
   grid-column-end: main-end 7;
   grid-row: 3;
   text-align: center;
-
-  @media only screen and (max-width: 900px) {
-    top: 100px;
-  }
 
   @media only screen and (max-width: 600px) {
     position: static;
@@ -346,7 +340,7 @@ const CaptionTitle = styled.p`
   margin-bottom: 24px;
   color: white;
 
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 992px) {
     display: block;
   }
 `
