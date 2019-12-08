@@ -4,7 +4,7 @@ introtext: "Filipijnen, het land van 7641 eilanden, met als twee grootste Luzon 
 introimage: "https://lh3.googleusercontent.com/VWjzhk_Yp7gjoF0fwHsWKeO7K-sixpTwG1E8TzpKlzIxTCEXfh355SokT0PKa2QBHrYTS6j1ZkUuHlXZVobXGXsvUmRNpjv3dFVflwbEYwEKF1vI_C0wXQJnTmdbcV96Al3DPe1xiA=w1200"
 surface: "300.000"
 inhabitants: "105.000.000"
-rate: "56,19"
+rate: "56,16"
 valuta: "peso"
 need_to_know_text: ""
 need_to_know_more_text: ""
