@@ -4,7 +4,7 @@ introtext: "Cambodja is een prachtig land in Azië grenzend aan Laos, Thailand e
 introimage: "https://lh3.googleusercontent.com/nTTx3X6Oukcgpd199kWNnPzgJdgMK32x3JBw1mjprto0nHSjMM8yFpamg3DXCdJpZTpugeEGXF6C75iIic9DM5uOA_e4GHYPRCvsNvzAxyqHms_kEAMp7q8GkmqNCsHrezseRZ_mXA=w800"
 surface: "181.000"
 inhabitants: "16.300.000"
-rate: "4520,28"
+rate: "4549,06"
 valuta: "riel"
 need_to_know_text: ""
 need_to_know_more_text: ""
