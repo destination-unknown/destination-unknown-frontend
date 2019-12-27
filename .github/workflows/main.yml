@@ -70,7 +70,3 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-      - name: Curl request
-        run: curl -X POST -d {} $NETLIFY_BUILD_URL
-        env:
-          NETLIFY_BUILD_URL: ${{ secrets.NETLIFY_BUILD_URL }}

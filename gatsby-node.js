@@ -71,7 +71,7 @@ exports.createPages = async ({ graphql, actions }) => {
   )
 
   const flightsResponse = await axios.get(
-    'https://pf.tradetracker.net/?aid=356479&encoding=utf-8&type=json&fid=1232604&filter_html=1&filter_nl=1&categoryType=2&additionalType=2'
+    'https://daisycon.io/datafeed/?filter_id=72314&settings_id=8720'
   )
 
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
@@ -79,7 +79,8 @@ exports.createPages = async ({ graphql, actions }) => {
       const products =
         rentalCarResponse.data['datafeed']['programs'][0]['products']
 
-      const flights = flightsResponse.data['products']
+      const flights =
+        flightsResponse.data['datafeed']['programs'][0]['products']
 
       const recentProductsPerCountry = products
         .filter(function(el) {
@@ -104,10 +105,15 @@ exports.createPages = async ({ graphql, actions }) => {
         'Groningen',
       ]
 
+      const departureAirlineCodes = ['AMS', 'BRU', 'MST', 'RTM', 'EIN', 'GRQ']
+
       const flightsPerCountry = flights.filter(function(el) {
         return (
-          el['properties']['countryArrival'][0] === node.frontmatter.title &&
-          departureCities.includes(el['properties']['cityDeparture'][0])
+          el['product_info']['destination_country'] ===
+            node.frontmatter.country_code.toUpperCase() &&
+          departureAirlineCodes.includes(
+            el['product_info']['airport_departure']
+          )
         )
       })
 
@@ -119,7 +125,10 @@ exports.createPages = async ({ graphql, actions }) => {
           : null
 
       const cheapestFlight = flightsPerCountry.sort(function(a, b) {
-        return a['price']['amount'] - b['price']['amount']
+        return (
+          a['product_info']['price']['amount'] -
+          b['product_info']['price']['amount']
+        )
       })[0]
 
       createPage({
@@ -133,9 +142,11 @@ exports.createPages = async ({ graphql, actions }) => {
             ? cheapestCar.link
             : 'https://ds1.nl/c/?si=1112&li=70989&wi=335922&ws=&dl=',
           flightsLink: cheapestFlight
-            ? cheapestFlight['URL']
+            ? cheapestFlight['product_info']['link']
             : node.frontmatter['flight_button_url'],
-          flightsPrice: cheapestFlight ? cheapestFlight.price.amount : null,
+          flightsPrice: cheapestFlight
+            ? Math.round(cheapestFlight['product_info']['price'])
+            : null,
           carsPrice: cheapestCar ? Math.round(cheapestCar.price / 7) : null,
           hotelsLink: node.frontmatter['hotels_url'],
           hotelsPrice: null,
