@@ -184,7 +184,10 @@ export default ({ handleClick, isLoading }) => {
       { value: 'winter', label: 'winter' },
       { value: 'lente', label: 'lente' },
     ],
-    selectedValue: { value: 'zomer', label: 'zomer' },
+    selectedValue: JSON.parse(localStorage.getItem('first')) || {
+      value: 'zomer',
+      label: 'zomer',
+    },
   })
 
   const [secondDropdown, setSecondDropdown] = useState({
@@ -192,7 +195,10 @@ export default ({ handleClick, isLoading }) => {
       { value: 'tot rust komen', label: 'tot rust te komen' },
       { value: 'op avontuur gaan', label: 'op avontuur te gaan' },
     ],
-    selectedValue: { value: 'tot rust te komen', label: 'tot rust te komen' },
+    selectedValue: JSON.parse(localStorage.getItem('second')) || {
+      value: 'tot rust te komen',
+      label: 'tot rust te komen',
+    },
   })
 
   const [thirdDropdown, setThirdDropdown] = useState({
@@ -202,7 +208,10 @@ export default ({ handleClick, isLoading }) => {
       { value: '12', label: '12' },
       { value: '24', label: '24' },
     ],
-    selectedValue: { value: '4', label: '4' },
+    selectedValue: JSON.parse(localStorage.getItem('third')) || {
+      value: '4',
+      label: '4',
+    },
   })
 
   const [fourthDropdown, setFourthDropdown] = useState({
@@ -216,7 +225,7 @@ export default ({ handleClick, isLoading }) => {
       { value: '30', label: 'moet het bloedheet zijn' },
       { value: '-99', label: 'maakt het me niet uit hoe warm het is' },
     ],
-    selectedValue: {
+    selectedValue: JSON.parse(localStorage.getItem('fourth')) || {
       value: '15',
       label: 'is het warmer dan 15 graden',
     },
@@ -253,7 +262,7 @@ export default ({ handleClick, isLoading }) => {
         label: 'stadjes bezoeken',
       },
     ],
-    selectedValues: [
+    selectedValues: JSON.parse(localStorage.getItem('fifth')) || [
       {
         value: 'hiken',
         label: 'hiken',
@@ -280,6 +289,8 @@ export default ({ handleClick, isLoading }) => {
               options={firstDropdown.options}
               width={100}
               onChange={selectedOption => {
+                localStorage.setItem('first', JSON.stringify(selectedOption));
+
                 setFirstDropdown({
                   options: firstDropdown.options,
                   selectedValue: selectedOption,
@@ -292,6 +303,8 @@ export default ({ handleClick, isLoading }) => {
               options={secondDropdown.options}
               width={240}
               onChange={selectedOption => {
+                localStorage.setItem('second', JSON.stringify(selectedOption));
+
                 setSecondDropdown({
                   options: secondDropdown.options,
                   selectedValue: selectedOption,
@@ -306,6 +319,8 @@ export default ({ handleClick, isLoading }) => {
               options={thirdDropdown.options}
               width={75}
               onChange={selectedOption => {
+                localStorage.setItem('third', JSON.stringify(selectedOption));
+
                 setThirdDropdown({
                   options: thirdDropdown.options,
                   selectedValue: selectedOption,
@@ -320,6 +335,8 @@ export default ({ handleClick, isLoading }) => {
               options={fourthDropdown.options}
               width={400}
               onChange={selectedOption => {
+                localStorage.setItem('fourth', JSON.stringify(selectedOption));
+
                 setFourthDropdown({
                   options: fourthDropdown.options,
                   selectedValue: selectedOption,
@@ -335,6 +352,8 @@ export default ({ handleClick, isLoading }) => {
               width={220}
               isMulti
               onChange={selectedOptions => {
+                localStorage.setItem('fifth', JSON.stringify(selectedOptions));
+
                 setFifthDropdown({
                   options: fifthDropdown.options,
                   selectedValues: selectedOptions,
