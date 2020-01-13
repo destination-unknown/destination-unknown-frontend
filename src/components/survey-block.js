@@ -68,7 +68,7 @@ const Title = styled.h1`
 
 const SurveyContainer = styled.div`
   grid-column-start: main-start 1;
-  grid-column-end: main-end 7;
+  grid-column-end: main-end 10;
   grid-row: 2;
   z-index: 1;
   @media only screen and (max-width: 600px) {
@@ -189,23 +189,76 @@ export default ({ handleClick, isLoading }) => {
 
   const [secondDropdown, setSecondDropdown] = useState({
     options: [
-      { value: 'binnen', label: 'binnen' },
-      { value: 'buiten', label: 'buiten' },
+      { value: 'tot rust komen', label: 'tot rust te komen' },
+      { value: 'op avontuur gaan', label: 'op avontuur te gaan' },
     ],
-    selectedValue: { value: 'binnen', label: 'binnen' },
+    selectedValue: { value: 'tot rust te komen', label: 'tot rust te komen' },
   })
 
   const [thirdDropdown, setThirdDropdown] = useState({
     options: [
-      { value: 'strand', label: 'luieren op het strand' },
-      { value: 'avontuur', label: 'op avontuur' },
+      { value: '4', label: '4' },
+      { value: '8', label: '8' },
+      { value: '12', label: '12' },
+      { value: '24', label: '24' },
     ],
-    selectedValue: { value: 'strand', label: 'luieren op het strand' },
+    selectedValue: { value: '4', label: '4' },
   })
 
   const [fourthDropdown, setFourthDropdown] = useState({
-    options: [{ value: 'ja', label: 'wel' }, { value: 'nee', label: 'geen' }],
-    selectedValue: { value: 'ja', label: 'wel' },
+    options: [
+      {
+        value: '15',
+        label: 'is het warmer dan 15 graden',
+      },
+      { value: '20', label: 'is het warmer dan 20 graden' },
+      { value: '25', label: 'is het warmer dan 25 graden' },
+      { value: '30', label: 'moet het bloedheet zijn' },
+      { value: '-99', label: 'maakt het me niet uit hoe warm het is' },
+    ],
+    selectedValue: {
+      value: '15',
+      label: 'is het warmer dan 15 graden',
+    },
+  })
+
+  const [fifthDropdown, setFifthDropdown] = useState({
+    options: [
+      {
+        value: 'hiken',
+        label: 'hiken',
+      },
+      {
+        value: 'cultuur snuiven',
+        label: 'cultuur snuiven',
+      },
+      {
+        value: 'wintersporten',
+        label: 'wintersporten',
+      },
+      {
+        value: 'rondreizen',
+        label: 'rondreizen',
+      },
+      {
+        value: 'watersporten',
+        label: 'watersporten',
+      },
+      {
+        value: 'op het strand liggen',
+        label: 'op het strand liggen',
+      },
+      {
+        value: 'stadjes bezoeken',
+        label: 'stadjes bezoeken',
+      },
+    ],
+    selectedValues: [
+      {
+        value: 'hiken',
+        label: 'hiken',
+      },
+    ],
   })
 
   return (
@@ -221,7 +274,7 @@ export default ({ handleClick, isLoading }) => {
         </Title>
         <SurveyContainer>
           <Survey>
-            Ik wil graag in de{' '}
+            Ik ga het liefst in de{' '}
             <Select
               value={firstDropdown.selectedValue}
               options={firstDropdown.options}
@@ -233,11 +286,11 @@ export default ({ handleClick, isLoading }) => {
                 })
               }}
             />{' '}
-            op vakantie{' '}
+            op reis om lekker{' '}
             <Select
               value={secondDropdown.selectedValue}
               options={secondDropdown.options}
-              width={105}
+              width={240}
               onChange={selectedOption => {
                 setSecondDropdown({
                   options: secondDropdown.options,
@@ -245,13 +298,13 @@ export default ({ handleClick, isLoading }) => {
                 })
               }}
             />
-            &nbsp;Europa.
+            .
             <br />
-            Ik ga het liefst{' '}
+            Om mijn bestemming te bereiken wil ik niet langer dan{' '}
             <Select
               value={thirdDropdown.selectedValue}
               options={thirdDropdown.options}
-              width={250}
+              width={75}
               onChange={selectedOption => {
                 setThirdDropdown({
                   options: thirdDropdown.options,
@@ -259,11 +312,13 @@ export default ({ handleClick, isLoading }) => {
                 })
               }}
             />{' '}
-            en wil{' '}
+            uur onderweg zijn.
+            <br />
+            Op de plek van bestemming{' '}
             <Select
               value={fourthDropdown.selectedValue}
               options={fourthDropdown.options}
-              width={85}
+              width={400}
               onChange={selectedOption => {
                 setFourthDropdown({
                   options: fourthDropdown.options,
@@ -271,7 +326,21 @@ export default ({ handleClick, isLoading }) => {
                 })
               }}
             />{' '}
-            cultuur snuiven.
+            .
+            <br />
+            Op vakantie ga ik graag{' '}
+            <Select
+              value={fifthDropdown.selectedValues}
+              options={fifthDropdown.options}
+              width={220}
+              isMulti
+              onChange={selectedOptions => {
+                setFifthDropdown({
+                  options: fifthDropdown.options,
+                  selectedValues: selectedOptions,
+                })
+              }}
+            />{' '}
             <Button
               className={isLoading ? 'is-loading' : ''}
               onClick={() =>
@@ -279,7 +348,8 @@ export default ({ handleClick, isLoading }) => {
                   firstDropdown.selectedValue.value,
                   secondDropdown.selectedValue.value,
                   thirdDropdown.selectedValue.value,
-                  fourthDropdown.selectedValue.value
+                  fourthDropdown.selectedValue.value,
+                  fifthDropdown.selectedValues.map(value => value.value)
                 )
               }
             >

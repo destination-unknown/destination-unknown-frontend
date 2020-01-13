@@ -30,7 +30,13 @@ class IndexPage extends React.Component {
       isLoading: false,
     }
   }
-  handleClick = (firstAnswer, secondAnswer, thirdAnswer, fourthAnswer) => {
+  handleClick = (
+    firstAnswer,
+    secondAnswer,
+    thirdAnswer,
+    fourthAnswer,
+    fifthAnswer
+  ) => {
     this.setState({ isLoading: true })
 
     typeof window !== 'undefined' &&
@@ -61,21 +67,61 @@ class IndexPage extends React.Component {
         event_label: fourthAnswer,
       })
 
-    axios
-      .post(
-        `https://7n2xdnl26d.execute-api.us-east-1.amazonaws.com/dev/generate`,
-        {
-          questions_list: [
-            'periode',
-            'continent_europa',
-            'activiteit',
-            'cultureel',
-          ],
-          answers_list: [firstAnswer, secondAnswer, thirdAnswer, fourthAnswer],
-        }
+    const serialisedQuestionsAndAnswers = JSON.stringify({
+      questions_list: [
+        'periode',
+        'doel',
+        'lengte reis',
+        'temperatuur',
+        'activiteit',
+      ],
+      answers_list: [
+        firstAnswer,
+        secondAnswer,
+        thirdAnswer,
+        fourthAnswer,
+        fifthAnswer.sort().join('|'),
+      ],
+    })
+
+    const item = localStorage.getItem(serialisedQuestionsAndAnswers)
+    const index = localStorage.getItem(serialisedQuestionsAndAnswers + 'index')
+
+    if (item !== null && JSON.parse(item).length > index) {
+      localStorage.setItem(
+        serialisedQuestionsAndAnswers + 'index',
+        parseInt(index) + 1
       )
+      window.location.href = slugify(JSON.parse(item)[index])
+      return
+    }
+
+    axios
+      .post(`http://localhost:3000/generate`, {
+        questions_list: [
+          'periode',
+          'doel',
+          'lengte reis',
+          'temperatuur',
+          'activiteit',
+        ],
+        answers_list: [
+          firstAnswer,
+          secondAnswer,
+          thirdAnswer,
+          fourthAnswer,
+          fifthAnswer.sort().join('|'),
+        ],
+      })
       .then(response => {
-        window.location.href = slugify(response.data.country)
+        localStorage.setItem(
+          serialisedQuestionsAndAnswers,
+          JSON.stringify(response.data.countries)
+        )
+
+        localStorage.setItem(serialisedQuestionsAndAnswers + 'index', 1)
+
+        window.location.href = slugify(response.data.countries[0])
       })
       .catch(error => console.log(error))
   }

@@ -2,7 +2,7 @@ import React from 'react'
 import ReactSelect, { components } from 'react-select'
 import Arrow from '../images/arrow.svg'
 
-const Select = ({ onChange, value, options, width }) => {
+const Select = ({ onChange, value, options, width, isMulti }) => {
   const customStyles = {
     container: (provided, state) => {
       return {
@@ -15,11 +15,9 @@ const Select = ({ onChange, value, options, width }) => {
         ...provided,
         '&::after': {
           content: '""',
-          position: 'absolute',
           display: 'block',
           marginLeft: '8px',
           width: '96%',
-          paddingTop: '32px',
           borderBottom: '1px solid white',
         },
         position: 'relative',
@@ -27,7 +25,7 @@ const Select = ({ onChange, value, options, width }) => {
         boxShadow: 'none',
         background: 'transparent',
         color: 'white',
-        width: width,
+        width: state.isMulti ? '100%' : width,
       }
     },
     menu: (provided, state) => ({
@@ -49,6 +47,36 @@ const Select = ({ onChange, value, options, width }) => {
       ...provided,
       backgroundColor: 'transparent',
     }),
+    multiValue: (styles, state) => ({
+      ...styles,
+      backgroundColor: 'transparent',
+      display: 'inline',
+      lineHeight: '2',
+      '&:after': {
+        content: '","',
+      },
+      '&:last-of-type:after': {
+        content: '"."',
+      },
+    }),
+    multiValueLabel: (styles, state) => ({
+      ...styles,
+      backgroundColor: 'transparent',
+      color: 'white',
+      fontFamily: 'Lato',
+      fontSize: '21px',
+      display: 'inline',
+      padding: '0',
+      paddingLeft: '0',
+    }),
+    multiValueRemove: (styles, state) => ({
+      ...styles,
+      display: 'none',
+    }),
+    clearIndicator: (styles, state) => ({
+      ...styles,
+      display: 'none',
+    }),
   }
 
   const DropdownIndicator = props => {
@@ -64,9 +92,11 @@ const Select = ({ onChange, value, options, width }) => {
       styles={customStyles}
       value={value}
       options={options}
+      isMulti={isMulti}
       onChange={onChange}
       isSearchable={false}
       components={{ DropdownIndicator }}
+      hideSelectedOptions={false}
     />
   )
 }
