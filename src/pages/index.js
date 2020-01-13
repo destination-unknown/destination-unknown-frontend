@@ -97,22 +97,25 @@ class IndexPage extends React.Component {
     }
 
     axios
-      .post(`http://localhost:3000/generate`, {
-        questions_list: [
-          'periode',
-          'doel',
-          'lengte reis',
-          'temperatuur',
-          'activiteit',
-        ],
-        answers_list: [
-          firstAnswer,
-          secondAnswer,
-          thirdAnswer,
-          fourthAnswer,
-          fifthAnswer.sort().join('|'),
-        ],
-      })
+      .post(
+        `https://7n2xdnl26d.execute-api.us-east-1.amazonaws.com/dev/generate`,
+        {
+          questions_list: [
+            'periode',
+            'doel',
+            'lengte reis',
+            'temperatuur',
+            'activiteit',
+          ],
+          answers_list: [
+            firstAnswer,
+            secondAnswer,
+            thirdAnswer,
+            fourthAnswer,
+            fifthAnswer.sort().join('|'),
+          ],
+        }
+      )
       .then(response => {
         localStorage.setItem(
           serialisedQuestionsAndAnswers,
