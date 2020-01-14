@@ -1,6 +1,6 @@
 ---
 title: "Bonaire"
-introtext: ""
+introtext: "Bonaire is een eiland in het Caribisch gebied wat officieel geen land is, maar een bijzondere gemeente van Nederland! Het eiland staat bekend om zijn ongerepte natuur, de mooie witte stranden en de vele watersporten die er beoefend kunnen worden. Vanwege het heldere water, prachtige koraalriffen en vele kleurrijke vissen is Bonaire al jaren een van de topbestemmingen als het gaat om duiken en snorkelen. Verder kun je in de wat ruigere binnenlanden mooie wandelroutes afleggen. In het zuiden van het eiland vind je het adembenemend gekleurde Pekelmeer, waar nog altijd zout gewonnen wordt. Dit meer is ook de thuishaven voor de Caribische flamingo's, die je hier in grote aantallen ziet. Bonaire heeft alles voor een heerlijke vakantie om tot rust te komen en te genieten van de prachtige natuur!"
 introimage: "https://lh3.googleusercontent.com/0xsgwh0T3h6GQgU3k8oYVv8Cgz7Uma6drOd_sHDb2I5ElE6pmE7RHAlwUP1hHILNZDtAG_LXDBmtwmwQ3LMh6bQFiWFgU0k-im_CLPBGHiYK3tsILPNkWBYlajY-qRtz7NuEYA4ttQ=w800"
 surface: "288"
 inhabitants: "20.000"
