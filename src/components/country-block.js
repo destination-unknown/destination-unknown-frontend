@@ -55,7 +55,7 @@ const LandImageContainer = styled.div`
 
 const LandCountContainer = styled.div`
   grid-area: 1 / 2 / auto / span 3;
-  z-index: 2;
+  position: relative;
   @media only screen and (max-width: 600px) {
     grid-area: 1 / 1;
   }
@@ -63,7 +63,7 @@ const LandCountContainer = styled.div`
 
 const LandTextContainer = styled.div`
   grid-area: 2 / 3 / auto / span 3;
-  z-index: 2;
+  position: relative;
   @media only screen and (max-width: 600px) {
     grid-area: 2 / 1;
   }

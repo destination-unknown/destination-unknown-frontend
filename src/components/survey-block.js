@@ -26,10 +26,11 @@ const Container = styled.div`
   margin: 0 auto;
   padding-top: 16px;
   padding-bottom: 48px;
+  grid-row-gap: 16px;
   @media only screen and (max-width: 600px) {
     padding: 0;
     grid-template-columns: 1fr;
-    grid-template-rows: max-content 1fr 1fr;
+    grid-template-rows: fit-content 1fr 1fr;
   }
 `
 
@@ -43,7 +44,6 @@ const Title = styled.h1`
   font-size: 4.5rem;
   font-weight: bold;
   margin: 0;
-  margin-bottom: 16px;
   margin-right: 16px;
   color: white;
   @media only screen and (max-width: 1000px) {
@@ -102,7 +102,7 @@ const Survey = styled.div`
   }
   @media only screen and (max-width: 600px) {
     padding: 16px;
-    font-size: 13px;
+    font-size: 15px;
   }
   line-height: 2.5;
 `
@@ -303,7 +303,7 @@ export default ({ handleClick, isLoading }) => {
     if (savedFifthAnswer) {
       setFifthDropdown({
         options: fifthDropdown.options,
-        selectedValue: savedFifthAnswer,
+        selectedValues: savedFifthAnswer,
       })
     }
   }, [
@@ -331,7 +331,8 @@ export default ({ handleClick, isLoading }) => {
             <Select
               value={firstDropdown.selectedValue}
               options={firstDropdown.options}
-              width={100}
+              mobileWidth={'85px'}
+              width={'100px'}
               onChange={selectedOption => {
                 localStorage.setItem('first', JSON.stringify(selectedOption))
 
@@ -345,7 +346,8 @@ export default ({ handleClick, isLoading }) => {
             <Select
               value={secondDropdown.selectedValue}
               options={secondDropdown.options}
-              width={240}
+              width={'240px'}
+              mobileWidth={'180px'}
               onChange={selectedOption => {
                 localStorage.setItem('second', JSON.stringify(selectedOption))
 
@@ -361,7 +363,8 @@ export default ({ handleClick, isLoading }) => {
             <Select
               value={thirdDropdown.selectedValue}
               options={thirdDropdown.options}
-              width={75}
+              width={'75px'}
+              mobileWidth={'60px'}
               onChange={selectedOption => {
                 localStorage.setItem('third', JSON.stringify(selectedOption))
 
@@ -377,7 +380,8 @@ export default ({ handleClick, isLoading }) => {
             <Select
               value={fourthDropdown.selectedValue}
               options={fourthDropdown.options}
-              width={400}
+              width={'400px'}
+              mobileWidth={'290px'}
               onChange={selectedOption => {
                 localStorage.setItem('fourth', JSON.stringify(selectedOption))
 
@@ -393,7 +397,7 @@ export default ({ handleClick, isLoading }) => {
             <Select
               value={fifthDropdown.selectedValues}
               options={fifthDropdown.options}
-              width={220}
+              width={'100%'}
               isMulti
               onChange={selectedOptions => {
                 localStorage.setItem('fifth', JSON.stringify(selectedOptions))

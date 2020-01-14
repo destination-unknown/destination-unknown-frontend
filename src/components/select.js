@@ -1,8 +1,9 @@
 import React from 'react'
 import ReactSelect, { components } from 'react-select'
 import Arrow from '../images/arrow.svg'
+import styled from 'styled-components'
 
-const Select = ({ onChange, value, options, width, isMulti }) => {
+const Select = ({ onChange, value, options, width, isMulti, mobileWidth }) => {
   const customStyles = {
     container: (provided, state) => {
       return {
@@ -25,7 +26,7 @@ const Select = ({ onChange, value, options, width, isMulti }) => {
         boxShadow: 'none',
         background: 'transparent',
         color: 'white',
-        width: state.isMulti ? '100%' : width,
+        width: width,
       }
     },
     menu: (provided, state) => ({
@@ -64,10 +65,10 @@ const Select = ({ onChange, value, options, width, isMulti }) => {
       backgroundColor: 'transparent',
       color: 'white',
       fontFamily: 'Lato',
-      fontSize: '21px',
       display: 'inline',
       padding: '0',
       paddingLeft: '0',
+      fontSize: 'inherit',
     }),
     multiValueRemove: (styles, state) => ({
       ...styles,
@@ -76,6 +77,11 @@ const Select = ({ onChange, value, options, width, isMulti }) => {
     clearIndicator: (styles, state) => ({
       ...styles,
       display: 'none',
+    }),
+    placeholder: (styles, state) => ({
+      ...styles,
+      color: 'white',
+      fontFamily: 'Lato',
     }),
   }
 
@@ -87,9 +93,27 @@ const Select = ({ onChange, value, options, width, isMulti }) => {
     )
   }
 
+  const Select = styled(ReactSelect)`
+    & .react-select__control {
+      min-width: ${props => (props.isMulti ? '150px' : 0)};
+    }
+
+    @media only screen and (max-width: 600px) {
+      & .react-select__control,
+      .react-select__menu {
+        width: ${props =>
+          props.mobileWidth ? props.mobileWidth : props.width};
+      }
+    }
+  `
+
   return (
-    <ReactSelect
+    <Select
+      classNamePrefix="react-select"
+      placeholder="Selecteer..."
       styles={customStyles}
+      width={width}
+      mobileWidth={mobileWidth}
       value={value}
       options={options}
       isMulti={isMulti}
