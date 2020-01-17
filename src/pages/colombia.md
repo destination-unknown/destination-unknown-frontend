@@ -1,10 +1,10 @@
 ---
 title: "Colombia"
-introtext: "Colombia is een van de meest diverse landen gelegen in Zuid-Amerika. In het noorden zijn er de mooiste Caribische stranden rondom de prachtige havenstad Cartagana. Ook vind je hier het Tayrona National Park, waar je na een paar uur hiken door de jungle beloond wordt met een heerlijk strand en helder water. Verder landinwaarts kom je langs plaatsen zoals Medellin en de hoofdstad Bogota. Een plek die je niet mag missen is het dorp Guatape, waar je een prachtig uitzicht hebt vanaf de rots La Piedra over een meer met vele kleine eilandjes. Na het beklimmen van La Piedra kun je genieten in het kleurrijke centrum van het dorp. Colombia is een land waar elke avonturier een keer geweest moet zijn!"
+introtext: "Colombia is een van de meest diverse landen gelegen in Zuid-Amerika. In het noorden zijn er de mooiste Caribische stranden rondom de prachtige havenstad Cartagana. Ook vind je hier het Tayrona National Park, waar je na een paar uur hiken door de jungle beloond wordt met een heerlijk strand en helder water. Verder landinwaarts kom je langs plaatsen zoals Medellín en de hoofdstad Bogotá. Een plek die je niet mag missen is het dorp Guatapé, waar je een prachtig uitzicht hebt vanaf de rots La Piedra over een meer met vele kleine eilandjes. Na het beklimmen van La Piedra kun je genieten in het kleurrijke centrum van het dorp. Colombia is een land waar elke avonturier een keer geweest moet zijn!"
 introimage: "https://lh3.googleusercontent.com/rL6ug-ykeXKGfc9I-c3JpTWrICedbqCgKeql8gljofRQ8dKlIBPLq9NSiQYMVma0qEOorMzOb4KbdLVNHMi24dRw3V9Lpha5qGgJS_n4mIY8N9cMe2T7hBY2F2ijrPGjgnry3178EA=w800"
 surface: "1.142.000"
 inhabitants: "49.000.000"
-rate: "3680,23"
+rate: "3699,15"
 valuta: "peso"
 need_to_know_text: ""
 need_to_know_more_text: ""
