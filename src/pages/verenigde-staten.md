@@ -4,7 +4,7 @@ introtext: "De Verenigde Staten is het op twee na grootste land ter wereld, zowe
 introimage: "https://lh3.googleusercontent.com/Xwb-qIphtrIW2tfVhtB6QPJ8mlsGPSORh2AUSKfwtv8l47Vd4zigxByelwpkHMGjFAxgUMo77084VRuH27sWfCltQgjWPI78fFHY8tcpKHk1Ej8Yx4U5VXCd_D6_U4rX_ZMWkw3iew=w800"
 surface: "9.834.000"
 inhabitants: "325.000.000"
-rate: "1,09"
+rate: "1,08"
 valuta: "dollar"
 need_to_know_text: ""
 need_to_know_more_text: ""
