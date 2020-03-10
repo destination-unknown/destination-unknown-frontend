@@ -4,7 +4,7 @@ introtext: "Panama is een land in Midden-Amerika met witte stranden, tropische j
 introimage: "https://lh3.googleusercontent.com/h08ZJSWzURNb1p4wdaPARK7ySYq_ox60Av1ZiReVSaG4u7IY-6Kvl7LnKoASa6Z3On5X1t1rIizEdKJhZpeCTDRRevOVSWif6_DBbjGdEyKE5cHHzgxIR4TNqYvkv02NwWDyC4Z9FQ=w800"
 surface: "75.500"
 inhabitants: "4.100.000"
-rate: "1,13"
+rate: "1,14"
 valuta: "balboa"
 need_to_know_text: ""
 need_to_know_more_text: ""
