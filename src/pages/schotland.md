@@ -4,7 +4,7 @@ introtext: "Schotland is de ideale plek voor mensen die houden van schitterende 
 introimage: "https://lh3.googleusercontent.com/3-8uvSVtZ-Aib_AnV0dSvMJRF9TYw1t-weAt13sPf9vQ-ZZQi163X9rLT3t5L0BteZKjAs6fLIWPh8tFX0uAqOj5uicQv-wHpmGS-4AjpiUrUuSTJ6CfY74k8F4EHMoOpcv80EV46A=w800"
 surface: "80.000"
 inhabitants: "5.400.000"
-rate: "0,95"
+rate: "0,92"
 valuta: "pond"
 need_to_know_text: ""
 need_to_know_more_text: ""
