@@ -4,7 +4,7 @@ introtext: "Bonaire is een eiland in het Caribisch gebied wat officieel geen lan
 introimage: "https://lh3.googleusercontent.com/0xsgwh0T3h6GQgU3k8oYVv8Cgz7Uma6drOd_sHDb2I5ElE6pmE7RHAlwUP1hHILNZDtAG_LXDBmtwmwQ3LMh6bQFiWFgU0k-im_CLPBGHiYK3tsILPNkWBYlajY-qRtz7NuEYA4ttQ=w800"
 surface: "288"
 inhabitants: "20.000"
-rate: "1,09"
+rate: "1,11"
 valuta: "dollar"
 need_to_know_text: ""
 need_to_know_more_text: ""

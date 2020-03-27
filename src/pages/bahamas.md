@@ -4,7 +4,7 @@ introtext: "De Bahama’s is een land in het Caribische gebied. Ook is het een e
 introimage: "https://lh3.googleusercontent.com/HEt6snIgUbtwrmX-CmNrT8-XaMhk8maLY_0GyrSGVR0MvbRfX83SEWobHx8-tNSGL4MQ1z40rqA40aoN_MSSg7YbJmyEhL9Oo8JtPlFmuok8YMEbiJiAvN4fnnbZ6YBpkQ9BEMFc-g=w800"
 surface: "13.900"
 inhabitants: "395.000"
-rate: "1,08"
+rate: "1,1"
 valuta: "dollar"
 need_to_know_text: ""
 need_to_know_more_text: ""
