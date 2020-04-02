@@ -4,7 +4,7 @@ introtext: "Argentinië is het grootste Spaanstalige land ter wereld en ligt in 
 introimage: "https://lh3.googleusercontent.com/IQvQP4Q4Zvv5_YhpX1aLa-s8zjba8HaErnBpy_Fd6NELhwt-TB5JhIC_51UV70SnTKogcv37RJyluV3RZ5XYqCToCXJCJ_TXd9N8AEIGWzSvt-cF60MS-izqQH1DctX80iJwJgJoJQ=w800"
 surface: "2.780.000"
 inhabitants: "40.100.000"
-rate: "70,88"
+rate: "70,53"
 valuta: "peso"
 need_to_know_text: ""
 need_to_know_more_text: ""
