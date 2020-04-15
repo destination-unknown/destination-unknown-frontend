@@ -4,7 +4,7 @@ introtext: "De tropische eilandengroep Kaapverdië ligt in de Atlantische Oceaan
 introimage: "https://lh3.googleusercontent.com/rouO67scLIfQ-QAOze91MoJWD0wQKBUm6cKUH7i_v7FgrzL7ZbUpGWbGKBAqwqh9a47uJ5Jak_8l-F_ifGMODdTvWfREzIiwWksgXZT3m3LuXOrgafCpihTEfNDIVcVKCCAK3a2sKQ=w800"
 surface: "4.033"
 inhabitants: "560.000"
-rate: "110,48"
+rate: "110,16"
 valuta: "escudo"
 need_to_know_text: ""
 need_to_know_more_text: ""
