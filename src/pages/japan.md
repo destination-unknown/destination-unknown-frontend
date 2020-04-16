@@ -4,7 +4,7 @@ introtext: "Konnichiwa! Japan, het land van geisha's, Harajuku, Sumo worstelen e
 introimage: "https://lh3.googleusercontent.com/iZYXZSS9SRl8o3nVyt0_XRjIDHUBepeayigYg0Meu4SRX9DTdSBln6ibaUk3zdD_mbHqqNnhNb03a3KBSerxMA7lpAFlosTuOmPyMh4tCjc8Ahe_AA549l-7M7RHihnILEDiUIMTwA=w800"
 surface: "378.000"
 inhabitants: "126.800.000"
-rate: "117,55"
+rate: "117,43"
 valuta: "yen"
 need_to_know_text: ""
 need_to_know_more_text: ""
