@@ -4,7 +4,7 @@ introtext: "Marokko is een prachtig land in het uiterste noordwesten van Afrika.
 introimage: "https://lh3.googleusercontent.com/GAwRud8WVdtMaW7ep2Y4Lg73es1BgzEqmR7lQDegCGcXXlzjMeHMqxxjNfTxM9rCmq33uaW21k0yKOvozYRuaZ0u937F1_RQMCnwC56S0Zfy2fXCvfuniRLNYeQNgHnPVcU8Dz5cTw=w800"
 surface: "447.000"
 inhabitants: "35.800.000"
-rate: "11,09"
+rate: "10,91"
 valuta: "dirham"
 need_to_know_text: ""
 need_to_know_more_text: ""
