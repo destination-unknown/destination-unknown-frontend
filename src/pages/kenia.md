@@ -4,7 +4,7 @@ introtext: "Kenia, het land in Afrika wat het hele continent samenvat. Het heeft
 introimage: "https://lh3.googleusercontent.com/afbYnPXHQf8kj2fYg_UcQ_6mcn3my8leC_yI6U0hAC_hcTXq8mBH5pY4B3ygRBQLT3uQegz9By0X8v0fHtCW2szPjQ43FIHXWZVWrxC4xZAo_dcoKDHbFpMiP-6c-C8vQxdL8ME7ew=w800"
 surface: "580.000"
 inhabitants: "50.100.000"
-rate: "114,94"
+rate: "116,34"
 valuta: "shilling"
 need_to_know_text: ""
 need_to_know_more_text: ""
