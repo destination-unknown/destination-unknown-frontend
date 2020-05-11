@@ -7,26 +7,16 @@ import { lighten, darken } from 'polished'
 import Select from '../components/select'
 
 const OuterContainer = styled.div`
-  background: linear-gradient(
-    to bottom,
-    #47c0c7 0%,
-    #47c0c7 50%,
-    #31bbc2 50%,
-    #31bbc2 100%
-  );
+  background-color: #39b9be;
 `
 
 const Container = styled.div`
   display: grid;
   grid-template-columns:
     [full-start] minmax(1em, 1fr)
-    repeat(15, [main-start] minmax(0, 80px) [main-end]) minmax(1em, 1fr) [full-end];
-  grid-template-rows: max-content 1fr;
+    repeat(15, [main-start] 1fr [main-end]) [full-end];
   font-family: 'Open Sans', sans-serif;
   margin: 0 auto;
-  padding-top: 16px;
-  padding-bottom: 48px;
-  grid-row-gap: 16px;
   @media only screen and (max-width: 600px) {
     padding: 0;
     grid-template-columns: 1fr;
@@ -45,7 +35,7 @@ const Title = styled.h1`
   font-weight: bold;
   margin: 0;
   margin-right: 16px;
-  color: white;
+  color: #157e81;
   @media only screen and (max-width: 1000px) {
     font-size: 3.5rem;
   }
@@ -67,10 +57,11 @@ const Title = styled.h1`
 `
 
 const SurveyContainer = styled.div`
-  grid-column-start: main-start 1;
-  grid-column-end: main-end 10;
+  grid-column-start: main-start 3;
+  grid-column-end: main-end 8;
   grid-row: 2;
   z-index: 1;
+  margin-bottom: 60px;
   @media only screen and (max-width: 600px) {
     grid-row: 3;
     grid-column: 1;
@@ -78,10 +69,10 @@ const SurveyContainer = styled.div`
 `
 
 const TravelGearImageContainer = styled.div`
-  margin-top: 80px;
   grid-column-start: main-start 7;
   grid-column-end: main-end 15;
   grid-row: 1 / span 2;
+  height: 100%;
   @media only screen and (max-width: 600px) {
     margin-top: 0;
     grid-row: 2;
@@ -91,10 +82,11 @@ const TravelGearImageContainer = styled.div`
 
 const Survey = styled.div`
   color: #044043;
-  border-radius: 2px;
-  background-color: #63cdd2;
-  border: 1px solid #61d9df;
+  border-radius: 6px;
+  background-color: white;
+  box-shadow: 0 0 10px 2px grey;
   padding: 32px;
+  margin-top: 140px;
   font-size: 21px;
   font-family: 'Lato', sans-serif;
   @media only screen and (max-width: 768px) {
@@ -166,7 +158,7 @@ export default ({ handleClick, isLoading }) => {
   const data = useStaticQuery(
     graphql`
       query {
-        artboard: file(relativePath: { eq: "artboard.png" }) {
+        homepage: file(relativePath: { eq: "homepage.jpg" }) {
           childImageSharp {
             fluid {
               ...GatsbyImageSharpFluid_noBase64
@@ -318,15 +310,18 @@ export default ({ handleClick, isLoading }) => {
     <OuterContainer>
       <Container>
         <TravelGearImageContainer>
-          <Img fluid={data.artboard.childImageSharp.fluid} />
+          <Img
+            style={{ height: '100%' }}
+            fluid={data.homepage.childImageSharp.fluid}
+          />
         </TravelGearImageContainer>
-        <Title>
-          WAAR OP
-          <br />
-          VAKANTIE
-        </Title>
         <SurveyContainer>
           <Survey>
+            <Title>
+              WAAR OP
+              <br />
+              VAKANTIE
+            </Title>
             Ik ga het liefst in de{' '}
             <Select
               value={firstDropdown.selectedValue}

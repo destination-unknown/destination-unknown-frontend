@@ -1,20 +1,24 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
-import DestinationUnknown from '../images/destinationunknown.svg'
+import Staircase from '../images/staircase.jpg'
 
 const Container = styled.div`
-  background: #63e0e6;
+  background-image: url(${Staircase});
+  background-size: cover;
+  background-position: center center;
   font-family: 'Open Sans', sans-serif;
+  padding: 120px 60px;
 `
 
 const GridContainer = styled.div`
   display: grid;
-  grid-template-columns: 42% 18% 40%;
+  background-color: white;
+  grid-template-columns: 40% 60%;
   grid-template-rows: min-content 1fr;
-  margin: 0 auto;
-  max-width: 1200px;
-  padding: 64px 16px;
+  margin-left: auto;
+  max-width: 500px;
+  padding: 60px 80px;
   @media only screen and (max-width: 600px) {
     grid-template-columns: 100%;
     grid-template-rows: 28% 1fr;
@@ -23,9 +27,9 @@ const GridContainer = styled.div`
 `
 
 const Title = styled.p`
-  color: #18888e;
+  color: #121212;
   font-family: 'Lato', sans-serif;
-  font-size: 5rem;
+  font-size: 3.8rem;
   font-weight: 900;
   margin: 0;
   padding-top: 16px;
@@ -34,28 +38,8 @@ const Title = styled.p`
   }
 `
 
-const SubTitle = styled.p`
-  color: white;
-  font-family: 'Lato', sans-serif;
-  font-size: 5.5rem;
-  font-weight: 900;
-  margin: 0;
-  @media only screen and (max-width: 600px) {
-    font-size: 2.5rem;
-  }
-`
-
-const ImageContainer = styled.div`
-  grid-area: 1 / 1 / span 2 / auto;
-  @media only screen and (max-width: 600px) {
-    display: none;
-    margin-top: 16px;
-    grid-area: 1 / 1;
-  }
-`
-
 const TitleContainer = styled.div`
-  grid-area: 1 / 2 / auto / span 3;
+  grid-area: 1 / 1 / auto / span 3;
   z-index: 2;
   @media only screen and (max-width: 600px) {
     grid-area: 1 / 1;
@@ -64,7 +48,7 @@ const TitleContainer = styled.div`
 
 const ContentContainer = styled.div`
   font-size: 1.2rem;
-  grid-area: 2 / 2 / span 2 / span 2;
+  grid-area: 2 / 1 / span 2 / span 2;
   z-index: 2;
   @media only screen and (max-width: 600px) {
     grid-area: 2 / 1;
@@ -72,21 +56,17 @@ const ContentContainer = styled.div`
 `
 
 const Content = styled.p`
-  color: white;
+  color: #3c3c3c;
+  font-size: 1rem;
   margin-top: 8px;
-  line-height: 1.5;
-  color: #18888e;
+  line-height: 1.8;
 `
 
 export const PureTravelBlock = ({ data }) => (
   <Container>
     <GridContainer>
-      <ImageContainer>
-        <DestinationUnknown width={'85%'} height={'100%'} fill={'#FFD628'} />
-      </ImageContainer>
       <TitleContainer>
-        <Title>Destination</Title>
-        <SubTitle>Unknown</SubTitle>
+        <Title>DESTINATION UNKNOWN</Title>
       </TitleContainer>
       <ContentContainer>
         <Content>
