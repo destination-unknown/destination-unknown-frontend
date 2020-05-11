@@ -48,9 +48,9 @@ const NavigationButtonContainer = styled.div`
 `
 
 const OuterNavigationContainer = styled.div`
-  background-color: #47c0c7;
+  background-color: ${props => (props.isIndex ? 'transparent' : '#39b9be')};
   z-index: 10;
-  position: ${props => (props.isIndex ? 'initial' : 'fixed')};
+  position: ${props => (props.isIndex ? 'absolute' : 'fixed')};
   top: 0;
   left: 0;
   right: 0;
