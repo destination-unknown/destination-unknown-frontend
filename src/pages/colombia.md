@@ -4,7 +4,7 @@ introtext: "Colombia is een van de meest diverse landen gelegen in Zuid-Amerika.
 introimage: "https://lh3.googleusercontent.com/rL6ug-ykeXKGfc9I-c3JpTWrICedbqCgKeql8gljofRQ8dKlIBPLq9NSiQYMVma0qEOorMzOb4KbdLVNHMi24dRw3V9Lpha5qGgJS_n4mIY8N9cMe2T7hBY2F2ijrPGjgnry3178EA=w800"
 surface: "1.142.000"
 inhabitants: "49.000.000"
-rate: "4259,14"
+rate: "4244,99"
 valuta: "peso"
 need_to_know_text: ""
 need_to_know_more_text: ""
