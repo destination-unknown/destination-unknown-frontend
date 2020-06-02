@@ -4,7 +4,7 @@ introtext: "Brazilië is het grootste land van Zuid-Amerika en is het 5e grootst
 introimage: "https://lh3.googleusercontent.com/9Nbr1QDpBGsFEmKxq5t8XNz9y-Skogi4az0klFS1vAdg-0LWwawphx7HKmpisb7oaBjjY5v7l7Bgwr6Lo6U8i0mKvAlobP96A9q6tV83rJoLYvCx4Uuh_l7QiVOX24YjxEKjqZUufw=w800"
 surface: "2.800.000"
 inhabitants: "208.000.000"
-rate: "5,96"
+rate: "5,97"
 valuta: "real"
 need_to_know_text: "Als Nederlander met een Nederlands paspoort heb je geen visum nodig voor je reis naar Brazilië. Bij aankomst krijg je meestal een stempel voor 30 dagen, blijf je langer dan kun je dit aangeven en krijg je een stempel voor 90 dagen. Als je Brazilië inkomt dan kan er gevraagd worden om een vaccinatiebewijs van gele koorts, draag deze dus altijd bij je (het gele boekje). Ook moet je in het bezit zijn van een paspoort dat minimaal nog 6 maanden geldig is bij aankomst in het land.
 \n\n
