@@ -4,7 +4,7 @@ introtext: "Mexico is één van de fijnste vakantie bestemmingen ter wereld! Het
 introimage: "https://lh3.googleusercontent.com/P4mh7k3dxn5sqH3UBC4hOWQw2hvkZTeOWWpWVu5OqTP0k3Vxe5BAKB-a46p_IbSXMfXylR5wyQD1gOwPIZweApt0LG9XYJLMbN8ywm1w1pjPevy6oi1zmmfwQrlROQxppFj01OgeJw=w800"
 surface: "1.960.000"
 inhabitants: "129.200.000"
-rate: "24,51"
+rate: "24,27"
 valuta: "peso"
 need_to_know_text: ""
 need_to_know_more_text: ""
