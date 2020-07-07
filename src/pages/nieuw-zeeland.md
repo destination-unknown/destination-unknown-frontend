@@ -4,7 +4,7 @@ introtext: "Tropische stranden, besneeuwde bergtoppen, pittoreske meren, oogstre
 introimage: "https://lh3.googleusercontent.com/l1kKKUUlrI-yNY5CG0tzWmUk0QVS8mPEAC9eL5VAX5Fe60JGmtxsZak1spapbXhZV7O6hJyrz07U-LYMd_pO1tOU4OMJJ2sKm-RfwzSrZNYRYxmn8rWDjHO1pb2_FaZs_t3gtCmpAg=w800"
 surface: "275.000"
 inhabitants: "4.500.000"
-rate: "1,72"
+rate: "1,73"
 valuta: "dollar"
 need_to_know_text: ""
 need_to_know_more_text: ""
