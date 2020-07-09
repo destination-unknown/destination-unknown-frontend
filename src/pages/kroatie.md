@@ -4,7 +4,7 @@ introtext: "Kroatië is een prachtig land in het oosten van Europa aan de Adriat
 introimage: "https://lh3.googleusercontent.com/L2LPgVm87bjdMllAECPnsXa061596Nx9FDf8dV8eTDB5VcB0hA1jj4R7_4GruwRxiBak1n5j_GzarJGfJbMjRPt-gJ7pJdXHZ3bIjK1Of0uUH_L47C_PgSaRiBsGrelfzLlVu256ig=w800"
 surface: "57.000"
 inhabitants: "4.150.000"
-rate: "7,55"
+rate: "7,54"
 valuta: "kuna"
 need_to_know_text: ""
 need_to_know_more_text: ""
