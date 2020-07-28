@@ -5,6 +5,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import styled from 'styled-components'
 import { slide as Menu } from 'react-burger-menu'
+import { darken } from 'polished'
 
 const Container = styled.div`
   display: grid;
@@ -16,17 +17,17 @@ const Container = styled.div`
 `
 
 const NavigationButton = styled.button`
-  border: 1px solid white;
+  border: none;
   border-radius: 22px;
   padding: 12px 32px;
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
-  background-color: transparent;
+  background-color: white;
   font-weight: bold;
-  color: white;
+  color: #399397;
 
   &:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: ${darken(0.1, 'white')};
     cursor: pointer;
   }
 
