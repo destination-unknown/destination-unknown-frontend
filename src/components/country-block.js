@@ -16,7 +16,6 @@ const LandGridContainer = styled.div`
   padding: 64px 16px;
   @media only screen and (max-width: 600px) {
     grid-template-columns: 100%;
-    grid-template-rows: 28% 1fr;
     padding: 16px;
   }
 `
@@ -27,8 +26,12 @@ const LandSubTitle = styled.p`
   font-size: 3.5rem;
   font-weight: 900;
   margin: 0;
+  z-index: 2;
   @media only screen and (max-width: 600px) {
     font-size: 2.5rem;
+    position: relative;
+    top: 20px;
+    padding-left: 16px;
   }
 `
 
@@ -36,8 +39,11 @@ const LandImageContainer = styled.div`
   margin-top: 64px;
   grid-area: 1 / 1 / span 2 / span 3;
   @media only screen and (max-width: 600px) {
-    margin-top: 16px;
-    grid-area: 1 / 1;
+    margin-top: 0;
+    grid-area: 2 / 1;
+    & img {
+      border-radius: 6px;
+    }
   }
 `
 
@@ -45,16 +51,21 @@ const LandTextContainer = styled.div`
   grid-area: 1 / 3 / auto / span 2;
   position: relative;
   @media only screen and (max-width: 600px) {
-    grid-area: 2 / 1;
+    grid-area: 1 / 1;
   }
 `
 
 const SubTitle = styled.p`
-  color: #3b3b3b;
-  margin-left: 80px;
+  color: #6e6e6e;
+  margin-left: 50px;
   margin-top: 8px;
   line-height: 1.5;
   font-size: 1.1rem;
+  @media only screen and (max-width: 600px) {
+    margin-top: 16px;
+    margin-left: 0;
+    font-size: 1rem;
+  }
 `
 
 export const PureCountryBlock = ({ data }) => (
@@ -65,13 +76,13 @@ export const PureCountryBlock = ({ data }) => (
       </LandImageContainer>
       <LandTextContainer>
         <LandSubTitle>195 LANDEN ZIJN ER IN DE WERELD</LandSubTitle>
-        <SubTitle>
-          Zoveel verschillende landen. Zoveel landen om uit te kiezen. Geen idee
-          waar je naartoe wilt? Wees niet bang. Wij helpen je graag om een
-          vakantieland te kiezen. Het enige wat jij hoeft te doen is de
-          vragenlijst in te vullen. Wij doen de rest.
-        </SubTitle>
       </LandTextContainer>
+      <SubTitle>
+        Zoveel verschillende landen. Zoveel landen om uit te kiezen. Geen idee
+        waar je naartoe wilt? Wees niet bang. Wij helpen je graag om een
+        vakantieland te kiezen. Het enige wat jij hoeft te doen is de
+        vragenlijst in te vullen. Wij doen de rest.
+      </SubTitle>
     </LandGridContainer>
   </LandContainer>
 )

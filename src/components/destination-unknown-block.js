@@ -9,6 +9,10 @@ const Container = styled.div`
   background-position: center center;
   font-family: 'Open Sans', sans-serif;
   padding: 120px 60px;
+  @media only screen and (max-width: 600px) {
+    padding: 16px;
+    height: 500px;
+  }
 `
 
 const GridContainer = styled.div`
@@ -20,9 +24,13 @@ const GridContainer = styled.div`
   max-width: 500px;
   padding: 60px 80px;
   @media only screen and (max-width: 600px) {
+    position: relative;
+    top: -50px;
     grid-template-columns: 100%;
     grid-template-rows: 28% 1fr;
     padding: 16px;
+    background-color: #4ec0c6;
+    border-radius: 6px;
   }
 `
 
@@ -34,7 +42,8 @@ const Title = styled.p`
   margin: 0;
   padding-top: 16px;
   @media only screen and (max-width: 600px) {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
+    color: white;
   }
 `
 
@@ -56,10 +65,13 @@ const ContentContainer = styled.div`
 `
 
 const Content = styled.p`
-  color: #3c3c3c;
+  color: #6e6e6e;
   font-size: 1rem;
   margin-top: 8px;
   line-height: 1.8;
+  @media only screen and (max-width: 600px) {
+    color: white;
+  }
 `
 
 export const PureTravelBlock = ({ data }) => (

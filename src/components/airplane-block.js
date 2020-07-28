@@ -1,7 +1,6 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
-import Airplane from '../images/airplane_fly.svg'
 import Img from 'gatsby-image'
 
 const Container = styled.div`
@@ -17,8 +16,7 @@ const GridContainer = styled.div`
   max-width: 1200px;
   padding: 64px 16px;
   @media only screen and (max-width: 600px) {
-    grid-template-columns: 100%;
-    grid-template-rows: 28% 1fr;
+    display: block;
     padding: 16px;
   }
 `
@@ -29,18 +27,19 @@ const Title = styled.p`
   font-size: 3.8rem;
   font-weight: 900;
   margin: 0;
-  padding-top: 16px;
   @media only screen and (max-width: 600px) {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
+    position: relative;
+    top: -20px;
+    padding-left: 16px;
   }
 `
 
 const ImageContainer = styled.div`
-  margin: 64px;
+  margin-top: 64px;
   grid-area: 1 / 1 / auto / span 4;
   @media only screen and (max-width: 600px) {
-    display: none;
-    margin-top: 16px;
+    margin: 0;
     grid-area: 1 / 1;
   }
 `
@@ -48,24 +47,23 @@ const ImageContainer = styled.div`
 const TitleContainer = styled.div`
   grid-area: 2 / 2 / auto / span 1;
   z-index: 2;
-  @media only screen and (max-width: 600px) {
-    grid-area: 1 / 1;
-  }
 `
 
 const ContentContainer = styled.div`
   font-size: 1.2rem;
   grid-area: 3 / 2 / auto / span 2;
   z-index: 2;
-  @media only screen and (max-width: 600px) {
-    grid-area: 2 / 1;
-  }
 `
 
 const Content = styled.p`
-  color: #3c3c3c;
+  color: #6e6e6e;
   margin-top: 8px;
   line-height: 1.5;
+  @media only screen and (max-width: 600px) {
+    font-size: 1rem;
+    position: relative;
+    top: -20px;
+  }
 `
 
 export const PureTravelBlock = ({ data }) => (

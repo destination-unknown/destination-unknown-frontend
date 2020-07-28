@@ -20,7 +20,6 @@ const Container = styled.div`
   @media only screen and (max-width: 600px) {
     padding: 0;
     grid-template-columns: 1fr;
-    grid-template-rows: fit-content 1fr 1fr;
   }
 `
 
@@ -49,8 +48,9 @@ const Title = styled.h1`
   }
 
   @media only screen and (max-width: 600px) {
-    padding-left: 16px;
-    font-size: 65px;
+    font-size: 3rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
     grid-row: 1;
     grid-column: 1;
   }
@@ -63,8 +63,10 @@ const SurveyContainer = styled.div`
   z-index: 1;
   margin-bottom: 60px;
   @media only screen and (max-width: 600px) {
-    grid-row: 3;
+    grid-row: 2;
     grid-column: 1;
+    margin-bottom: 0;
+    border-bottom: 1px solid lightgrey;
   }
 `
 
@@ -75,8 +77,9 @@ const TravelGearImageContainer = styled.div`
   height: 100%;
   @media only screen and (max-width: 600px) {
     margin-top: 0;
-    grid-row: 2;
+    grid-row: 1;
     grid-column: 1;
+    height: 300px;
   }
 `
 
@@ -95,6 +98,9 @@ const Survey = styled.div`
   @media only screen and (max-width: 600px) {
     padding: 16px;
     font-size: 15px;
+    margin-top: 0;
+    box-shadow: none;
+    border-radius: 0;
   }
   line-height: 2.5;
 `
@@ -118,25 +124,24 @@ const loading = keyframes`
 
 const Button = styled.button`
   width: 100%;
-  font-weight: 400;
-  background-color: #f3a629;
+  font-weight: bold;
+  background-color: #febd2c;
   border: none;
-  border-radius: 2px;
+  border-radius: 30px;
   border-bottom: 1px solid #b0781b;
-  color: white;
+  color: black;
   padding: 16px;
   margin-top: 16px;
   position: relative;
 
   &:hover {
     cursor: pointer;
-    color: ${darken(0.2, 'white')};
-    background-color: ${darken(0.15, '#f3a629')};
+    background-color: ${darken(0.15, '#FEBD2C')};
   }
 
   &.is-loading:after {
     animation: ${loading} 1s infinite;
-    background-color: ${darken(0.1, '#f3a629')};
+    background-color: ${darken(0.1, '#FEBD2C')};
     content: '';
     display: block;
     height: 3px;
@@ -150,6 +155,43 @@ const Button = styled.button`
   &.is-loading {
     background-color: ${lighten(0.1, '#f3a629')};
     border-bottom: 1px solid ${lighten(0.1, '#b0781b')};
+    outline: 0;
+  }
+`
+
+const SecondaryButton = styled.button`
+  width: 100%;
+  background-color: white;
+  border: none;
+  border-radius: 30px;
+  border: 2px solid lightgrey;
+  color: #5bc5ca;
+  padding: 16px;
+  margin-top: 16px;
+  position: relative;
+
+  &:hover {
+    cursor: pointer;
+    color: ${darken(0.2, '#5bc5ca')};
+    background-color: ${darken(0.15, 'white')};
+  }
+
+  &.is-loading:after {
+    animation: ${loading} 1s infinite;
+    background-color: ${darken(0.1, 'white')};
+    content: '';
+    display: block;
+    height: 3px;
+    left: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 1rem;
+  }
+
+  &.is-loading {
+    background-color: ${lighten(0.1, 'white')};
+    border-bottom: 1px solid ${lighten(0.1, 'lightgrey')};
     outline: 0;
   }
 `
@@ -417,6 +459,7 @@ export default ({ handleClick, isLoading }) => {
             >
               Toon bestemming
             </Button>
+            <SecondaryButton>Ik doe een gok</SecondaryButton>
           </Survey>
         </SurveyContainer>
       </Container>

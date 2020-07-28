@@ -3,6 +3,9 @@ import { StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import styled from 'styled-components'
 import Instagram from '../images/instagram.svg'
+import Collapsible from 'react-collapsible'
+
+import './collapsible.scss'
 
 const FooterContainer = styled.div`
   background: white;
@@ -26,6 +29,9 @@ const CountryGridContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-column-gap: 16px;
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
 `
 
 const ContinentTitle = styled.p`
@@ -174,6 +180,16 @@ const Footer = ({ handleClick }) => (
       return (
         <FooterContainer>
           <FooterGridContainer>
+            <Collapsible trigger="Afrika">{africaCountries}</Collapsible>
+            <Collapsible trigger="Azië">{asiaCountries}</Collapsible>
+            <Collapsible trigger="Europa">{europaCountries}</Collapsible>
+            <Collapsible trigger="Noord-Amerika">
+              {northAmericaCountries}
+            </Collapsible>
+            <Collapsible trigger="Oceanië">{oceaniaCountries}</Collapsible>
+            <Collapsible trigger="Zuid-Amerika">
+              {southAmericaCountries}
+            </Collapsible>
             <CountryGridContainer>
               <div>
                 <ContinentTitle>Afrika</ContinentTitle>
