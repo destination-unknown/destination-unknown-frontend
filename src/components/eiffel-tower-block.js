@@ -31,18 +31,23 @@ const Title = styled.p`
   margin: 0;
   padding-top: 16px;
   @media only screen and (max-width: 600px) {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
+    position: relative;
+    z-index: 2;
+    top: 20px;
+    padding-left: 16px;
   }
 `
 
 const ImageContainer = styled.div`
   margin-top: 64px;
   grid-area: 1 / 2 / span 2 / span 2;
-
   @media only screen and (max-width: 600px) {
-    display: none;
-    margin-top: 16px;
-    grid-area: 1 / 1;
+    margin-top: 0;
+    grid-area: 2 / 1;
+    & img {
+      border-radius: 6px;
+    }
   }
 `
 
@@ -59,14 +64,17 @@ const ContentContainer = styled.div`
   font-size: 1.2rem;
   z-index: 2;
   @media only screen and (max-width: 600px) {
-    grid-area: 2 / 1;
+    grid-area: 3 / 1;
   }
 `
 
 const Content = styled.p`
-  color: #3c3c3c;
+  color: #6e6e6e;
   margin-top: 8px;
   line-height: 1.5;
+  @media only screen and (max-width: 600px) {
+    font-size: 1rem;
+  }
 `
 
 export const PureTravelBlock = ({ data }) => {
