@@ -143,6 +143,7 @@ class IndexPage extends React.Component {
       <>
         <Header
           isIndex={true}
+          position={'absolute'}
           isBlog={false}
           shouldShowNextDestination={false}
         />

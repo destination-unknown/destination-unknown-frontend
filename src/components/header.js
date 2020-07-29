@@ -54,7 +54,7 @@ const NavigationButtonContainer = styled.div`
 const OuterNavigationContainer = styled.div`
   background-color: ${props => (props.isIndex ? 'transparent' : '#39b9be')};
   z-index: 10;
-  position: ${props => (props.isIndex ? 'absolute' : 'fixed')};
+  position: ${props => props.position};
   top: 0;
   left: 0;
   right: 0;
@@ -150,7 +150,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   }
 `
 
-const Header = ({ isIndex, isBlog, shouldShowNextDestination }) => (
+const Header = ({ isIndex, isBlog, position, shouldShowNextDestination }) => (
   <StaticQuery
     query={graphql`
       query {
@@ -164,7 +164,7 @@ const Header = ({ isIndex, isBlog, shouldShowNextDestination }) => (
       }
     `}
     render={data => (
-      <OuterNavigationContainer isIndex={isIndex}>
+      <OuterNavigationContainer isIndex={isIndex} position={position}>
         <StyledMenu>
           <Menu disableAutoFocus>
             {!isBlog && (

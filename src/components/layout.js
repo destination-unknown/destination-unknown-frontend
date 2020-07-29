@@ -9,18 +9,23 @@ import favicon from '../images/favicon.ico'
 import Footer from '../components/footer'
 
 const ChildrenContainer = styled.div`
-  margin-top: ${props => (props.isIndex ? 0 : '105px')};
+  margin-top: ${props => (props.isIndex ? 0 : '96px')};
+  background-color: ${props =>
+    props.backgroundColor ? props.backgroundColor : 'transparent'};
 `
 
 const Layout = ({
   children,
   isIndex,
+  position,
+  backgroundColor,
   isBlog = false,
   shouldShowNextDestination = false,
 }) => (
   <>
     <Header
       isIndex={isIndex}
+      position={position}
       isBlog={isBlog}
       shouldShowNextDestination={shouldShowNextDestination}
     />
@@ -28,7 +33,9 @@ const Layout = ({
       <link rel="shortcut icon" type="image/x-icon" href={favicon} />
       <meta name="2fdeccbcacfeee9" content="f0069a37446db760e09735e27c0e157c" />
     </Helmet>
-    <ChildrenContainer isIndex={isIndex}>{children}</ChildrenContainer>
+    <ChildrenContainer backgroundColor={backgroundColor} isIndex={isIndex}>
+      {children}
+    </ChildrenContainer>
     <Footer />
   </>
 )
