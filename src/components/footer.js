@@ -66,6 +66,16 @@ const InstagramButton = styled.a`
   }
 `
 
+const StyledImg = styled(Img)`
+  width: 500px;
+  margin: 0 auto;
+  @media only screen and (max-width: 600px) {
+    margin: 0;
+    margin-left: 16px;
+    width: 250px;
+  }
+`
+
 const Footer = ({ handleClick }) => (
   <StaticQuery
     query={graphql`
@@ -217,10 +227,7 @@ const Footer = ({ handleClick }) => (
               </div>
             </CountryGridContainer>
           </FooterGridContainer>
-          <Img
-            style={{ width: '500px', margin: '0 auto' }}
-            fluid={data.bus.childImageSharp.fluid}
-          />
+          <StyledImg fluid={data.bus.childImageSharp.fluid} />
           <InstagramButton
             href="https://www.instagram.com/destinationunknownnl/"
             rel="nofollow"

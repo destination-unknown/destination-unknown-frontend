@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 import styled from 'styled-components'
 import BlogEntry from '../components/blog-entry'
 import SEO from '../components/seo'
+import '../templates/blog.css'
 
 const BlogsContainer = styled.div`
   margin: 0 auto;
@@ -14,7 +15,12 @@ const BlogsContainer = styled.div`
 
 const BlogOverviewPage = ({ data }) => {
   return (
-    <Layout isIndex={true} isBlog={true} shouldShowNextDestination={true}>
+    <Layout
+      isIndex={true}
+      position={'initial'}
+      isBlog={true}
+      shouldShowNextDestination={true}
+    >
       <SEO
         description={null}
         lang={'nl-NL'}

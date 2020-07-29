@@ -113,7 +113,7 @@ export default class OopsPage extends React.Component {
     const { title, introimage, introtext } = this.props
 
     return (
-      <Layout isIndex={false}>
+      <Layout isIndex={false} position={'fixed'}>
         <Container>
           <div />
           <TitleContainer>
