@@ -4,7 +4,7 @@ introtext: "Canada is het één na grootste land ter wereld (na Rusland) en heef
 introimage: "https://lh3.googleusercontent.com/FLUb7e7ZQWyMludzpKgASJeo4VUJFRbk4pXmPj3wbWgz4WvI66NWJTYRrAhDBcnhNBStHxkKoi8L285Gu5J3t1dhRRwjpvwWlrGlsUOUwBuoenASF64ZjGgXn80m5IXBXplKIbfvjQ=w800"
 surface: "9.980.000"
 inhabitants: "37.060.000"
-rate: "1,57"
+rate: "1,58"
 valuta: "dollar"
 need_to_know_text: ""
 need_to_know_more_text: ""
