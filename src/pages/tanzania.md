@@ -4,7 +4,7 @@ introtext: "Ontdek al het natuurschoon in Tanzania! Spot de Big Five tijdens een
 introimage: "https://lh3.googleusercontent.com/23mlr75w-8FyLAPp25xItM9FvjGjRHVOuQUH89QxFRa6ykUqOyRt5WjYFikOYErOafEx1QEm_-WD87pGDdGW-FeMkwGREWlWtY080c44JXnXVFcQVFyWyQWyool9fqGVrkUeWsZWYg=w800"
 surface: "945.000"
 inhabitants: "60.660.000"
-rate: "2755,82"
+rate: "2736,44"
 valuta: "shilling"
 need_to_know_text: ""
 need_to_know_more_text: ""
