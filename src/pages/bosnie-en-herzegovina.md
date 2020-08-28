@@ -4,7 +4,7 @@ introtext: "Ga op avontuur in Zuidoost-Europa! Bosnië en Herzegovina is een lan
 introimage: "https://lh3.googleusercontent.com/Qd_s57PYmlAtK4W8_JfPTadx2bGpmrbAEcOl6uHM4oCldTWCZFdV3KE1cDOq1k8I5zJfB3E3yDSk9BYNdaSUNQuF3ZBng6JK_Ey7Fd8ALL5PEVXeOkB9R_UGQWwwd7LxGUXKy0WMAw=w800"
 surface: "51.000"
 inhabitants: "3.800.000"
-rate: "1,95"
+rate: "1,97"
 valuta: "mark"
 need_to_know_text: ""
 need_to_know_more_text: ""
