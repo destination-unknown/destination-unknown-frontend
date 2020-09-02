@@ -4,7 +4,7 @@ introtext: "Nicaragua is een magisch land van vulkanische bergtoppen, toffe fees
 introimage: "https://lh3.googleusercontent.com/woRYWWxGVJdCn139ID_bJ7tklxufHkm04ty0n7DkH7KMGV0QHoaf5jBqQZuXI7szxnP-PFdjuziOFsWYCXX-ouxdpzKSPCFhsZ1KaM_IBPbmfrxVlCj6v6ofAWoriE3s6a2s1dSIlw=w800"
 surface: "130.000"
 inhabitants: "6.200.000"
-rate: "41,71"
+rate: "41,8"
 valuta: "córdoba"
 need_to_know_text: ""
 need_to_know_more_text: ""
