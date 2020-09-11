@@ -4,7 +4,7 @@ introtext: "Laat je verrassen door de vele gezichten van Noorwegen! Het Scandina
 introimage: "https://lh3.googleusercontent.com/6iiev18SKf_1dD-vNY2cfhE6D0jPnq36alhWCAc_DI7fqrL13r26Imigs2Z7tdMfPa56BGaEK2fZ79-cNlf76Lz8YCDhla4L_K-pT5ZzhzDPFzBSxSRIVHd_smrXm6mCgCt_jMN60A=w800"
 surface: "385.000"
 inhabitants: "5.300.000"
-rate: "10,65"
+rate: "10,7"
 valuta: "kroon"
 need_to_know_text: ""
 need_to_know_more_text: ""
