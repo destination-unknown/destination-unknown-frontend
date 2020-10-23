@@ -4,7 +4,7 @@ introtext: "Australië is een land aan de andere kant van de wereld in Oceanië 
 introimage: "https://lh3.googleusercontent.com/RNSjoAxRUXzENqha118bYsv5S723hRaPNGTp57DIyFsfVqZgl9mW5n5L50oJi1-EtdtB4G3OBEWeH7KGrxIoREjLgFdsynVBBsClIHwIoKEkAOx0UuxKArjeXkFstO21-NGukYebnw=w800"
 surface: "7.700.000"
 inhabitants: "24.600.000"
-rate: "1,67"
+rate: "1,66"
 valuta: "dollar"
 need_to_know_text: ""
 need_to_know_more_text: ""
