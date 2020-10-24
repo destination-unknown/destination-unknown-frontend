@@ -4,7 +4,7 @@ introtext: "Peru is een prachtig land aan de westkust van Zuid-Amerika. Bij Peru
 introimage: "https://lh3.googleusercontent.com/v6nmUi97pRUfFxZkr8hkc_Kgj4xX8tIPrnXgFCp-dwnUeK22z1nQOIODOX_xo9zUn0e-9xey6zmOJmRz3NBjtHGEvF6-NuZhU3PKR9yXvfTSDEF1kBPh4031VB3dFZG1y2t7yyxtKQ=w800"
 surface: "1.285.000"
 inhabitants: "32.170.000"
-rate: "4,26"
+rate: "4,27"
 valuta: "sol"
 need_to_know_text: ""
 need_to_know_more_text: ""
