@@ -4,7 +4,7 @@ introtext: "Costa Rica - 'rijke kust' - dankt zijn naam aan de vele met palmbome
 introimage: "https://lh3.googleusercontent.com/okP0U7Rtto1Dqx1KuBt5FVsoDhmrnJk-ZPMjq-kWsm-JP_9uO29tUKaaa2Taih_VBZXw6FK3aJD384CRZp4MCv8ThrxZZT0DQzHke3LwU99Jrsw0P8u_NEQjQyOshiPJ6ZsT08gwpQ=w800"
 surface: "51.000"
 inhabitants: "4.300.000"
-rate: "726,32"
+rate: "728,45"
 valuta: "colon"
 need_to_know_text: ""
 need_to_know_more_text: ""
