@@ -4,7 +4,7 @@ introtext: "Zuid-Afrika is één van de populairste vakantielanden ter wereld en
 introimage: "https://lh3.googleusercontent.com/QLsRyHQjI6F_7pMRhFLrn5W_JNGD-L_D5yYDQOFdUSZJUKi-KXbjlWf2DGAnZKDdbRdkeQa0b5MfWBTGm3686M3sQyfwv9wTEK1zO_PX2QZ_o7KxkAr_oHStXQr_kbYr64-nqGqG7g=w800"
 surface: "1.220.000"
 inhabitants: "57.000.000"
-rate: "18,26"
+rate: "18,22"
 valuta: "rand"
 need_to_know_text: ""
 need_to_know_more_text: ""
