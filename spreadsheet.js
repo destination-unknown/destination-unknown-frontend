@@ -28,7 +28,7 @@ doc.useServiceAccountAuth(creds, function(err) {
   doc.getInfo(function(err, info) {
     if (err) throw err
 
-    info.worksheets[3].getRows(function(err, rows) {
+    info.worksheets[8].getRows(function(err, rows) {
       if (err) throw err
 
       for (let row of rows) {
@@ -42,8 +42,7 @@ doc.useServiceAccountAuth(creds, function(err) {
           inhabitants: "${row.inhabitants}"
           rate: "${row.rate}"
           valuta: "${row.valuta}"
-          need_to_know_text: "${row.needtoknowtext}"
-          need_to_know_more_text: "${row.needtoknowmoretext}"
+          main_text: "${row.maintext}"
           fact_one_text: "${row.factonetext}"
           fact_two_text: "${row.facttwotext}"
           bigmac_index: "${row.bigmacindex}"

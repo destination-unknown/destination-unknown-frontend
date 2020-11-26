@@ -122,8 +122,8 @@ const BodyTextContainer = styled.div`
 
 const BodyText = styled.p`
   margin-top: 8px;
-  font-size: 1rem;
-  line-height: 1.5;
+  font-size: 1.15rem;
+  line-height: 1.6;
   font-family: 'Open Sans', sans-serif;
 `
 
@@ -359,6 +359,8 @@ const ImagesDescription = styled.p`
   grid-area: 2 / 1;
   margin: 0;
   width: 100%;
+  line-height: 1.6;
+  font-size: 1.15rem;
   @media only screen and (max-width: 600px) {
     grid-area: 2 / 1;
     padding: 24px 0;
@@ -743,27 +745,16 @@ export default class Country extends React.Component {
                 })
               }}
             />
-            <ImagesDescription style={{ gridArea: '2 / 1', margin: '0' }}>
-              "At vero eos et accusamus et iusto odio dignissimos ducimus qui
-              blanditiis praesentium voluptatum deleniti atque corrupti quos
-              dolores et quas molestias excepturi sint occaecati cupiditate non
-              provident, similique sunt in culpa qui officia deserunt mollitia
-              animi, id est laborum et dolorum fuga. Et harum quidem rerum
-              facilis est et expedita distinctio. Nam libero tempore, cum soluta
-              nobis est eligendi optio cumque nihil impedit quo minus id quod
-              maxime placeat facere possimus, omnis voluptas assumenda est,
-              omnis dolor repellendus. Temporibus autem quibusdam et aut
-              officiis debitis aut rerum necessitatibus saepe eveniet ut et
-              voluptates repudiandae sint et molestiae non recusandae. Itaque
-              earum rerum hic tenetur a sapiente delectus, ut aut reiciendis
-              voluptatibus maiores alias consequatur aut perferendis doloribus
-              asperiores repellat."
+            <ImagesDescription
+              style={{ gridArea: '2 / 1', margin: '0', marginTop: '16px' }}
+            >
+              {post.frontmatter.main_text}
             </ImagesDescription>
           </ImagesContainer>
           <ImageGalleryContainer>
             <ImageGalleryFirstImage
-              src={images[3]}
-              alt="First gallery"
+              src={images[1]}
+              alt="Second gallery"
               onClick={() => {
                 typeof window !== 'undefined' &&
                   typeof window.gtag !== 'undefined' &&
@@ -773,7 +764,7 @@ export default class Country extends React.Component {
                   })
                 this.setState({
                   isLightBoxOpen: true,
-                  lightBoxImage: images[0],
+                  lightBoxImage: images[1],
                 })
               }}
             />
@@ -781,8 +772,8 @@ export default class Country extends React.Component {
               {post.frontmatter.title} adembenemend
             </ImageGalleryTitle>
             <ImageGallerySecondImage
-              src={images[1]}
-              alt="Second gallery"
+              src={images[2]}
+              alt="Third gallery"
               onClick={() => {
                 typeof window !== 'undefined' &&
                   typeof window.gtag !== 'undefined' &&
@@ -792,7 +783,7 @@ export default class Country extends React.Component {
                   })
                 this.setState({
                   isLightBoxOpen: true,
-                  lightBoxImage: images[1],
+                  lightBoxImage: images[2],
                 })
               }}
             />
@@ -815,6 +806,7 @@ export const query = graphql`
         inhabitants
         rate
         valuta
+        main_text
         need_to_know_text
         need_to_know_more_text
         fact_one_text

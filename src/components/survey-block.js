@@ -457,7 +457,7 @@ export default ({ handleClick, isLoading }) => {
                 )
               }
             >
-              Toon bestemming
+              Toon bestemmingen
             </Button>
             <SecondaryButton>Ik doe een gok</SecondaryButton>
           </Survey>

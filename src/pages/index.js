@@ -131,6 +131,8 @@ class IndexPage extends React.Component {
 
         localStorage.setItem(serialisedQuestionsAndAnswers + 'index', 1)
 
+        console.log(response.data)
+
         window.location.href = slugify(response.data.countries[0])
       })
       .catch(error => console.log(error))
