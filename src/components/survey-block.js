@@ -3,8 +3,9 @@ import { useStaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import styled from 'styled-components'
 import { keyframes } from 'styled-components'
-import { lighten, darken } from 'polished'
+import { lighten } from 'polished'
 import Select from '../components/select'
+import Loader from 'react-loader-spinner'
 
 const OuterContainer = styled.div`
   background-color: #39b9be;
@@ -124,6 +125,7 @@ const loading = keyframes`
 
 const Button = styled.button`
   width: 100%;
+  height: 60px;
   font-weight: bold;
   background-color: #febd2c;
   border: none;
@@ -134,65 +136,9 @@ const Button = styled.button`
   margin-top: 16px;
   position: relative;
 
-  &:hover {
-    cursor: pointer;
-    background-color: ${darken(0.15, '#FEBD2C')};
-  }
-
-  &.is-loading:after {
-    animation: ${loading} 1s infinite;
-    background-color: ${darken(0.1, '#FEBD2C')};
-    content: '';
-    display: block;
-    height: 3px;
-    left: 0;
-    padding: 0;
-    position: absolute;
-    top: 0;
-    width: 1rem;
-  }
-
-  &.is-loading {
-    background-color: ${lighten(0.1, '#f3a629')};
-    border-bottom: 1px solid ${lighten(0.1, '#b0781b')};
-    outline: 0;
-  }
-`
-
-const SecondaryButton = styled.button`
-  width: 100%;
-  background-color: white;
-  border: none;
-  border-radius: 30px;
-  border: 2px solid lightgrey;
-  color: #5bc5ca;
-  padding: 16px;
-  margin-top: 16px;
-  position: relative;
-
-  &:hover {
-    cursor: pointer;
-    color: ${darken(0.2, '#5bc5ca')};
-    background-color: ${darken(0.15, 'white')};
-  }
-
-  &.is-loading:after {
-    animation: ${loading} 1s infinite;
-    background-color: ${darken(0.1, 'white')};
-    content: '';
-    display: block;
-    height: 3px;
-    left: 0;
-    padding: 0;
-    position: absolute;
-    top: 0;
-    width: 1rem;
-  }
-
-  &.is-loading {
-    background-color: ${lighten(0.1, 'white')};
-    border-bottom: 1px solid ${lighten(0.1, 'lightgrey')};
-    outline: 0;
+  &:focus {
+    box-shadow: 0 0 0 4px ${lighten(0.3, '#febd2c')};
+    outline: none;
   }
 `
 
@@ -457,9 +403,12 @@ export default ({ handleClick, isLoading }) => {
                 )
               }
             >
-              Toon bestemmingen
+              {!isLoading ? (
+                'Toon bestemmingen'
+              ) : (
+                <Loader type="ThreeDots" color="black" height={28} width={40} />
+              )}
             </Button>
-            <SecondaryButton>Ik doe een gok</SecondaryButton>
           </Survey>
         </SurveyContainer>
       </Container>
