@@ -3,34 +3,24 @@ import { useStaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import styled from 'styled-components'
 import { keyframes } from 'styled-components'
-import { lighten, darken } from 'polished'
+import { lighten } from 'polished'
 import Select from '../components/select'
+import Loader from 'react-loader-spinner'
 
 const OuterContainer = styled.div`
-  background: linear-gradient(
-    to bottom,
-    #47c0c7 0%,
-    #47c0c7 50%,
-    #31bbc2 50%,
-    #31bbc2 100%
-  );
+  background-color: #39b9be;
 `
 
 const Container = styled.div`
   display: grid;
   grid-template-columns:
     [full-start] minmax(1em, 1fr)
-    repeat(15, [main-start] minmax(0, 80px) [main-end]) minmax(1em, 1fr) [full-end];
-  grid-template-rows: max-content 1fr;
+    repeat(15, [main-start] 1fr [main-end]) [full-end];
   font-family: 'Open Sans', sans-serif;
   margin: 0 auto;
-  padding-top: 16px;
-  padding-bottom: 48px;
-  grid-row-gap: 16px;
   @media only screen and (max-width: 600px) {
     padding: 0;
     grid-template-columns: 1fr;
-    grid-template-rows: fit-content 1fr 1fr;
   }
 `
 
@@ -45,7 +35,7 @@ const Title = styled.h1`
   font-weight: bold;
   margin: 0;
   margin-right: 16px;
-  color: white;
+  color: #157e81;
   @media only screen and (max-width: 1000px) {
     font-size: 3.5rem;
   }
@@ -59,42 +49,48 @@ const Title = styled.h1`
   }
 
   @media only screen and (max-width: 600px) {
-    padding-left: 16px;
-    font-size: 65px;
+    font-size: 3rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
     grid-row: 1;
     grid-column: 1;
   }
 `
 
 const SurveyContainer = styled.div`
-  grid-column-start: main-start 1;
-  grid-column-end: main-end 10;
+  grid-column-start: main-start 3;
+  grid-column-end: main-end 8;
   grid-row: 2;
   z-index: 1;
+  margin-bottom: 60px;
   @media only screen and (max-width: 600px) {
-    grid-row: 3;
+    grid-row: 2;
     grid-column: 1;
+    margin-bottom: 0;
+    border-bottom: 1px solid lightgrey;
   }
 `
 
 const TravelGearImageContainer = styled.div`
-  margin-top: 80px;
   grid-column-start: main-start 7;
   grid-column-end: main-end 15;
   grid-row: 1 / span 2;
+  height: 100%;
   @media only screen and (max-width: 600px) {
     margin-top: 0;
-    grid-row: 2;
+    grid-row: 1;
     grid-column: 1;
+    height: 300px;
   }
 `
 
 const Survey = styled.div`
   color: #044043;
-  border-radius: 2px;
-  background-color: #63cdd2;
-  border: 1px solid #61d9df;
+  border-radius: 6px;
+  background-color: white;
+  box-shadow: 0 0 10px 2px grey;
   padding: 32px;
+  margin-top: 140px;
   font-size: 21px;
   font-family: 'Lato', sans-serif;
   @media only screen and (max-width: 768px) {
@@ -103,6 +99,9 @@ const Survey = styled.div`
   @media only screen and (max-width: 600px) {
     padding: 16px;
     font-size: 15px;
+    margin-top: 0;
+    box-shadow: none;
+    border-radius: 0;
   }
   line-height: 2.5;
 `
@@ -126,39 +125,20 @@ const loading = keyframes`
 
 const Button = styled.button`
   width: 100%;
-  font-weight: 400;
-  background-color: #f3a629;
+  height: 60px;
+  font-weight: bold;
+  background-color: #febd2c;
   border: none;
-  border-radius: 2px;
+  border-radius: 30px;
   border-bottom: 1px solid #b0781b;
-  color: white;
+  color: black;
   padding: 16px;
   margin-top: 16px;
   position: relative;
 
-  &:hover {
-    cursor: pointer;
-    color: ${darken(0.2, 'white')};
-    background-color: ${darken(0.15, '#f3a629')};
-  }
-
-  &.is-loading:after {
-    animation: ${loading} 1s infinite;
-    background-color: ${darken(0.1, '#f3a629')};
-    content: '';
-    display: block;
-    height: 3px;
-    left: 0;
-    padding: 0;
-    position: absolute;
-    top: 0;
-    width: 1rem;
-  }
-
-  &.is-loading {
-    background-color: ${lighten(0.1, '#f3a629')};
-    border-bottom: 1px solid ${lighten(0.1, '#b0781b')};
-    outline: 0;
+  &:focus {
+    box-shadow: 0 0 0 4px ${lighten(0.3, '#febd2c')};
+    outline: none;
   }
 `
 
@@ -166,7 +146,7 @@ export default ({ handleClick, isLoading }) => {
   const data = useStaticQuery(
     graphql`
       query {
-        artboard: file(relativePath: { eq: "artboard.png" }) {
+        homepage: file(relativePath: { eq: "homepage.jpg" }) {
           childImageSharp {
             fluid {
               ...GatsbyImageSharpFluid_noBase64
@@ -318,15 +298,18 @@ export default ({ handleClick, isLoading }) => {
     <OuterContainer>
       <Container>
         <TravelGearImageContainer>
-          <Img fluid={data.artboard.childImageSharp.fluid} />
+          <Img
+            style={{ height: '100%' }}
+            fluid={data.homepage.childImageSharp.fluid}
+          />
         </TravelGearImageContainer>
-        <Title>
-          WAAR OP
-          <br />
-          VAKANTIE
-        </Title>
         <SurveyContainer>
           <Survey>
+            <Title>
+              WAAR OP
+              <br />
+              VAKANTIE
+            </Title>
             Ik ga het liefst in de{' '}
             <Select
               value={firstDropdown.selectedValue}
@@ -420,7 +403,11 @@ export default ({ handleClick, isLoading }) => {
                 )
               }
             >
-              Toon bestemming
+              {!isLoading ? (
+                'Toon bestemmingen'
+              ) : (
+                <Loader type="ThreeDots" color="black" height={28} width={40} />
+              )}
             </Button>
           </Survey>
         </SurveyContainer>

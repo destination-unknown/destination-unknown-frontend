@@ -1,16 +1,12 @@
 ---
 title: "Italië"
-introtext: "Italië is een land waar je voor vrijwel iedere soort vakantie terecht kan: van zon- tot skivakantie, en van stedentrip tot kampeertrip. Het hele jaar door is Italië een populaire vakantiebestemming. De Alpen vormen een perfect skigebied tijdens de wintermaanden, maar ook een bezoekje aan de kerstmarkten in Turijn kunnen niet ontbreken in december. In de zomer reizen veel toeristen af naar het noordelijk gelegen Gardameer, Comomeer en Lago Maggiore. In het zuiden van Italië vind je regio’s die nog weinig toeristisch zijn, en natuurlijk het prachtige Sicilië! Lekker eten en drinken, cultuur snuiven, zonnebaden of skiën, Italië biedt voor ieder wat wils.
-
-Viva la dolce vita!
-"
+introtext: "Italië is een land waar je voor vrijwel iedere soort vakantie terecht kan: van zon- tot skivakantie, en van stedentrip tot kampeertrip. Het hele jaar door is Italië een populaire vakantiebestemming. De Alpen vormen een perfect skigebied tijdens de wintermaanden, maar ook een bezoekje aan de kerstmarkten in Turijn kunnen niet ontbreken in december."
 introimage: "https://lh3.googleusercontent.com/zBF0pWCTVLreuUIjvbfIiOE36sx7rCIIvdP0Osm7tSY0UGucX7JK1MWmQ8qiZXcEoXNO1EQHLYcihD4frmcAaTqnclYkNB2L0QBcunK9HNH-1g8uBftHwSEQaBkwErVuBd0QrtFghA=w800"
 surface: "301.000"
 inhabitants: "60.600.000"
 rate: "1"
 valuta: "euro"
-need_to_know_text: ""
-need_to_know_more_text: ""
+main_text: "In de zomer reizen veel toeristen af naar het noordelijk gelegen Gardameer, Comomeer en Lago Maggiore. In het zuiden van Italië vind je regio’s die nog weinig toeristisch zijn, en natuurlijk het prachtige Sicilië! Lekker eten en drinken, cultuur snuiven, zonnebaden of skiën, Italië biedt voor ieder wat wils. Viva la dolce vita!"
 fact_one_text: ""
 fact_two_text: ""
 bigmac_index: "€ 3,21"

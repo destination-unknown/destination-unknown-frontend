@@ -5,6 +5,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 import styled from 'styled-components'
 import { slide as Menu } from 'react-burger-menu'
+import { darken } from 'polished'
 
 const Container = styled.div`
   display: grid;
@@ -16,17 +17,17 @@ const Container = styled.div`
 `
 
 const NavigationButton = styled.button`
-  border: 1px solid white;
+  border: none;
   border-radius: 22px;
   padding: 12px 32px;
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
-  background-color: transparent;
+  background-color: white;
   font-weight: bold;
-  color: white;
+  color: #399397;
 
   &:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: ${darken(0.1, 'white')};
     cursor: pointer;
   }
 
@@ -39,6 +40,9 @@ const NavigationContainer = styled.div`
   margin: 0 auto;
   max-width: 1200px;
   padding: 1.45rem 1.0875rem;
+  @media only screen and (max-width: 600px) {
+    background-color: #4ec0c6;
+  }
 `
 
 const NavigationButtonContainer = styled.div`
@@ -48,9 +52,9 @@ const NavigationButtonContainer = styled.div`
 `
 
 const OuterNavigationContainer = styled.div`
-  background-color: #47c0c7;
+  background-color: ${props => (props.isIndex ? 'transparent' : '#39b9be')};
   z-index: 10;
-  position: ${props => (props.isIndex ? 'initial' : 'fixed')};
+  position: ${props => props.position};
   top: 0;
   left: 0;
   right: 0;
@@ -146,7 +150,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   }
 `
 
-const Header = ({ isIndex, isBlog, shouldShowNextDestination }) => (
+const Header = ({ isIndex, isBlog, position, shouldShowNextDestination }) => (
   <StaticQuery
     query={graphql`
       query {
@@ -160,7 +164,7 @@ const Header = ({ isIndex, isBlog, shouldShowNextDestination }) => (
       }
     `}
     render={data => (
-      <OuterNavigationContainer isIndex={isIndex}>
+      <OuterNavigationContainer isIndex={isIndex} position={position}>
         <StyledMenu>
           <Menu disableAutoFocus>
             {!isBlog && (

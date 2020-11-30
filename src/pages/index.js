@@ -1,16 +1,19 @@
 import React from 'react'
-import Layout from '../components/layout'
 import axios from 'axios'
 import SurveyBlock from '../components/survey-block'
 import CountryBlock from '../components/country-block'
-import TestimonialContentContainer from '../components/testimonial-block'
-import TravelBlock from '../components/travel-block'
 import EiffelTowerBlock from '../components/eiffel-tower-block'
 import AirplaneBlock from '../components/airplane-block'
 import DestinationUnknownBlock from '../components/destination-unknown-block'
 import Helmet from 'react-helmet'
 import Safe from 'react-safe'
 import SEO from '../components/seo'
+import Header from '../components/header'
+import '../components/layout.css'
+import '../../node_modules/normalize.css/normalize.css'
+import favicon from '../images/favicon.ico'
+import Footer from '../components/footer'
+import styled from 'styled-components'
 
 function slugify(text) {
   return text
@@ -22,6 +25,10 @@ function slugify(text) {
     .replace(/^-+/, '') // Trim - from start of text
     .replace(/-+$/, '') // Trim - from end of text
 }
+
+const ChildrenContainer = styled.div`
+  margin-top: 0;
+`
 
 class IndexPage extends React.Component {
   constructor(props) {
@@ -124,6 +131,8 @@ class IndexPage extends React.Component {
 
         localStorage.setItem(serialisedQuestionsAndAnswers + 'index', 1)
 
+        console.log(response.data)
+
         window.location.href = slugify(response.data.countries[0])
       })
       .catch(error => console.log(error))
@@ -133,29 +142,41 @@ class IndexPage extends React.Component {
   }
   render() {
     return (
-      <Layout isIndex={true}>
+      <>
+        <Header
+          isIndex={true}
+          position={'absolute'}
+          isBlog={false}
+          shouldShowNextDestination={false}
+        />
         <Helmet>
-          <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" />
+          <link rel="shortcut icon" type="image/x-icon" href={favicon} />
+          <meta
+            name="2fdeccbcacfeee9"
+            content="f0069a37446db760e09735e27c0e157c"
+          />
         </Helmet>
-        <SEO
-          description={null}
-          lang={'nl-NL'}
-          meta={[]}
-          keywords={[]}
-          title={'Waar op vakantie? Doe de test!'}
-        />
-        <SurveyBlock
-          isLoading={this.state.isLoading}
-          handleClick={this.handleClick}
-        />
-        <CountryBlock />
-        <TravelBlock />
-        <EiffelTowerBlock />
-        <AirplaneBlock />
-        <DestinationUnknownBlock />
-        <TestimonialContentContainer />
-        <Safe.script>
-          {`if (window.netlifyIdentity) {
+        <ChildrenContainer>
+          <Helmet>
+            <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" />
+          </Helmet>
+          <SEO
+            description={null}
+            lang={'nl-NL'}
+            meta={[]}
+            keywords={[]}
+            title={'Waar op vakantie? Doe de test!'}
+          />
+          <SurveyBlock
+            isLoading={this.state.isLoading}
+            handleClick={this.handleClick}
+          />
+          <CountryBlock />
+          <EiffelTowerBlock />
+          <AirplaneBlock />
+          <DestinationUnknownBlock />
+          <Safe.script>
+            {`if (window.netlifyIdentity) {
               window.netlifyIdentity.on("init", user => {
                 if (!user) {
                   window.netlifyIdentity.on("login", () => {
@@ -163,8 +184,10 @@ class IndexPage extends React.Component {
                   });
                 }
               });`}
-        </Safe.script>
-      </Layout>
+          </Safe.script>
+        </ChildrenContainer>
+        <Footer />
+      </>
     )
   }
 }

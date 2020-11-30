@@ -22,10 +22,11 @@ const Select = ({ onChange, value, options, width, isMulti, mobileWidth }) => {
           borderBottom: '1px solid white',
         },
         position: 'relative',
-        border: 'none',
+        border: '1px solid #CFCFCF',
+        borderRadius: '20px',
         boxShadow: 'none',
         background: 'transparent',
-        color: 'white',
+        color: '#2D2D2D',
         width: width,
       }
     },
@@ -37,11 +38,11 @@ const Select = ({ onChange, value, options, width, isMulti, mobileWidth }) => {
     }),
     dropdownIndicator: (provided, state) => ({
       ...provided,
-      color: 'white',
+      color: '#498C92',
     }),
     singleValue: (provided, state) => ({
       ...provided,
-      color: 'white',
+      color: '#2D2D2D',
       fontFamily: 'Lato',
     }),
     indicatorSeparator: (provided, state) => ({
@@ -63,7 +64,7 @@ const Select = ({ onChange, value, options, width, isMulti, mobileWidth }) => {
     multiValueLabel: (styles, state) => ({
       ...styles,
       backgroundColor: 'transparent',
-      color: 'white',
+      color: '#2D2D2D',
       fontFamily: 'Lato',
       display: 'inline',
       padding: '0',
