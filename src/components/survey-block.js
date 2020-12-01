@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import { keyframes } from 'styled-components'
 import { lighten } from 'polished'
 import Select from '../components/select'
-import Loader from 'react-loader-spinner'
+import Loader from 'react-loader'
 
 const OuterContainer = styled.div`
   background-color: #39b9be;
@@ -403,11 +403,9 @@ export default ({ handleClick, isLoading }) => {
                 )
               }
             >
-              {!isLoading ? (
-                'Toon bestemmingen'
-              ) : (
-                <Loader type="ThreeDots" color="black" height={28} width={40} />
-              )}
+              <Loader loaded={!isLoading} width={8} radius={15} scale={0.5}>
+                Toon bestemmingen
+              </Loader>
             </Button>
           </Survey>
         </SurveyContainer>
