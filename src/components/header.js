@@ -42,6 +42,7 @@ const NavigationContainer = styled.div`
   padding: 1.45rem 1.0875rem;
   @media only screen and (max-width: 600px) {
     background-color: #4ec0c6;
+    padding: 0.5rem;
   }
 `
 
@@ -71,7 +72,7 @@ const StyledMenu = styled.div`
       display: block;
       width: 36px;
       height: 30px;
-      top: 30px;
+      top: 18px;
       left: 24px;
     }
 

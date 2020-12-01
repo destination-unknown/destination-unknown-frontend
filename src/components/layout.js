@@ -9,7 +9,7 @@ import favicon from '../images/favicon.ico'
 import Footer from '../components/footer'
 
 const ChildrenContainer = styled.div`
-  margin-top: ${props => (props.isIndex ? 0 : '96px')};
+  margin-top: ${props => (props.isIndex ? 0 : '65px')};
   background-color: ${props =>
     props.backgroundColor ? props.backgroundColor : 'transparent'};
 `
