@@ -4,7 +4,7 @@ introtext: "Australië is een land aan de andere kant van de wereld in Oceanië 
 introimage: "https://lh3.googleusercontent.com/RNSjoAxRUXzENqha118bYsv5S723hRaPNGTp57DIyFsfVqZgl9mW5n5L50oJi1-EtdtB4G3OBEWeH7KGrxIoREjLgFdsynVBBsClIHwIoKEkAOx0UuxKArjeXkFstO21-NGukYebnw=w800"
 surface: "7.700.000"
 inhabitants: "24.600.000"
-rate: "1,62"
+rate: "1,64"
 valuta: "dollar"
 main_text: "Australië is ook een erg populaire bestemming voor de duikers onder ons vanwege de vele soorten vissen en koraalriffen. Daarnaast staat Australie bekend om dieren die alleen nog maar hier in het wild leven, denk aan kangoeroes, koala's, vogelbekdieren en meer. Naast de natuur heeft Australië ook enkele grote en bruisende metropolen, denk aan Sydney en Melbourne. Kortom, Australië is een land waar elke avonturier zich thuis zal voelen!"
 fact_one_text: ""
