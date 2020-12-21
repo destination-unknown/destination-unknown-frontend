@@ -4,7 +4,7 @@ introtext: "De Verenigde Staten is het op twee na grootste land ter wereld, zowe
 introimage: "https://lh3.googleusercontent.com/Xwb-qIphtrIW2tfVhtB6QPJ8mlsGPSORh2AUSKfwtv8l47Vd4zigxByelwpkHMGjFAxgUMo77084VRuH27sWfCltQgjWPI78fFHY8tcpKHk1Ej8Yx4U5VXCd_D6_U4rX_ZMWkw3iew=w800"
 surface: "9.834.000"
 inhabitants: "325.000.000"
-rate: "1,23"
+rate: "1,22"
 valuta: "dollar"
 main_text: "Huur een camper en reis dwars door de Midwest of Texas naar de westkust, waar je de mooie nationale parken kan vinden. Bezoek de Grand Canyon, waag een gokje in Sin City (Las Vegas) en eindig in de wereldsteden Los Angeles en San Fransisco in Californië. Kortom, genoeg te beleven in dit prachtige land vol drukke steden en ongerepte natuur!"
 fact_one_text: ""
