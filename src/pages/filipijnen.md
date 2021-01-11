@@ -4,7 +4,7 @@ introtext: "Filipijnen, het land van 7641 eilanden, met als twee grootste Luzon 
 introimage: "https://lh3.googleusercontent.com/VWjzhk_Yp7gjoF0fwHsWKeO7K-sixpTwG1E8TzpKlzIxTCEXfh355SokT0PKa2QBHrYTS6j1ZkUuHlXZVobXGXsvUmRNpjv3dFVflwbEYwEKF1vI_C0wXQJnTmdbcV96Al3DPe1xiA=w1200"
 surface: "300.000"
 inhabitants: "105.000.000"
-rate: "58,75"
+rate: "58,57"
 valuta: "peso"
 main_text: "Je kunt op veel eilanden ontzettend goed duiken en snorkelen, want de Filipijnen heeft een van de mooiste onderwateren van de wereld. Je vindt er geen mooie steden of bouwwerken, maar je vindt er wel de rust en veelzijdige natuur. Hoogtepunten in onze ogen zijn de eilanden: Palawan, Cebu & Bohol. Het mooie van alles is dat het een erg goedkoop land is om te verblijven en dus is De Filipijnen een echte aanrader!"
 fact_one_text: ""
