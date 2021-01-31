@@ -4,7 +4,7 @@ introtext: "Cambodja is een prachtig land in Azië grenzend aan Laos, Thailand e
 introimage: "https://lh3.googleusercontent.com/nTTx3X6Oukcgpd199kWNnPzgJdgMK32x3JBw1mjprto0nHSjMM8yFpamg3DXCdJpZTpugeEGXF6C75iIic9DM5uOA_e4GHYPRCvsNvzAxyqHms_kEAMp7q8GkmqNCsHrezseRZ_mXA=w800"
 surface: "181.000"
 inhabitants: "16.300.000"
-rate: "4933,89"
+rate: "4927,1"
 valuta: "riel"
 main_text: "Neem ook de tijd om Angkor te bezoeken, één van de zeven wereldwonderen, en verdwaal in de talloze tempels. Bewonder de ongerepte natuur en witte stranden op de tropische eilanden Koh Rong en Koh Tang, en neem een duik om de prachtige onderwaterwereld te ontdekken. Maak je klaar voor een onvergetelijke reis!"
 fact_one_text: ""
