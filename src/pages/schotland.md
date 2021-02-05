@@ -4,7 +4,7 @@ introtext: "Schotland is de ideale plek voor mensen die houden van schitterende 
 introimage: "https://lh3.googleusercontent.com/3-8uvSVtZ-Aib_AnV0dSvMJRF9TYw1t-weAt13sPf9vQ-ZZQi163X9rLT3t5L0BteZKjAs6fLIWPh8tFX0uAqOj5uicQv-wHpmGS-4AjpiUrUuSTJ6CfY74k8F4EHMoOpcv80EV46A=w800"
 surface: "80.000"
 inhabitants: "5.400.000"
-rate: "0,88"
+rate: "0,87"
 valuta: "pond"
 main_text: "Begin je reis in de eeuwenoude hoofdstad Edinburgh en bezoek het beroemde Edinburgh Castle. Een absolute must is een ritje op de Jacobite trein, één van de mooiste treinreizen ter wereld en beroemd geworden door het fungeren als de Hogwarts express in de Harry Potter films. Voor iedereen die niet bang is voor een beetje regen en van roadtrippen door prachtige natuur houdt is Schotland de ideale reisbestemming!"
 fact_one_text: ""
