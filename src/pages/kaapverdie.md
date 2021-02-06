@@ -4,7 +4,7 @@ introtext: "De tropische eilandengroep Kaapverdië ligt in de Atlantische Oceaan
 introimage: "https://lh3.googleusercontent.com/rouO67scLIfQ-QAOze91MoJWD0wQKBUm6cKUH7i_v7FgrzL7ZbUpGWbGKBAqwqh9a47uJ5Jak_8l-F_ifGMODdTvWfREzIiwWksgXZT3m3LuXOrgafCpihTEfNDIVcVKCCAK3a2sKQ=w800"
 surface: "4.033"
 inhabitants: "560.000"
-rate: "110,16"
+rate: "111,03"
 valuta: "escudo"
 main_text: "Geniet op de Kaapverdische eilanden van de parelwitte zandstranden en het vulkanische en bergachtige landschap. Er is ook nog een actieve vulkaan te vinden, namelijk de maar liefst 2.800 meter hoge “Pico de Fogo”. Kaapverdië is ook de ideale uitvalsbasis voor de actieve watersporters onder ons. Je kunt hier prachtig duiken, snorkelen en windsurfen! Pak je spullen en ontdek al het moois wat Kaapverdië je te bieden heeft!"
 fact_one_text: ""
