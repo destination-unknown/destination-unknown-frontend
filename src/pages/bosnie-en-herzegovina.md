@@ -4,7 +4,7 @@ introtext: "Ga op avontuur in Zuidoost-Europa! Bosnië en Herzegovina is een lan
 introimage: "https://lh3.googleusercontent.com/Qd_s57PYmlAtK4W8_JfPTadx2bGpmrbAEcOl6uHM4oCldTWCZFdV3KE1cDOq1k8I5zJfB3E3yDSk9BYNdaSUNQuF3ZBng6JK_Ey7Fd8ALL5PEVXeOkB9R_UGQWwwd7LxGUXKy0WMAw=w800"
 surface: "51.000"
 inhabitants: "3.800.000"
-rate: "1,97"
+rate: "1,96"
 valuta: "mark"
 main_text: "Het mooie is dat de massatoerisme het land nog niet gevonden heeft. Ga op pad in Sarajevo, waar de Oosterse en Westerse wereld elkaar ontmoeten, bezoek het fotogenieke stadje Mostar en maak een rondreis door het land en al haar natuurlijk schoon! In de nationale parken van Bosnië en Herzegovina zul je echt volledig tot rust komen!"
 fact_one_text: ""
