@@ -24,6 +24,7 @@ jobs:
           netlify lm:install
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          SHELL: /bin/bash
       - name: Update frontend
         run: |
           yarn install
