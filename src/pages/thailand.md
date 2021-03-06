@@ -4,7 +4,7 @@ introtext: "Thailand wordt ook wel het ‘Land van de Glimlach’ genoemd ligt i
 introimage: "https://lh3.googleusercontent.com/5rJB3oFf6mQU12QuSTJ_jz5E6PT_Uw-suyi1xAgb5ZhT1nokkSs5fkKSkCnydpWXzI0CDnvxndI_Q0vaJlbWlVHx2wyPHxMe0KM03ePWx2Y-c6gsJP6mH6byFJTZKJiw7X0jKySshQ=w800"
 surface: "513.000"
 inhabitants: "69.000.000"
-rate: "36,41"
+rate: "36,4"
 valuta: "baht"
 main_text: "In het zuiden van Thailand vind je de witte stranden van je dromen. Aan de westkant grenst Thailand aan de Andaman Zee waar prachtige strandbestemmingen als Koh Phi Phi en Phuket te vinden zijn. Maak een rondreis door Thailand en laat je leiden langs schitterende boeddhistische tempels, exotische dieren en sprookjesachtige zandstranden!"
 fact_one_text: ""
