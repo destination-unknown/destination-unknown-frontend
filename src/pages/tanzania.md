@@ -4,7 +4,7 @@ introtext: "Ontdek al het natuurschoon in Tanzania! Spot de Big Five tijdens een
 introimage: "https://lh3.googleusercontent.com/23mlr75w-8FyLAPp25xItM9FvjGjRHVOuQUH89QxFRa6ykUqOyRt5WjYFikOYErOafEx1QEm_-WD87pGDdGW-FeMkwGREWlWtY080c44JXnXVFcQVFyWyQWyool9fqGVrkUeWsZWYg=w800"
 surface: "945.000"
 inhabitants: "60.660.000"
-rate: "2762,85"
+rate: "2769,66"
 valuta: "shilling"
 main_text: "Als je wat meer wilt relaxen, kun je ook afreizen naar Zanzibar. Zanzibar is een eiland met prachtige witte stranden en helder blauw water, perfect voor een strandvakantie. Tanzania heeft alles!"
 fact_one_text: ""
