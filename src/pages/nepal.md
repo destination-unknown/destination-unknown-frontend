@@ -4,7 +4,7 @@ introtext: "Namaste! Nepal, het geboorteland van Boeddha, is een van de mooiste 
 introimage: "https://lh3.googleusercontent.com/2qyNFb6W43Z0n2chDu3VFPmXky1fA0F5Co5zplTxVycJ3Eyax32txDJ4Lw1bk0kSnSEeh2abtxDxJy56Odd7vIvYMHM3RJgwRN2bwbVxjyTi7DlhrzvfhzOQli7pfx1GDkWP8DqNEA=w800"
 surface: "147.000"
 inhabitants: "29.300.000"
-rate: "137,98"
+rate: "137,13"
 valuta: "rupee"
 main_text: "Spot wilde dieren zoals de Bengaalse tijger in de groene jungle van het Chitwan National Park. Je zult je snel thuis voelen dankzij de super vriendelijke inwoners. Maak je klaar voor een onvergetelijke reis!"
 fact_one_text: ""
