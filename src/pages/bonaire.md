@@ -4,7 +4,7 @@ introtext: "Bonaire is een eiland in het Caribisch gebied wat officieel geen lan
 introimage: "https://lh3.googleusercontent.com/0xsgwh0T3h6GQgU3k8oYVv8Cgz7Uma6drOd_sHDb2I5ElE6pmE7RHAlwUP1hHILNZDtAG_LXDBmtwmwQ3LMh6bQFiWFgU0k-im_CLPBGHiYK3tsILPNkWBYlajY-qRtz7NuEYA4ttQ=w800"
 surface: "288"
 inhabitants: "20.000"
-rate: "1,21"
+rate: "1,2"
 valuta: "dollar"
 main_text: "Je kunt in de wat ruigere binnenlanden van Bonaire ook erg mooie wandelroutes afleggen. In het zuiden van het eiland vind je het adembenemend gekleurde Pekelmeer, waar nog altijd zout gewonnen wordt. Dit meer is ook de thuishaven voor de Caribische flamingo's, die je hier in grote aantallen ziet. Bonaire heeft alles voor een heerlijke vakantie om tot rust te komen en te genieten van de prachtige natuur!"
 fact_one_text: ""
