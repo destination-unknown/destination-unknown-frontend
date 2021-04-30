@@ -4,7 +4,7 @@ introtext: "Konnichiwa! Japan, het land van geisha's, Harajuku, Sumo worstelen e
 introimage: "https://lh3.googleusercontent.com/iZYXZSS9SRl8o3nVyt0_XRjIDHUBepeayigYg0Meu4SRX9DTdSBln6ibaUk3zdD_mbHqqNnhNb03a3KBSerxMA7lpAFlosTuOmPyMh4tCjc8Ahe_AA549l-7M7RHihnILEDiUIMTwA=w800"
 surface: "378.000"
 inhabitants: "126.800.000"
-rate: "131,78"
+rate: "131,91"
 valuta: "yen"
 main_text: "Geniet buiten de stad van de idyllische natuur met als hoogtepunt de vulkaan Mount Fuji en de rijk versierde tempels. Maak een rondreis door dit unieke land en zie veel verschillende en bovenal bijzondere culturen en kijk je ogen uit in de veelzijdige landschappen!"
 fact_one_text: ""
