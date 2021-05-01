@@ -4,7 +4,7 @@ introtext: "Costa Rica - 'rijke kust' - dankt zijn naam aan de vele met palmbome
 introimage: "https://lh3.googleusercontent.com/okP0U7Rtto1Dqx1KuBt5FVsoDhmrnJk-ZPMjq-kWsm-JP_9uO29tUKaaa2Taih_VBZXw6FK3aJD384CRZp4MCv8ThrxZZT0DQzHke3LwU99Jrsw0P8u_NEQjQyOshiPJ6ZsT08gwpQ=w800"
 surface: "51.000"
 inhabitants: "4.300.000"
-rate: "748,53"
+rate: "742,27"
 valuta: "colon"
 main_text: "Huur een auto en maak een roadtrip van de hoofdstad San José tot La Fortuna aan de voet van de actieve vulkaan Arenal. Onderweg zul je verrast zijn door hoe vrolijk het volk is, wat leeft onder het motto ¡Pura Vida!. Costa Rica zul je nooit meer vergeten!"
 fact_one_text: ""
