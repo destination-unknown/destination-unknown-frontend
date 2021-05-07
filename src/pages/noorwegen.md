@@ -4,7 +4,7 @@ introtext: "Laat je verrassen door de vele gezichten van Noorwegen! Het Scandina
 introimage: "https://lh3.googleusercontent.com/6iiev18SKf_1dD-vNY2cfhE6D0jPnq36alhWCAc_DI7fqrL13r26Imigs2Z7tdMfPa56BGaEK2fZ79-cNlf76Lz8YCDhla4L_K-pT5ZzhzDPFzBSxSRIVHd_smrXm6mCgCt_jMN60A=w800"
 surface: "385.000"
 inhabitants: "5.300.000"
-rate: "10,03"
+rate: "10,02"
 valuta: "kroon"
 main_text: "Beleef de middernachtzon of bewonder de prachtige kleuren van het dansende Noorderlicht! Of kies voor gemak, en maak een van de mooiste treinreizen ter wereld. Vanuit de Flåmsbanen heb je zicht op de spectaculaire watervallen en groene bergen. Wat je ook in Noorwegen wilt zien of ervaren, het wordt een reis om nooit te vergeten!"
 fact_one_text: ""
