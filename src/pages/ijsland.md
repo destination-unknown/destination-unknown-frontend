@@ -4,7 +4,7 @@ introtext: "IJsland is een uniek land in vele opzichten. Het land ligt net onder
 introimage: "https://lh3.googleusercontent.com/KhqhPpilX33PuWV_NWXTzlBU8Uh0gq7JF5azs7fqDX8bhgjdc5op5wvCbRTJf7Y-mUUOOhpRUbZQlLU6jSrC-alEvF75yNFzR1GcYNAOS1dZTRV9HCr7JxrDxKo7uqcNL5IP6Oq4_Q=w800"
 surface: "103.000"
 inhabitants: "340.000"
-rate: "150,92"
+rate: "150,32"
 valuta: "kroon"
 main_text: "Het meest bekende fenomeen zijn de geisers en natuurlijke warmwaterbronnen, hierin kun je zelfs op de koudste dagen heerlijk in relaxen, omringd door prachtige natuur. Ook maak je in IJsland een goede kans om het noorderlicht te spotten! IJsland zal je versteld doen staan van wat de natuur ons te bieden heeft en deze ervaring zul je nooit meer vergeten!"
 fact_one_text: ""
