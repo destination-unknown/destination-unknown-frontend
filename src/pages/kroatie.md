@@ -4,7 +4,7 @@ introtext: "Kroatië is een prachtig land in het oosten van Europa aan de Adriat
 introimage: "https://lh3.googleusercontent.com/L2LPgVm87bjdMllAECPnsXa061596Nx9FDf8dV8eTDB5VcB0hA1jj4R7_4GruwRxiBak1n5j_GzarJGfJbMjRPt-gJ7pJdXHZ3bIjK1Of0uUH_L47C_PgSaRiBsGrelfzLlVu256ig=w800"
 surface: "57.000"
 inhabitants: "4.150.000"
-rate: "7,53"
+rate: "7,52"
 valuta: "kuna"
 main_text: "In de steden en dorpjes zijn ook veel gezellige pleintjes en terrasjes waar je lekker kunt genieten. Er zijn veel onontdekte plekken in Kroatië waar je heerlijk tot rust kunt komen. In de zomer is het hier ook goed vertoeven aan de mooie strandjes aan het blauwe water van de Adriatische zee. Maak een mooie rondreis door dit indrukwekkende land!"
 fact_one_text: ""
