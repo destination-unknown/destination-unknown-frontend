@@ -5,7 +5,7 @@ introtext: "Brazilië is het grootste land van Zuid-Amerika en is het 5e grootst
 introimage: "https://lh3.googleusercontent.com/GJURoWrCf9A3u0Lt_DOiNM7woeeOm0hnDmeJ6Ii8YcfPxWng3-Cmu3Rt5RuIQljSN3M1oeDiHwY7bJKySdIDMeVYkuhm9Ty56nPZgQ6c6p-nDPlBlqEIQBlVs-dvvqQd_fYFrORPxg=w800"
 surface: "2.800.000"
 inhabitants: "208.000.000"
-rate: "6,16"
+rate: "6,2"
 valuta: "real"
 main_text: "In het helderblauwe water rondom Brazilië kan men ideal duiken en surfen. De Braziliaanse bevolking staat erom bekend een uitbundig volk te zijn. Dit is terug te zien aan onder andere het carnaval. Brazilië is echt een land dat bovenaan je bucketlist moet staan!"
 fact_one_text: ""
