@@ -4,7 +4,7 @@ introtext: "Mauritius, het land dat bekend staat om de dodo, is het paradijs op 
 introimage: "https://lh3.googleusercontent.com/XGaBSq7NTUXGhIDhd54trz2vtws1CjOF3tVPTszZs93zMf9bajW0FbldFutBqC_X1EIVB70fF2nMec9uYOsTNZban6MFVoHBniKtQb5BMhMNk3EDaXkX3bUxnaPHhk2ONmXlEmXvyA=w800"
 surface: "2.040"
 inhabitants: "1.265.000"
-rate: "49,28"
+rate: "49,27"
 valuta: "roepie"
 main_text: "Geniet op de parelwitte zandstranden met een cocktail in je hand van een prachtige zonsonderdag of ga lekker duiken in de azuurblauwe oceaan bomvol onderwaterleven. Niet voor niets is Mauritius zelfs benoemd tot meeste romantische bestemming ter wereld."
 fact_one_text: ""
