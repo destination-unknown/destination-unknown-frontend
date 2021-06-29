@@ -4,7 +4,7 @@ introtext: "Tropische stranden, besneeuwde bergtoppen, pittoreske meren, oogstre
 introimage: "https://lh3.googleusercontent.com/l1kKKUUlrI-yNY5CG0tzWmUk0QVS8mPEAC9eL5VAX5Fe60JGmtxsZak1spapbXhZV7O6hJyrz07U-LYMd_pO1tOU4OMJJ2sKm-RfwzSrZNYRYxmn8rWDjHO1pb2_FaZs_t3gtCmpAg=w800"
 surface: "275.000"
 inhabitants: "4.500.000"
-rate: "1,69"
+rate: "1,7"
 valuta: "dollar"
 main_text: "Niet voor niets staat het land bijna jaarlijks in de top 10 van mooiste landen ter wereld. Nieuw-Zeeland is een paradijs voor adrenaline-junks, die hier kunnen bungeejumpen, kajakken op zee, skydiven en raften. Of ga op avontuur met je camper, overnacht op verlaten plekken en geniet van de meest spectaculaire sterrenhemel! Nieuw-Zeeland is een unieke plek op aarde en je zult er geen spijt van krijgen!"
 fact_one_text: ""
