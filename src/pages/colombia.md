@@ -4,7 +4,7 @@ introtext: "Colombia is een van de meest diverse landen gelegen in Zuid-Amerika.
 introimage: "https://lh3.googleusercontent.com/rL6ug-ykeXKGfc9I-c3JpTWrICedbqCgKeql8gljofRQ8dKlIBPLq9NSiQYMVma0qEOorMzOb4KbdLVNHMi24dRw3V9Lpha5qGgJS_n4mIY8N9cMe2T7hBY2F2ijrPGjgnry3178EA=w800"
 surface: "1.142.000"
 inhabitants: "49.000.000"
-rate: "4475,12"
+rate: "4439,88"
 valuta: "peso"
 main_text: "Verder landinwaarts kom je langs plaatsen zoals Medellín en de hoofdstad Bogotá. Een plek die je niet mag missen is het dorp Guatapé, waar je een prachtig uitzicht hebt vanaf de rots La Piedra over een meer met vele kleine eilandjes. Na het beklimmen van La Piedra kun je genieten in het kleurrijke centrum van het dorp. Colombia is een land waar elke avonturier een keer geweest moet zijn!"
 fact_one_text: ""
