@@ -4,7 +4,7 @@ introtext: "Mexico is één van de fijnste vakantie bestemmingen ter wereld! Het
 introimage: "https://lh3.googleusercontent.com/P4mh7k3dxn5sqH3UBC4hOWQw2hvkZTeOWWpWVu5OqTP0k3Vxe5BAKB-a46p_IbSXMfXylR5wyQD1gOwPIZweApt0LG9XYJLMbN8ywm1w1pjPevy6oi1zmmfwQrlROQxppFj01OgeJw=w800"
 surface: "1.960.000"
 inhabitants: "129.200.000"
-rate: "23,58"
+rate: "23,63"
 valuta: "peso"
 main_text: "Vooral Yucatan is een aanrader met de uiterst relaxte sfeer en brede witte stranden met de azuurblauwe Golf van Mexico. Verder is het Mexicaanse landschap heel divers, met woestijnen, vulkanen, watervallen en regenwouden. Het moge duidelijk zijn dat Mexico de ideale reisbestemming is voor zowel een avontuurlijke rondreis als een ontspannen strandvakantie!"
 fact_one_text: ""
