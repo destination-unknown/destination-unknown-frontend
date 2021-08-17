@@ -4,7 +4,7 @@ introtext: "Panama is een land in Midden-Amerika met witte stranden, tropische j
 introimage: "https://lh3.googleusercontent.com/h08ZJSWzURNb1p4wdaPARK7ySYq_ox60Av1ZiReVSaG4u7IY-6Kvl7LnKoASa6Z3On5X1t1rIizEdKJhZpeCTDRRevOVSWif6_DBbjGdEyKE5cHHzgxIR4TNqYvkv02NwWDyC4Z9FQ=w800"
 surface: "75.500"
 inhabitants: "4.100.000"
-rate: "1,17"
+rate: "1,18"
 valuta: "balboa"
 main_text: "Wil je liever het avontuur opzoeken in de jungle? Dan is Boquete in het binnenland de perfecte plek. In Panama kun je ook heerlijk genieten van de rust, bijvoorbeeld met een verse kokosnoot op de San Blas eilanden. Met speciale zeiltours kijk je je ogen uit, genietend aan de witte zandstranden met helderblauw zeewater. Panama is een klein land dat je niet teleur zal stellen!"
 fact_one_text: ""
