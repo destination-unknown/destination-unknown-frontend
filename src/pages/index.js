@@ -105,7 +105,7 @@ class IndexPage extends React.Component {
 
     axios
       .post(
-        `https://7n2xdnl26d.execute-api.us-east-1.amazonaws.com/dev/generate`,
+        `https://v497gxj6r4.execute-api.us-east-1.amazonaws.com/dev/generate`,
         {
           questions_list: [
             'periode',
