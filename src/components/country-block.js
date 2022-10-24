@@ -1,7 +1,7 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
-import Img from 'gatsby-image'
 import styled from 'styled-components'
+import { GatsbyImage } from 'gatsby-plugin-image'
 
 const LandContainer = styled.div`
   background: white;
@@ -72,7 +72,9 @@ export const PureCountryBlock = ({ data }) => (
   <LandContainer>
     <LandGridContainer>
       <LandImageContainer>
-        <Img fluid={data.landscapeImage.childImageSharp.fluid} />
+        <GatsbyImage
+          image={data.landscapeImage.childImageSharp.gatsbyImageData}
+        />
       </LandImageContainer>
       <LandTextContainer>
         <LandSubTitle>195 LANDEN ZIJN ER IN DE WERELD</LandSubTitle>
@@ -94,14 +96,12 @@ const CountryBlock = () => {
         query {
           landscapeImage: file(relativePath: { eq: "landscape.jpg" }) {
             childImageSharp {
-              fluid {
-                ...GatsbyImageSharpFluid_noBase64
-              }
+              gatsbyImageData(layout: FULL_WIDTH)
             }
           }
         }
       `}
-      render={data => <PureCountryBlock data={data} />}
+      render={(data) => <PureCountryBlock data={data} />}
     />
   )
 }

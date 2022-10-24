@@ -4,7 +4,7 @@ introtext: "Jordanië is het hart van het Midden-Oosten en zit vol met cultureel
 introimage: "https://lh3.googleusercontent.com/AkEs32cUllmUwcpY3zGjsnySZm1oXIePFg1iawk_azrWacas28tWtzAH9JcY_rKkErxUR5DQLDeHaEk2Usbe-0R2cW1VTNBkAffSe0Yq1k0gGGdNSSs704BNLFCcsWQUvc8DCRiW2w=w800"
 surface: "89.000"
 inhabitants: "9.800.000"
-rate: "0,83"
+rate: "0,7"
 valuta: "dinar"
 main_text: "Trek door de prachtige Wadi Rum woestijn waar je kan klimmen op hoge rotsformaties en ga hier zeker overnachten in de bedoeïnententen. Je zult versteld staan van de prachtige sterren aan de heldere hemel. Na alle activiteiten kun je je reis relaxed afsluiten in de Dode Zee, het laagst gelegen meer ter wereld. Jordanië is een erg bijzonder land en zou op ieders bucketlist moeten staan!"
 fact_one_text: ""

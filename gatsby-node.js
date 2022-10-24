@@ -76,20 +76,27 @@ exports.createPages = async ({ graphql, actions }) => {
 
   result.data.allMarkdownRemark.edges.forEach(({ node }) => {
     if (node.fields.type === 'country') {
-      const products =
-        rentalCarResponse.data['datafeed']['programs'][0]['products']
+      const rentalCarResponseData = rentalCarResponse.data['datafeed']
+
+      let products
+
+      if (rentalCarResponseData) {
+        products = rentalCarResponse.data['datafeed']['programs'][0]['products']
+      } else {
+        products = []
+      }
 
       const flights =
         flightsResponse.data['datafeed']['programs'][0]['products']
 
       const recentProductsPerCountry = products
-        .filter(function(el) {
+        .filter(function (el) {
           return (
             el['product_info']['destination_country'] ===
             node.frontmatter.country_code.toUpperCase()
           )
         })
-        .filter(function(el) {
+        .filter(function (el) {
           return moment(el['update_info']['update_date']).isBetween(
             moment().subtract(7, 'days'),
             moment().add(1, 'days')
@@ -107,7 +114,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
       const departureAirlineCodes = ['AMS', 'BRU', 'MST', 'RTM', 'EIN', 'GRQ']
 
-      const flightsPerCountry = flights.filter(function(el) {
+      const flightsPerCountry = flights.filter(function (el) {
         return (
           el['product_info']['destination_country'] ===
             node.frontmatter.country_code.toUpperCase() &&
@@ -119,12 +126,12 @@ exports.createPages = async ({ graphql, actions }) => {
 
       const cheapestCar =
         recentProductsPerCountry.length > 0
-          ? recentProductsPerCountry.sort(function(a, b) {
+          ? recentProductsPerCountry.sort(function (a, b) {
               return a['product_info']['price'] - b['product_info']['price']
             })[0]['product_info']
           : null
 
-      const cheapestFlight = flightsPerCountry.sort(function(a, b) {
+      const cheapestFlight = flightsPerCountry.sort(function (a, b) {
         return (
           a['product_info']['price']['amount'] -
           b['product_info']['price']['amount']

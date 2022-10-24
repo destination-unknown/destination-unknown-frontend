@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
-import Img from 'gatsby-image'
 import styled from 'styled-components'
 import { keyframes } from 'styled-components'
 import { lighten } from 'polished'
 import Select from '../components/select'
 import Loader from 'react-loader'
+import { GatsbyImage } from 'gatsby-plugin-image'
 
 const OuterContainer = styled.div`
   background-color: #39b9be;
@@ -148,9 +148,7 @@ export default ({ handleClick, isLoading }) => {
       query {
         homepage: file(relativePath: { eq: "homepage.jpg" }) {
           childImageSharp {
-            fluid {
-              ...GatsbyImageSharpFluid_noBase64
-            }
+            gatsbyImageData(layout: FULL_WIDTH)
           }
         }
       }
@@ -298,9 +296,9 @@ export default ({ handleClick, isLoading }) => {
     <OuterContainer>
       <Container>
         <TravelGearImageContainer>
-          <Img
+          <GatsbyImage
             style={{ height: '100%' }}
-            fluid={data.homepage.childImageSharp.fluid}
+            image={data.homepage.childImageSharp.gatsbyImageData}
           />
         </TravelGearImageContainer>
         <SurveyContainer>
@@ -315,8 +313,8 @@ export default ({ handleClick, isLoading }) => {
               value={firstDropdown.selectedValue}
               options={firstDropdown.options}
               mobileWidth={'85px'}
-              width={'100px'}
-              onChange={selectedOption => {
+              width={'120px'}
+              onChange={(selectedOption) => {
                 localStorage.setItem('first', JSON.stringify(selectedOption))
 
                 setFirstDropdown({
@@ -331,7 +329,7 @@ export default ({ handleClick, isLoading }) => {
               options={secondDropdown.options}
               width={'240px'}
               mobileWidth={'180px'}
-              onChange={selectedOption => {
+              onChange={(selectedOption) => {
                 localStorage.setItem('second', JSON.stringify(selectedOption))
 
                 setSecondDropdown({
@@ -348,7 +346,7 @@ export default ({ handleClick, isLoading }) => {
               options={thirdDropdown.options}
               width={'75px'}
               mobileWidth={'60px'}
-              onChange={selectedOption => {
+              onChange={(selectedOption) => {
                 localStorage.setItem('third', JSON.stringify(selectedOption))
 
                 setThirdDropdown({
@@ -365,7 +363,7 @@ export default ({ handleClick, isLoading }) => {
               options={fourthDropdown.options}
               width={'400px'}
               mobileWidth={'290px'}
-              onChange={selectedOption => {
+              onChange={(selectedOption) => {
                 localStorage.setItem('fourth', JSON.stringify(selectedOption))
 
                 setFourthDropdown({
@@ -382,7 +380,7 @@ export default ({ handleClick, isLoading }) => {
               options={fifthDropdown.options}
               width={'100%'}
               isMulti
-              onChange={selectedOptions => {
+              onChange={(selectedOptions) => {
                 localStorage.setItem('fifth', JSON.stringify(selectedOptions))
 
                 setFifthDropdown({
@@ -399,7 +397,7 @@ export default ({ handleClick, isLoading }) => {
                   secondDropdown.selectedValue.value,
                   thirdDropdown.selectedValue.value,
                   fourthDropdown.selectedValue.value,
-                  fifthDropdown.selectedValues.map(value => value.value)
+                  fifthDropdown.selectedValues.map((value) => value.value)
                 )
               }
             >

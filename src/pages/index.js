@@ -105,7 +105,7 @@ class IndexPage extends React.Component {
 
     axios
       .post(
-        `https://v497gxj6r4.execute-api.us-east-1.amazonaws.com/dev/generate`,
+        `https://b7utrxq57g.execute-api.us-east-1.amazonaws.com/dev/generate`,
         {
           questions_list: [
             'periode',
@@ -123,7 +123,7 @@ class IndexPage extends React.Component {
           ],
         }
       )
-      .then(response => {
+      .then((response) => {
         localStorage.setItem(
           serialisedQuestionsAndAnswers,
           JSON.stringify(response.data.countries)
@@ -135,9 +135,9 @@ class IndexPage extends React.Component {
 
         window.location.href = slugify(response.data.countries[0])
       })
-      .catch(error => console.log(error))
+      .catch((error) => console.log(error))
   }
-  handleChange = selectedOption => {
+  handleChange = (selectedOption) => {
     this.setState({ selectedOption: selectedOption })
   }
   render() {

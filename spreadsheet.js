@@ -1,6 +1,6 @@
-var GoogleSpreadsheet = require('google-spreadsheet')
-var fs = require('fs')
-var stripIndents = require('common-tags/lib/stripIndents')
+const { GoogleSpreadsheet } = require('google-spreadsheet')
+const fs = require('fs')
+const stripIndents = require('common-tags/lib/stripIndents')
 
 var creds = {
   client_email: process.env.CLIENT_EMAIL,
@@ -18,48 +18,44 @@ function slugify(text) {
     .replace(/-+$/, '') // Trim - from end of text
 }
 
-// Create a document object using the ID of the spreadsheet - obtained from its URL.
-var doc = new GoogleSpreadsheet('1pZ3QgN3YfrfavRvf9281AQEmZ7RRxOPI5-3DJJyzNXw')
+;(async function () {
+  // Create a document object using the ID of the spreadsheet - obtained from its URL.
+  const doc = new GoogleSpreadsheet(
+    '1pZ3QgN3YfrfavRvf9281AQEmZ7RRxOPI5-3DJJyzNXw'
+  )
 
-// Authenticate with the Google Spreadsheets API.
-doc.useServiceAccountAuth(creds, function(err) {
-  if (err) throw err
-  // Get all of the rows from the spreadsheet.
-  doc.getInfo(function(err, info) {
-    if (err) throw err
+  await doc.useServiceAccountAuth(creds)
+  await doc.loadInfo()
+  const rows = await doc.sheetsByIndex[8].getRows()
 
-    info.worksheets[8].getRows(function(err, rows) {
-      if (err) throw err
-
-      for (let row of rows) {
-        fs.writeFile(
-          `src/pages/${slugify(row.country)}.md`,
-          stripIndents`---
+  for (let row of rows) {
+    fs.writeFile(
+      `src/pages/${slugify(row.country)}.md`,
+      stripIndents`---
           title: "${row.title}"
-          introtext: "${row.introtext}"
-          introimage: "${row.introimages}"
+          introtext: "${row.intro_text}"
+          introimage: "${row.intro_images}"
           surface: "${row.surface}"
           inhabitants: "${row.inhabitants}"
           rate: "${row.rate}"
           valuta: "${row.valuta}"
-          main_text: "${row.maintext}"
-          fact_one_text: "${row.factonetext}"
-          fact_two_text: "${row.facttwotext}"
-          bigmac_index: "${row.bigmacindex}"
+          main_text: "${row.main_text}"
+          fact_one_text: "${row.fact_one_text}"
+          fact_two_text: "${row.fact_two_text}"
+          bigmac_index: "${row.bigmac_index}"
           images: "${row.images}"
-          flight_button_title: "${row.flightbuttontitle}"
-          flight_button_url: "${row.flightbuttonurl}"
-          inspiration_url: "${row.inspirationurl}"
-          country_code: "${row.countrycode}"
-          hotels_url: "${row.hotelsurl}"
+          flight_button_title: "${row.flight_button_title}"
+          flight_button_url: "${row.flight_button_url}"
+          inspiration_url: "${row.inspiration_url}"
+          country_code: "${row.country_code}"
+          hotels_url: "${row.hotels_url}"
           continent: "${row.continent}"
           ---`,
-          function(err) {
-            if (err) throw err
-            console.log('File is created successfully.')
-          }
-        )
+      function (err) {
+        console.log(err)
+        if (err) throw err
+        console.log('File is created successfully.')
       }
-    })
-  })
-})
+    )
+  }
+})()

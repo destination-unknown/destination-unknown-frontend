@@ -2,10 +2,10 @@ import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
-import Img from 'gatsby-image'
 import styled from 'styled-components'
 import { slide as Menu } from 'react-burger-menu'
 import { darken } from 'polished'
+import { StaticImage } from 'gatsby-plugin-image'
 
 const Container = styled.div`
   display: grid;
@@ -53,9 +53,9 @@ const NavigationButtonContainer = styled.div`
 `
 
 const OuterNavigationContainer = styled.div`
-  background-color: ${props => (props.isIndex ? 'transparent' : '#39b9be')};
+  background-color: ${(props) => (props.isIndex ? 'transparent' : '#39b9be')};
   z-index: 10;
-  position: ${props => props.position};
+  position: ${(props) => props.position};
   top: 0;
   left: 0;
   right: 0;
@@ -164,84 +164,93 @@ const Header = ({ isIndex, isBlog, position, shouldShowNextDestination }) => (
         }
       }
     `}
-    render={data => (
-      <OuterNavigationContainer isIndex={isIndex} position={position}>
-        <StyledMenu>
-          <Menu disableAutoFocus>
-            {!isBlog && (
-              <a id="blog" className="menu-item" href="/blog">
-                Blog
-              </a>
-            )}
-            {shouldShowNextDestination && (
-              <a id="next-destination" className="menu-item" href="/">
-                Ontdek je volgende bestemming
-              </a>
-            )}
-            {!isIndex && (
-              <a id="choose-new-destination" className="menu-item" href="/">
-                Kies nieuwe bestemming
-              </a>
-            )}
-          </Menu>
-        </StyledMenu>
-        <NavigationContainer>
-          <Container>
-            <div>
-              <Link
-                to="/"
-                style={{
-                  color: `white`,
-                  textDecoration: `none`,
-                }}
-              >
-                <Img fixed={data.placeholderImage.childImageSharp.fixed} />
-              </Link>
-            </div>
-            <NavigationButtonContainer>
+    render={(data) => {
+      return (
+        <OuterNavigationContainer isIndex={isIndex} position={position}>
+          <StyledMenu>
+            <Menu disableAutoFocus>
               {!isBlog && (
-                <Link
-                  to="/blog"
-                  style={{
-                    display: `inline-block`,
-                    color: `white`,
-                    textDecoration: `none`,
-                  }}
-                >
-                  <NavigationButton>Blog</NavigationButton>
-                </Link>
+                <a id="blog" className="menu-item" href="/blog">
+                  Blog
+                </a>
               )}
               {shouldShowNextDestination && (
-                <Link
-                  to="/"
-                  style={{
-                    display: `inline-block`,
-                    color: `white`,
-                    textDecoration: `none`,
-                  }}
-                >
-                  <NavigationButton>
-                    Ontdek je volgende bestemming
-                  </NavigationButton>
-                </Link>
+                <a id="next-destination" className="menu-item" href="/">
+                  Ontdek je volgende bestemming
+                </a>
               )}
               {!isIndex && (
+                <a id="choose-new-destination" className="menu-item" href="/">
+                  Kies nieuwe bestemming
+                </a>
+              )}
+            </Menu>
+          </StyledMenu>
+          <NavigationContainer>
+            <Container>
+              <div>
                 <Link
                   to="/"
                   style={{
-                    display: `inline-block`,
                     color: `white`,
                     textDecoration: `none`,
                   }}
                 >
-                  <NavigationButton>Kies nieuwe bestemming</NavigationButton>
+                  <StaticImage
+                    src="../images/logo.png"
+                    placeholder="none"
+                    layout="fixed"
+                    width={154}
+                    height={45}
+                    alt="logo"
+                  />
                 </Link>
-              )}
-            </NavigationButtonContainer>
-          </Container>
-        </NavigationContainer>
-      </OuterNavigationContainer>
-    )}
+              </div>
+              <NavigationButtonContainer>
+                {!isBlog && (
+                  <Link
+                    to="/blog"
+                    style={{
+                      display: `inline-block`,
+                      color: `white`,
+                      textDecoration: `none`,
+                    }}
+                  >
+                    <NavigationButton>Blog</NavigationButton>
+                  </Link>
+                )}
+                {shouldShowNextDestination && (
+                  <Link
+                    to="/"
+                    style={{
+                      display: `inline-block`,
+                      color: `white`,
+                      textDecoration: `none`,
+                    }}
+                  >
+                    <NavigationButton>
+                      Ontdek je volgende bestemming
+                    </NavigationButton>
+                  </Link>
+                )}
+                {!isIndex && (
+                  <Link
+                    to="/"
+                    style={{
+                      display: `inline-block`,
+                      color: `white`,
+                      textDecoration: `none`,
+                    }}
+                  >
+                    <NavigationButton>Kies nieuwe bestemming</NavigationButton>
+                  </Link>
+                )}
+              </NavigationButtonContainer>
+            </Container>
+          </NavigationContainer>
+        </OuterNavigationContainer>
+      )
+    }}
   />
 )
 

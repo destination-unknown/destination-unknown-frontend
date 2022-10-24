@@ -4,7 +4,7 @@ introtext: "De Bahama’s is een land in het Caribische gebied. Ook is het een e
 introimage: "https://lh3.googleusercontent.com/HEt6snIgUbtwrmX-CmNrT8-XaMhk8maLY_0GyrSGVR0MvbRfX83SEWobHx8-tNSGL4MQ1z40rqA40aoN_MSSg7YbJmyEhL9Oo8JtPlFmuok8YMEbiJiAvN4fnnbZ6YBpkQ9BEMFc-g=w800"
 surface: "13.900"
 inhabitants: "395.000"
-rate: "1,18"
+rate: "0,98"
 valuta: "dollar"
 main_text: "De Bahama’s staan natuurlijk bekend om de witte stranden, het helderblauwe water en de luxe hotels en resorts. De eilanden dienen zich perfect voor het duiken naar verschillende vissoorten en koraalriffen. Ook zijn er meerdere nationale parken te vinden op de Bahama’s, zoals het Lucayan National Park waar je flamingo’s kunt tegenkomen!"
 fact_one_text: ""

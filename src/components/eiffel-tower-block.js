@@ -1,7 +1,7 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
-import Img from 'gatsby-image'
+import { GatsbyImage } from 'gatsby-plugin-image'
 
 const Container = styled.div`
   background: white;
@@ -82,7 +82,9 @@ export const PureTravelBlock = ({ data }) => {
     <Container>
       <GridContainer>
         <ImageContainer>
-          <Img fluid={data.turtleImage.childImageSharp.fluid} />
+          <GatsbyImage
+            image={data.turtleImage.childImageSharp.gatsbyImageData}
+          />
         </ImageContainer>
         <TitleContainer>
           <Title>OP ZOEK NAAR IETS ANDERS?</Title>
@@ -110,14 +112,12 @@ const TravelBlock = () => {
         query {
           turtleImage: file(relativePath: { eq: "turtle.jpg" }) {
             childImageSharp {
-              fluid {
-                ...GatsbyImageSharpFluid_noBase64
-              }
+              gatsbyImageData(layout: FULL_WIDTH)
             }
           }
         }
       `}
-      render={data => <PureTravelBlock data={data} />}
+      render={(data) => <PureTravelBlock data={data} />}
     />
   )
 }
