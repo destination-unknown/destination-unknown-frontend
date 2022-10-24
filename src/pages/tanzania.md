@@ -4,7 +4,7 @@ introtext: "Ontdek al het natuurschoon in Tanzania! Spot de Big Five tijdens een
 introimage: "https://lh3.googleusercontent.com/23mlr75w-8FyLAPp25xItM9FvjGjRHVOuQUH89QxFRa6ykUqOyRt5WjYFikOYErOafEx1QEm_-WD87pGDdGW-FeMkwGREWlWtY080c44JXnXVFcQVFyWyQWyool9fqGVrkUeWsZWYg=w800"
 surface: "945.000"
 inhabitants: "60.660.000"
-rate: "2302,54"
+rate: "2303"
 valuta: "shilling"
 main_text: "Als je wat meer wilt relaxen, kun je ook afreizen naar Zanzibar. Zanzibar is een eiland met prachtige witte stranden en helder blauw water, perfect voor een strandvakantie. Tanzania heeft alles!"
 fact_one_text: ""
@@ -17,4 +17,9 @@ inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&
 country_code: "tz"
 hotels_url: "https://www.booking.com/country/tz.nl.html?aid=1837623"
 continent: "Afrika"
+usp_1: ""
+usp_2: ""
+usp_3: ""
+head_1: ""
+head_2: ""
 ---

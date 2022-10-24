@@ -5,7 +5,7 @@ introtext: "Brazilië is het grootste land van Zuid-Amerika en is het 5e grootst
 introimage: "https://lh3.googleusercontent.com/GJURoWrCf9A3u0Lt_DOiNM7woeeOm0hnDmeJ6Ii8YcfPxWng3-Cmu3Rt5RuIQljSN3M1oeDiHwY7bJKySdIDMeVYkuhm9Ty56nPZgQ6c6p-nDPlBlqEIQBlVs-dvvqQd_fYFrORPxg=w800"
 surface: "2.800.000"
 inhabitants: "208.000.000"
-rate: "5,23"
+rate: "5,24"
 valuta: "real"
 main_text: "In het helderblauwe water rondom Brazilië kan men ideal duiken en surfen. De Braziliaanse bevolking staat erom bekend een uitbundig volk te zijn. Dit is terug te zien aan onder andere het carnaval. Brazilië is echt een land dat bovenaan je bucketlist moet staan!"
 fact_one_text: ""
@@ -18,4 +18,9 @@ inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&
 country_code: "br"
 hotels_url: "https://www.booking.com/country/br.nl.html?aid=1837623"
 continent: "Zuid-Amerika"
+usp_1: "Relax op prachtige stranden"
+usp_2: "Ontdek de culturen"
+usp_3: "Voor ieder wat wils"
+head_1: "Kleurrijk Brazilë"
+head_2: "Prachtige natuur"
 ---

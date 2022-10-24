@@ -17,4 +17,9 @@ inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&
 country_code: "mx"
 hotels_url: "https://www.booking.com/country/mx.nl.html?aid=1837623"
 continent: "Noord-Amerika"
+usp_1: "Culturele hotspots"
+usp_2: "Heerlijke keuken"
+usp_3: "Prachtige stranden"
+head_1: "Mooi Mexico"
+head_2: "Unieke cultuur"
 ---

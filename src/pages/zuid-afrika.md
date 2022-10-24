@@ -4,7 +4,7 @@ introtext: "Zuid-Afrika is één van de populairste vakantielanden ter wereld en
 introimage: "https://lh3.googleusercontent.com/QLsRyHQjI6F_7pMRhFLrn5W_JNGD-L_D5yYDQOFdUSZJUKi-KXbjlWf2DGAnZKDdbRdkeQa0b5MfWBTGm3686M3sQyfwv9wTEK1zO_PX2QZ_o7KxkAr_oHStXQr_kbYr64-nqGqG7g=w800"
 surface: "1.220.000"
 inhabitants: "57.000.000"
-rate: "18,18"
+rate: "18,15"
 valuta: "rand"
 main_text: "Verblijf ook in het bruisende Kaapstad, waar je heerlijk kunt genieten aan de mooie strandjes. Het water hier is ideaal om te surfen. Beklim de Tafelberg en kijk uit over Kaapstad en de oceaan. Vergeet ook niet om de wereldberoemde Zuid-Afrikaanse wijnen te proeven in Stellenbosch! Er is nog zoveel meer te doen in dit prachtige land met haar indrukwekkende geschiedenis. Een reis naar Zuid-Afrika zal je altijd bij blijven!"
 fact_one_text: ""
@@ -17,4 +17,9 @@ inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&
 country_code: "za"
 hotels_url: "https://www.booking.com/country/za.nl.html?aid=1837623"
 continent: "Afrika"
+usp_1: ""
+usp_2: ""
+usp_3: ""
+head_1: ""
+head_2: ""
 ---

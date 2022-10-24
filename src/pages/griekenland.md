@@ -17,4 +17,9 @@ inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&
 country_code: "gr"
 hotels_url: "https://www.booking.com/country/gr.nl.html?aid=1837623"
 continent: "Europa"
+usp_1: "Ieder eiland is uniek"
+usp_2: "Lekker dichtbij"
+usp_3: "Altijd lekker weer"
+head_1: "Veelzijdig Griekenland"
+head_2: "Kom tot rust"
 ---

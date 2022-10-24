@@ -17,4 +17,9 @@ inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&
 country_code: "it"
 hotels_url: "https://www.booking.com/country/it.nl.html?aid=1837623"
 continent: "Europa"
+usp_1: "Heerlijk eten"
+usp_2: "Middellandse zeeklimaat"
+usp_3: "Lekker dichtbij"
+head_1: "Bella Italia"
+head_2: "Cultureel hoogtepunt"
 ---

@@ -17,4 +17,9 @@ inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&
 country_code: "us"
 hotels_url: "https://www.booking.com/country/us.nl.html?aid=1837623"
 continent: "Noord-Amerika"
+usp_1: ""
+usp_2: ""
+usp_3: ""
+head_1: ""
+head_2: ""
 ---

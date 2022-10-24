@@ -478,6 +478,8 @@ export default class Country extends React.Component {
       }
     }
 
+    const defaultHeading2 = post.frontmatter.title + ' adembenemend'
+
     return (
       <Layout isIndex={false} position={'fixed'} backgroundColor={'#f5f8fb'}>
         <SEO
@@ -519,6 +521,7 @@ export default class Country extends React.Component {
               />
             )}
             <BodyTextContainer>
+              {post.frontmatter.usp_1}
               <BodyText>{post.frontmatter.introtext}</BodyText>
               <div>
                 <Check
@@ -530,7 +533,9 @@ export default class Country extends React.Component {
                     paddingRight: '4px',
                   }}
                 />
-                <CheckmarkText>Heerlijk tot rust komen</CheckmarkText>
+                <CheckmarkText>
+                  {post.frontmatter.usp_1 || 'Heerlijk tot rust komen'}
+                </CheckmarkText>
               </div>
               <div>
                 <Check
@@ -560,8 +565,25 @@ export default class Country extends React.Component {
                     paddingRight: '4px',
                   }}
                 />
-                <CheckmarkText>Voor de echte cultuur liefhebbers</CheckmarkText>
+                <CheckmarkText>
+                  {post.frontmatter.usp_2 ||
+                    'Voor de echte cultuur liefhebbers'}
+                </CheckmarkText>
               </div>
+              {post.frontmatter.usp_3 && (
+                <div>
+                  <Check
+                    height={24}
+                    width={24}
+                    style={{
+                      position: 'relative',
+                      top: '0.5em',
+                      paddingRight: '4px',
+                    }}
+                  />
+                  <CheckmarkText>{post.frontmatter.usp_3}</CheckmarkText>
+                </div>
+              )}
             </BodyTextContainer>
           </Container>
         </BackgroundContainer>
@@ -728,7 +750,9 @@ export default class Country extends React.Component {
         </AffiliateContainer>
         <WhatYouNeedToKnowContainer>
           <ImagesContainer>
-            <ImagesTitle>Sprookjesachtig mooi</ImagesTitle>
+            <ImagesTitle>
+              {post.frontmatter.head_1 || 'Sprookjesachtig mooi'}
+            </ImagesTitle>
             <ImagesImage
               src={images[0]}
               alt="First gallery"
@@ -769,7 +793,7 @@ export default class Country extends React.Component {
               }}
             />
             <ImageGalleryTitle>
-              {post.frontmatter.title} adembenemend
+              {post.frontmatter.head_2 || defaultHeading2}
             </ImageGalleryTitle>
             <ImageGallerySecondImage
               src={images[2]}
@@ -795,7 +819,7 @@ export default class Country extends React.Component {
 }
 
 export const query = graphql`
-  query($slug: String!) {
+  query ($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       html
       frontmatter {
@@ -816,6 +840,11 @@ export const query = graphql`
         flight_button_title
         flight_button_url
         inspiration_url
+        usp_1
+        usp_2
+        usp_3
+        head_1
+        head_2
       }
     }
   }

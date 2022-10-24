@@ -4,7 +4,7 @@ introtext: "Indonesië, het land met schitterende stranden, meer dan 17.000 eila
 introimage: "https://lh3.googleusercontent.com/_o8lPHC7dalNyVwiXLnj5akTsqpNTh4qmivMN08D3scRnAP_qrY1kOunKA7mBLI6Dh3lKUlVD3rOyfMN_ABCUHk2KInJuA8rpxQn_mhO8plx_RKhzH4x7tSh-mkYMZ31GJ28ZSy3ng=w800"
 surface: "1.905.000"
 inhabitants: "264.000.000"
-rate: "15405,19"
+rate: "15402,36"
 valuta: "roepia"
 main_text: "In dit prachtige land kan je bijvoorbeeld de Borobudur bezoeken op Java, surfen op Bali, snorkelen aan de kust van Lombok, of op hetzelfde eiland de Rinjani beklimmen, Chimpansees bezoeken op Sumatra of de Komodo eilanden bezoeken. Eigenlijk te veel om op te noemen."
 fact_one_text: ""
@@ -17,4 +17,9 @@ inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&
 country_code: "id"
 hotels_url: "https://www.booking.com/country/id.nl.html?aid=1837623"
 continent: "Azië"
+usp_1: "Kom heerlijk tot rust"
+usp_2: "Prachtige natuur"
+usp_3: "Vriendelijke mensen"
+head_1: "Oogstrelend Indonesië"
+head_2: "Vele eilanden"
 ---

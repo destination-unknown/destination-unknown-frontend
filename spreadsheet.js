@@ -50,9 +50,13 @@ function slugify(text) {
           country_code: "${row.country_code}"
           hotels_url: "${row.hotels_url}"
           continent: "${row.continent}"
-          ---`,
+          usp_1: "${row.usp_1}"
+          usp_2: "${row.usp_2}"
+          usp_3: "${row.usp_3}"
+          head_1: "${row.head_1}"
+          head_2: "${row.head_2}"
+          ---`.replaceAll('"undefined"', '""'),
       function (err) {
-        console.log(err)
         if (err) throw err
         console.log('File is created successfully.')
       }

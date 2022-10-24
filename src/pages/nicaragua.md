@@ -4,7 +4,7 @@ introtext: "Nicaragua is een magisch land van vulkanische bergtoppen, toffe fees
 introimage: "https://lh3.googleusercontent.com/woRYWWxGVJdCn139ID_bJ7tklxufHkm04ty0n7DkH7KMGV0QHoaf5jBqQZuXI7szxnP-PFdjuziOFsWYCXX-ouxdpzKSPCFhsZ1KaM_IBPbmfrxVlCj6v6ofAWoriE3s6a2s1dSIlw=w800"
 surface: "130.000"
 inhabitants: "6.200.000"
-rate: "35,61"
+rate: "35,62"
 valuta: "córdoba"
 main_text: "Als je lekker wilt chillen op een tropisch eiland is Little Corn Island een aanrader, dit is echt een parel in de Caribische zee. Naast luieren op het strand kun je in Nicaragua prima hiken door de prachtige jungle en moet je zeker één van de vele vulkanen beklimmen!"
 fact_one_text: ""
@@ -17,4 +17,9 @@ inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&
 country_code: "ni"
 hotels_url: "https://www.booking.com/country/ni.nl.html?aid=1837623"
 continent: "Noord-Amerika"
+usp_1: ""
+usp_2: ""
+usp_3: ""
+head_1: ""
+head_2: ""
 ---

@@ -17,4 +17,9 @@ inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&
 country_code: "bs"
 hotels_url: "https://www.booking.com/country/bs.nl.html?aid=1837623"
 continent: "Noord-Amerika"
+usp_1: "Prachtige stranden"
+usp_2: "Ideel voor watersporten"
+usp_3: "Altijd lekker weer"
+head_1: "Relaxing Bahamas"
+head_2: "Heerlijke stranden"
 ---

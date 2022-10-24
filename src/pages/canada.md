@@ -17,4 +17,9 @@ inspiration_url: "https://partner.bol.com/click/click?p=2&t=url&s=1025999&f=TXL&
 country_code: "ca"
 hotels_url: "https://www.booking.com/country/ca.nl.html?aid=1837623"
 continent: "Noord-Amerika"
+usp_1: "Veel onaangetaste natuur"
+usp_2: "Bruisende steden"
+usp_3: "Ideaal voor een rondreis"
+head_1: "Charmant Canada"
+head_2: "Ontdek de natuur"
 ---

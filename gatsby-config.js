@@ -44,15 +44,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {
-        exclude: ['/oeps*'],
-        serialize: ({ site, allSitePage }) =>
-          allSitePage.edges.map((edge) => {
-            return {
-              url: site.siteMetadata.siteUrl + edge.node.path,
-              changefreq: `daily`,
-              priority: edge.node.path === '/' ? 1.0 : 0.5,
-            }
-          }),
+        excludes: ['/oeps*'],
       },
     },
     'gatsby-plugin-styled-components',
