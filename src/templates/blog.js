@@ -5,7 +5,7 @@ import { graphql } from 'gatsby'
 import Lightbox from 'react-image-lightbox'
 import 'react-image-lightbox/style.css'
 import cheerio from 'cheerio'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 import './blog.css'
 
 const MaxWidthContainer = styled.div`
@@ -96,10 +96,8 @@ export default class Country extends React.Component {
     $('a').attr('target', '_blank')
 
     $('a')
-      .filter(function(i, el) {
-        return !$(this)
-          .attr('href')
-          .startsWith(baseUrl)
+      .filter(function (i, el) {
+        return !$(this).attr('href').startsWith(baseUrl)
       })
       .attr('rel', 'nofollow')
 
@@ -120,7 +118,7 @@ export default class Country extends React.Component {
         position={'initial'}
         shouldShowNextDestination={true}
       >
-        <SEO
+        <Seo
           description={null}
           lang={'nl-NL'}
           meta={[]}
@@ -167,7 +165,7 @@ export default class Country extends React.Component {
 }
 
 export const query = graphql`
-  query($slug: String!) {
+  query ($slug: String!) {
     site {
       siteMetadata {
         siteUrl

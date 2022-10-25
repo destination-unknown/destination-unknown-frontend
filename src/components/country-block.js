@@ -74,6 +74,7 @@ export const PureCountryBlock = ({ data }) => (
       <LandImageContainer>
         <GatsbyImage
           image={data.landscapeImage.childImageSharp.gatsbyImageData}
+          alt=""
         />
       </LandImageContainer>
       <LandTextContainer>

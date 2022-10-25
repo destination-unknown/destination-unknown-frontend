@@ -84,6 +84,7 @@ export const PureTravelBlock = ({ data }) => {
         <ImageContainer>
           <GatsbyImage
             image={data.turtleImage.childImageSharp.gatsbyImageData}
+            alt=""
           />
         </ImageContainer>
         <TitleContainer>

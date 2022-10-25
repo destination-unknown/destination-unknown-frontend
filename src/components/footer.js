@@ -1,9 +1,9 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
-import Img from 'gatsby-image'
 import styled from 'styled-components'
 import Instagram from '../images/instagram.svg'
 import Collapsible from 'react-collapsible'
+import { GatsbyImage } from 'gatsby-plugin-image'
 
 import './collapsible.scss'
 
@@ -66,7 +66,7 @@ const InstagramButton = styled.a`
   }
 `
 
-const StyledImg = styled(Img)`
+const StyledGatsbyImage = styled(GatsbyImage)`
   width: 500px;
   margin: 0 auto;
   @media only screen and (max-width: 600px) {
@@ -95,19 +95,17 @@ const Footer = ({ handleClick }) => (
         }
         bus: file(relativePath: { eq: "busje.png" }) {
           childImageSharp {
-            fluid {
-              ...GatsbyImageSharpFluid_noBase64
-            }
+            gatsbyImageData(layout: FULL_WIDTH)
           }
         }
       }
     `}
-    render={data => {
+    render={(data) => {
       const northAmericaCountries = data.allMarkdownRemark.edges
-        .filter(value => {
+        .filter((value) => {
           return value.node.frontmatter.continent === 'Noord-Amerika'
         })
-        .map(value => {
+        .map((value) => {
           return (
             <CountryTitle
               key={value.node.frontmatter.title}
@@ -118,10 +116,10 @@ const Footer = ({ handleClick }) => (
           )
         })
       const southAmericaCountries = data.allMarkdownRemark.edges
-        .filter(value => {
+        .filter((value) => {
           return value.node.frontmatter.continent === 'Zuid-Amerika'
         })
-        .map(value => {
+        .map((value) => {
           return (
             <CountryTitle
               key={value.node.frontmatter.title}
@@ -132,10 +130,10 @@ const Footer = ({ handleClick }) => (
           )
         })
       const europaCountries = data.allMarkdownRemark.edges
-        .filter(value => {
+        .filter((value) => {
           return value.node.frontmatter.continent === 'Europa'
         })
-        .map(value => {
+        .map((value) => {
           return (
             <CountryTitle
               key={value.node.frontmatter.title}
@@ -146,10 +144,10 @@ const Footer = ({ handleClick }) => (
           )
         })
       const africaCountries = data.allMarkdownRemark.edges
-        .filter(value => {
+        .filter((value) => {
           return value.node.frontmatter.continent === 'Afrika'
         })
-        .map(value => {
+        .map((value) => {
           return (
             <CountryTitle
               key={value.node.frontmatter.title}
@@ -160,10 +158,10 @@ const Footer = ({ handleClick }) => (
           )
         })
       const asiaCountries = data.allMarkdownRemark.edges
-        .filter(value => {
+        .filter((value) => {
           return value.node.frontmatter.continent === 'Azië'
         })
-        .map(value => {
+        .map((value) => {
           return (
             <CountryTitle
               key={value.node.frontmatter.title}
@@ -174,10 +172,10 @@ const Footer = ({ handleClick }) => (
           )
         })
       const oceaniaCountries = data.allMarkdownRemark.edges
-        .filter(value => {
+        .filter((value) => {
           return value.node.frontmatter.continent === 'Oceanië'
         })
-        .map(value => {
+        .map((value) => {
           return (
             <CountryTitle
               key={value.node.frontmatter.title}
@@ -227,7 +225,10 @@ const Footer = ({ handleClick }) => (
               </div>
             </CountryGridContainer>
           </FooterGridContainer>
-          <StyledImg fluid={data.bus.childImageSharp.fluid} />
+          <StyledGatsbyImage
+            image={data.bus.childImageSharp.gatsbyImageData}
+            alt=""
+          />
           <InstagramButton
             href="https://www.instagram.com/destinationunknownnl/"
             rel="nofollow"

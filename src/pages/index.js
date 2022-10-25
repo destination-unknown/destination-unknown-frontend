@@ -7,7 +7,7 @@ import AirplaneBlock from '../components/airplane-block'
 import DestinationUnknownBlock from '../components/destination-unknown-block'
 import Helmet from 'react-helmet'
 import Safe from 'react-safe'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 import Header from '../components/header'
 import '../components/layout.css'
 import '../../node_modules/normalize.css/normalize.css'
@@ -160,7 +160,7 @@ class IndexPage extends React.Component {
           <Helmet>
             <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" />
           </Helmet>
-          <SEO
+          <Seo
             description={null}
             lang={'nl-NL'}
             meta={[]}

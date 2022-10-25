@@ -70,7 +70,10 @@ export const PureTravelBlock = ({ data }) => (
   <Container>
     <GridContainer>
       <ImageContainer>
-        <GatsbyImage image={data.boatImage.childImageSharp.gatsbyImageData} />
+        <GatsbyImage
+          image={data.boatImage.childImageSharp.gatsbyImageData}
+          alt=""
+        />
       </ImageContainer>
       <TitleContainer>
         <Title>SPIJT ZOU ZONDE ZIJN</Title>

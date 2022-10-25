@@ -1,10 +1,8 @@
 import React from 'react'
 import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 import styled from 'styled-components'
-import Inspiration from '../images/inspiration.svg'
 import { graphql } from 'gatsby'
-import WhatYouNeedToKnow from '../components/what-you-need-to-know'
 import Lightbox from 'react-image-lightbox'
 import 'react-image-lightbox/style.css'
 import { lighten, darken } from 'polished'
@@ -220,38 +218,6 @@ const Button = styled.a`
     outline: 0;
   }
 `
-
-const InspirationContainer = styled.div`
-  margin-right: 16px;
-  grid-column-start: main-start;
-  grid-column-end: main-end 7;
-  grid-row: 3;
-  text-align: center;
-
-  @media only screen and (max-width: 600px) {
-    position: static;
-    top: 0;
-    grid-column: 1;
-    grid-row: auto;
-  }
-`
-
-const CaptionTitle = styled.p`
-  display: none;
-  text-transform: uppercase;
-  font-family: 'Lato', sans-serif;
-  line-height: 1;
-  font-size: 2.5rem;
-  font-weight: bold;
-  margin: 0;
-  margin-bottom: 24px;
-  color: white;
-
-  @media only screen and (max-width: 992px) {
-    display: block;
-  }
-`
-
 const CaptionText = styled.p`
   color: #5c5c5c;
   font-family: 'Open Sans';
@@ -482,7 +448,7 @@ export default class Country extends React.Component {
 
     return (
       <Layout isIndex={false} position={'fixed'} backgroundColor={'#f5f8fb'}>
-        <SEO
+        <Seo
           description={null}
           lang={'nl-NL'}
           meta={[]}

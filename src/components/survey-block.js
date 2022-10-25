@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
-import { keyframes } from 'styled-components'
 import { lighten } from 'polished'
 import Select from '../components/select'
-import Loader from 'react-loader'
 import { GatsbyImage } from 'gatsby-plugin-image'
+import { Oval } from 'react-loader-spinner'
 
 const OuterContainer = styled.div`
   background-color: #39b9be;
@@ -106,23 +105,6 @@ const Survey = styled.div`
   line-height: 2.5;
 `
 
-const loading = keyframes`
-  0% {
-    left: 0;
-    width: 0;
-  }
-
-  50% {
-    left: 0;
-    width: 100%;
-  }
-
-  100% {
-    left: 100%;
-    width: 0;
-  }
-`
-
 const Button = styled.button`
   width: 100%;
   height: 60px;
@@ -142,7 +124,7 @@ const Button = styled.button`
   }
 `
 
-export default ({ handleClick, isLoading }) => {
+const PureSurveyBlock = ({ handleClick, isLoading }) => {
   const data = useStaticQuery(
     graphql`
       query {
@@ -299,6 +281,7 @@ export default ({ handleClick, isLoading }) => {
           <GatsbyImage
             style={{ height: '100%' }}
             image={data.homepage.childImageSharp.gatsbyImageData}
+            alt=""
           />
         </TravelGearImageContainer>
         <SurveyContainer>
@@ -401,9 +384,28 @@ export default ({ handleClick, isLoading }) => {
                 )
               }
             >
-              <Loader loaded={!isLoading} width={8} radius={15} scale={0.5}>
+              {!isLoading && 'Toon bestemmingen'}
+              {isLoading && (
+                <Oval
+                  height={40}
+                  width={40}
+                  color="gray"
+                  wrapperStyle={{
+                    marginTop: '-8px',
+                    position: 'relative',
+                    left: '46%',
+                  }}
+                  wrapperClass=""
+                  visible={true}
+                  ariaLabel="oval-loading"
+                  secondaryColor="gray"
+                  strokeWidth={2}
+                  strokeWidthSecondary={2}
+                />
+              )}
+              {/* <Loader loaded={!isLoading} width={8} radius={15} scale={0.5}>
                 Toon bestemmingen
-              </Loader>
+              </Loader> */}
             </Button>
           </Survey>
         </SurveyContainer>
@@ -411,3 +413,5 @@ export default ({ handleClick, isLoading }) => {
     </OuterContainer>
   )
 }
+
+export default PureSurveyBlock

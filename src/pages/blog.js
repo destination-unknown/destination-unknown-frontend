@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 import { graphql } from 'gatsby'
 import styled from 'styled-components'
 import BlogEntry from '../components/blog-entry'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 import '../templates/blog.css'
 
 const BlogsContainer = styled.div`
@@ -21,7 +21,7 @@ const BlogOverviewPage = ({ data }) => {
       isBlog={true}
       shouldShowNextDestination={true}
     >
-      <SEO
+      <Seo
         description={null}
         lang={'nl-NL'}
         meta={[]}
@@ -35,7 +35,7 @@ const BlogOverviewPage = ({ data }) => {
               new Date(b.node.frontmatter.date) -
               new Date(a.node.frontmatter.date)
           )
-          .map(edge => {
+          .map((edge) => {
             return (
               <BlogEntry
                 key={edge.node.fields.slug}
