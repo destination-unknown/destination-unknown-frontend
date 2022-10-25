@@ -6,7 +6,6 @@ import EiffelTowerBlock from '../components/eiffel-tower-block'
 import AirplaneBlock from '../components/airplane-block'
 import DestinationUnknownBlock from '../components/destination-unknown-block'
 import Helmet from 'react-helmet'
-import Safe from 'react-safe'
 import Seo from '../components/seo'
 import Header from '../components/header'
 import '../components/layout.css'
@@ -175,16 +174,6 @@ class IndexPage extends React.Component {
           <EiffelTowerBlock />
           <AirplaneBlock />
           <DestinationUnknownBlock />
-          <Safe.script>
-            {`if (window.netlifyIdentity) {
-              window.netlifyIdentity.on("init", user => {
-                if (!user) {
-                  window.netlifyIdentity.on("login", () => {
-                    document.location.href = "/admin/";
-                  });
-                }
-              });`}
-          </Safe.script>
         </ChildrenContainer>
         <Footer />
       </>

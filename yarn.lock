@@ -8220,11 +8220,6 @@ html-minifier-terser@^6.0.2:
     relateurl "^0.2.7"
     terser "^5.10.0"
 
-html-tags@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/html-tags/-/html-tags-2.0.0.tgz#10b30a386085f43cede353cc8fa7cb0deeea668b"
-  integrity sha512-+Il6N8cCo2wB/Vd3gqy/8TZhTD3QvcVeQLCnZiGkGCH3JP28IgGAY41giccp2W4R3jfyJPAP318FQTa1yU7K7g==
-
 html-void-elements@^1.0.0:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/html-void-elements/-/html-void-elements-1.0.5.tgz#ce9159494e86d95e45795b166c2021c2cfca4483"
@@ -12776,13 +12771,6 @@ react-router@5.3.4:
     react-is "^16.6.0"
     tiny-invariant "^1.0.2"
     tiny-warning "^1.0.0"
-
-react-safe@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/react-safe/-/react-safe-1.3.0.tgz#b2f6c94635c531209d64de73e0e266099338c194"
-  integrity sha512-cG2yuUTSU34qwUimtL//Ys85tcWWV+RxnozXePh8Zn00+UGkyNX3j6juJiQMNfTYCKKm3ITzcrECp1ZDsv4keA==
-  dependencies:
-    html-tags "^2.0.0"
 
 react-scroll-sync@^0.9.0:
   version "0.9.0"
