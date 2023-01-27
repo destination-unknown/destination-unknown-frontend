@@ -44,7 +44,7 @@
     "react-image-lightbox": "^5.1.4",
     "react-loader-spinner": "^5.3.4",
     "react-select": "^5.5.4",
-    "simple-git": "^3.14.1",
+    "simple-git": "^3.16.0",
     "styled-components": "^5.3.6"
   },
   "keywords": [
